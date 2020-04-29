@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+
+body {
+  font-family: "HKGrotesk";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+
+h1 {
+  font-family: "Chivo";
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+h2 {
+  font-family: "Chivo";
+  font-weight: 400;
+  font-size: 45px;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  font-family: "Chivo";
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0px;
+}
+
+h4 {
+  font-family: "Chivo";
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: -0.15px;
+}
+
+p {
+  font-family: "HKGrotesk";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+
+p.body {
+  font-family: "HKGrotesk";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+
+
+p.subtitle {
+  font-family: "HKGrotesk";
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+
+p.overline {
+  font-family: "HKGrotesk";
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+p.caption {
+  font-family: "HKGrotesk";
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: rgb(0, 100, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 80, 160);
+}
+
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("./fonts/hk-grotesk/HKGrotesk-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("./fonts/hk-grotesk/HKGrotesk-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("./fonts/hk-grotesk/HKGrotesk-Bold.otf") format("opentype");
+  font-weight: 700;
+}

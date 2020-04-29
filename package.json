@@ -1,0 +1,57 @@
+{
+  "name": "@hack4impact-uiuc/h4i-design",
+  "version": "0.0.1",
+  "description": "Hack4Impact UIUC's Design System + component library",
+  "main": "dist/index.js",
+  "author": "Timothy Ko <timothy.l.ko@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "hack4impact",
+    "hack4impact uiuc",
+    "react",
+    "components",
+    "component library",
+    "design-system"
+  ],
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c",
+    "lint": "eslint --ext .js,.jsx ./src",
+    "lint:fix": "eslint --ext .js,.jsx ./src --fix"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@types/node": "^13.13.4",
+    "@types/styled-components": "^5.1.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "rollup": "^2.7.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-postcss": "^3.1.1",
+    "rollup-pluginutils": "^2.8.2",
+    "styled-components": "^5.1.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "styled-system": "^5.1.5"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-is": "^16.12.0",
+    "styled-components": "4.4.1"
+  }
+}
