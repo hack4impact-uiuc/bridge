@@ -1033,7 +1033,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
-"@hack4impact-uiuc/h4i-design@../dist":
+"@hack4impact-uiuc/h4i-design@file:../dist":
   version "0.0.0"
 
 "@hapi/address@2.x.x":

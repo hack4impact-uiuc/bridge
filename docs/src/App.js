@@ -1,6 +1,10 @@
 import React from 'react';
-import { Button } from '@hack4impact-uiuc/h4i-design'
+import { Button, theme, get, getOrDefault, lodashGet} from '@hack4impact-uiuc/h4i-design'
 import '@hack4impact-uiuc/h4i-design/bundle.css'
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+
 
 function App() {
   return (
@@ -9,9 +13,10 @@ function App() {
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>
-      <Button>APPLY</Button>
+      <Button disabled outline color="white">APPLY</Button>
     </div>
   );
 }
+
 
 export default App;
