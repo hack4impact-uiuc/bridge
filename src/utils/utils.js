@@ -1,6 +1,6 @@
 import themeGet from '@styled-system/theme-get';
 import * as styledSystem from 'styled-system';
-import theme from './theme';
+import theme from '../theme';
 
 
 const { get: getKey } = styledSystem;

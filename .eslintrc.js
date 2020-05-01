@@ -19,6 +19,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/destructuring-assignment': 'off',
-    'react/forbid-prop-types': 'off'
+    'react/forbid-prop-types': 'off',
+    'import/no-extraneous-dependencies': 'off'
   },
 }

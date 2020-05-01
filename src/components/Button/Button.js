@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import systemPropTypes from '@styled-system/prop-types';
 import theme from '../../theme';
-import { get, lodashGet } from '../../utils';
+import { get, lodashGet } from '../../utils/utils';
+import { COMMON } from '../../utils/constants';
 
 const ButtonBase = styled.button`
   // text
@@ -40,6 +42,7 @@ const ButtonBase = styled.button`
     box-shadow: ${(props) => props.shadow.disabled};
     color: ${(props) => props.fontColor.disabled};
   }
+  ${COMMON}
   
 `;
 
@@ -51,7 +54,11 @@ const propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
   theme: PropTypes.object,
-  tertiary: PropTypes.bool,
+  ...systemPropTypes.layout,
+  // ...systemPropTypes.space,
+  // ...systemPropTypes.display,
+  // ...systemPropTypes.color,
+  ...COMMON.proptypes,
 };
 
 const defaultProps = {

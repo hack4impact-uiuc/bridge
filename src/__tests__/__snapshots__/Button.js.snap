@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Colors renders error colors 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 40px;
+  color: #fff;
+  background: #A62B31;
+  border: none;
+  background-color: #FFBCBF;
+}
+
+.c0:hover:not([disabled]) {
+  background-color: #8A1A1F;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.c0:disabled {
+  background-color: #FFBCBF;
+  border: none;
+  box-shadow: none;
+  color: #D1595F;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`Button Colors renders primary colors 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 40px;
+  color: #fff;
+  background: #155DA1;
+  border: none;
+  background-color: #B4D8FA;
+}
+
+.c0:hover:not([disabled]) {
+  background-color: #0E4E8A;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.c0:disabled {
+  background-color: #B4D8FA;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`Button Colors renders secondary colors 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 40px;
+  color: #fff;
+  background: #155DA1;
+  border: none;
+  background-color: #EBEEF2;
+}
+
+.c0:hover:not([disabled]) {
+  background-color: #0D3F6E;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.c0:disabled {
+  background-color: #EBEEF2;
+  border: none;
+  box-shadow: none;
+  color: #8B9199;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`Button Colors renders success colors 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 40px;
+  color: #fff;
+  background: #4C9859;
+  border: none;
+  background-color: #BDF3C6;
+}
+
+.c0:hover:not([disabled]) {
+  background-color: #256830;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.c0:disabled {
+  background-color: #BDF3C6;
+  border: none;
+  box-shadow: none;
+  color: #90E19E;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`Button Colors renders warning colors 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 40px;
+  color: #fff;
+  background: #FDBE21;
+  border: none;
+  background-color: #FFECBD;
+}
+
+.c0:hover:not([disabled]) {
+  background-color: #DA9C03;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.c0:disabled {
+  background-color: #FFECBD;
+  border: none;
+  box-shadow: none;
+  color: #FFD15F;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`Button respects the "disabled" prop 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 40px;
+  color: #fff;
+  background: #155DA1;
+  border: none;
+  background-color: #B4D8FA;
+}
+
+.c0:hover:not([disabled]) {
+  background-color: #0E4E8A;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.c0:disabled {
+  background-color: #B4D8FA;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+<button
+  className="c0"
+  disabled={true}
+/>
+`;
