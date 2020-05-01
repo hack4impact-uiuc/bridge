@@ -38,7 +38,7 @@ export default {
       exclude: 'node_modules/**',
     }),
     postcss({
-      extract: 'bundle.css',
+      extract: 'styles.css',
     }),
     commonjs(),
   ],

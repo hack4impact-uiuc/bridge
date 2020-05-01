@@ -5,7 +5,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.3px;
+  color: "#0A162A";
 }
+
+/* TEXT */
 
 h1 {
   font-family: "Chivo";
@@ -74,7 +77,7 @@ p.caption {
 }
 
 a {
-  color: rgb(0, 100, 200);
+  color: "#155DA1";
   text-decoration: none;
 }
 
@@ -82,8 +85,8 @@ a:hover {
   text-decoration: underline;
 }
 
-a:visited {
-  color: rgb(0, 80, 160);
+a:disabled {
+  color: "#B4D8FA";
 }
 
 @font-face {

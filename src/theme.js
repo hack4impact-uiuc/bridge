@@ -128,12 +128,13 @@ const fontWeights = {
   bold: 700,
 };
 
-
+// styling specific to the Button component
 const button = {
   font: fonts.chivo,
   fontWeight: fontWeights.bold,
   fontSize: '14px',
   letterSpacing: '2px',
+  // default values, based on the color palette
   default: (colorPalette) => ({
     bg: {
       default: colorPalette.primary,
@@ -178,6 +179,8 @@ const button = {
       },
     },
   }),
+
+  // everything below overrides the default values
   primary: {
     fontColor: {
       default: colors.white,
