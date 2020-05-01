@@ -133,7 +133,14 @@ const Button = ({
   };
 
   return (
-    <ButtonBase {...styling} disabled={disabled} className={className} theme={theme} {...other} />
+    <ButtonBase
+      {...styling}
+      disabled={disabled}
+      className={className}
+      theme={theme}
+      outline={outline}
+      {...other}
+    />
   );
 };
 

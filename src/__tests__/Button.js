@@ -15,6 +15,12 @@ describe('Button', () => {
     expect(renderJSON(<Button />).type).toEqual('button');
   });
 
+  it('renders children', () => {
+    const buttonText = 'APPLY';
+    render(<Button>{buttonText}</Button>);
+    expect(screen.getByText(buttonText)).toBeInTheDocument();
+  });
+
   it('preserves "onClick" prop', () => {
     expect(renderJSON(<Button onClick={noop} />).props.onClick).toEqual(noop);
   });
@@ -30,16 +36,32 @@ describe('Button', () => {
     expect(item).toMatchSnapshot();
   });
 
+  it('respects "outline" prop', () => {
+    const item = renderJSON(<Button outline />);
+    expect(item).toMatchSnapshot();
+  });
+
   it('renders primary color as default', () => {
     const { container } = render(<Button>APPLY</Button>);
     expect(container.firstChild).toHaveStyle(`color: ${theme.button.primary.fontColor.default}`);
     expect(container.firstChild).toHaveStyle(`background: ${theme.button.default(colors.hackBluePalette).bg.default}`);
   });
 
-  it('renders children', () => {
-    const buttonText = 'APPLY';
-    render(<Button>{buttonText}</Button>);
-    expect(screen.getByText(buttonText)).toBeInTheDocument();
+  it('renders correct border/bg/color with "outline" prop (primary colors)', () => {
+    const { container } = render(<Button outline>APPLY</Button>);
+    expect(container.firstChild).toHaveStyle(`color: ${theme.button.default(colors.hackBluePalette).outline.fontColor.default}`);
+    expect(container.firstChild).toHaveStyle(`background: ${theme.button.default(colors.hackBluePalette).outline.bg.default}`);
+    expect(container.firstChild).toHaveStyle(`border: 2px solid ${theme.button.default(colors.hackBluePalette).outline.border.default}`);
+  });
+
+  it('renders correct colors with "outline" and "disabled" props (primary colors)', () => {
+    const { container } = render(<Button disabled outline>APPLY</Button>);
+    expect(container.firstChild).toHaveStyle(`color: ${theme.button.default(colors.hackBluePalette).outline.fontColor.disabled}`);
+    expect(container.firstChild).toHaveStyle(`background: ${theme.button.default(colors.hackBluePalette).outline.bg.disabled}`);
+    expect(container.firstChild).toHaveStyle(`border: 2px solid ${theme.button.default(colors.hackBluePalette).outline.border.disabled}`);
+
+    const item = renderJSON(<Button disabled outline />);
+    expect(item).toMatchSnapshot();
   });
 });
 
