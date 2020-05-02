@@ -47,7 +47,7 @@ const ButtonBase = styled.button`
 `;
 
 const propTypes = {
-  color: PropTypes.string,
+  variant: PropTypes.string,
   disabled: PropTypes.bool,
   outline: PropTypes.bool,
   onClick: PropTypes.func,
@@ -62,15 +62,15 @@ const propTypes = {
 };
 
 const defaultProps = {
-  color: 'primary', // any color that matches theme.colors.state
+  variant: 'primary', // any color that matches theme.colors.variants
   theme,
 };
 
 const Button = ({
-  color, disabled, outline, className, theme: propTheme, ...other
+  variant, outline, className, theme: propTheme, ...other
 }) => {
-  const buttonColorPalette = propTheme.colors.state[color] || get('colors.state.primary');
-  const buttonTheme = propTheme.button[color]; // || theme.button.default
+  const buttonColorPalette = propTheme.colors.variants[variant] || get('colors.variants.primary');
+  const buttonTheme = propTheme.button[variant]; // || theme.button.default
   const buttonDefaultTheme = propTheme.button.default(buttonColorPalette);
 
   let bg = {
@@ -97,6 +97,8 @@ const Button = ({
     hover: lodashGet(buttonTheme, 'shadow.hover', buttonDefaultTheme.shadow.hover),
     disabled: lodashGet(buttonTheme, 'shadow.disabled', buttonDefaultTheme.shadow.disabled),
   };
+
+  // -------- IF OUTLINE (secondary type button) ------ //
 
   if (outline) {
     // border => background
@@ -135,7 +137,6 @@ const Button = ({
   return (
     <ButtonBase
       {...styling}
-      disabled={disabled}
       className={className}
       theme={theme}
       outline={outline}

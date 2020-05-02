@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link defaults to color prop if color & variant are given 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0;
+  white-space: 'nowrap';
+  cursor: 'pointer';
+  -webkit-user-select: 'none';
+  -moz-user-select: 'none';
+  -ms-user-select: 'none';
+  user-select: 'none';
+  background-color: 'transparent';
+  border: 0;
+  color: #065535;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #065535;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #0E4E8A;
+}
+
+.c0:active {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #0E4E8A;
+}
+
+<a
+  className="c0"
+  color="#065535"
+/>
+`;
+
+exports[`Link defaults to hoverColor prop if hoverColor & variant are given while color stays with variant color 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0;
+  white-space: 'nowrap';
+  cursor: 'pointer';
+  -webkit-user-select: 'none';
+  -moz-user-select: 'none';
+  -ms-user-select: 'none';
+  user-select: 'none';
+  background-color: 'transparent';
+  border: 0;
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #065535;
+}
+
+.c0:active {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #065535;
+}
+
+<a
+  className="c0"
+  color="#FFFFFF"
+/>
+`;
+
+exports[`Link passes href down to link element 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0;
+  white-space: 'nowrap';
+  cursor: 'pointer';
+  -webkit-user-select: 'none';
+  -moz-user-select: 'none';
+  -ms-user-select: 'none';
+  user-select: 'none';
+  background-color: 'transparent';
+  border: 0;
+  color: #155DA1;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #155DA1;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #0E4E8A;
+}
+
+.c0:active {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #0E4E8A;
+}
+
+<a
+  className="c0"
+  color="#155DA1"
+  href="https://uiuc.hack4impact.org"
+/>
+`;
+
+exports[`Link renders without any props 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0;
+  white-space: 'nowrap';
+  cursor: 'pointer';
+  -webkit-user-select: 'none';
+  -moz-user-select: 'none';
+  -ms-user-select: 'none';
+  user-select: 'none';
+  background-color: 'transparent';
+  border: 0;
+  color: #155DA1;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #155DA1;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #0E4E8A;
+}
+
+.c0:active {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #0E4E8A;
+}
+
+<a
+  className="c0"
+  color="#155DA1"
+/>
+`;
+
+exports[`Link respects color prop 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0;
+  white-space: 'nowrap';
+  cursor: 'pointer';
+  -webkit-user-select: 'none';
+  -moz-user-select: 'none';
+  -ms-user-select: 'none';
+  user-select: 'none';
+  background-color: 'transparent';
+  border: 0;
+  color: #065535;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #065535;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #0E4E8A;
+}
+
+.c0:active {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #0E4E8A;
+}
+
+<a
+  className="c0"
+  color="#065535"
+/>
+`;
+
+exports[`Link respects hoverColor prop 1`] = `
+.c0 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0;
+  white-space: 'nowrap';
+  cursor: 'pointer';
+  -webkit-user-select: 'none';
+  -moz-user-select: 'none';
+  -ms-user-select: 'none';
+  user-select: 'none';
+  background-color: 'transparent';
+  border: 0;
+  color: #155DA1;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #155DA1;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #065535;
+}
+
+.c0:active {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #065535;
+}
+
+<a
+  className="c0"
+  color="#155DA1"
+/>
+`;
