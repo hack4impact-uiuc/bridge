@@ -15,7 +15,7 @@ yarn add @hack4impact-uiuc/design
 
 Import the CSS directly into your project (`src/index.js`) if your asset packager supports it:
 ```javascript
-import '@hack4impact-uiuc/design/styles.css'
+import '@hack4impact-uiuc/design/dist/styles.css'
 ```
 
 Import required h4i-design components within `src/App.js` file or your custom component files:
@@ -39,13 +39,13 @@ Components use Hack4Impact's Design theme by default (`src/theme.js`) but you ca
 
 
 ## Local Development
+We use Storybook to hot-reload and test our components during development. You can edit the [`playground/Playground.js`]('./playground/Playground.js) file to import and test the components you are working on. Please do not commit any work on the file so other developers can use the same file to test.
 
-To install dependencies:
+To run:
 ```
 yarn
+yarn storybook
 ```
-
-TODO: Using storybook
 
 Check out our [Contributing Guidelines]('./CONTRIBUTING.md') for code style, testing, component dev, etc
 
