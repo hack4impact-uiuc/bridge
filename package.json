@@ -1,6 +1,6 @@
 {
   "name": "@hack4impact-uiuc/design",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Hack4Impact UIUC's Design System + component library",
   "main": "dist/index.js",
   "author": "Timothy Ko <timothy.l.ko@gmail.com>",
@@ -21,9 +21,7 @@
     "test": "jest -- src"
   },
   "files": [
-    "dist",
-    "src",
-    "!src/__tests__"
+    "dist"
   ],
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -77,5 +75,16 @@
     "moduleNameMapper": {
       "^.+.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
     }
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hack4impact-uiuc/design.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hack4impact-uiuc/design/issues"
+  },
+  "homepage": "https://github.com/hack4impact-uiuc/design#readme"
 }
