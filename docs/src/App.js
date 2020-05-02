@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, theme, get, getOrDefault, lodashGet} from '@hack4impact-uiuc/design'
-import '@hack4impact-uiuc/design/styles.css'
+import '@hack4impact-uiuc/design/dist/styles.css'
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 

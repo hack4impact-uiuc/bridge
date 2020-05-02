@@ -100,6 +100,7 @@ const colors = {
       support: typographyColors.slate,
     },
   },
+  // states or in other words color variants
   state: {
     primary: hackBluePalette,
     success: greenPalette,
