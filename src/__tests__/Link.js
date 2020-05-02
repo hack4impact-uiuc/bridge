@@ -1,14 +1,25 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, cleanup } from '@testing-library/react';
 import 'jest-styled-components';
 import '@testing-library/jest-dom';
+import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Link } from '..';
 import { COMMON, TYPOGRAPHY } from '../utils/constants';
 import { renderJSON } from '../utils/testing';
+import 'babel-polyfill'; // axe violations required babel-polyfill
+
+expect.extend(toHaveNoViolations);
 
 describe('Link', () => {
+  it('should have no axe violations', async () => {
+    const { container } = render(<Link>APPLY</Link>);
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
+    cleanup();
+  });
+
   it('implements system props', () => {
     expect(Link).toImplementSystemProps(COMMON);
     expect(Link).toImplementSystemProps(TYPOGRAPHY);
