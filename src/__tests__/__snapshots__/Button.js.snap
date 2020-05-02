@@ -16,7 +16,7 @@ exports[`Button Colors renders error colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #fff;
+  color: #FFFFFF;
   background: #A62B31;
   border: none;
   background-color: #FFBCBF;
@@ -26,7 +26,7 @@ exports[`Button Colors renders error colors 1`] = `
   background-color: #8A1A1F;
   border: none;
   box-shadow: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .c0:disabled {
@@ -57,7 +57,7 @@ exports[`Button Colors renders primary colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #fff;
+  color: #FFFFFF;
   background: #155DA1;
   border: none;
   background-color: #B4D8FA;
@@ -67,14 +67,14 @@ exports[`Button Colors renders primary colors 1`] = `
   background-color: #0E4E8A;
   border: none;
   box-shadow: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .c0:disabled {
   background-color: #B4D8FA;
   border: none;
   box-shadow: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 <button
@@ -98,7 +98,7 @@ exports[`Button Colors renders secondary colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #fff;
+  color: #FFFFFF;
   background: #155DA1;
   border: none;
   background-color: #EBEEF2;
@@ -108,7 +108,7 @@ exports[`Button Colors renders secondary colors 1`] = `
   background-color: #0D3F6E;
   border: none;
   box-shadow: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .c0:disabled {
@@ -139,7 +139,7 @@ exports[`Button Colors renders success colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #fff;
+  color: #FFFFFF;
   background: #4C9859;
   border: none;
   background-color: #BDF3C6;
@@ -149,7 +149,7 @@ exports[`Button Colors renders success colors 1`] = `
   background-color: #256830;
   border: none;
   box-shadow: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .c0:disabled {
@@ -180,7 +180,7 @@ exports[`Button Colors renders warning colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #fff;
+  color: #FFFFFF;
   background: #FDBE21;
   border: none;
   background-color: #FFECBD;
@@ -190,7 +190,7 @@ exports[`Button Colors renders warning colors 1`] = `
   background-color: #DA9C03;
   border: none;
   box-shadow: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .c0:disabled {
@@ -222,20 +222,20 @@ exports[`Button renders correct colors with "outline" and "disabled" props (prim
   padding: 0px 32px;
   height: 40px;
   color: #155DA1;
-  background: #fff;
+  background: #FFFFFF;
   border: 2px solid #155DA1;
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
 .c0:hover:not([disabled]) {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border: 2px solid #0E4E8A;
   box-shadow: none;
   color: #0E4E8A;
 }
 
 .c0:disabled {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border: 2px solid #B4D8FA;
   box-shadow: none;
   color: #B4D8FA;
@@ -264,20 +264,20 @@ exports[`Button respects "outline" prop 1`] = `
   padding: 0px 32px;
   height: 40px;
   color: #155DA1;
-  background: #fff;
+  background: #FFFFFF;
   border: 2px solid #155DA1;
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
 .c0:hover:not([disabled]) {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border: 2px solid #0E4E8A;
   box-shadow: none;
   color: #0E4E8A;
 }
 
 .c0:disabled {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border: 2px solid #B4D8FA;
   box-shadow: none;
   color: #B4D8FA;
@@ -304,7 +304,7 @@ exports[`Button respects the "disabled" prop 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #fff;
+  color: #FFFFFF;
   background: #155DA1;
   border: none;
   background-color: #B4D8FA;
@@ -314,14 +314,14 @@ exports[`Button respects the "disabled" prop 1`] = `
   background-color: #0E4E8A;
   border: none;
   box-shadow: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .c0:disabled {
   background-color: #B4D8FA;
   border: none;
   box-shadow: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 <button

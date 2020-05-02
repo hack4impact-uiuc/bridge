@@ -68,27 +68,27 @@ describe('Button', () => {
 // Colors should match colors in default theme (design system styles)
 describe('Button Colors', () => {
   it('renders primary colors', () => {
-    const item = renderJSON(<Button color="primary" />);
+    const item = renderJSON(<Button variant="primary" />);
     expect(item).toMatchSnapshot();
   });
 
   it('renders secondary colors', () => {
-    const item = renderJSON(<Button color="secondary" />);
+    const item = renderJSON(<Button variant="secondary" />);
     expect(item).toMatchSnapshot();
   });
 
   it('renders success colors', () => {
-    const item = renderJSON(<Button color="success" />);
+    const item = renderJSON(<Button variant="success" />);
     expect(item).toMatchSnapshot();
   });
 
   it('renders error colors', () => {
-    const item = renderJSON(<Button color="error" />);
+    const item = renderJSON(<Button variant="error" />);
     expect(item).toMatchSnapshot();
   });
 
   it('renders warning colors', () => {
-    const item = renderJSON(<Button color="warning" />);
+    const item = renderJSON(<Button variant="warning" />);
     expect(item).toMatchSnapshot();
   });
 });

@@ -80,7 +80,7 @@ const typographyColors = {
 
 const colors = {
   black: '#000000',
-  white: '#fff',
+  white: '#FFFFFF',
   ...baseColors,
   ...secondaryColors,
   ...typographyColors,
@@ -101,15 +101,15 @@ const colors = {
     },
   },
   // states or in other words color variants
-  state: {
+  variants: {
     primary: hackBluePalette,
     success: greenPalette,
     error: redPalette,
     warning: yellowPalette,
     secondary: hackBluePalette,
     white: {
-      primary: '#fff',
-      dark: '#fff',
+      primary: '#FFFFFF',
+      dark: '#FFFFFF',
       lighter: indigoPalette.light,
     },
   },
@@ -234,9 +234,23 @@ const button = {
         disabled: impactGreyPalette.light,
       },
       fontColor: {
-        disabled: impactGreyPalette.midtone,
+        disabled: indigoPalette.lighter,
       },
     },
+  },
+};
+
+
+const link = {
+  default: (colorPalette) => ({
+    color: {
+      default: colorPalette.primary,
+      hover: colorPalette.dark,
+    },
+  }),
+  secondary: {
+    default: hackBluePalette.primary,
+    hover: hackBluePalette.darker,
   },
 };
 
@@ -248,6 +262,7 @@ const theme = {
   fontWeights,
   fontSizes,
   button,
+  link,
   DEFAULT_SHADOW,
 };
 

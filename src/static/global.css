@@ -10,42 +10,42 @@ body {
 
 /* TEXT */
 
-h1 {
+.h1 {
   font-family: "Chivo";
   font-size: 60px;
   font-weight: 500;
   letter-spacing: 0.3px;
 }
 
-h2 {
+.h2 {
   font-family: "Chivo";
   font-weight: 400;
   font-size: 45px;
   letter-spacing: 0.5px;
 }
 
-h3 {
+.h3 {
   font-family: "Chivo";
   font-weight: 400;
   font-size: 32px;
   letter-spacing: 0px;
 }
 
-h4 {
+.h4 {
   font-family: "Chivo";
   font-weight: 400;
   font-size: 25px;
   letter-spacing: -0.15px;
 }
 
-p {
+.p {
   font-family: "HKGrotesk";
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.3px;
 }
 
-p.body {
+.body {
   font-family: "HKGrotesk";
   font-weight: 400;
   font-size: 16px;
@@ -53,7 +53,7 @@ p.body {
 }
 
 
-p.subtitle {
+.subtitle {
   font-family: "HKGrotesk";
   font-weight: 400;
   font-size: 20px;
@@ -61,7 +61,7 @@ p.subtitle {
 }
 
 
-p.overline {
+.overline {
   font-family: "HKGrotesk";
   font-weight: 700;
   font-size: 12px;
@@ -69,23 +69,23 @@ p.overline {
   text-transform: uppercase;
 }
 
-p.caption {
+.caption {
   font-family: "HKGrotesk";
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.5px;
 }
 
-a {
+.link {
   color: "#155DA1";
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   text-decoration: underline;
 }
 
-a:disabled {
+.link:disabled {
   color: "#B4D8FA";
 }
 

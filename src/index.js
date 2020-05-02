@@ -1,8 +1,9 @@
-import { Button } from './components';
 import theme from './theme';
 import { get, getOrDefault, lodashGet } from './utils/utils';
-import style from './static/global.css';
+import './static/global.css';
+
+export * from './components';
 
 export {
-  Button, theme, style, get, getOrDefault, lodashGet,
+  theme, get, getOrDefault, lodashGet,
 };
