@@ -1,18 +1,28 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, cleanup } from '@testing-library/react';
 import 'jest-styled-components';
 import '@testing-library/jest-dom';
+import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Button } from '..';
 import theme, { colors } from '../theme';
 import { renderJSON } from '../utils/testing';
+import 'babel-polyfill'; // axe violations required babel-polyfill
 
+expect.extend(toHaveNoViolations);
 const noop = () => {};
 
 
 describe('Button', () => {
   it('renders a <button>', () => {
     expect(renderJSON(<Button />).type).toEqual('button');
+  });
+
+  it('should have no axe violations', async () => {
+    const { container } = render(<Button>APPLY</Button>);
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
+    cleanup();
   });
 
   it('renders children', () => {
