@@ -1,6 +1,6 @@
 {
   "name": "@hack4impact-uiuc/design",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Hack4Impact UIUC's Design System + component library",
   "main": "dist/index.js",
   "author": "Timothy Ko <timothy.l.ko@gmail.com>",

@@ -35,10 +35,7 @@ export default App
 ```
 
 ### Theming
-Components use 
-
-Components are styled using Primer's theme by default, but you can provide your own theme by using styled-component's <ThemeProvider>. If you'd like to fully replace the Primer theme with your custom theme, pass your theme to the <ThemeProvider> in the root of your application like so:
-
+Components use Hack4Impact's Design theme by default (`src/theme.js`) but you can provide your own theme using styled-component's [<ThemeProvider>](https://styled-components.com/docs/advanced). You can either fully replace the theme or replace parts of the theme by placing your custom theme through a prop to our components or through `<ThemeProvider>` in the root of the application.
 
 
 ## Local Development
@@ -51,6 +48,4 @@ yarn
 TODO: Using storybook
 
 Check out our [Contributing Guidelines]('./CONTRIBUTING.md') for code style, testing, component dev, etc
-
-## 
 
