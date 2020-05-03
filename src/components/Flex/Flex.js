@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
 import { FLEX } from '../../utils/constants';
 import theme from '../../theme';
 import Box from '../Box';
