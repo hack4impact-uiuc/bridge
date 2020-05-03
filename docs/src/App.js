@@ -1,20 +1,40 @@
 import React from 'react';
-import { Button, theme, get, getOrDefault, lodashGet} from '@hack4impact-uiuc/design'
-import '@hack4impact-uiuc/design/dist/styles.css'
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
-
+import DesignPage from './pages/DesignPage'
+import ComponentsPage from './pages/ComponentsPage'
+import HomePage from './pages/HomePage'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Software For Nonprofits</h1>
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <Button disabled outline color="white">APPLY</Button>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/">
+            <HomePage />
+          </Route>
+
+         <Route path="/components">
+            <ComponentsPage />
+          </Route>
+          <Route path="/components/:name">
+            <ComponentsPage />
+          </Route>
+
+          <Route path="/design">
+            <DesignPage />
+          </Route>
+          <Route path="/design/:name">
+            <DesignPage />
+          </Route>
+        
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

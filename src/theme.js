@@ -118,8 +118,8 @@ const colors = {
 const fontSizes = ['12px', '14px', '16px', '18px', '20px', '22px', '25px', '28px', '32px', '45px', '60px'];
 
 const fonts = {
-  chivo: fontStack(['Chivo']),
-  hkGrotesk: fontStack(['HKGrotesk']),
+  main: fontStack(['HKGrotesk']),
+  secondary: fontStack(['Chivo']),
 };
 
 const fontWeights = {
@@ -131,7 +131,7 @@ const fontWeights = {
 
 // styling specific to the Button component
 const button = {
-  font: fonts.chivo,
+  font: fonts.secondary,
   fontWeight: fontWeights.bold,
   fontSize: '14px',
   letterSpacing: '2px',
@@ -254,6 +254,15 @@ const link = {
   },
 };
 
+
+const spacing = ['0px', '4px', '8px', '16px', '32px', '64px', '128px'];
+spacing.none = spacing[0];
+spacing.xxs = spacing[1];
+spacing.xs = spacing[2];
+spacing.sm = spacing[3];
+spacing.md = spacing[4];
+spacing.lg = spacing[5];
+spacing.xl = spacing[6];
 
 const theme = {
   // General
