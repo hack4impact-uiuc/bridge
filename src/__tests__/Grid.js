@@ -1,4 +1,4 @@
-// taken from https://github.com/primer/components/blob/master/src/__tests__/Grid.js#L7
+// taken from https://github.com/primer/components/blob/master/src/__tests__/Grid.js
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import 'jest-styled-components';
