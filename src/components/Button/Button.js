@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import systemPropTypes from '@styled-system/prop-types';
 import theme from '../../theme';
 import { get, lodashGet } from '../../utils/utils';
 import { COMMON } from '../../utils/constants';
@@ -24,26 +23,25 @@ const ButtonBase = styled.button`
   height: 40px;
 
   // color
-  color: ${(props) => props.fontColor.default};
   background: ${(props) => props.bg.default};
   border: ${(props) => props.border.default};
+  color: ${(props) => props.fontColor.default};
 
   // states
   &:hover:not([disabled]) {
-    background-color: ${(props) => props.bg.hover};
+    background: ${(props) => props.bg.hover};
     border: ${(props) => props.border.hover};
     box-shadow: ${(props) => props.shadow.hover};
     color: ${(props) => props.fontColor.hover};
   }
 
   &:disabled {
-    background-color: ${(props) => props.bg.disabled};
+    background: ${(props) => props.bg.disabled};
     border: ${(props) => props.border.disabled};
     box-shadow: ${(props) => props.shadow.disabled};
     color: ${(props) => props.fontColor.disabled};
   }
   ${COMMON}
-  
 `;
 
 const propTypes = {
@@ -54,22 +52,18 @@ const propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
   theme: PropTypes.object,
-  ...systemPropTypes.layout,
-  // ...systemPropTypes.space,
-  // ...systemPropTypes.display,
-  // ...systemPropTypes.color,
   ...COMMON.proptypes,
 };
 
 const defaultProps = {
-  variant: 'primary', // any color that matches theme.colors.variants
+  variant: 'primary', // any color that matches theme.colors.colorVariants
   theme,
 };
 
 const Button = ({
   variant, outline, className, theme: propTheme, ...other
 }) => {
-  const buttonColorPalette = propTheme.colors.variants[variant] || get('colors.variants.primary');
+  const buttonColorPalette = propTheme.colors.colorVariants[variant] || get('colors.colorVariants.primary');
   const buttonTheme = propTheme.button[variant]; // || theme.button.default
   const buttonDefaultTheme = propTheme.button.default(buttonColorPalette);
 
@@ -78,7 +72,6 @@ const Button = ({
     hover: lodashGet(buttonTheme, 'bg.hover', buttonDefaultTheme.bg.hover),
     disabled: lodashGet(buttonTheme, 'bg.disabled', buttonDefaultTheme.bg.disabled),
   };
-
 
   let border = {
     default: lodashGet(buttonTheme, 'border.default', buttonDefaultTheme.border.default),
@@ -133,6 +126,7 @@ const Button = ({
     fontColor,
     shadow,
   };
+
 
   return (
     <ButtonBase

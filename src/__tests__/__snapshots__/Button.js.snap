@@ -16,21 +16,20 @@ exports[`Button Colors renders error colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFFFFF;
   background: #A62B31;
   border: none;
-  background-color: #FFBCBF;
+  color: #FFFFFF;
 }
 
 .c0:hover:not([disabled]) {
-  background-color: #8A1A1F;
+  background: #8A1A1F;
   border: none;
   box-shadow: none;
   color: #FFFFFF;
 }
 
 .c0:disabled {
-  background-color: #FFBCBF;
+  background: #FFBCBF;
   border: none;
   box-shadow: none;
   color: #D1595F;
@@ -57,21 +56,20 @@ exports[`Button Colors renders primary colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFFFFF;
   background: #155DA1;
   border: none;
-  background-color: #B4D8FA;
+  color: #FFFFFF;
 }
 
 .c0:hover:not([disabled]) {
-  background-color: #0E4E8A;
+  background: #0E4E8A;
   border: none;
   box-shadow: none;
   color: #FFFFFF;
 }
 
 .c0:disabled {
-  background-color: #B4D8FA;
+  background: #B4D8FA;
   border: none;
   box-shadow: none;
   color: #FFFFFF;
@@ -98,21 +96,20 @@ exports[`Button Colors renders secondary colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFFFFF;
   background: #155DA1;
   border: none;
-  background-color: #EBEEF2;
+  color: #FFFFFF;
 }
 
 .c0:hover:not([disabled]) {
-  background-color: #0D3F6E;
+  background: #0D3F6E;
   border: none;
   box-shadow: none;
   color: #FFFFFF;
 }
 
 .c0:disabled {
-  background-color: #EBEEF2;
+  background: #EBEEF2;
   border: none;
   box-shadow: none;
   color: #8B9199;
@@ -139,21 +136,20 @@ exports[`Button Colors renders success colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFFFFF;
   background: #4C9859;
   border: none;
-  background-color: #BDF3C6;
+  color: #FFFFFF;
 }
 
 .c0:hover:not([disabled]) {
-  background-color: #256830;
+  background: #256830;
   border: none;
   box-shadow: none;
   color: #FFFFFF;
 }
 
 .c0:disabled {
-  background-color: #BDF3C6;
+  background: #BDF3C6;
   border: none;
   box-shadow: none;
   color: #90E19E;
@@ -180,21 +176,20 @@ exports[`Button Colors renders warning colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFFFFF;
   background: #FDBE21;
   border: none;
-  background-color: #FFECBD;
+  color: #FFFFFF;
 }
 
 .c0:hover:not([disabled]) {
-  background-color: #DA9C03;
+  background: #DA9C03;
   border: none;
   box-shadow: none;
   color: #FFFFFF;
 }
 
 .c0:disabled {
-  background-color: #FFECBD;
+  background: #FFECBD;
   border: none;
   box-shadow: none;
   color: #FFD15F;
@@ -221,21 +216,20 @@ exports[`Button renders correct colors with "outline" and "disabled" props (prim
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #155DA1;
   background: #FFFFFF;
   border: 2px solid #155DA1;
-  background-color: #FFFFFF;
+  color: #155DA1;
 }
 
 .c0:hover:not([disabled]) {
-  background-color: #FFFFFF;
+  background: #FFFFFF;
   border: 2px solid #0E4E8A;
   box-shadow: none;
   color: #0E4E8A;
 }
 
 .c0:disabled {
-  background-color: #FFFFFF;
+  background: #FFFFFF;
   border: 2px solid #B4D8FA;
   box-shadow: none;
   color: #B4D8FA;
@@ -263,21 +257,20 @@ exports[`Button respects "outline" prop 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #155DA1;
   background: #FFFFFF;
   border: 2px solid #155DA1;
-  background-color: #FFFFFF;
+  color: #155DA1;
 }
 
 .c0:hover:not([disabled]) {
-  background-color: #FFFFFF;
+  background: #FFFFFF;
   border: 2px solid #0E4E8A;
   box-shadow: none;
   color: #0E4E8A;
 }
 
 .c0:disabled {
-  background-color: #FFFFFF;
+  background: #FFFFFF;
   border: 2px solid #B4D8FA;
   box-shadow: none;
   color: #B4D8FA;
@@ -304,21 +297,20 @@ exports[`Button respects the "disabled" prop 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFFFFF;
   background: #155DA1;
   border: none;
-  background-color: #B4D8FA;
+  color: #FFFFFF;
 }
 
 .c0:hover:not([disabled]) {
-  background-color: #0E4E8A;
+  background: #0E4E8A;
   border: none;
   box-shadow: none;
   color: #FFFFFF;
 }
 
 .c0:disabled {
-  background-color: #B4D8FA;
+  background: #B4D8FA;
   border: none;
   box-shadow: none;
   color: #FFFFFF;

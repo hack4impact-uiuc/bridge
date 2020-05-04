@@ -101,7 +101,7 @@ const colors = {
     },
   },
   // states or in other words color variants
-  variants: {
+  colorVariants: {
     primary: hackBluePalette,
     success: greenPalette,
     error: redPalette,

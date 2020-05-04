@@ -49,3 +49,6 @@ yarn storybook
 
 Check out our [Contributing Guidelines]('./CONTRIBUTING.md') for code style, testing, component dev, etc
 
+## Authors
+- Timothy Ko ([@tko22](https://github.com/tko22))
+

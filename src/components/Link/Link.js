@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
 import { get, lodashGet } from '../../utils/utils';
-import { COMMON, TYPOGRAPHY } from '../../utils/constants';
+import { COMMON, TYPOGRAPHY, COLOR } from '../../utils/constants';
 
 const LinkBase = styled.a`
   font-family: ${get('button.font')};
@@ -35,19 +35,20 @@ const LinkBase = styled.a`
   
   ${COMMON}
   ${TYPOGRAPHY}
+  ${COLOR}
 `;
 
 const Link = ({
   color, hoverColor, variant, theme: propTheme, ...other
 }) => {
-  let linkColor = color || propTheme.colors.variants.primary.primary;
-  let linkHoverColor = hoverColor || propTheme.colors.variants.primary.dark;
+  let linkColor = color || propTheme.colors.colorVariants.primary.primary;
+  let linkHoverColor = hoverColor || propTheme.colors.colorVariants.primary.dark;
 
   // if variant, change color
   // but don't override color,hoverColor props, if given
   if (variant) {
     const linkTheme = propTheme.link[variant];
-    const defaultLinkTheme = propTheme.link.default(propTheme.colors.variants[variant] || get('colors.variants.primary'));
+    const defaultLinkTheme = propTheme.link.default(propTheme.colors.colorVariants[variant] || get('colors.colorVariants.primary'));
     if (!color) {
       linkColor = lodashGet(linkTheme, 'color.default', defaultLinkTheme.color.default);
     }
@@ -78,6 +79,7 @@ Link.propTypes = {
   underline: PropTypes.bool,
   ...COMMON.propTypes,
   ...TYPOGRAPHY.propTypes,
+  ...COLOR.propTypes,
 };
 
 
