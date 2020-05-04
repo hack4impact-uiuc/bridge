@@ -2,7 +2,7 @@
 import React from 'react';
 import { colors } from '../src/theme';
 
-import { Button, Link } from '../src';
+import { Button, Link, Text } from '../src';
 // import any components here
 
 export function Playground() {
@@ -10,11 +10,13 @@ export function Playground() {
     <>
       <div style={{ backgroundColor: colors.indigoBlue[3] }}>
         {/* Add the code you want to test here */}
-        <Link variant="white" href="https://google.com">APPLY</Link>
+        <Button variant="white" href="https://google.com">APPLY</Button>
       </div>
       <div>
         {/* Add the code you want to test here */}
-        <Link color="#065535" href="https://google.com">APPLY</Link>
+        <Button variant="success" href="https://google.com">APPLY</Button>
+        <Link variant="success" href="https://google.com">New link</Link>
+        <Text variant="success" as="p">Hello</Text>
       </div>
     </>
   );
