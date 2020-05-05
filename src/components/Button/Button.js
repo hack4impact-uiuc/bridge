@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
 import { get, lodashGet } from '../../utils/utils';
-import { COMMON } from '../../utils/constants';
+import { COMMON, COLOR } from '../../utils/constants';
 
 const ButtonBase = styled.button`
   // text
-  font-family: ${get('button.font')};
-  font-weight: ${get('button.fontWeight')};
-  font-size: ${get('button.fontSize')};
-  letter-spacing: ${get('button.letterSpacing')};
+  font-family: ${get('buttons.font')};
+  font-weight: ${get('buttons.fontWeight')};
+  font-size: ${get('buttons.fontSize')};
+  letter-spacing: ${get('buttons.letterSpacing')};
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
@@ -23,25 +23,27 @@ const ButtonBase = styled.button`
   height: 40px;
 
   // color
-  background: ${(props) => props.bg.default};
+  background: ${(props) => props.background.default};
   border: ${(props) => props.border.default};
   color: ${(props) => props.fontColor.default};
 
   // states
   &:hover:not([disabled]) {
-    background: ${(props) => props.bg.hover};
+    background: ${(props) => props.background.hover};
     border: ${(props) => props.border.hover};
     box-shadow: ${(props) => props.shadow.hover};
     color: ${(props) => props.fontColor.hover};
   }
 
   &:disabled {
-    background: ${(props) => props.bg.disabled};
+    background: ${(props) => props.background.disabled};
     border: ${(props) => props.border.disabled};
     box-shadow: ${(props) => props.shadow.disabled};
     color: ${(props) => props.fontColor.disabled};
   }
-  ${COMMON}
+
+  ${COMMON};
+  ${COLOR};
 `;
 
 const propTypes = {
@@ -53,6 +55,7 @@ const propTypes = {
   className: PropTypes.string,
   theme: PropTypes.object,
   ...COMMON.proptypes,
+  ...COLOR.proptypes,
 };
 
 const defaultProps = {
@@ -63,11 +66,11 @@ const defaultProps = {
 const Button = ({
   variant, outline, className, theme: propTheme, ...other
 }) => {
-  const buttonColorPalette = propTheme.colors.colorVariants[variant] || get('colors.colorVariants.primary');
-  const buttonTheme = propTheme.button[variant]; // || theme.button.default
-  const buttonDefaultTheme = propTheme.button.default(buttonColorPalette);
+  const buttonColorPalette = propTheme.colors.variants[variant] || get('colors.variants.primary');
+  const buttonTheme = propTheme.buttons[variant]; // || theme.button.default
+  const buttonDefaultTheme = propTheme.buttons.default(buttonColorPalette);
 
-  let bg = {
+  let background = {
     default: lodashGet(buttonTheme, 'bg.default', buttonDefaultTheme.bg.default),
     hover: lodashGet(buttonTheme, 'bg.hover', buttonDefaultTheme.bg.hover),
     disabled: lodashGet(buttonTheme, 'bg.disabled', buttonDefaultTheme.bg.disabled),
@@ -108,7 +111,7 @@ const Button = ({
       hover: lodashGet(buttonTheme, 'outline.fontColor.hover', defaultOutline.fontColor.hover),
       disabled: lodashGet(buttonTheme, 'outline.fontColor.disabled', defaultOutline.fontColor.disabled),
     };
-    bg = {
+    background = {
       default: lodashGet(buttonTheme, 'outline.bg.default', defaultOutline.bg.default),
       hover: lodashGet(buttonTheme, 'outline.bg.hover', defaultOutline.bg.hover),
       disabled: lodashGet(buttonTheme, 'outline.bg.disabled', defaultOutline.bg.disabled),
@@ -121,7 +124,15 @@ const Button = ({
   }
 
   const styling = {
-    bg,
+    // this (passed in as prop) must be named named `background` because you can
+    // not bg or backgroundColor
+    // because styled-system `color` uses it
+    // and it will think you passed it
+    // a background color... overriding the background
+    // color we want to set
+    // in this case, it will make the default background color
+    // the `lighter` color in the color pallette
+    background,
     border,
     fontColor,
     shadow,
