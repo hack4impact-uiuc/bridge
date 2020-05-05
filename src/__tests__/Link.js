@@ -6,6 +6,7 @@ import '@testing-library/jest-dom';
 import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Link } from '..';
+import theme from '../theme';
 import { COMMON, TYPOGRAPHY } from '../utils/constants';
 import { renderJSON } from '../utils/testing';
 import 'babel-polyfill'; // axe violations required babel-polyfill
@@ -64,5 +65,35 @@ describe('Link', () => {
   it('respects the "fontStyle" prop', () => {
     const { container } = render(<Link fontStyle="italic" />);
     expect(container.firstChild).toHaveStyle('font-style: italic');
+  });
+
+  it('respects the "as" prop', () => {
+    expect(renderJSON(<Link as="button" />).type).toEqual('button');
+  });
+
+  it('respects the "as" prop with non-string component types', () => {
+    // eslint-disable-next-line react/prop-types
+    function TestLink({ children }) {
+      return <a className="test-link">{children}</a>;
+    }
+
+    expect(renderJSON(<Link as={TestLink}>Testing...</Link>)).toMatchSnapshot();
+  });
+
+  it('should inherit font styling', () => {
+    const { container } = render(<Link hoverColor="#065535" variant="white" />);
+    expect(container.firstChild).toHaveStyle('font-family: inherit');
+    expect(container.firstChild).toHaveStyle('font-size: inherit');
+    expect(container.firstChild).toHaveStyle('font-weight: inherit');
+    expect(container.firstChild).toHaveStyle('letter-spacing: inherit');
+  });
+
+  it('should have themed button styling if as="button"', () => {
+    expect(renderJSON(<Link as="button">APPLY</Link>)).toMatchSnapshot();
+
+    const { container } = render(<Link as="button" />);
+    expect(container.firstChild).toHaveStyle(`font-family: ${theme.buttons.font}`);
+    expect(container.firstChild).toHaveStyle(`font-size: ${theme.buttons.fontSize}`);
+    expect(container.firstChild).toHaveStyle(`letter-spacing: ${theme.buttons.letterSpacing}`);
   });
 });

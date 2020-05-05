@@ -5,19 +5,26 @@ import theme from '../../theme';
 import { get, lodashGet } from '../../utils/utils';
 import { COMMON, TYPOGRAPHY, COLOR } from '../../utils/constants';
 
-const LinkBase = styled.a`
-  font-family: ${get('buttons.font')};
-  font-weight: ${get('buttons.fontWeight')};
-  font-size: ${get('buttons.fontSize')};
-  letter-spacing: ${get('buttons.letterSpacing')};
+const buttonStyles = (propTheme) => ({
+  fontFamily: propTheme.buttons.font,
+  fontWeight: propTheme.buttons.fontWeight,
+  fontSize: propTheme.buttons.fontSize,
+  letterSpacing: propTheme.buttons.letterSpacing,
+  display: 'inline-block',
+  padding: '0',
+  whiteSpace: 'nowrap',
+  cursor: 'pointer',
+  userSelect: 'none',
+  backgroundColor: 'transparent',
+  border: '0',
+  appearance: 'none',
+});
 
-  display: inline-block;
-  padding: 0;
-  white-space: 'nowrap';
-  cursor: 'pointer';
-  user-select: 'none';
-  background-color: 'transparent';
-  border: 0;
+const LinkBase = styled.a`
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
 
   color: ${(props) => props.color};
   text-decoration: ${(props) => (props.underline ? 'underline' : 'none')};
@@ -33,13 +40,15 @@ const LinkBase = styled.a`
     color: ${(props) => props.hoverColor};
   }
   
+  ${(props) => (props.as === 'button' ? buttonStyles(props.theme) : '')};
+  
   ${COMMON}
   ${TYPOGRAPHY}
   ${COLOR}
-`;
+  `;
 
 const Link = ({
-  color, hoverColor, variant, theme: propTheme, ...other
+  color, hoverColor, variant, theme: propTheme, ...props
 }) => {
   let linkColor = color || propTheme.colors.variants.primary.primary;
   let linkHoverColor = hoverColor || propTheme.colors.variants.primary.dark;
@@ -61,7 +70,8 @@ const Link = ({
     <LinkBase
       color={linkColor}
       hoverColor={linkHoverColor}
-      {...other}
+      theme={propTheme}
+      {...props}
     />
   );
 };
@@ -71,12 +81,14 @@ Link.defaultProps = {
 };
 
 Link.propTypes = {
+  as: PropTypes.elementType,
   color: PropTypes.string,
   hoverColor: PropTypes.string,
   variant: PropTypes.oneOf(['primary', 'secondary', 'white']),
   href: PropTypes.string,
   theme: PropTypes.object,
   underline: PropTypes.bool,
+  onClick: PropTypes.func,
   ...COMMON.propTypes,
   ...TYPOGRAPHY.propTypes,
   ...COLOR.propTypes,

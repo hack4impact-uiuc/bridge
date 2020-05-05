@@ -41,30 +41,13 @@ const ButtonBase = styled.button`
     box-shadow: ${(props) => props.shadow.disabled};
     color: ${(props) => props.fontColor.disabled};
   }
-
+  
   ${COMMON};
   ${COLOR};
 `;
 
-const propTypes = {
-  variant: PropTypes.string,
-  disabled: PropTypes.bool,
-  outline: PropTypes.bool,
-  onClick: PropTypes.func,
-  children: PropTypes.node,
-  className: PropTypes.string,
-  theme: PropTypes.object,
-  ...COMMON.proptypes,
-  ...COLOR.proptypes,
-};
-
-const defaultProps = {
-  variant: 'primary', // any color that matches theme.colors.colorVariants
-  theme,
-};
-
 const Button = ({
-  variant, outline, className, theme: propTheme, ...other
+  variant, outline, className, theme: propTheme, ...props
 }) => {
   const buttonColorPalette = propTheme.colors.variants[variant] || get('colors.variants.primary');
   const buttonTheme = propTheme.buttons[variant]; // || theme.button.default
@@ -145,9 +128,26 @@ const Button = ({
       className={className}
       theme={theme}
       outline={outline}
-      {...other}
+      {...props}
     />
   );
+};
+
+const propTypes = {
+  variant: PropTypes.string,
+  disabled: PropTypes.bool,
+  outline: PropTypes.bool,
+  onClick: PropTypes.func,
+  children: PropTypes.node,
+  className: PropTypes.string,
+  theme: PropTypes.object,
+  ...COMMON.proptypes,
+  ...COLOR.proptypes,
+};
+
+const defaultProps = {
+  variant: 'primary', // any color that matches theme.colors.colorVariants
+  theme,
 };
 
 Button.propTypes = propTypes;

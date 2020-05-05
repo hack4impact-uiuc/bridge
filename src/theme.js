@@ -7,35 +7,35 @@ function fontStack(fonts) {
 const DEFAULT_SHADOW = '0 1px 6px 2px rgba(0,0,0,0.15)';
 
 const baseColors = {
-  hackBlue: ['#B4D8FA', '#3E87CD', '#155DA1', '#0E4E8A', '#0D3F6E', '#031425'],
-  indigoBlue: ['#BCD0F3', '#415F94', '#2D4979', '#253E68', '#13294E', '#061734'],
-  impactGrey: ['#FAFBFC', '#EBEEF2', '#8B9199', '#666B72', '#46494F'],
+  blue: ['#B4D8FA', '#3E87CD', '#155DA1', '#0E4E8A', '#0D3F6E', '#031425'],
+  indigo: ['#BCD0F3', '#415F94', '#2D4979', '#253E68', '#13294E', '#061734'],
+  grey: ['#FAFBFC', '#EBEEF2', '#8B9199', '#666B72', '#46494F'],
 };
 
-const hackBluePalette = {
-  lighter: baseColors.hackBlue[0],
-  light: baseColors.hackBlue[1],
-  primary: baseColors.hackBlue[2],
-  dark: baseColors.hackBlue[3],
-  darker: baseColors.hackBlue[4],
-  text: baseColors.hackBlue[5],
+const bluePalette = {
+  lighter: baseColors.blue[0],
+  light: baseColors.blue[1],
+  primary: baseColors.blue[2],
+  dark: baseColors.blue[3],
+  darker: baseColors.blue[4],
+  text: baseColors.blue[5],
 };
 
 const indigoPalette = {
-  lighter: baseColors.indigoBlue[0],
-  light: baseColors.indigoBlue[1],
-  primary: baseColors.indigoBlue[2],
-  dark: baseColors.indigoBlue[3],
-  darker: baseColors.indigoBlue[4],
-  text: baseColors.indigoBlue[5],
+  lighter: baseColors.indigo[0],
+  light: baseColors.indigo[1],
+  primary: baseColors.indigo[2],
+  dark: baseColors.indigo[3],
+  darker: baseColors.indigo[4],
+  text: baseColors.indigo[5],
 };
 
-const impactGreyPalette = {
-  lighter: baseColors.impactGrey[0],
-  light: baseColors.impactGrey[1],
-  midtone: baseColors.impactGrey[2],
-  primary: baseColors.impactGrey[3],
-  darker: baseColors.impactGrey[4],
+const greyPalette = {
+  lighter: baseColors.grey[0],
+  light: baseColors.grey[1],
+  midtone: baseColors.grey[2],
+  primary: baseColors.grey[3],
+  darker: baseColors.grey[4],
 };
 
 const secondaryColors = {
@@ -84,9 +84,9 @@ const colors = {
   ...baseColors,
   ...secondaryColors,
   ...typographyColors,
-  hackBluePalette,
+  bluePalette,
   indigoPalette,
-  impactGreyPalette,
+  greyPalette,
   greenPalette,
   redPalette,
   yellowPalette,
@@ -102,11 +102,11 @@ const colors = {
   },
   // states or in other words color variants
   variants: {
-    primary: hackBluePalette,
+    primary: bluePalette,
     success: greenPalette,
     error: redPalette,
     warning: yellowPalette,
-    secondary: hackBluePalette,
+    secondary: bluePalette,
     white: {
       primary: '#FFFFFF',
       dark: '#FFFFFF',
@@ -219,19 +219,19 @@ const buttons = {
   },
   secondary: {
     bg: {
-      hover: hackBluePalette.darker,
-      disabled: impactGreyPalette.light,
+      hover: bluePalette.darker,
+      disabled: greyPalette.light,
     },
     fontColor: {
-      disabled: impactGreyPalette.midtone,
+      disabled: greyPalette.midtone,
     },
     outline: {
       bg: {
         disabled: colors.white,
       },
       border: {
-        hover: hackBluePalette.darker,
-        disabled: impactGreyPalette.light,
+        hover: bluePalette.darker,
+        disabled: greyPalette.light,
       },
       fontColor: {
         disabled: indigoPalette.lighter,
@@ -249,8 +249,8 @@ const link = {
     },
   }),
   secondary: {
-    default: hackBluePalette.primary,
-    hover: hackBluePalette.darker,
+    default: bluePalette.primary,
+    hover: bluePalette.darker,
   },
 };
 

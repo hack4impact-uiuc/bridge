@@ -2,23 +2,13 @@
 
 exports[`Link defaults to color prop if color & variant are given 1`] = `
 .c0 {
-  font-family: Chivo;
-  font-weight: 700;
-  font-size: 14px;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
-  letter-spacing: 2px;
-  display: inline-block;
-  padding: 0;
-  white-space: 'nowrap';
-  cursor: 'pointer';
-  -webkit-user-select: 'none';
-  -moz-user-select: 'none';
-  -ms-user-select: 'none';
-  user-select: 'none';
-  background-color: 'transparent';
-  border: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  -webkit-letter-spacing: inherit;
+  -moz-letter-spacing: inherit;
+  -ms-letter-spacing: inherit;
+  letter-spacing: inherit;
   color: #065535;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -45,23 +35,13 @@ exports[`Link defaults to color prop if color & variant are given 1`] = `
 
 exports[`Link defaults to hoverColor prop if hoverColor & variant are given while color stays with variant color 1`] = `
 .c0 {
-  font-family: Chivo;
-  font-weight: 700;
-  font-size: 14px;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
-  letter-spacing: 2px;
-  display: inline-block;
-  padding: 0;
-  white-space: 'nowrap';
-  cursor: 'pointer';
-  -webkit-user-select: 'none';
-  -moz-user-select: 'none';
-  -ms-user-select: 'none';
-  user-select: 'none';
-  background-color: 'transparent';
-  border: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  -webkit-letter-spacing: inherit;
+  -moz-letter-spacing: inherit;
+  -ms-letter-spacing: inherit;
+  letter-spacing: inherit;
   color: #FFFFFF;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -88,23 +68,13 @@ exports[`Link defaults to hoverColor prop if hoverColor & variant are given whil
 
 exports[`Link passes href down to link element 1`] = `
 .c0 {
-  font-family: Chivo;
-  font-weight: 700;
-  font-size: 14px;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
-  letter-spacing: 2px;
-  display: inline-block;
-  padding: 0;
-  white-space: 'nowrap';
-  cursor: 'pointer';
-  -webkit-user-select: 'none';
-  -moz-user-select: 'none';
-  -ms-user-select: 'none';
-  user-select: 'none';
-  background-color: 'transparent';
-  border: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  -webkit-letter-spacing: inherit;
+  -moz-letter-spacing: inherit;
+  -ms-letter-spacing: inherit;
+  letter-spacing: inherit;
   color: #155DA1;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -132,23 +102,13 @@ exports[`Link passes href down to link element 1`] = `
 
 exports[`Link renders without any props 1`] = `
 .c0 {
-  font-family: Chivo;
-  font-weight: 700;
-  font-size: 14px;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
-  letter-spacing: 2px;
-  display: inline-block;
-  padding: 0;
-  white-space: 'nowrap';
-  cursor: 'pointer';
-  -webkit-user-select: 'none';
-  -moz-user-select: 'none';
-  -ms-user-select: 'none';
-  user-select: 'none';
-  background-color: 'transparent';
-  border: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  -webkit-letter-spacing: inherit;
+  -moz-letter-spacing: inherit;
+  -ms-letter-spacing: inherit;
+  letter-spacing: inherit;
   color: #155DA1;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -175,23 +135,13 @@ exports[`Link renders without any props 1`] = `
 
 exports[`Link respects color prop 1`] = `
 .c0 {
-  font-family: Chivo;
-  font-weight: 700;
-  font-size: 14px;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
-  letter-spacing: 2px;
-  display: inline-block;
-  padding: 0;
-  white-space: 'nowrap';
-  cursor: 'pointer';
-  -webkit-user-select: 'none';
-  -moz-user-select: 'none';
-  -ms-user-select: 'none';
-  user-select: 'none';
-  background-color: 'transparent';
-  border: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  -webkit-letter-spacing: inherit;
+  -moz-letter-spacing: inherit;
+  -ms-letter-spacing: inherit;
+  letter-spacing: inherit;
   color: #065535;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -218,23 +168,13 @@ exports[`Link respects color prop 1`] = `
 
 exports[`Link respects hoverColor prop 1`] = `
 .c0 {
-  font-family: Chivo;
-  font-weight: 700;
-  font-size: 14px;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
-  letter-spacing: 2px;
-  display: inline-block;
-  padding: 0;
-  white-space: 'nowrap';
-  cursor: 'pointer';
-  -webkit-user-select: 'none';
-  -moz-user-select: 'none';
-  -ms-user-select: 'none';
-  user-select: 'none';
-  background-color: 'transparent';
-  border: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  -webkit-letter-spacing: inherit;
+  -moz-letter-spacing: inherit;
+  -ms-letter-spacing: inherit;
+  letter-spacing: inherit;
   color: #155DA1;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -257,4 +197,67 @@ exports[`Link respects hoverColor prop 1`] = `
   className="c0"
   color="#155DA1"
 />
+`;
+
+exports[`Link respects the "as" prop with non-string component types 1`] = `
+<a
+  className="test-link"
+>
+  Testing...
+</a>
+`;
+
+exports[`Link should have themed button styling if as="button" 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  -webkit-letter-spacing: inherit;
+  -moz-letter-spacing: inherit;
+  -ms-letter-spacing: inherit;
+  letter-spacing: inherit;
+  color: #155DA1;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: Chivo;
+  font-weight: 700px;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #155DA1;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #0E4E8A;
+}
+
+.c0:active {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #0E4E8A;
+}
+
+<button
+  className="c0"
+  color="#155DA1"
+>
+  APPLY
+</button>
 `;

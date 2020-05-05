@@ -54,21 +54,21 @@ describe('Button', () => {
   it('renders primary color as default', () => {
     const { container } = render(<Button>APPLY</Button>);
     expect(container.firstChild).toHaveStyle(`color: ${theme.buttons.primary.fontColor.default}`);
-    expect(container.firstChild).toHaveStyle(`background: ${theme.buttons.default(colors.hackBluePalette).bg.default}`);
+    expect(container.firstChild).toHaveStyle(`background: ${theme.buttons.default(colors.bluePalette).bg.default}`);
   });
 
   it('renders correct border/bg/color with "outline" prop (primary colors)', () => {
     const { container } = render(<Button outline>APPLY</Button>);
-    expect(container.firstChild).toHaveStyle(`color: ${theme.buttons.default(colors.hackBluePalette).outline.fontColor.default}`);
-    expect(container.firstChild).toHaveStyle(`background: ${theme.buttons.default(colors.hackBluePalette).outline.bg.default}`);
-    expect(container.firstChild).toHaveStyle(`border: 2px solid ${theme.buttons.default(colors.hackBluePalette).outline.border.default}`);
+    expect(container.firstChild).toHaveStyle(`color: ${theme.buttons.default(colors.bluePalette).outline.fontColor.default}`);
+    expect(container.firstChild).toHaveStyle(`background: ${theme.buttons.default(colors.bluePalette).outline.bg.default}`);
+    expect(container.firstChild).toHaveStyle(`border: 2px solid ${theme.buttons.default(colors.bluePalette).outline.border.default}`);
   });
 
   it('renders correct colors with "outline" and "disabled" props (primary colors)', () => {
     const { container } = render(<Button disabled outline>APPLY</Button>);
-    expect(container.firstChild).toHaveStyle(`color: ${theme.buttons.default(colors.hackBluePalette).outline.fontColor.disabled}`);
-    expect(container.firstChild).toHaveStyle(`background: ${theme.buttons.default(colors.hackBluePalette).outline.bg.disabled}`);
-    expect(container.firstChild).toHaveStyle(`border: 2px solid ${theme.buttons.default(colors.hackBluePalette).outline.border.disabled}`);
+    expect(container.firstChild).toHaveStyle(`color: ${theme.buttons.default(colors.bluePalette).outline.fontColor.disabled}`);
+    expect(container.firstChild).toHaveStyle(`background: ${theme.buttons.default(colors.bluePalette).outline.bg.disabled}`);
+    expect(container.firstChild).toHaveStyle(`border: 2px solid ${theme.buttons.default(colors.bluePalette).outline.border.disabled}`);
 
     const item = renderJSON(<Button disabled outline />);
     expect(item).toMatchSnapshot();
