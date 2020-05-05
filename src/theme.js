@@ -101,7 +101,7 @@ const colors = {
     },
   },
   // states or in other words color variants
-  colorVariants: {
+  variants: {
     primary: hackBluePalette,
     success: greenPalette,
     error: redPalette,
@@ -130,7 +130,7 @@ const fontWeights = {
 };
 
 // styling specific to the Button component
-const button = {
+const buttons = {
   font: fonts.secondary,
   fontWeight: fontWeights.bold,
   fontSize: '14px',
@@ -254,15 +254,20 @@ const link = {
   },
 };
 
+const breakpoints = ['544px', '768px', '992px', '1280px'];
+breakpoints.xs = breakpoints[0];
+breakpoints.sm = breakpoints[1];
+breakpoints.md = breakpoints[2];
+breakpoints.lg = breakpoints[3];
 
-const spacing = ['0px', '4px', '8px', '16px', '32px', '64px', '128px'];
-spacing.none = spacing[0];
-spacing.xxs = spacing[1];
-spacing.xs = spacing[2];
-spacing.sm = spacing[3];
-spacing.md = spacing[4];
-spacing.lg = spacing[5];
-spacing.xl = spacing[6];
+const space = ['0px', '4px', '8px', '16px', '32px', '64px', '128px'];
+space.none = space[0];
+space.xxs = space[1];
+space.xs = space[2];
+space.sm = space[3];
+space.md = space[4];
+space.lg = space[5];
+space.xl = space[6];
 
 const theme = {
   // General
@@ -270,9 +275,11 @@ const theme = {
   fonts,
   fontWeights,
   fontSizes,
-  button,
+  buttons,
   link,
   DEFAULT_SHADOW,
+  space,
+  breakpoints,
 };
 
 
