@@ -29,6 +29,10 @@ For component specific styling, create a specific key:Object in the theme (ex: `
 
 If using the color variants/state colors (primary, secondary, success, warning, error, white), use `lodashGet` in [`/src/utils/utils.js`]('./src/utils/utils.js) to fallback to the default color value. We do this in `button` in [`/src/theme.js`]('./src/theme.js).. Here the default values are based on the color palette given - (a function with parameter: colorPalette). You can then override the default specific values for a specific state by explicitly stating it afterwards.
 
+**Prop Passing to styled components**
+Be careful with the props you pass to a styled component, especially when using it with styled-system. Specific props you pass will cause unexpected behavior if you don't watch out. If you are trying to use `@styled-system/color` with a styled-component, do not override the props that map to it `color, bg, backgroundColor, opacity` or use it for other logic.
+
+
 ### Code Style
 We use eslint for linting with the [Airbnb javascript style](https://github.com/airbnb/javascript). Rule exceptions are in `.eslintrc`
 

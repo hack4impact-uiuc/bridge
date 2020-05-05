@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Favicon - 128x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Favicon---128x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="h4i-bridge-logo" transform="translate(19.000000, 6.000000)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#0D3F6E" x="0" y="19" width="12" height="64" rx="3"></rect>
+            <rect id="Rectangle" fill="#0D3F6E" x="0" y="72" width="90" height="11" rx="3"></rect>
+            <path d="M6.81747261,82 L2,72.3921612 C20.1393088,63.54368 36.7568861,51.9343114 51.2440646,37.9892826 C61.6407469,27.9701063 69.5947841,15.5032329 75.9829611,5.48644818 C76.9917481,3.90327724 77.9508829,2.40141718 78.8603656,1 L88,6.78861825 C87.1050497,8.16492471 86.1628693,9.6428698 85.1710367,11.1973428 C78.8313009,21.1399911 70.1542794,34.7535872 58.8263159,45.6635961 C43.5258923,60.3922486 25.9753264,72.6540951 6.81747261,82 L6.81747261,82 Z" id="Path" fill="#0D3F6E"></path>
+            <rect id="Rectangle" fill="#415F94" x="53" y="0" width="12" height="116" rx="3"></rect>
+            <rect id="Rectangle" fill="#415F94" x="78" y="0" width="12" height="116" rx="3"></rect>
+            <path d="M54.010597,72 L88.9918389,72 C89.5486309,72 90,72.4025882 90,72.8992027 L90,82.9761082 C90,82.9824447 89.9971778,82.9885217 89.9921543,82.9930023 C89.9871308,82.9974828 89.9803174,83 89.9732131,83 L53,83 L53,72.9002887 C53,72.6612411 53.1060843,72.4319169 53.2957134,72.2629865 C53.4853425,72.0940561 53.7425833,71.999425 54.010597,72 Z" id="Path" fill="#415F94"></path>
+        </g>
+    </g>
+</svg>
