@@ -1,5 +1,5 @@
 import { MDXProvider } from '@mdx-js/react';
-import { Link } from '@hack4impact-uiuc/design';
+import { Link } from '@hack4impact-uiuc/bridge';
 
 export const H2 = ({ children }) => (
   <h2 style={{ color: '#155DA1' }}>

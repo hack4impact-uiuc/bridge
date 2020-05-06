@@ -30,9 +30,9 @@ class DocSite extends Document {
           <link rel="shortcut icon" href="/favicons/favicon.ico" />
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
-          <meta name="theme-color" content="#000" />
+          <meta name="theme-color" content="#155DA1" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-
+          <meta charSet="UTF-8" />
         </Head>
         <body>
           <Main />

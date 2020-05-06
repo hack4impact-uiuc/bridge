@@ -986,10 +986,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
-"@hack4impact-uiuc/design@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@hack4impact-uiuc/design/-/design-0.0.7.tgz#e5931c045780eb0c2db4b6a06f2ae754d69ddc48"
-  integrity sha512-ldEzL7PcApyRySjDi6b0Fv+hr6tflK52kiQNIQsm6twIeK4O2ZCmwA7/hz5BkqJT6cm+G9lsE0bSoQs967L0Jw==
+"@hack4impact-uiuc/bridge@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@hack4impact-uiuc/bridge/-/bridge-0.0.2.tgz#782876b670adec8e565833d6e380757decd5ab32"
+  integrity sha512-U4RGqwQa29gFIyuqFpHM1zAa2FH7C/Gxf1WuzCp/FR32GMGxDC40EZv90mMoFGK9SsWeF61T0wsfhxh8JDsKVw==
   dependencies:
     "@styled-system/prop-types" "^5.1.5"
     "@styled-system/theme-get" "^5.1.2"

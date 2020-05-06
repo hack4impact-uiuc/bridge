@@ -1,5 +1,5 @@
 export default {
-  title: 'Hack4Impact UIUC Design System',
+  title: 'Bridge: Hack4Impact UIUC Design System',
   description: 'Hack4Impact UIUC Design System and React Component Library',
   canonical: 'https://uiuc.hack4impact.org/design',
   openGraph: {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Button } from '@hack4impact-uiuc/design';
+
 // Home Page linking to
 // 1) component documentation
 // 2) design system documentation
@@ -10,8 +10,6 @@ const HomePage = () => (
     <Link href="/components">Components</Link>
     <br />
     <Link href="/design">Design Principles</Link>
-
-    <Button variant="primary">APPLY</Button>
   </div>
 );
 

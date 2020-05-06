@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@hack4impact-uiuc/design';
+import { Link } from '@hack4impact-uiuc/bridge';
 import ComponentDocsList from '../../lib/data/components';
 
 // Component Documention Page

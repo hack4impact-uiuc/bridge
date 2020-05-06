@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 const Header = ({ children, ...props }) => (
   <Head>
-    <title>{`${props.type} - ${props.title} | Bridge`}</title>
+    <title>{`${props.title} | Bridge`}</title>
     {/* <meta name="twitter:card" content={props.image ? 'summary_large_image' : 'summary'} /> */}
     {/* <meta name="twitter:site" content={`@${TWITTER_USER_NAME}`} /> */}
     <meta name="og:title" content={props.ogTitle || props.title} />

@@ -1,4 +1,4 @@
-import { Box, Flex } from '@hack4impact-uiuc/design';
+import { Flex } from '@hack4impact-uiuc/bridge';
 
 const Sidebar = ({ children, innerRef }) => (
   <Flex
