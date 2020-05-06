@@ -1,5 +1,5 @@
-<p align="center">
-    <a href="https://material-ui.com/" rel="noopener" target="_blank"><img width="500" src="./docs/public/bridge_full_logo.png" alt="Bridge Logo"></a></p>
+<p align="center" style="padding-top: 24px;">
+    <a href="https://h4i-design.now.sh" rel="noopener" target="_blank"><img width="500" src="./docs/public/bridge_full_logo.png" alt="Bridge Logo"></a></p>
 </p>
 
 <h4 align="center"><a href="https://uiuc.hack4impact.org/" target="_blank">Hack4Impact UIUC</a> Design System + React Component Library</h4>
