@@ -1,7 +1,7 @@
 {
-  "name": "@hack4impact-uiuc/design",
-  "version": "0.0.8",
-  "description": "Hack4Impact UIUC's Design System + component library",
+  "name": "@hack4impact-uiuc/bridge",
+  "version": "0.0.1",
+  "description": "Hack4Impact UIUC's Design System + React Component library",
   "main": "dist/index.js",
   "author": "Timothy Ko <timothy.l.ko@gmail.com>",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "react",
     "components",
     "component library",
-    "design-system"
+    "design system"
   ],
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
@@ -81,10 +81,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hack4impact-uiuc/design.git"
+    "url": "git+https://github.com/hack4impact-uiuc/bridge.git"
   },
   "bugs": {
-    "url": "https://github.com/hack4impact-uiuc/design/issues"
+    "url": "https://github.com/hack4impact-uiuc/bridge/issues"
   },
-  "homepage": "https://github.com/hack4impact-uiuc/design#readme"
+  "homepage": "https://github.com/hack4impact-uiuc/bridge#readme"
 }

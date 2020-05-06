@@ -1,32 +1,34 @@
-# Hack4Impact Design System
+<p align="center">
+    <a href="https://material-ui.com/" rel="noopener" target="_blank"><img width="500" src="./docs/public/bridge_full_logo.png" alt="Bridge Logo"></a></p>
+</p>
 
-React Component Library for the Hack4Impact Design System
+<h4 align="center"><a href="https://uiuc.hack4impact.org/" target="_blank">Hack4Impact UIUC</a> Design System + React Component Library</h4>
 
 ## Installation
 ```
-npm install @hack4impact-uiuc/design
+npm install @hack4impact-uiuc/bridge
 ```
 or
 ```
-yarn add @hack4impact-uiuc/design
+yarn add @hack4impact-uiuc/bridge
 ```
 
 ## Usage
 
 Import the CSS directly into your project (`src/index.js`) if your asset packager supports it:
 ```javascript
-import '@hack4impact-uiuc/design/dist/styles.css'
+import '@hack4impact-uiuc/bridge/dist/styles.css'
 ```
 
 Import required h4i-design components within `src/App.js` file or your custom component files:
 ```javascript
-import { Button } from '@hack4impact-uiuc/design';
+import { Button } from '@hack4impact-uiuc/bridge';
 ```
 
 Now you are ready to use the imported components, such as:
 ```javascript
 import React from 'react';
-import { Button } from '@hack4impact-uiuc/design';
+import { Button } from '@hack4impact-uiuc/bridge';
 
 const App = () => (
     <Button onClick={() => alert('Button clicked!')}>APPLY NOW</Button>
@@ -52,3 +54,6 @@ Check out our [Contributing Guidelines]('./CONTRIBUTING.md') for code style, tes
 ## Authors
 - Timothy Ko ([@tko22](https://github.com/tko22))
 
+## License
+[MIT](https://opensource.org/licenses/MIT)
+Copyright (c) 2020-present, Timothy Ko
