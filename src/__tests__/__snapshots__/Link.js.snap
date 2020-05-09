@@ -226,6 +226,7 @@ exports[`Link should have themed button styling if as="button" 1`] = `
   -moz-letter-spacing: 2px;
   -ms-letter-spacing: 2px;
   letter-spacing: 2px;
+  text-transform: uppercase;
   display: inline-block;
   padding: 0;
   white-space: nowrap;

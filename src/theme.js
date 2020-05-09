@@ -124,10 +124,116 @@ const fonts = {
 
 const fontWeights = {
   light: 300,
-  normal: 400,
+  regular: 400,
   medium: 500,
   bold: 700,
 };
+
+const letterSpacings = ['0', '0.3px', '0.5px', '2px', '-0.15px'];
+letterSpacings.zero = letterSpacings[0]; // 0
+letterSpacings.third = letterSpacings[1]; // 0.3px
+letterSpacings.half = letterSpacings[2]; // 0.5px
+letterSpacings.two = letterSpacings[3]; // 22px
+letterSpacings.negFifteen = letterSpacings[4]; // -0.15px
+
+// for a little better clarity
+// typography styles for table, forms, and alerts
+const tableFormAlertStyle = {
+  fontFamily: fonts.main,
+  fontWeight: fontWeights.regular,
+  fontSize: '18px',
+  letterSpacing: letterSpacings.third, // 0.3[x]
+  lineHeight: '24px',
+};
+
+const typography = {
+  h1: {
+    fontFamily: fonts.secondary, // Chivo
+    fontWeight: fontWeights.regular,
+    fontSize: '60px',
+    letterSpacing: letterSpacings.third, // 0.3px
+    lineHeight: '88px',
+  },
+  h2: {
+    fontFamily: fonts.secondary,
+    fontWeight: fontWeights.regular,
+    fontSize: '44px',
+    letterSpacing: letterSpacings.half, // 0.5px
+    lineHeight: '64px',
+  },
+  h3: {
+    fontFamily: fonts.secondary,
+    fontWeight: fontWeights.regular,
+    fontSize: '32px',
+    letterSpacing: letterSpacings.zero, // 0
+    lineHeight: '48px',
+  },
+  h4: {
+    fontFamily: fonts.secondary,
+    fontWeight: fontWeights.regular,
+    fontSize: '24px',
+    letterSpacing: letterSpacings.negFifteen, // -0.15
+    lineHeight: '36px',
+  },
+  subtitle: {
+    fontFamily: fonts.main,
+    fontWeight: fontWeights.regular,
+    fontSize: '20px',
+    letterSpacing: letterSpacings.half, // 0.5px
+    lineHeight: '28px',
+  },
+
+  // Texts
+  body: {
+    fontFamily: fonts.main,
+    fontWeight: fontWeights.regular,
+    fontSize: '16px',
+    letterSpacing: letterSpacings.third, // 0.3px
+    lineHeight: '24px',
+  },
+  hero: {
+    fontFamily: fonts.main,
+    fontWeight: fontWeights.regular,
+    fontSize: '22px',
+    letterSpacing: letterSpacings.half, // 0.5px
+    lineHeight: '32px',
+  },
+  overline: {
+    fontFamily: fonts.main,
+    fontWeight: fontWeights.bold,
+    fontSize: '12px',
+    letterSpacing: letterSpacings.two, // 2px
+    lineHeight: '16px',
+    textTransform: 'uppercase',
+  },
+  caption: {
+    fontFamily: fonts.main,
+    fontWeight: fontWeights.regular,
+    fontSize: '14px',
+    letterSpacing: letterSpacings.half, // 0.5px
+    lineHeight: '20px',
+    fontStyle: 'italic',
+  },
+  button: {
+    fontFamily: fonts.secondary, // Chivo
+    fontWeight: fontWeights.bold,
+    fontSize: '14px',
+    letterSpacing: letterSpacings.two, // 2px
+    lineHeight: '20px',
+    textTransform: 'uppercase',
+  },
+  table: tableFormAlertStyle,
+  forms: tableFormAlertStyle,
+  alerts: tableFormAlertStyle,
+  quote: {
+    fontFamily: fonts.main,
+    fontWeight: fontWeights.light,
+    fontSize: '28px',
+    letterSpacing: letterSpacings.half, // 0.5px
+    lineHeight: '40px',
+  },
+};
+
 
 // styling specific to the Button component
 const buttons = {
@@ -280,6 +386,7 @@ const theme = {
   DEFAULT_SHADOW,
   space,
   breakpoints,
+  typography,
 };
 
 

@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text respects the "as" prop with non-string component types 1`] = `
+<p
+  className="test-link"
+>
+  Testing...
+</p>
+`;
+
+exports[`Text types defaults to type="body" 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+<span
+  className="c0"
+  type="body"
+>
+  Hello
+</span>
+`;
+
+exports[`Text types renders "alert" properly 1`] = `
+.c0 {
+  color: #0A162A;
+}
+
+<span
+  className="c0"
+  type="alert"
+>
+  Hello
+</span>
+`;
+
+exports[`Text types renders "button" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: Chivo;
+  font-weight: 700px;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+<span
+  className="c0"
+  type="button"
+>
+  Hello
+</span>
+`;
+
+exports[`Text types renders "caption" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 14px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-style: italic;
+}
+
+<span
+  className="c0"
+  type="caption"
+>
+  Hello
+</span>
+`;
+
+exports[`Text types renders "form" properly 1`] = `
+.c0 {
+  color: #0A162A;
+}
+
+<span
+  className="c0"
+  type="form"
+>
+  Hello
+</span>
+`;
+
+exports[`Text types renders "hero" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 22px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  line-height: 32px;
+}
+
+<span
+  className="c0"
+  type="hero"
+>
+  Hello
+</span>
+`;
+
+exports[`Text types renders "overline" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: HKGrotesk;
+  font-weight: 700px;
+  font-size: 12px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+<span
+  className="c0"
+  type="overline"
+>
+  Hello
+</span>
+`;
+
+exports[`Text types renders "quote" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: HKGrotesk;
+  font-weight: 300px;
+  font-size: 28px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+}
+
+<span
+  className="c0"
+  type="quote"
+>
+  Hello
+</span>
+`;
+
+exports[`Text types renders "table" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+<span
+  className="c0"
+  type="table"
+>
+  Hello
+</span>
+`;

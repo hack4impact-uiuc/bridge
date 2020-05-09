@@ -27,7 +27,7 @@ Our Documentation site is in the folder `./docs`. This component library takes p
 
 For component specific styling, create a specific key:Object in the theme (ex: `button` in `./src/theme.js`)
 
-If using the color variants/state colors (primary, secondary, success, warning, error, white), use `lodashGet` in [`/src/utils/utils.js`]('./src/utils/utils.js) to fallback to the default color value. We do this in `button` in [`/src/theme.js`]('./src/theme.js).. Here the default values are based on the color palette given - (a function with parameter: colorPalette). You can then override the default specific values for a specific state by explicitly stating it afterwards.
+If using the color variants/state colors (primary, secondary, success, warning, error, white), use `lodashGet` in [`/src/utils/utils.js`](src/utils/utils.js) to fallback to the default color value. We do this in `button` in [`/src/theme.js`](src/theme.js).. Here the default values are based on the color palette given - (a function with parameter: colorPalette). You can then override the default specific values for a specific state by explicitly stating it afterwards.
 
 **Prop Passing to styled components**
 Be careful with the props you pass to a styled component, especially when using it with styled-system. Specific props you pass will cause unexpected behavior if you don't watch out. If you are trying to use `@styled-system/color` with a styled-component, do not override the props that map to it `color, bg, backgroundColor, opacity` or use it for other logic.
@@ -41,7 +41,7 @@ Linting will catch common issues that may exist in your code. You can check the 
 
 ### Testing
 
-We test our components with [Jest](https://jestjs.io/) and [react-test-renderer](https://reactjs.org/docs/test-renderer.html) and [react-testing-library](https://github.com/testing-library/react-testing-library). We use `react-test-render` for snapshot testing and `react-testing-library` with `jest-dom` to test exact styles. See [`src/__tests__/Button.js`]('./src/__tests__/Button.js) for an example.
+We test our components with [Jest](https://jestjs.io/) and [react-test-renderer](https://reactjs.org/docs/test-renderer.html) and [react-testing-library](https://github.com/testing-library/react-testing-library). We use `react-test-render` for snapshot testing and `react-testing-library` with `jest-dom` to test exact styles. See [`src/__tests__/Button.js`](src/__tests__/Button.js) for an example.
 
 
 To run tests:
