@@ -12,7 +12,7 @@ exports[`Flex respects alignContent 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="flex"
 />
 `;
@@ -30,7 +30,7 @@ exports[`Flex respects alignItems 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="flex"
 />
 `;
@@ -47,7 +47,7 @@ exports[`Flex respects flexDirection 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="flex"
 />
 `;
@@ -64,7 +64,7 @@ exports[`Flex respects flexWrap 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="flex"
 />
 `;
@@ -82,7 +82,7 @@ exports[`Flex respects justifyContent 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="flex"
 />
 `;
@@ -105,7 +105,7 @@ exports[`Flex respects responsive display 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display={
     Array [
       "flex",

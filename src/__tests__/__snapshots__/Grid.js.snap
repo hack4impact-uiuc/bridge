@@ -7,7 +7,7 @@ exports[`Grid respects gridArea 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -19,7 +19,7 @@ exports[`Grid respects gridAutoColumns 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -31,7 +31,7 @@ exports[`Grid respects gridAutoFlow 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -43,7 +43,7 @@ exports[`Grid respects gridAutoRows 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -55,7 +55,7 @@ exports[`Grid respects gridColumn 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -67,7 +67,7 @@ exports[`Grid respects gridColumnGap 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -79,7 +79,7 @@ exports[`Grid respects gridGap 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -91,7 +91,7 @@ exports[`Grid respects gridRow 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -103,7 +103,7 @@ exports[`Grid respects gridRowGap 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -115,7 +115,7 @@ exports[`Grid respects gridTemplateAreas 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -127,7 +127,7 @@ exports[`Grid respects gridTemplateColumns 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -139,7 +139,7 @@ exports[`Grid respects gridTemplateRows 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display="grid"
 />
 `;
@@ -156,7 +156,7 @@ exports[`Grid respects responsive display 1`] = `
 }
 
 <div
-  className="Box-sc-51qvhg-0 c0"
+  className="Box-ik9o9h-0 c0"
   display={
     Array [
       "grid",
