@@ -5,7 +5,7 @@ import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { TYPOGRAPHY, COMMON } from '../../utils/constants';
 
-const Text = styled.span`
+const Heading = styled.div`
   color: ${get('colors.text.coolTone.main')};
 
   // based on the prop 'type', we look at the
@@ -19,26 +19,17 @@ const Text = styled.span`
   ${COMMON};
 `;
 
-Text.defaultProps = {
+Heading.defaultProps = {
   theme,
-  type: 'body',
+  type: 'h1',
 };
 
-Text.propTypes = {
+Heading.propTypes = {
   ...TYPOGRAPHY.propTypes,
   ...COMMON.propTypes,
+  as: PropTypes.elementType,
   theme: PropTypes.object,
-  type: PropTypes.oneOf([
-    'body',
-    'hero',
-    'caption',
-    'overline',
-    'button',
-    'alert',
-    'table',
-    'form',
-    'quote',
-  ]),
+  type: PropTypes.oneOf(['h1', 'h2', 'h3', 'h4', 'subtitle']),
 };
 
-export default Text;
+export default Heading;

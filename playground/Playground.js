@@ -2,7 +2,9 @@
 import React from 'react';
 import { colors } from '../src/theme';
 
-import { Button, Link, Text } from '../src';
+import {
+  Button, Link, Text, Heading,
+} from '../src';
 // import any components here
 
 export function Playground() {
@@ -15,7 +17,8 @@ export function Playground() {
       <div>
         {/* Add the code you want to test here */}
         <Button href="https://google.com">APPLY</Button>
-        <Link variant="success" href="https://google.com">New link</Link>
+        <Link variant="primary" href="https://google.com">New link</Link>
+        <Heading type="h1">Title</Heading>
         <Text type="overline">Hello</Text>
       </div>
     </>
