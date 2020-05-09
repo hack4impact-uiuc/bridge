@@ -7,12 +7,14 @@ import { COMMON, COLOR } from '../../utils/constants';
 
 const ButtonBase = styled.button`
   // text
-  font-family: ${get('buttons.font')};
-  font-weight: ${get('buttons.fontWeight')};
-  font-size: ${get('buttons.fontSize')};
-  letter-spacing: ${get('buttons.letterSpacing')};
+  font-family: ${get('typography.button.fontFamily')};
+  font-weight: ${get('typography.button.fontWeight')};
+  font-size: ${get('typography.button.fontSize')};
+  letter-spacing: ${get('typography.button.letterSpacing')};
+  line-height: ${get('typography.button.lineHeight')};
+  text-transform: ${get('typography.button.textTransform')};
+
   text-decoration: none;
-  text-transform: uppercase;
   overflow: hidden;
 
   // border

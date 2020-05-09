@@ -41,7 +41,7 @@ Components use Hack4Impact's Design theme by default (`src/theme.js`) but you ca
 
 
 ## Local Development
-We use Storybook to hot-reload and test our components during development. You can edit the [`playground/Playground.js`]('./playground/Playground.js) file to import and test the components you are working on. Please do not commit any work on the file so other developers can use the same file to test.
+We use Storybook to hot-reload and test our components during development. You can edit the [`playground/Playground.js`](playground/Playground.js) file to import and test the components you are working on. Please do not commit any work on the file so other developers can use the same file to test.
 
 To run:
 ```
@@ -49,7 +49,7 @@ yarn
 yarn storybook
 ```
 
-Check out our [Contributing Guidelines]('./CONTRIBUTING.md') for code style, testing, component dev, etc
+Check out our [Contributing Guidelines](CONTRIBUTING.md) for code style, testing, component dev, etc
 
 ## Authors
 - Timothy Ko ([@tko22](https://github.com/tko22))

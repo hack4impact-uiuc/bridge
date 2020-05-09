@@ -6,10 +6,11 @@ import { get, lodashGet } from '../../utils/utils';
 import { COMMON, TYPOGRAPHY, COLOR } from '../../utils/constants';
 
 const buttonStyles = (propTheme) => ({
-  fontFamily: propTheme.buttons.font,
-  fontWeight: propTheme.buttons.fontWeight,
-  fontSize: propTheme.buttons.fontSize,
-  letterSpacing: propTheme.buttons.letterSpacing,
+  fontFamily: propTheme.typography.button.fontFamily,
+  fontWeight: propTheme.typography.button.fontWeight,
+  fontSize: propTheme.typography.button.fontSize,
+  letterSpacing: propTheme.typography.button.letterSpacing,
+  textTransform: propTheme.typography.button.textTransform,
   display: 'inline-block',
   padding: '0',
   whiteSpace: 'nowrap',
