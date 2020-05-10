@@ -122,4 +122,8 @@ describe('Text types', () => {
   it('renders "form" properly', () => {
     expect(renderJSON(<Text type="form">Hello</Text>)).toMatchSnapshot();
   });
+
+  it('renders "subtitle" properly', () => {
+    expect(renderJSON(<Text type="subtitle">Hello</Text>)).toMatchSnapshot();
+  });
 });

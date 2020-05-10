@@ -38,6 +38,7 @@ Text.propTypes = {
     'table',
     'form',
     'quote',
+    'subtitle',
   ]),
 };
 
