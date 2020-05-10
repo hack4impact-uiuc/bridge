@@ -1,13 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { variant } from 'styled-system';
 import PropTypes from 'prop-types';
 import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { TYPOGRAPHY, COMMON } from '../../utils/constants';
 
-const HeadingBase1 = styled.h1`
-color: ${get('colors.text.coolTone.main')};
+const style = css`color: ${get('colors.text.coolTone.main')};
 
 // based on the prop 'type', we look at the
 // theme.typography for the correct styling
@@ -17,40 +16,19 @@ ${variant({
   })}
 
 ${TYPOGRAPHY};
-${COMMON};
+${COMMON};`;
+
+const HeadingBase1 = styled.h1`
+${style}
 `;
 const HeadingBase2 = styled.h2`
-color: ${get('colors.text.coolTone.main')};
-
-${variant({
-    prop: 'type',
-    scale: 'typography',
-  })}
-
-${TYPOGRAPHY};
-${COMMON};
+${style}
 `;
 const HeadingBase3 = styled.h3`
-color: ${get('colors.text.coolTone.main')};
-
-${variant({
-    prop: 'type',
-    scale: 'typography',
-  })}
-
-${TYPOGRAPHY};
-${COMMON};
+${style}
 `;
 const HeadingBase4 = styled.h4`
-color: ${get('colors.text.coolTone.main')};
-
-${variant({
-    prop: 'type',
-    scale: 'typography',
-  })}
-
-${TYPOGRAPHY};
-${COMMON};
+${style}
 `;
 
 const Heading = ({
