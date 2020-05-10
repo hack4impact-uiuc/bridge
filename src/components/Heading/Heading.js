@@ -6,7 +6,7 @@ import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { TYPOGRAPHY, COMMON } from '../../utils/constants';
 
-const style = `
+const HeadingBase1 = styled.h1`
 color: ${get('colors.text.coolTone.main')};
 
 // based on the prop 'type', we look at the
@@ -19,11 +19,39 @@ ${variant({
 ${TYPOGRAPHY};
 ${COMMON};
 `;
+const HeadingBase2 = styled.h2`
+color: ${get('colors.text.coolTone.main')};
 
-const HeadingBase1 = styled.h1`${style}`;
-const HeadingBase2 = styled.h2`${style}`;
-const HeadingBase3 = styled.h3`${style}`;
-const HeadingBase4 = styled.h4`${style}`;
+${variant({
+    prop: 'type',
+    scale: 'typography',
+  })}
+
+${TYPOGRAPHY};
+${COMMON};
+`;
+const HeadingBase3 = styled.h3`
+color: ${get('colors.text.coolTone.main')};
+
+${variant({
+    prop: 'type',
+    scale: 'typography',
+  })}
+
+${TYPOGRAPHY};
+${COMMON};
+`;
+const HeadingBase4 = styled.h4`
+color: ${get('colors.text.coolTone.main')};
+
+${variant({
+    prop: 'type',
+    scale: 'typography',
+  })}
+
+${TYPOGRAPHY};
+${COMMON};
+`;
 
 const Heading = ({
   type, ...props
