@@ -28,6 +28,7 @@ Text.defaultProps = {
 Text.propTypes = {
   ...TYPOGRAPHY.propTypes,
   ...COMMON.propTypes,
+  as: PropTypes.elementType,
   theme: PropTypes.object,
   type: PropTypes.oneOf([
     'body',
