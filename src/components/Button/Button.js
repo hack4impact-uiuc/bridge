@@ -22,7 +22,7 @@ const ButtonBase = styled.button`
 
   // size
   padding: 0px 32px;
-  height: 40px;
+  height: 60px;
 
   // color
   background: ${(props) => props.background.default};
