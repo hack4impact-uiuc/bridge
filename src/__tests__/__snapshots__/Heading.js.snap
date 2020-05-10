@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading types defaults to type="h2" 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: Chivo;
+  font-weight: 400px;
+  font-size: 44px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  line-height: 64px;
+}
+
+<h2
+  className="c0"
+  type="h2"
+>
+  Hello
+</h2>
+`;
+
+exports[`Heading types renders "h1" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: Chivo;
+  font-weight: 400px;
+  font-size: 60px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 88px;
+}
+
+<h1
+  className="c0"
+  type="h1"
+>
+  Hello
+</h1>
+`;
+
+exports[`Heading types renders "h3" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: Chivo;
+  font-weight: 400px;
+  font-size: 32px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+<h3
+  className="c0"
+  type="h3"
+>
+  Hello
+</h3>
+`;
+
+exports[`Heading types renders "h4" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: Chivo;
+  font-weight: 400px;
+  font-size: 24px;
+  -webkit-letter-spacing: -0.15px;
+  -moz-letter-spacing: -0.15px;
+  -ms-letter-spacing: -0.15px;
+  letter-spacing: -0.15px;
+  line-height: 36px;
+}
+
+<h4
+  className="c0"
+  type="h4"
+>
+  Hello
+</h4>
+`;

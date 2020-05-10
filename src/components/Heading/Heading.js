@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import { variant } from 'styled-system';
 import PropTypes from 'prop-types';
@@ -5,7 +6,7 @@ import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { TYPOGRAPHY, COMMON } from '../../utils/constants';
 
-const Text = styled.span`
+const HeadingBase = styled.h2`
   color: ${get('colors.text.coolTone.main')};
 
   // based on the prop 'type', we look at the
@@ -19,28 +20,30 @@ const Text = styled.span`
   ${COMMON};
 `;
 
-Text.defaultProps = {
-  theme,
-  type: 'body',
+const Heading = ({ type, ...props }) => {
+  switch (type) {
+    case 'h1':
+      return <HeadingBase as="h1" type={type} {...props} />;
+    case 'h2':
+    default:
+      return <HeadingBase type={type} {...props} />;
+    case 'h3':
+      return <HeadingBase as="h3" type={type} {...props} />;
+    case 'h4':
+      return <HeadingBase as="h4" type={type} {...props} />;
+  }
 };
 
-Text.propTypes = {
+Heading.defaultProps = {
+  theme,
+  type: 'h2',
+};
+
+Heading.propTypes = {
   ...TYPOGRAPHY.propTypes,
   ...COMMON.propTypes,
-  as: PropTypes.elementType,
   theme: PropTypes.object,
-  type: PropTypes.oneOf([
-    'body',
-    'hero',
-    'caption',
-    'overline',
-    'button',
-    'alert',
-    'table',
-    'form',
-    'quote',
-    'subtitle',
-  ]),
+  type: PropTypes.oneOf(['h1', 'h2', 'h3', 'h4']),
 };
 
-export default Text;
+export default Heading;

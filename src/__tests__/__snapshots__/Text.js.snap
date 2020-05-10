@@ -163,6 +163,27 @@ exports[`Text types renders "quote" properly 1`] = `
 </span>
 `;
 
+exports[`Text types renders "subtitle" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+}
+
+<span
+  className="c0"
+  type="subtitle"
+>
+  Hello
+</span>
+`;
+
 exports[`Text types renders "table" properly 1`] = `
 .c0 {
   color: #0A162A;

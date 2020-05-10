@@ -175,13 +175,6 @@ const typography = {
     letterSpacing: letterSpacings.negFifteen, // -0.15
     lineHeight: '36px',
   },
-  subtitle: {
-    fontFamily: fonts.main,
-    fontWeight: fontWeights.regular,
-    fontSize: '20px',
-    letterSpacing: letterSpacings.half, // 0.5px
-    lineHeight: '28px',
-  },
 
   // Texts
   body: {
@@ -231,6 +224,13 @@ const typography = {
     fontSize: '28px',
     letterSpacing: letterSpacings.half, // 0.5px
     lineHeight: '40px',
+  },
+  subtitle: {
+    fontFamily: fonts.main,
+    fontWeight: fontWeights.regular,
+    fontSize: '20px',
+    letterSpacing: letterSpacings.half, // 0.5px
+    lineHeight: '28px',
   },
 };
 
