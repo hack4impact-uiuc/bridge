@@ -1,49 +1,36 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { variant } from 'styled-system';
 import PropTypes from 'prop-types';
 import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { TYPOGRAPHY, COMMON } from '../../utils/constants';
 
-const style = css`color: ${get('colors.text.coolTone.main')};
+const HeadingBase = styled.h2`
+  color: ${get('colors.text.coolTone.main')};
 
-// based on the prop 'type', we look at the
-// theme.typography for the correct styling
-${variant({
+  // based on the prop 'type', we look at the
+  // theme.typography for the correct styling
+  ${variant({
     prop: 'type',
     scale: 'typography',
   })}
 
-${TYPOGRAPHY};
-${COMMON};`;
-
-const HeadingBase1 = styled.h1`
-${style}
-`;
-const HeadingBase2 = styled.h2`
-${style}
-`;
-const HeadingBase3 = styled.h3`
-${style}
-`;
-const HeadingBase4 = styled.h4`
-${style}
+  ${TYPOGRAPHY};
+  ${COMMON};
 `;
 
-const Heading = ({
-  type, ...props
-}) => {
+const Heading = ({ type, ...props }) => {
   switch (type) {
     case 'h1':
-      return <HeadingBase1 type={type} {...props} />;
+      return <HeadingBase as="h1" type={type} {...props} />;
     case 'h2':
     default:
-      return <HeadingBase2 type={type} {...props} />;
+      return <HeadingBase type={type} {...props} />;
     case 'h3':
-      return <HeadingBase3 type={type} {...props} />;
+      return <HeadingBase as="h3" type={type} {...props} />;
     case 'h4':
-      return <HeadingBase4 type={type} {...props} />;
+      return <HeadingBase as="h4" type={type} {...props} />;
   }
 };
 

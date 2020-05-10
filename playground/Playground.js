@@ -14,13 +14,6 @@ export function Playground() {
         {/* Add the code you want to test here */}
         <Button variant="white" href="https://google.com">APPLY</Button>
       </div>
-      <div>
-        {/* Add the code you want to test here */}
-        <Button href="https://google.com">APPLY</Button>
-        <Link variant="primary" href="https://google.com">New link</Link>
-        <Heading type="h1">Title</Heading>
-        <Text type="overline">Hello</Text>
-      </div>
     </>
   );
 }
