@@ -47,6 +47,7 @@ const Tag = ({
     <TagBase
       backgroundColor={backgroundColor}
       textColor={textColor}
+      theme={propTheme}
       {...props}
     />
   );
