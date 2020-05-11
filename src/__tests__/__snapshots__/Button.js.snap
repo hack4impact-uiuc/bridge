@@ -17,6 +17,9 @@ exports[`Button Colors renders error colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 48px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   background: #A62B31;
   border: none;
   color: #FFFFFF;
@@ -58,6 +61,9 @@ exports[`Button Colors renders primary colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 48px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   background: #155DA1;
   border: none;
   color: #FFFFFF;
@@ -99,6 +105,9 @@ exports[`Button Colors renders secondary colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 48px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   background: #155DA1;
   border: none;
   color: #FFFFFF;
@@ -140,6 +149,9 @@ exports[`Button Colors renders success colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 48px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   background: #4C9859;
   border: none;
   color: #FFFFFF;
@@ -181,6 +193,9 @@ exports[`Button Colors renders warning colors 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 48px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   background: #FDBE21;
   border: none;
   color: #FFFFFF;
@@ -222,6 +237,9 @@ exports[`Button renders correct colors with "outline" and "disabled" props (prim
   border-radius: 13px;
   padding: 0px 32px;
   height: 48px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   background: #FFFFFF;
   border: 2px solid #155DA1;
   color: #155DA1;
@@ -264,6 +282,9 @@ exports[`Button respects "outline" prop 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 48px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   background: #FFFFFF;
   border: 2px solid #155DA1;
   color: #155DA1;
@@ -305,6 +326,9 @@ exports[`Button respects the "disabled" prop 1`] = `
   border-radius: 13px;
   padding: 0px 32px;
   height: 48px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   background: #155DA1;
   border: none;
   color: #FFFFFF;

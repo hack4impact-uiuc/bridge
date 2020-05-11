@@ -24,6 +24,13 @@ const ButtonBase = styled.button`
   padding: 0px 32px;
   height: 48px;
 
+  // display
+  display: inline-block;
+
+  // align
+  text-align: center;
+  vertical-align: middle;
+
   // color
   background: ${(props) => props.background.default};
   border: ${(props) => props.border.default};
