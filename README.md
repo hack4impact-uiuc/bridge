@@ -53,6 +53,9 @@ Check out our [Contributing Guidelines](CONTRIBUTING.md) for code style, testing
 
 ## Authors
 - Timothy Ko ([@tko22](https://github.com/tko22))
+- Jackie Osborn ([@jackieo5023](https://github.com/jackieo5023))
+- David Wang ([@davidenwang](https://github.com/davidenwang))
+- Chloe Chan ([Product Designer](https://chloechan.me/))
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
