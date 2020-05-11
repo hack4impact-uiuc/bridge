@@ -1,6 +1,6 @@
 {
   "name": "@hack4impact-uiuc/bridge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Hack4Impact UIUC's Design System + React Component library",
   "main": "dist/index.js",
   "author": "Timothy Ko <timothy.l.ko@gmail.com>",
