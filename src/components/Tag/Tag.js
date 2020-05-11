@@ -3,31 +3,22 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
 import { get, lodashGet } from '../../utils/utils';
-
-/**
- *   body: {
-    fontFamily: fonts.main,
-    fontWeight: fontWeights.regular,
-    fontSize: '16px',
-    letterSpacing: letterSpacings.third, // 0.3px
-    lineHeight: '24px',
-  },
- */
+import { COMMON, COLOR } from '../../utils/constants';
 
 const TagBase = styled.div`
     // text
-    font-family: ${get('typography.body.fontFamily')};
-    font-weight: ${get('typography.body.fontWeight')};
-    font-size: ${get('typography.body.fontSize')};
-    letter-spacing: ${get('typography.body.letterSpacing')};
-    line-height: 28px;
+    ${get('typography.body')};
     color: ${(props) => props.textColor};
 
     // border
     border-radius: 4px;
 
     // display
-    display: inline-block;
+    display: inline-flex;
+
+    // align
+    vertical-align: middle;
+    align-items: center;
 
     // size
     padding: 0px 8px;
@@ -35,6 +26,9 @@ const TagBase = styled.div`
 
     // color
     background: ${(props) => props.backgroundColor};
+
+    ${COMMON};
+    ${COLOR};
 `;
 
 const Tag = ({
@@ -43,8 +37,10 @@ const Tag = ({
   const defaultBackground = propTheme.colors.bluePalette.primary;
   const backgroundColor = lodashGet(propTheme, `colors.${color}Palette.${variant}`, defaultBackground);
   let textColor = propTheme.colors.white;
+
+  // both light green and light yellow tags have dark palette text
   if (variant === 'light' && (color === 'green' || color === 'yellow')) {
-    textColor = propTheme.colors.black;
+    textColor = lodashGet(propTheme, `colors.${color}Palette.text`, propTheme.colors.black);
   }
 
   return (
@@ -56,18 +52,18 @@ const Tag = ({
   );
 };
 
-const propTypes = {
+Tag.propTypes = {
   variant: PropTypes.string,
   color: PropTypes.string,
   theme: PropTypes.object,
+  ...COMMON.propTypes,
+  ...COLOR.propTypes,
 };
 
-const defaultProps = {
+Tag.defaultProps = {
   variant: 'primary',
+  color: 'blue',
   theme,
 };
-
-Tag.propTypes = propTypes;
-Tag.defaultProps = defaultProps;
 
 export default Tag;
