@@ -13,14 +13,8 @@ const ButtonBase = styled.button`
   // border
   border-radius: 13px;
 
-<<<<<<< HEAD
   // size and typography
   ${(props) => props.sizingAndTypography}
-=======
-  // size
-  padding: 0px 32px;
-  height: 48px;
->>>>>>> 6f75931487d9368b9bed53ee2993970efb24b187
 
   // display
   display: inline-block;
@@ -145,7 +139,7 @@ const Button = ({
   );
 };
 
-const propTypes = {
+Button.propTypes = {
   variant: PropTypes.string,
   disabled: PropTypes.bool,
   outline: PropTypes.bool,
@@ -158,13 +152,10 @@ const propTypes = {
   ...COLOR.propTypes,
 };
 
-const defaultProps = {
+Button.defaultProps = {
   variant: 'primary', // any color that matches theme.colors.colorVariants
   size: 'medium',
   theme,
 };
-
-Button.propTypes = propTypes;
-Button.defaultProps = defaultProps;
 
 export default Button;
