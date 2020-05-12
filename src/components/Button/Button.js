@@ -13,8 +13,14 @@ const ButtonBase = styled.button`
   // border
   border-radius: 13px;
 
+<<<<<<< HEAD
   // size and typography
   ${(props) => props.sizingAndTypography}
+=======
+  // size
+  padding: 0px 32px;
+  height: 48px;
+>>>>>>> 6f75931487d9368b9bed53ee2993970efb24b187
 
   // display
   display: inline-block;

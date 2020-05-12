@@ -14,7 +14,17 @@ exports[`Button Colors renders error colors 1`] = `
   letter-spacing: 2px;
   font-size: 14px;
   line-height: 20px;
+<<<<<<< HEAD
   padding: 12px 16px;
+=======
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 48px;
+>>>>>>> 6f75931487d9368b9bed53ee2993970efb24b187
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -56,7 +66,17 @@ exports[`Button Colors renders primary colors 1`] = `
   letter-spacing: 2px;
   font-size: 14px;
   line-height: 20px;
+<<<<<<< HEAD
   padding: 12px 16px;
+=======
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 48px;
+>>>>>>> 6f75931487d9368b9bed53ee2993970efb24b187
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -98,7 +118,17 @@ exports[`Button Colors renders secondary colors 1`] = `
   letter-spacing: 2px;
   font-size: 14px;
   line-height: 20px;
+<<<<<<< HEAD
   padding: 12px 16px;
+=======
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 48px;
+>>>>>>> 6f75931487d9368b9bed53ee2993970efb24b187
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -140,7 +170,17 @@ exports[`Button Colors renders success colors 1`] = `
   letter-spacing: 2px;
   font-size: 14px;
   line-height: 20px;
+<<<<<<< HEAD
   padding: 12px 16px;
+=======
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 48px;
+>>>>>>> 6f75931487d9368b9bed53ee2993970efb24b187
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -182,7 +222,17 @@ exports[`Button Colors renders warning colors 1`] = `
   letter-spacing: 2px;
   font-size: 14px;
   line-height: 20px;
+<<<<<<< HEAD
   padding: 12px 16px;
+=======
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 48px;
+>>>>>>> 6f75931487d9368b9bed53ee2993970efb24b187
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -300,6 +350,7 @@ exports[`Button Sizes renders a small button 1`] = `
   text-decoration: none;
   overflow: hidden;
   border-radius: 13px;
+<<<<<<< HEAD
   font-family: Chivo;
   font-weight: 700px;
   -webkit-letter-spacing: 2px;
@@ -351,6 +402,10 @@ exports[`Button renders correct colors with "outline" and "disabled" props (prim
   font-size: 14px;
   line-height: 20px;
   padding: 12px 16px;
+=======
+  padding: 0px 32px;
+  height: 48px;
+>>>>>>> 6f75931487d9368b9bed53ee2993970efb24b187
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -393,7 +448,17 @@ exports[`Button respects "outline" prop 1`] = `
   letter-spacing: 2px;
   font-size: 14px;
   line-height: 20px;
+<<<<<<< HEAD
   padding: 12px 16px;
+=======
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 48px;
+>>>>>>> 6f75931487d9368b9bed53ee2993970efb24b187
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -435,7 +500,17 @@ exports[`Button respects the "disabled" prop 1`] = `
   letter-spacing: 2px;
   font-size: 14px;
   line-height: 20px;
+<<<<<<< HEAD
   padding: 12px 16px;
+=======
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 48px;
+>>>>>>> 6f75931487d9368b9bed53ee2993970efb24b187
   display: inline-block;
   text-align: center;
   vertical-align: middle;
