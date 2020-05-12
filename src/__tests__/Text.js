@@ -103,6 +103,10 @@ describe('Text types', () => {
     expect(renderJSON(<Text type="button">Hello</Text>)).toMatchSnapshot();
   });
 
+  it('renders "buttonSmall" properly', () => {
+    expect(renderJSON(<Text type="buttonSmall">Hello</Text>)).toMatchSnapshot();
+  });
+
   it('renders "quote" properly', () => {
     expect(renderJSON(<Text type="quote">Hello</Text>)).toMatchSnapshot();
   });

@@ -2,27 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
-import { get, lodashGet } from '../../utils/utils';
+import { lodashGet } from '../../utils/utils';
 import { COMMON, COLOR } from '../../utils/constants';
 
 const ButtonBase = styled.button`
   // text
-  font-family: ${get('typography.button.fontFamily')};
-  font-weight: ${get('typography.button.fontWeight')};
-  font-size: ${get('typography.button.fontSize')};
-  letter-spacing: ${get('typography.button.letterSpacing')};
-  line-height: ${get('typography.button.lineHeight')};
-  text-transform: ${get('typography.button.textTransform')};
-
   text-decoration: none;
   overflow: hidden;
 
   // border
   border-radius: 13px;
 
-  // size
-  padding: 0px 32px;
-  height: 48px;
+  // size and typography
+  ${(props) => props.sizingAndTypography}
 
   // display
   display: inline-block;
@@ -56,9 +48,13 @@ const ButtonBase = styled.button`
 `;
 
 const Button = ({
-  variant, outline, className, theme: propTheme, ...props
+  variant, outline, className, theme: propTheme, size, ...props
 }) => {
-  const buttonColorPalette = propTheme.colors.variants[variant] || get('colors.variants.primary');
+  const buttonSizingTypography = propTheme.buttons.sizingAndTypography;
+  const sizingAndTypography = buttonSizingTypography[size] || buttonSizingTypography.medium;
+
+  const colorVariants = propTheme.colors.variants;
+  const buttonColorPalette = colorVariants[variant] || colorVariants.primary;
   const buttonTheme = propTheme.buttons[variant]; // || theme.button.default
   const buttonDefaultTheme = propTheme.buttons.default(buttonColorPalette);
 
@@ -128,6 +124,7 @@ const Button = ({
     border,
     fontColor,
     shadow,
+    sizingAndTypography,
   };
 
 
@@ -150,12 +147,14 @@ const propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
   theme: PropTypes.object,
-  ...COMMON.proptypes,
-  ...COLOR.proptypes,
+  size: PropTypes.string,
+  ...COMMON.propTypes,
+  ...COLOR.propTypes,
 };
 
 const defaultProps = {
   variant: 'primary', // any color that matches theme.colors.colorVariants
+  size: 'medium',
   theme,
 };
 
