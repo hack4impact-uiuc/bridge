@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { variant as styledVariant } from 'styled-system';
 import theme from '../../theme';
 import { lodashGet } from '../../utils/utils';
 import { COMMON, COLOR } from '../../utils/constants';
@@ -14,7 +15,10 @@ const ButtonBase = styled.button`
   border-radius: 13px;
 
   // size and typography
-  ${(props) => props.sizingAndTypography}
+  ${styledVariant({
+    prop: 'type',
+    scale: 'buttons.sizingAndTypography',
+  })}
 
   // display
   display: inline-block;
@@ -48,11 +52,8 @@ const ButtonBase = styled.button`
 `;
 
 const Button = ({
-  variant, outline, className, theme: propTheme, size, ...props
+  variant, outline, className, theme: propTheme, ...props
 }) => {
-  const buttonSizingTypography = propTheme.buttons.sizingAndTypography;
-  const sizingAndTypography = buttonSizingTypography[size] || buttonSizingTypography.medium;
-
   const colorVariants = propTheme.colors.variants;
   const buttonColorPalette = colorVariants[variant] || colorVariants.primary;
   const buttonTheme = propTheme.buttons[variant]; // || theme.button.default
@@ -124,7 +125,6 @@ const Button = ({
     border,
     fontColor,
     shadow,
-    sizingAndTypography,
   };
 
 
@@ -147,14 +147,14 @@ Button.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
   theme: PropTypes.object,
-  size: PropTypes.string,
+  type: PropTypes.oneOf(['small', 'medium', 'large']),
   ...COMMON.propTypes,
   ...COLOR.propTypes,
 };
 
 Button.defaultProps = {
   variant: 'primary', // any color that matches theme.colors.colorVariants
-  size: 'medium',
+  type: 'medium',
   theme,
 };
 

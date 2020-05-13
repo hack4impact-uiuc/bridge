@@ -117,15 +117,15 @@ describe('Button Colors', () => {
 
 describe('Button Sizes', () => {
   it('renders a small button', () => {
-    const item = renderJSON(<Button size="small" />);
+    const item = renderJSON(<Button type="small" />);
     expect(item).toMatchSnapshot();
   });
   it('renders a medium button', () => {
-    const item = renderJSON(<Button size="medium" />);
+    const item = renderJSON(<Button type="medium" />);
     expect(item).toMatchSnapshot();
   });
   it('renders a large button', () => {
-    const item = renderJSON(<Button size="large" />);
+    const item = renderJSON(<Button type="large" />);
     expect(item).toMatchSnapshot();
   });
 });

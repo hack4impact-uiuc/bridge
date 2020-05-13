@@ -39,6 +39,7 @@ exports[`Button Colors renders error colors 1`] = `
 
 <button
   className="c0"
+  type="medium"
 />
 `;
 
@@ -81,6 +82,7 @@ exports[`Button Colors renders primary colors 1`] = `
 
 <button
   className="c0"
+  type="medium"
 />
 `;
 
@@ -123,6 +125,7 @@ exports[`Button Colors renders secondary colors 1`] = `
 
 <button
   className="c0"
+  type="medium"
 />
 `;
 
@@ -165,6 +168,7 @@ exports[`Button Colors renders success colors 1`] = `
 
 <button
   className="c0"
+  type="medium"
 />
 `;
 
@@ -207,6 +211,7 @@ exports[`Button Colors renders warning colors 1`] = `
 
 <button
   className="c0"
+  type="medium"
 />
 `;
 
@@ -249,6 +254,7 @@ exports[`Button Sizes renders a large button 1`] = `
 
 <button
   className="c0"
+  type="large"
 />
 `;
 
@@ -291,6 +297,7 @@ exports[`Button Sizes renders a medium button 1`] = `
 
 <button
   className="c0"
+  type="medium"
 />
 `;
 
@@ -333,6 +340,7 @@ exports[`Button Sizes renders a small button 1`] = `
 
 <button
   className="c0"
+  type="small"
 />
 `;
 
@@ -376,6 +384,7 @@ exports[`Button renders correct colors with "outline" and "disabled" props (prim
 <button
   className="c0"
   disabled={true}
+  type="medium"
 />
 `;
 
@@ -418,6 +427,7 @@ exports[`Button respects "outline" prop 1`] = `
 
 <button
   className="c0"
+  type="medium"
 />
 `;
 
@@ -461,5 +471,6 @@ exports[`Button respects the "disabled" prop 1`] = `
 <button
   className="c0"
   disabled={true}
+  type="medium"
 />
 `;
