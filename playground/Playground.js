@@ -3,8 +3,12 @@ import React from 'react';
 import { colors } from '../src/theme';
 
 import {
-  Button, Link, Text, Heading,
+  Button, Card, Heading, Link, Text,
 } from '../src';
+
+const {
+  Image, Content, Overline, Title, Subtitle, Body, Footer,
+} = Card;
 // import any components here
 
 export function Playground() {

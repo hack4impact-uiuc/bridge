@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders a <div> 1`] = `
+.c0 {
+  display: inline-block;
+  vertical-align: top;
+  width: 504px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+}
+
+.c0:hover {
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.24);
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Card renders entire card properly 1`] = `
+.c8 {
+  font-family: Chivo;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 13px;
+  padding: 0px 32px;
+  height: 40px;
+  background: #155DA1;
+  border: none;
+  color: #FFFFFF;
+}
+
+.c8:hover:not([disabled]) {
+  background: #0E4E8A;
+  border: none;
+  box-shadow: none;
+  color: #FFFFFF;
+}
+
+.c8:disabled {
+  background: #B4D8FA;
+  border: none;
+  box-shadow: none;
+  color: #FFFFFF;
+}
+
+.c1 {
+  width: 100%;
+}
+
+.c2 {
+  padding: 28px;
+}
+
+.c3 {
+  font-family: HKGrotesk;
+  font-weight: 700px;
+  font-size: 12px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #0A162A;
+  margin-bottom: 8px;
+}
+
+.c4 {
+  font-family: Chivo;
+  font-weight: 400px;
+  font-size: 32px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  line-height: 48px;
+  color: #0A162A;
+}
+
+.c5 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  color: #0A162A;
+  margin-top: 8px;
+}
+
+.c6 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #0A162A;
+  margin-top: 16px;
+}
+
+.c7 {
+  margin-top: 24px;
+}
+
+.c0 {
+  display: inline-block;
+  vertical-align: top;
+  width: 504px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+}
+
+.c0:hover {
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.24);
+}
+
+<div
+  className="c0"
+>
+  <img
+    alt="h4i"
+    className="c1"
+    src="https://uiuc.hack4impact.org/static/images/colored-logo.png"
+  />
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+    >
+      Optional Overline
+    </div>
+    <div
+      className="c4"
+    >
+      Card Title
+    </div>
+    <div
+      className="c5"
+    >
+      Optional Subtitle
+    </div>
+    <div
+      className="c6"
+    >
+      Body
+    </div>
+    <div
+      className="c7"
+    >
+      <button
+        className="c8"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>
+`;
