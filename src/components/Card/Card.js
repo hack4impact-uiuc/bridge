@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
 import { get } from '../../utils/utils';
-import { COMMON } from '../../utils/constants';
+import { COLOR, COMMON } from '../../utils/constants';
 
 import CardImage from './CardImage';
 import CardContent from './CardContent';
@@ -26,6 +26,7 @@ const Card = styled.div`
     box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.24);
   }
 
+  ${COLOR};
   ${COMMON};
 `;
 
@@ -33,6 +34,7 @@ Card.defaultProps = { theme };
 
 Card.propTypes = {
   theme: PropTypes.object,
+  ...COLOR.propTypes,
   ...COMMON.propTypes,
 };
 

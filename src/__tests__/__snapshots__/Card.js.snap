@@ -1,5 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Card renders a <div> 1`] = `
+.c0 {
+  display: inline-block;
+  vertical-align: top;
+  width: 504px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+}
+
+.c0:hover {
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.24);
+}
+
+<div
+  className="c0"
+/>
+`;
+
 exports[`Card renders entire card properly 1`] = `
 .c8 {
   font-family: Chivo;
