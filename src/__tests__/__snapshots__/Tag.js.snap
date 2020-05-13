@@ -1,0 +1,613 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag Colors renders blue dark 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #0E4E8A;
+  background-color: #0E4E8A;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders blue light 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #3E87CD;
+  background-color: #3E87CD;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders blue primary 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #155DA1;
+  background-color: #155DA1;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders green dark 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #256830;
+  background-color: #256830;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders green light 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #031D07;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #90E19E;
+  background-color: #90E19E;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders green primary 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #4C9859;
+  background-color: #4C9859;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders grey dark 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #155DA1;
+  background-color: #155DA1;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders grey light 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #EBEEF2;
+  background-color: #EBEEF2;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders grey primary 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #666B72;
+  background-color: #666B72;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders indigo dark 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #253E68;
+  background-color: #253E68;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders indigo light 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #415F94;
+  background-color: #415F94;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders indigo primary 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #2D4979;
+  background-color: #2D4979;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders red dark 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #8A1A1F;
+  background-color: #8A1A1F;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders red light 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #D1595F;
+  background-color: #D1595F;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders red primary 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #A62B31;
+  background-color: #A62B31;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders yellow dark 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #DA9C03;
+  background-color: #DA9C03;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders yellow light 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #201803;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #FFD15F;
+  background-color: #FFD15F;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
+
+exports[`Tag Colors renders yellow primary 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 8px;
+  height: 28px;
+  background: #FDBE21;
+  background-color: #FDBE21;
+}
+
+<div
+  className="c0"
+>
+  Tag
+</div>
+`;
