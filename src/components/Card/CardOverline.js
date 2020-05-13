@@ -1,19 +1,25 @@
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 
 const CardOverline = styled.div`
-  font-family: ${get('typography.overline.fontFamily')};
-  font-weight: ${get('typography.overline.fontWeight')};
-  font-size: ${get('typography.overline.fontSize')};
-  letter-spacing: ${get('typography.overline.letterSpacing')};
-  line-height: ${get('typography.overline.lineHeight')};
-  text-transform: ${get('typography.overline.textTransform')};
+  ${get('typography.overline')};
+  color: ${get('colors.text.coolTone.main')};
 
   margin-bottom: 8px;
 
   ${TYPOGRAPHY};
   ${COMMON};
 `;
+
+CardOverline.defaultProps = { theme };
+
+CardOverline.PropTypes = {
+  theme: PropTypes.object,
+  ...COMMON.propTypes,
+  ...TYPOGRAPHY.propTypes,
+};
 
 export default CardOverline;

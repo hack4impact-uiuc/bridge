@@ -1,18 +1,25 @@
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 
 const CardSubtitle = styled.div`
-  font-family: ${get('typography.subtitle.fontFamily')};
-  font-weight: ${get('typography.subtitle.fontWeight')};
-  font-size: ${get('typography.subtitle.fontSize')};
-  letter-spacing: ${get('typography.subtitle.letterSpacing')};
-  line-height: ${get('typography.subtitle.lineHeight')};
+  ${get('typography.subtitle')};
+  color: ${get('colors.text.coolTone.main')};
 
   margin-top: 8px;
 
   ${TYPOGRAPHY};
   ${COMMON};
 `;
+
+CardSubtitle.defaultProps = { theme };
+
+CardSubtitle.PropTypes = {
+  theme: PropTypes.object,
+  ...COMMON.propTypes,
+  ...TYPOGRAPHY.propTypes,
+};
 
 export default CardSubtitle;

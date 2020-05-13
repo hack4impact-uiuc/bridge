@@ -1,18 +1,25 @@
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 
 const CardBody = styled.div`
-  font-family: ${get('typography.body.fontFamily')};
-  font-weight: ${get('typography.body.fontWeight')};
-  font-size: ${get('typography.body.fontSize')};
-  letter-spacing: ${get('typography.body.letterSpacing')};
-  line-height: ${get('typography.body.lineHeight')};
+  ${get('typography.body')};
+  color: ${get('colors.text.coolTone.main')};
 
   margin-top: 16px;
 
   ${TYPOGRAPHY};
   ${COMMON};
 `;
+
+CardBody.defaultProps = { theme };
+
+CardBody.PropTypes = {
+  theme: PropTypes.object,
+  ...COMMON.propTypes,
+  ...TYPOGRAPHY.propTypes,
+};
 
 export default CardBody;

@@ -1,4 +1,6 @@
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import theme from '../../theme';
 import { COMMON } from '../../utils/constants';
 
 const CardContent = styled.div`
@@ -6,5 +8,12 @@ const CardContent = styled.div`
 
   ${COMMON};
 `;
+
+CardContent.defaultProps = { theme };
+
+CardContent.PropTypes = {
+  theme: PropTypes.object,
+  ...COMMON.propTypes,
+};
 
 export default CardContent;
