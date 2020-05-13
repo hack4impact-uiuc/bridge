@@ -16,7 +16,7 @@ const CardOverline = styled.div`
 
 CardOverline.defaultProps = { theme };
 
-CardOverline.PropTypes = {
+CardOverline.propTypes = {
   theme: PropTypes.object,
   ...COMMON.propTypes,
   ...TYPOGRAPHY.propTypes,

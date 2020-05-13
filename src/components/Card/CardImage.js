@@ -8,7 +8,7 @@ const CardImage = styled.img`
 
 CardImage.defaultProps = { theme };
 
-CardImage.PropTypes = {
+CardImage.propTypes = {
   theme: PropTypes.object,
 };
 

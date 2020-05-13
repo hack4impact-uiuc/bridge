@@ -16,7 +16,7 @@ const CardSubtitle = styled.div`
 
 CardSubtitle.defaultProps = { theme };
 
-CardSubtitle.PropTypes = {
+CardSubtitle.propTypes = {
   theme: PropTypes.object,
   ...COMMON.propTypes,
   ...TYPOGRAPHY.propTypes,

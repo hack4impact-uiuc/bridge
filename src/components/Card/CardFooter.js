@@ -11,7 +11,7 @@ const CardFooter = styled.div`
 
 CardFooter.defaultProps = { theme };
 
-CardFooter.PropTypes = {
+CardFooter.propTypes = {
   theme: PropTypes.object,
   ...COMMON.propTypes,
 };

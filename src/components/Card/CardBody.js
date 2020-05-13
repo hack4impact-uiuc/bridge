@@ -16,7 +16,7 @@ const CardBody = styled.div`
 
 CardBody.defaultProps = { theme };
 
-CardBody.PropTypes = {
+CardBody.propTypes = {
   theme: PropTypes.object,
   ...COMMON.propTypes,
   ...TYPOGRAPHY.propTypes,

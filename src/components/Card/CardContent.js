@@ -11,7 +11,7 @@ const CardContent = styled.div`
 
 CardContent.defaultProps = { theme };
 
-CardContent.PropTypes = {
+CardContent.propTypes = {
   theme: PropTypes.object,
   ...COMMON.propTypes,
 };
