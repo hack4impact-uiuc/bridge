@@ -44,6 +44,8 @@ Icon.propTypes = {
 Icon.defaultProps = {
   type: 'infoAlert',
   fill: 'none',
+  // COMMON includes width proptypes
+  // eslint-disable-next-line react/default-props-match-prop-types
   width: '20px',
 };
 

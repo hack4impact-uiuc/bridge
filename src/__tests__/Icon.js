@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen, cleanup } from '@testing-library/react';
+import { render, cleanup } from '@testing-library/react';
 import 'jest-styled-components';
 import '@testing-library/jest-dom';
 import { axe, toHaveNoViolations } from 'jest-axe';
