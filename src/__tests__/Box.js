@@ -6,7 +6,7 @@ import '@testing-library/jest-dom';
 import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Box } from '..';
-import { COMMON, LAYOUT } from '../utils/constants';
+import { COMMON, LAYOUT, FLEX } from '../utils/constants';
 import theme from '../theme';
 import { renderJSON } from '../utils/testing';
 import 'babel-polyfill'; // axe violations required babel-polyfill
@@ -24,6 +24,7 @@ describe('Box', () => {
   it('implements system props', () => {
     expect(Box).toImplementSystemProps(LAYOUT);
     expect(Box).toImplementSystemProps(COMMON);
+    expect(Box).toImplementSystemProps(FLEX);
   });
 
   it('respects the "as" prop', () => {
@@ -51,5 +52,31 @@ describe('Box', () => {
     expect(renderJSON(<Box display="inline-block" />)).toMatchSnapshot();
     expect(renderJSON(<Box display="none" />)).toMatchSnapshot();
     expect(renderJSON(<Box display={['none', 'none', 'block']} theme={theme} />)).toMatchSnapshot();
+  });
+
+  // properties for children
+  // taken from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  it('respects flex', () => {
+    expect(render(<Box flex="4 4" />)).toMatchSnapshot();
+  });
+
+  it('respects flexGrow', () => {
+    expect(render(<Box flexGrow="4" />)).toMatchSnapshot();
+  });
+
+  it('respects flexShrink', () => {
+    expect(render(<Box flexShrink="4" />)).toMatchSnapshot();
+  });
+
+  it('respects flexBasis', () => {
+    expect(render(<Box flexBasis="5rem" />)).toMatchSnapshot();
+  });
+
+  it('respects alignSelf', () => {
+    expect(render(<Box alignSelf="flex-start" />)).toMatchSnapshot();
+  });
+
+  it('respects order', () => {
+    expect(render(<Box order="5" />)).toMatchSnapshot();
   });
 });
