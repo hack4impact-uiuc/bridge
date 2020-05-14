@@ -119,27 +119,6 @@ exports[`Text types renders "form" properly 1`] = `
 </span>
 `;
 
-exports[`Text types renders "hero" properly 1`] = `
-.c0 {
-  color: #0A162A;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 22px;
-  -webkit-letter-spacing: 0.5px;
-  -moz-letter-spacing: 0.5px;
-  -ms-letter-spacing: 0.5px;
-  letter-spacing: 0.5px;
-  line-height: 32px;
-}
-
-<span
-  className="c0"
-  type="hero"
->
-  Hello
-</span>
-`;
-
 exports[`Text types renders "overline" properly 1`] = `
 .c0 {
   color: #0A162A;
@@ -167,12 +146,12 @@ exports[`Text types renders "quote" properly 1`] = `
   color: #0A162A;
   font-family: HKGrotesk;
   font-weight: 300px;
-  font-size: 28px;
+  font-size: 22px;
   -webkit-letter-spacing: 0.5px;
   -moz-letter-spacing: 0.5px;
   -ms-letter-spacing: 0.5px;
   letter-spacing: 0.5px;
-  line-height: 40px;
+  line-height: 33px;
 }
 
 <span
@@ -189,10 +168,10 @@ exports[`Text types renders "subtitle" properly 1`] = `
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 20px;
-  -webkit-letter-spacing: 0.5px;
-  -moz-letter-spacing: 0.5px;
-  -ms-letter-spacing: 0.5px;
-  letter-spacing: 0.5px;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
   line-height: 28px;
 }
 

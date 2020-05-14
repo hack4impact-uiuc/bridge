@@ -93,10 +93,10 @@ exports[`Card renders entire card properly 1`] = `
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 20px;
-  -webkit-letter-spacing: 0.5px;
-  -moz-letter-spacing: 0.5px;
-  -ms-letter-spacing: 0.5px;
-  letter-spacing: 0.5px;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
   line-height: 28px;
   color: #0A162A;
   margin-top: 8px;

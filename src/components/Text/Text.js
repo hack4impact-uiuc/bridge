@@ -31,7 +31,6 @@ Text.propTypes = {
   theme: PropTypes.object,
   type: PropTypes.oneOf([
     'body',
-    'hero',
     'caption',
     'overline',
     'button',
