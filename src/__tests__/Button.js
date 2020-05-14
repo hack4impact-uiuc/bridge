@@ -6,6 +6,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Button } from '..';
 import theme, { colors } from '../theme';
+import { COLOR, COMMON } from '../utils/constants';
 import { renderJSON } from '../utils/testing';
 import 'babel-polyfill'; // axe violations required babel-polyfill
 
@@ -23,6 +24,11 @@ describe('Button', () => {
     const results = await axe(container);
     expect(results).toHaveNoViolations();
     cleanup();
+  });
+
+  it('implements system props', () => {
+    expect(Button).toImplementSystemProps(COLOR);
+    expect(Button).toImplementSystemProps(COMMON);
   });
 
   it('renders children', () => {
@@ -55,6 +61,12 @@ describe('Button', () => {
     const { container } = render(<Button>APPLY</Button>);
     expect(container.firstChild).toHaveStyle(`color: ${theme.buttons.primary.fontColor.default}`);
     expect(container.firstChild).toHaveStyle(`background: ${theme.buttons.default(colors.bluePalette).bg.default}`);
+  });
+
+  it('renders medium size as default', () => {
+    const { container } = render(<Button>APPLY</Button>);
+    expect(container.firstChild).toHaveStyle(`font-size: ${theme.typography.button.fontSize}`);
+    expect(container.firstChild).toHaveStyle(`line-height: ${theme.typography.button.lineHeight}`);
   });
 
   it('renders correct border/bg/color with "outline" prop (primary colors)', () => {
@@ -99,6 +111,21 @@ describe('Button Colors', () => {
 
   it('renders warning colors', () => {
     const item = renderJSON(<Button variant="warning" />);
+    expect(item).toMatchSnapshot();
+  });
+});
+
+describe('Button Sizes', () => {
+  it('renders a small button', () => {
+    const item = renderJSON(<Button type="small" />);
+    expect(item).toMatchSnapshot();
+  });
+  it('renders a medium button', () => {
+    const item = renderJSON(<Button type="medium" />);
+    expect(item).toMatchSnapshot();
+  });
+  it('renders a large button', () => {
+    const item = renderJSON(<Button type="large" />);
     expect(item).toMatchSnapshot();
   });
 });

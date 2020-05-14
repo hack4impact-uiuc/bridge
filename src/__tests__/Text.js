@@ -91,16 +91,16 @@ describe('Text types', () => {
     expect(container.firstChild).toHaveStyle(`line-height: ${theme.typography.body.lineHeight}`);
   });
 
-  it('renders "hero" properly', () => {
-    expect(renderJSON(<Text type="hero">Hello</Text>)).toMatchSnapshot();
-  });
-
   it('renders "overline" properly', () => {
     expect(renderJSON(<Text type="overline">Hello</Text>)).toMatchSnapshot();
   });
 
   it('renders "button" properly', () => {
     expect(renderJSON(<Text type="button">Hello</Text>)).toMatchSnapshot();
+  });
+
+  it('renders "buttonSmall" properly', () => {
+    expect(renderJSON(<Text type="buttonSmall">Hello</Text>)).toMatchSnapshot();
   });
 
   it('renders "quote" properly', () => {

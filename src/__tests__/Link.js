@@ -92,8 +92,8 @@ describe('Link', () => {
     expect(renderJSON(<Link as="button">APPLY</Link>)).toMatchSnapshot();
 
     const { container } = render(<Link as="button" />);
-    expect(container.firstChild).toHaveStyle(`font-family: ${theme.buttons.font}`);
-    expect(container.firstChild).toHaveStyle(`font-size: ${theme.buttons.fontSize}`);
-    expect(container.firstChild).toHaveStyle(`letter-spacing: ${theme.buttons.letterSpacing}`);
+    expect(container.firstChild).toHaveStyle(`font-family: ${theme.typography.button.fontFamily}`);
+    expect(container.firstChild).toHaveStyle(`font-size: ${theme.typography.button.fontSize}`);
+    expect(container.firstChild).toHaveStyle(`letter-spacing: ${theme.typography.button.letterSpacing}`);
   });
 });

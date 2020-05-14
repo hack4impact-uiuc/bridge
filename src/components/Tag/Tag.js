@@ -25,7 +25,7 @@ const TagBase = styled.div`
     height: 28px;
 
     // color
-    background: ${(props) => props.backgroundColor};
+    background: ${(props) => props.background};
 
     ${COMMON};
     ${COLOR};
@@ -45,7 +45,7 @@ const Tag = ({
 
   return (
     <TagBase
-      backgroundColor={backgroundColor}
+      background={backgroundColor}
       textColor={textColor}
       theme={propTheme}
       {...props}
