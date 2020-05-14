@@ -35,6 +35,7 @@ Text.propTypes = {
     'caption',
     'overline',
     'button',
+    'buttonSmall',
     'alert',
     'table',
     'form',

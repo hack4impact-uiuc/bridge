@@ -47,18 +47,38 @@ exports[`Text types renders "button" properly 1`] = `
   color: #0A162A;
   font-family: Chivo;
   font-weight: 700px;
-  font-size: 14px;
   -webkit-letter-spacing: 2px;
   -moz-letter-spacing: 2px;
   -ms-letter-spacing: 2px;
   letter-spacing: 2px;
+  font-size: 14px;
   line-height: 20px;
-  text-transform: uppercase;
 }
 
 <span
   className="c0"
   type="button"
+>
+  Hello
+</span>
+`;
+
+exports[`Text types renders "buttonSmall" properly 1`] = `
+.c0 {
+  color: #0A162A;
+  font-family: Chivo;
+  font-weight: 700px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+<span
+  className="c0"
+  type="buttonSmall"
 >
   Hello
 </span>

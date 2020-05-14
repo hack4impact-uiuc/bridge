@@ -207,13 +207,19 @@ const typography = {
     lineHeight: '20px',
     fontStyle: 'italic',
   },
+  buttonSmall: {
+    fontFamily: fonts.secondary, // Chivo
+    fontWeight: fontWeights.bold,
+    letterSpacing: letterSpacings.two, // 2px
+    fontSize: '12px',
+    lineHeight: '16px',
+  },
   button: {
     fontFamily: fonts.secondary, // Chivo
     fontWeight: fontWeights.bold,
-    fontSize: '14px',
     letterSpacing: letterSpacings.two, // 2px
+    fontSize: '14px',
     lineHeight: '20px',
-    textTransform: 'uppercase',
   },
   table: tableFormAlertStyle,
   forms: tableFormAlertStyle,
@@ -241,6 +247,20 @@ const buttons = {
   fontWeight: fontWeights.bold,
   fontSize: '14px',
   letterSpacing: '2px',
+  sizingAndTypography: {
+    small: {
+      ...typography.buttonSmall,
+      padding: '12px 16px',
+    },
+    medium: {
+      ...typography.button,
+      padding: '12px 16px',
+    },
+    large: {
+      ...typography.button,
+      padding: '14px 32px',
+    },
+  },
   // default values, based on the color palette
   default: (colorPalette) => ({
     bg: {
