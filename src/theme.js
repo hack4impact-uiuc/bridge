@@ -143,7 +143,7 @@ const tableFormAlertStyle = {
   fontWeight: fontWeights.regular,
   fontSize: '18px',
   letterSpacing: letterSpacings.third, // 0.3[x]
-  lineHeight: '24px',
+  lineHeight: '21px',
 };
 
 const typography = {
@@ -217,7 +217,7 @@ const typography = {
   },
   table: tableFormAlertStyle,
   forms: tableFormAlertStyle,
-  alerts: tableFormAlertStyle,
+  alert: tableFormAlertStyle,
   quote: {
     fontFamily: fonts.main,
     fontWeight: fontWeights.light,
@@ -358,6 +358,43 @@ const link = {
     default: bluePalette.primary,
     hover: bluePalette.darker,
   },
+  alert: {
+    success: {
+      color: colors.greenPalette.text,
+    },
+    warning: {
+      color: colors.yellowPalette.text,
+    },
+    error: {
+      color: colors.redPalette.text,
+    },
+    information: {
+      color: colors.indigoPalette.text,
+    },
+  },
+};
+
+const alert = {
+  success: {
+    background: colors.greenPalette.light,
+    border: `1px solid ${colors.greenPalette.primary}`,
+    color: colors.greenPalette.text,
+  },
+  warning: {
+    background: colors.yellowPalette.lighter,
+    border: `1px solid ${colors.yellowPalette.light}`,
+    color: colors.yellowPalette.text,
+  },
+  error: {
+    background: colors.redPalette.lighter,
+    border: `1px solid ${colors.redPalette.light}`,
+    color: colors.redPalette.text,
+  },
+  information: {
+    background: colors.bluePalette.lighter,
+    border: `1px solid ${colors.bluePalette.light}`,
+    color: colors.indigoPalette.text,
+  },
 };
 
 const breakpoints = ['544px', '768px', '992px', '1280px'];
@@ -381,6 +418,7 @@ const theme = {
   fonts,
   fontWeights,
   fontSizes,
+  alert,
   buttons,
   link,
   DEFAULT_SHADOW,
