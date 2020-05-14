@@ -21,21 +21,22 @@ exports[`Card renders a <div> 1`] = `
 
 exports[`Card renders entire card properly 1`] = `
 .c8 {
-  font-family: Chivo;
-  font-weight: 700;
-  font-size: 14px;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
-  letter-spacing: 2px;
-  line-height: 20px;
-  text-transform: uppercase;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
   border-radius: 13px;
-  padding: 0px 32px;
-  height: 40px;
+  font-family: Chivo;
+  font-weight: 700px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px 16px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   background: #155DA1;
   border: none;
   color: #FFFFFF;
@@ -93,10 +94,10 @@ exports[`Card renders entire card properly 1`] = `
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 20px;
-  -webkit-letter-spacing: 0.5px;
-  -moz-letter-spacing: 0.5px;
-  -ms-letter-spacing: 0.5px;
-  letter-spacing: 0.5px;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
   line-height: 28px;
   color: #0A162A;
   margin-top: 8px;
@@ -168,6 +169,7 @@ exports[`Card renders entire card properly 1`] = `
     >
       <button
         className="c8"
+        type="medium"
       >
         Apply
       </button>
