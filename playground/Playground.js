@@ -16,7 +16,7 @@ export function Playground() {
     <>
       <div>
         {/* Add the code you want to test here */}
-        <Icon type="infoAlert" />
+        <Button variant="primary">APPLY</Button>
       </div>
     </>
   );
