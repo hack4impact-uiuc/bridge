@@ -24,7 +24,7 @@ const Alert = styled.div`
 
   // size
   padding: 0px 18px;
-  height: 55px;
+  height: 54px;
 
   svg {
     margin-right: 18px;

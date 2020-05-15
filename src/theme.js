@@ -146,7 +146,7 @@ const tableFormAlertStyle = {
   fontWeight: fontWeights.regular,
   fontSize: '18px',
   letterSpacing: letterSpacings.third, // 0.3[x]
-  lineHeight: '21px',
+  lineHeight: '20px',
 };
 
 const typography = {
