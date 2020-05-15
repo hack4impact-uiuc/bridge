@@ -27,13 +27,13 @@ const Code = ({ children, syntax }) => (
     <style jsx>
       {`
           pre {
-            background: #1d1f21;
+            border: 1px solid #eaeaea;
             color: #f8f8f2;
             white-space: pre;
             overflow: auto;
             padding: 1.5rem;
             margin: 40px 0;
-            border-radius: 3px;
+            border-radius: 13px;
             -webkit-overflow-scrolling: touch;
           }
           code {
