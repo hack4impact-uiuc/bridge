@@ -9,7 +9,7 @@ exports[`Alert Alert Variants renders error 1`] = `
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 21px;
+  line-height: 20px;
   border-radius: 4px;
   background: #FFBCBF;
   border: 1px solid #D1595F;
@@ -24,7 +24,7 @@ exports[`Alert Alert Variants renders error 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding: 0px 18px;
-  height: 55px;
+  height: 54px;
 }
 
 .c0 svg {
@@ -56,7 +56,7 @@ exports[`Alert Alert Variants renders information 1`] = `
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 21px;
+  line-height: 20px;
   border-radius: 4px;
   background: #B4D8FA;
   border: 1px solid #3E87CD;
@@ -71,7 +71,7 @@ exports[`Alert Alert Variants renders information 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding: 0px 18px;
-  height: 55px;
+  height: 54px;
 }
 
 .c0 svg {
@@ -103,7 +103,7 @@ exports[`Alert Alert Variants renders success 1`] = `
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 21px;
+  line-height: 20px;
   border-radius: 4px;
   background: #90E19E;
   border: 1px solid #4C9859;
@@ -118,7 +118,7 @@ exports[`Alert Alert Variants renders success 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding: 0px 18px;
-  height: 55px;
+  height: 54px;
 }
 
 .c0 svg {
@@ -150,7 +150,7 @@ exports[`Alert Alert Variants renders warning 1`] = `
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 21px;
+  line-height: 20px;
   border-radius: 4px;
   background: #FFECBD;
   border: 1px solid #FFD15F;
@@ -165,7 +165,7 @@ exports[`Alert Alert Variants renders warning 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding: 0px 18px;
-  height: 55px;
+  height: 54px;
 }
 
 .c0 svg {
