@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert Alert Variants renders error 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 21px;
+  border-radius: 4px;
+  background: #FFBCBF;
+  border: 1px solid #D1595F;
+  color: #35080A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 18px;
+  height: 55px;
+}
+
+.c0 svg {
+  margin-right: 18px;
+}
+
+.c0 a {
+  font-weight: 500;
+  color: #35080A;
+}
+
+.c0 a:hover {
+  color: #35080A;
+}
+
+<div
+  className="c0"
+>
+  Alert!
+</div>
+`;
+
+exports[`Alert Alert Variants renders information 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 21px;
+  border-radius: 4px;
+  background: #B4D8FA;
+  border: 1px solid #3E87CD;
+  color: #061734;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 18px;
+  height: 55px;
+}
+
+.c0 svg {
+  margin-right: 18px;
+}
+
+.c0 a {
+  font-weight: 500;
+  color: #061734;
+}
+
+.c0 a:hover {
+  color: #061734;
+}
+
+<div
+  className="c0"
+>
+  Alert!
+</div>
+`;
+
+exports[`Alert Alert Variants renders success 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 21px;
+  border-radius: 4px;
+  background: #90E19E;
+  border: 1px solid #4C9859;
+  color: #031D07;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 18px;
+  height: 55px;
+}
+
+.c0 svg {
+  margin-right: 18px;
+}
+
+.c0 a {
+  font-weight: 500;
+  color: #031D07;
+}
+
+.c0 a:hover {
+  color: #031D07;
+}
+
+<div
+  className="c0"
+>
+  Alert!
+</div>
+`;
+
+exports[`Alert Alert Variants renders warning 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 21px;
+  border-radius: 4px;
+  background: #FFECBD;
+  border: 1px solid #FFD15F;
+  color: #201803;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 18px;
+  height: 55px;
+}
+
+.c0 svg {
+  margin-right: 18px;
+}
+
+.c0 a {
+  font-weight: 500;
+  color: #201803;
+}
+
+.c0 a:hover {
+  color: #201803;
+}
+
+<div
+  className="c0"
+>
+  Alert!
+</div>
+`;
