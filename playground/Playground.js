@@ -3,7 +3,7 @@ import React from 'react';
 import { colors } from '../src/theme';
 
 import {
-  Button, Card, Heading, Link, Text,
+  Button, Card, Heading, Link, Text, TextField,
 } from '../src';
 
 const {
@@ -16,7 +16,16 @@ export function Playground() {
     <>
       <div style={{ backgroundColor: colors.indigo[3] }}>
         {/* Add the code you want to test here */}
-        <Button variant="white" href="https://google.com">APPLY</Button>
+        <Button variant="white" href="https://google.com">
+          APPLY
+        </Button>
+      </div>
+      <div style={{ marginTop: '50px', width: '200px' }}>
+        <TextField
+          type="text"
+          // maxLength="8"
+          placeholder="Placeholder text"
+        />
       </div>
     </>
   );
