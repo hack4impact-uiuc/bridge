@@ -3,7 +3,7 @@ import React from 'react';
 import { colors } from '../src/theme';
 
 import {
-  Button, Card, Heading, Link, Text,
+  Button, Card, Heading, Link, Text, Icon,
 } from '../src';
 
 const {
@@ -14,9 +14,9 @@ const {
 export function Playground() {
   return (
     <>
-      <div style={{ backgroundColor: colors.indigo[3] }}>
+      <div>
         {/* Add the code you want to test here */}
-        <Button variant="white" href="https://google.com">APPLY</Button>
+        <Button variant="primary">APPLY</Button>
       </div>
     </>
   );
