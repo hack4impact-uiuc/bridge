@@ -23,10 +23,62 @@ export function Playground() {
       <div>
         <TextField
           width={200}
-          // disabled
-          // error="error"
+          error="error"
           placeholder="Placeholder text"
           icon={<Icon type="uploadFile" />}
+        />
+        <TextField
+          marginLeft={100}
+          width={200}
+          error="warning"
+          placeholder="Placeholder text"
+        />
+      </div>
+      <div>
+        <TextField
+          marginTop={10}
+          width={200}
+          disabled
+          error="error"
+          placeholder="Placeholder text"
+        />
+        <TextField
+          marginLeft={100}
+          width={200}
+          error="success"
+          placeholder="Placeholder text"
+        />
+      </div>
+      <div>
+        <TextField
+          marginTop={10}
+          width={200}
+          as="textarea"
+          error="error"
+          placeholder="Placeholder text"
+          icon={<Icon type="uploadFile" />}
+        />
+        <TextField
+          marginLeft={100}
+          marginTop={10}
+          width={200}
+          as="textarea"
+          disabled
+          placeholder="Placeholder text"
+        />
+      </div>
+      <div>
+        <TextField
+          marginTop={10}
+          width={200}
+          placeholder="Placeholder text"
+        />
+        <TextField
+          marginLeft={100}
+          marginTop={10}
+          width={200}
+          disabled
+          placeholder="Placeholder text"
         />
       </div>
     </>

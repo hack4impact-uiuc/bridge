@@ -20,7 +20,7 @@ const TextFieldPrefixIcon = styled.span`
   display: inline-flex;
   height: 16px;
   width: 16px;
-  top: 15px;
+  top: ${(props) => props.top};
   left: 9px;
 `;
 
@@ -29,7 +29,7 @@ const TextFieldSuffixIcon = styled(Icon)`
   display: inline-flex;
   height: 16px;
   width: 16px;
-  top: 15px;
+  top: ${(props) => props.top};
   right: ${(props) => props.right};
 `;
 
@@ -38,18 +38,22 @@ const TextFieldBase = styled.input`
   color: ${get('colors.text.coolTone.main')};
 
   display: block;
-  height: 44px;
+  height: ${(props) => (props.as && props.as === 'textarea' ? '76px' : '44px')};
   width: 100%;
 
   padding: ${(props) => props.padding};
-  margin-right: 40px;
   
   border: ${(props) => props.border.default};
   border-radius: 4px;
 
+  ${(props) => (props.as === 'textarea' ? 'resize: none' : '')};
+  box-shadow: none;
+  outline: none;
+
   &:focus {
     outline: none;
-    border: ${(props) => props.border.focus};
+    // border: ${(props) => props.border.focus};
+    box-shadow: ${(props) => props.border.focus};
   }
 
   &:disabled {
@@ -71,6 +75,7 @@ const TextField = ({
   placeholder,
   type,
   value,
+  as,
   ...props
 }) => {
   let iconType = null;
@@ -91,17 +96,20 @@ const TextField = ({
     default:
   }
 
-  // needed for all different combos of icons
-  let padding = '0px 9px 0px 9px';
-  if (icon) {
-    if (iconType) {
-      padding = '0px 34px 0px 34px';
-    } else {
-      padding = '0px 9px 0px 34px';
-    }
-  } else if (iconType) {
-    padding = '0px 34px 0px 9px';
+  // needed for all different combos of icons and if textarea
+  let padding = ['0px', '9px', '0px', '9px'];
+  let top = '15px';
+  if (as && as === 'textarea') {
+    padding[0] = '12px';
+    top = '36px';
   }
+  if (iconType) {
+    padding[1] = '34px';
+  }
+  if (icon) {
+    padding[3] = '34px';
+  }
+  padding = padding.join(' ');
 
   // className, COMMON, and COLOR props are passed to container
   return (
@@ -117,19 +125,21 @@ const TextField = ({
         placeholder={placeholder}
         type={type}
         value={value}
+        as={as}
       />
-      {icon && <TextFieldPrefixIcon>{icon}</TextFieldPrefixIcon>}
+      {icon && <TextFieldPrefixIcon top={top}>{icon}</TextFieldPrefixIcon>}
       {iconType && (
-        <TextFieldSuffixIcon right={icon ? '-59px' : '-34px'} type={iconType} />
+        <TextFieldSuffixIcon right={icon ? '-59px' : '-34px'} top={top} type={iconType} />
       )}
     </TextFieldContainer>
   );
 };
 TextField.propTypes = {
+  as: PropTypes.elementType,
   autoComplete: PropTypes.string,
   className: PropTypes.string,
   disabled: PropTypes.bool,
-  error: PropTypes.oneOf(['error', 'warning', 'success']),
+  error: PropTypes.oneOf(['default', 'error', 'warning', 'success']),
   icon: PropTypes.element,
   id: PropTypes.string,
   name: PropTypes.string,
