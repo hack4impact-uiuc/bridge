@@ -411,6 +411,25 @@ const alert = {
   },
 };
 
+const textField = {
+  default: {
+    default: `1px solid ${colors.greyPalette.light}`,
+    focus: `2px solid ${colors.bluePalette.primary}`,
+  },
+  success: {
+    default: `1px solid ${colors.greenPalette.primary}`,
+    focus: `2px solid ${colors.greenPalette.primary}`,
+  },
+  warning: {
+    default: `1px solid ${colors.yellowPalette.primary}`,
+    focus: `2px solid ${colors.yellowPalette.primary}`,
+  },
+  error: {
+    default: `1px solid ${colors.redPalette.primary}`,
+    focus: `2px solid ${colors.redPalette.primary}`,
+  },
+};
+
 const breakpoints = ['544px', '768px', '992px', '1280px'];
 breakpoints.xs = breakpoints[0];
 breakpoints.sm = breakpoints[1];
@@ -438,6 +457,7 @@ const theme = {
   DEFAULT_SHADOW,
   space,
   breakpoints,
+  textField,
   typography,
 };
 

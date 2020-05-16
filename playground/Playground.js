@@ -20,13 +20,14 @@ export function Playground() {
           APPLY
         </Button>
       </div>
-      <div style={{ marginTop: '50px', width: '200px' }}>
+      <div>
         <TextField
-          type="text"
-          // maxLength="8"
+          width={200}
+          // disabled
+          // error="error"
           placeholder="Placeholder text"
+          icon={<Icon type="uploadFile" />}
         />
-        <Button variant="primary">APPLY</Button>
       </div>
     </>
   );
