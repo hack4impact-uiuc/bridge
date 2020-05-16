@@ -39,7 +39,7 @@ exports[`Text types renders "alert" properly 1`] = `
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 <span
@@ -201,7 +201,7 @@ exports[`Text types renders "table" properly 1`] = `
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 <span
