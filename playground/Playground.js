@@ -20,62 +20,6 @@ export function Playground() {
           APPLY
         </Button>
       </div>
-      <div style={{ marginTop: '10px' }}>
-        <TextField
-          width={200}
-          error="error"
-          placeholder="Placeholder text"
-          icon={<Icon type="uploadFile" />}
-        />
-        <TextField
-          marginLeft={20}
-          width={200}
-          error="warning"
-          placeholder="Placeholder text"
-        />
-      </div>
-      <div style={{ marginTop: '10px' }}>
-        <TextField
-          width={200}
-          disabled
-          error="error"
-          placeholder="Placeholder text"
-        />
-        <TextField
-          marginLeft={20}
-          width={200}
-          error="success"
-          placeholder="Placeholder text"
-        />
-      </div>
-      <div style={{ marginTop: '10px' }}>
-        <TextField
-          width={200}
-          as="textarea"
-          error="error"
-          placeholder="Placeholder text"
-          icon={<Icon type="errorAlert" />}
-        />
-        <TextField
-          marginLeft={20}
-          width={200}
-          as="textarea"
-          disabled
-          placeholder="Placeholder text"
-        />
-      </div>
-      <div style={{ marginTop: '10px' }}>
-        <TextField
-          width={200}
-          placeholder="Placeholder text"
-        />
-        <TextField
-          marginLeft={20}
-          width={200}
-          disabled
-          placeholder="Placeholder text"
-        />
-      </div>
     </>
   );
 }

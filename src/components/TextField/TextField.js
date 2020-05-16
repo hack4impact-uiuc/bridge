@@ -10,7 +10,9 @@ const TextFieldContainer = styled.div`
   position: relative;
   display: inline-flex;
 
-  height: ${(props) => (props.type && props.type === 'textarea' ? '90px' : '46px')};
+  height: ${(props) => (props.type && props.type === 'textarea'
+    ? `${props.lines * 20 + 30}px`
+    : '46px')};
   width: 100%;
 
   border: ${(props) => props.propBorder.default};
@@ -74,18 +76,19 @@ const TextFieldBase = styled.input`
 `;
 
 const TextField = ({
-  icon,
-  error,
-  theme: propTheme,
+  as,
   autoComplete,
   disabled,
+  error,
+  icon,
   id,
+  lines,
   name,
   onChange,
   placeholder,
+  theme: propTheme,
   type,
   value,
-  as,
   ...props
 }) => {
   let iconType = null;
@@ -117,6 +120,7 @@ const TextField = ({
       propBorder={border}
       padding={padding}
       disabled={disabled}
+      lines={lines || 3}
       {...props}
     >
       {icon && <TextFieldPrefixIcon>{icon}</TextFieldPrefixIcon>}
