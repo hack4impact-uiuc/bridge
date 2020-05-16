@@ -414,23 +414,19 @@ const alert = {
 const textField = {
   default: {
     default: `1px solid ${colors.greyPalette.light}`,
-    // focus: `2px solid ${colors.bluePalette.primary}`,
-    focus: `0 0 0 2px ${colors.bluePalette.primary}`,
+    focus: `2px solid ${colors.bluePalette.primary}`,
   },
   success: {
     default: `1px solid ${colors.greenPalette.primary}`,
-    // focus: `2px solid ${colors.greenPalette.primary}`,
-    focus: `0 0 0 2px ${colors.greenPalette.primary}`,
+    focus: `2px solid ${colors.greenPalette.primary}`,
   },
   warning: {
     default: `1px solid ${colors.yellowPalette.primary}`,
-    // focus: `2px solid ${colors.yellowPalette.primary}`,
-    focus: `0 0 0 2px ${colors.yellowPalette.primary}`,
+    focus: `2px solid ${colors.yellowPalette.primary}`,
   },
   error: {
     default: `1px solid ${colors.redPalette.primary}`,
-    // focus: `2px solid ${colors.redPalette.primary}`,
-    focus: `0 0 0 2px ${colors.redPalette.primary}`,
+    focus: `2px solid ${colors.redPalette.primary}`,
   },
 };
 

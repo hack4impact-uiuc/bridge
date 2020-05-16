@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { COMMON, COLOR } from '../../utils/constants';
@@ -8,58 +8,68 @@ import Icon from '../Icon';
 
 const TextFieldContainer = styled.div`
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+
+  height: ${(props) => (props.type && props.type === 'textarea' ? '90px' : '46px')};
   width: 100%;
+
+  border: ${(props) => props.propBorder.default};
+  border-radius: 4px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+
+  &:focus-within {
+    border: ${(props) => props.propBorder.focus};
+  }
+
+  &[disabled] {
+    background-color: ${get('colors.greyPalette.lighter')};
+    border: 1px solid ${get('colors.greyPalette.light')};
+    color: ${get('colors.greyPalette.light')};
+  }
 
   ${COLOR};
   ${COMMON};
 `;
 
+const iconCSS = css`
+  display: flex;
+  flex: none;
+  align-items: center;
+`;
+
 const TextFieldPrefixIcon = styled.span`
-  position: absolute;
-  display: inline-flex;
-  height: 16px;
-  width: 16px;
-  top: ${(props) => props.top};
-  left: 9px;
+  ${iconCSS}
+
+  margin-right: 8px;
 `;
 
 const TextFieldSuffixIcon = styled(Icon)`
-  position: absolute;
-  display: inline-flex;
-  height: 16px;
+  ${iconCSS}
+
+  margin-left: 4px;
   width: 16px;
-  top: ${(props) => props.top};
-  right: ${(props) => props.right};
 `;
 
 const TextFieldBase = styled.input`
   ${get('typography.forms')}
   color: ${get('colors.text.coolTone.main')};
 
-  display: block;
-  height: ${(props) => (props.as && props.as === 'textarea' ? '76px' : '44px')};
+  display: inline-block;
   width: 100%;
 
-  padding: ${(props) => props.padding};
-  
-  border: ${(props) => props.border.default};
-  border-radius: 4px;
-
   ${(props) => (props.as === 'textarea' ? 'resize: none' : '')};
-  box-shadow: none;
+  
   outline: none;
+  border: none;
+  padding: 0;
 
-  &:focus {
-    outline: none;
-    // border: ${(props) => props.border.focus};
-    box-shadow: ${(props) => props.border.focus};
-  }
+  position: relative;
 
   &:disabled {
-    background-color: ${get('colors.greyPalette.lighter')};
-    border: 1px solid ${get('colors.greyPalette.light')};
-    color: ${get('colors.greyPalette.light')};
+    background-color: inherit;
+    color: inherit;
   }
 `;
 
@@ -96,27 +106,22 @@ const TextField = ({
     default:
   }
 
-  // needed for all different combos of icons and if textarea
-  let padding = ['0px', '9px', '0px', '9px'];
-  let top = '15px';
+  let padding = '0px 9px 0px 9px';
   if (as && as === 'textarea') {
-    padding[0] = '12px';
-    top = '36px';
+    padding = '12px 9px 12px 9px';
   }
-  if (iconType) {
-    padding[1] = '34px';
-  }
-  if (icon) {
-    padding[3] = '34px';
-  }
-  padding = padding.join(' ');
 
-  // className, COMMON, and COLOR props are passed to container
   return (
-    <TextFieldContainer {...props}>
+    <TextFieldContainer
+      type={as}
+      propBorder={border}
+      padding={padding}
+      disabled={disabled}
+      {...props}
+    >
+      {icon && <TextFieldPrefixIcon>{icon}</TextFieldPrefixIcon>}
       <TextFieldBase
-        border={border}
-        padding={padding}
+        as={as}
         autoComplete={autoComplete}
         disabled={disabled}
         id={id}
@@ -125,12 +130,8 @@ const TextField = ({
         placeholder={placeholder}
         type={type}
         value={value}
-        as={as}
       />
-      {icon && <TextFieldPrefixIcon top={top}>{icon}</TextFieldPrefixIcon>}
-      {iconType && (
-        <TextFieldSuffixIcon right={icon ? '-59px' : '-34px'} top={top} type={iconType} />
-      )}
+      {iconType && <TextFieldSuffixIcon type={iconType} />}
     </TextFieldContainer>
   );
 };
