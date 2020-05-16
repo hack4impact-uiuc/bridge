@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import {
-  Flex, Box, Heading, Text,
+  Flex, Box, Heading, Text, Button,
 } from '@hack4impact-uiuc/bridge';
 import BridgeLogo from '../public/bridge-logo.svg';
 
@@ -21,10 +21,27 @@ const HomePage = () => (
         </Box>
       </Box>
     </Flex>
-    <Flex>
-      <Link href="/components">Components</Link>
-      <hr />
-      <Link href="/design">Design Principles</Link>
+    <Flex mb="30px" flexDirection="row">
+      <Flex>
+        <Box flex={1} mr="30px">
+          <img src="/temp1.png" alt="description of design" width="100%" />
+        </Box>
+        <Box flex={1}>
+          <Heading type="h3">Our Interface Guidelines</Heading>
+          <Button as="a" href="/design">Design Principles</Button>
+
+        </Box>
+      </Flex>
+    </Flex>
+    <Flex mt="30px" flexDirection="row">
+      <Box flex={1}>
+        <Heading type="h3">Our React Component library</Heading>
+        <Button as="a" href="/components">Components</Button>
+      </Box>
+      <Box flex={1} ml="30px">
+        <img src="/temp2.png" alt="description of react component library" width="100%" />
+      </Box>
+
     </Flex>
   </Box>
 );
