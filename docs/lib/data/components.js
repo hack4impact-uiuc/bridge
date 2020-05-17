@@ -3,20 +3,33 @@
 import { COMPONENTS_URL } from '../constants';
 
 export default [
+
   {
-    title: 'Introduction',
-    href: `${COMPONENTS_URL}`,
+    name: 'Getting Started',
+    routes: [
+      {
+        title: 'Introduction',
+        href: `${COMPONENTS_URL}`,
+      },
+    ],
   },
   {
-    title: 'Buttons',
-    href: `${COMPONENTS_URL}/buttons`,
+    name: 'Components',
+    routes: [
+      {
+        title: 'Buttons',
+        href: `${COMPONENTS_URL}/buttons`,
+      },
+      {
+        title: 'Cards',
+        href: `${COMPONENTS_URL}/cards`,
+      },
+      {
+        title: 'Links',
+        href: `${COMPONENTS_URL}/links`,
+      },
+    ],
   },
-  {
-    title: 'Cards',
-    href: `${COMPONENTS_URL}/cards`,
-  },
-  {
-    title: 'Links',
-    href: `${COMPONENTS_URL}/links`,
-  },
+
+
 ];

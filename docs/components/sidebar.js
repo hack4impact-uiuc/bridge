@@ -6,7 +6,7 @@ const getSidebarRoutes = (type) => {
   if (type === 'components') {
     return ComponentDocsList.map((section) => (
       <>
-        <Text type="body" fontWeight="700" as="p" m="5px 0">{section.name}</Text>
+        <Text type="body" fontWeight="700" as="p" m="24px 0 8px 0">{section.name}</Text>
         {
         section.routes.map((elm) => (
           <Text as="p" m="5px 0"><Link href={elm.href}>{elm.title}</Link></Text>
