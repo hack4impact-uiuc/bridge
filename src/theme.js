@@ -428,6 +428,11 @@ const textField = {
     default: `1px solid ${colors.redPalette.primary}`,
     focus: `2px solid ${colors.redPalette.primary}`,
   },
+  disabled: {
+    'background-color': `${colors.greyPalette.lighter}`,
+    border: `1px solid ${colors.greyPalette.light}`,
+    color: `${colors.greyPalette.light}`,
+  },
 };
 
 const breakpoints = ['544px', '768px', '992px', '1280px'];

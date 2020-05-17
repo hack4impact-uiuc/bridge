@@ -26,9 +26,7 @@ const TextFieldContainer = styled.div`
   }
 
   &[disabled] {
-    background-color: ${get('colors.greyPalette.lighter')};
-    border: 1px solid ${get('colors.greyPalette.light')};
-    color: ${get('colors.greyPalette.light')};
+    ${get('textField.disabled')}
   }
 
   ${COLOR};
@@ -76,6 +74,7 @@ const TextFieldBase = styled.input`
 `;
 
 const TextField = ({
+  'aria-label': ariaLabel,
   as,
   autoComplete,
   disabled,
@@ -116,15 +115,17 @@ const TextField = ({
 
   return (
     <TextFieldContainer
-      type={as}
-      propBorder={border}
-      padding={padding}
       disabled={disabled}
       lines={lines || 3}
+      padding={padding}
+      propBorder={border}
+      theme={propTheme}
+      type={as}
       {...props}
     >
       {icon && <TextFieldPrefixIcon>{icon}</TextFieldPrefixIcon>}
       <TextFieldBase
+        aria-label={ariaLabel}
         as={as}
         autoComplete={autoComplete}
         disabled={disabled}
@@ -132,6 +133,7 @@ const TextField = ({
         name={name}
         onChange={onChange}
         placeholder={placeholder}
+        theme={propTheme}
         type={type}
         value={value}
       />
@@ -139,8 +141,10 @@ const TextField = ({
     </TextFieldContainer>
   );
 };
+
 TextField.propTypes = {
-  as: PropTypes.elementType,
+  'aria-label': PropTypes.string,
+  as: PropTypes.oneOf(['textarea']),
   autoComplete: PropTypes.string,
   className: PropTypes.string,
   disabled: PropTypes.bool,

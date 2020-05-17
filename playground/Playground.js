@@ -16,9 +16,7 @@ export function Playground() {
     <>
       <div>
         {/* Add the code you want to test here */}
-        <Button variant="white" href="https://google.com">
-          APPLY
-        </Button>
+        <Button variant="white" href="https://google.com">APPLY</Button>
       </div>
     </>
   );
