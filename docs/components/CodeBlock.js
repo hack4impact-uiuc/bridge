@@ -17,13 +17,13 @@ const Pre = ({ children, ...props }) => (
             color: #f8f8f2;
             white-space: pre;
             overflow: auto;
-            padding: 1.5rem;
             margin: 32px 0;
             border-radius: 8px;
             -webkit-overflow-scrolling: touch;
             font-size: 16px;
             letter-spacing: 0.5px;
             line-height: 20px;
+            padding: 20px;
             
             font-family: 'Ubuntu Mono', monospace;
           }
@@ -35,14 +35,14 @@ const Pre = ({ children, ...props }) => (
 export default ({
   children, className,
 }) => {
-  const language = className.replace(/language-/, '');
+  const language = className ? className.replace(/language-/, '') : null;
 
   return (
     <Highlight {...defaultProps} theme={theme} code={children.trim()} language={language}>
       {({
         className, style, tokens, getLineProps, getTokenProps,
       }) => (
-        <Pre className={className} style={{ ...style, padding: '20px' }}>
+        <Pre className={className} style={{ ...style }}>
           {tokens.map((line, i) => (
             <div key={i} {...getLineProps({ line, key: i })}>
               {line.map((token, key) => (

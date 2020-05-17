@@ -27,6 +27,7 @@ export const POSITION = styledSystem.position;
 export const FLEX = styledSystem.flexbox;
 export const GRID = styledSystem.grid;
 export const COLOR = styledSystem.color;
+export const BORDER = styledSystem.border;
 
 TYPOGRAPHY.propTypes = systemPropTypes.typography;
 LAYOUT.propTypes = systemPropTypes.layout;
@@ -34,3 +35,4 @@ POSITION.propTypes = systemPropTypes.position;
 FLEX.propTypes = systemPropTypes.flexbox;
 GRID.propTypes = systemPropTypes.grid;
 COLOR.propTypes = systemPropTypes.color;
+BORDER.propTypes = systemPropTypes.border;

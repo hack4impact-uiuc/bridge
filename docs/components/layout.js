@@ -17,7 +17,7 @@ const WithDoc = (meta) => ({ children }) => (
       title={meta.title}
     />
     <Flex flexWrap="wrap" m="10px auto" maxWidth="1200px">
-      <Sidebar type={meta.type} />
+      <Sidebar type={meta.type} title={meta.title} />
       <Flex
         height="100%"
         paddingBottom="lg"

@@ -11,11 +11,23 @@ export default [
         title: 'Introduction',
         href: `${COMPONENTS_URL}`,
       },
+      {
+        title: 'System Props',
+        href: `${COMPONENTS_URL}/system-props`,
+      },
     ],
   },
   {
     name: 'Components',
     routes: [
+      {
+        title: 'Alerts',
+        href: `${COMPONENTS_URL}/alerts`,
+      },
+      {
+        title: 'Box',
+        href: `${COMPONENTS_URL}/box`,
+      },
       {
         title: 'Buttons',
         href: `${COMPONENTS_URL}/buttons`,
@@ -25,8 +37,32 @@ export default [
         href: `${COMPONENTS_URL}/cards`,
       },
       {
+        title: 'Flex',
+        href: `${COMPONENTS_URL}/flex`,
+      },
+      {
+        title: 'Grid',
+        href: `${COMPONENTS_URL}/grid`,
+      },
+      {
         title: 'Links',
         href: `${COMPONENTS_URL}/links`,
+      },
+      {
+        title: 'Icons',
+        href: `${COMPONENTS_URL}/icons`,
+      },
+      {
+        title: 'Heading',
+        href: `${COMPONENTS_URL}/heading`,
+      },
+      {
+        title: 'Tags',
+        href: `${COMPONENTS_URL}/tags`,
+      },
+      {
+        title: 'Text',
+        href: `${COMPONENTS_URL}/text`,
       },
     ],
   },
