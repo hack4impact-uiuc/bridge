@@ -7,24 +7,7 @@ import {
 import FeedbackContext from './feedback-context';
 import Markdown from './markdown';
 import Sidebar from './sidebar';
-import ComponentDocsList from '../lib/data/components';
-import DesignDocsList from '../lib/data/designs';
 import Header from './header';
-
-
-const getSidebarRoutes = (type) => {
-  if (type === 'components') {
-    return ComponentDocsList.map((elm) => (
-      <Text as="p"><Link href={elm.href}>{elm.title}</Link></Text>
-    ));
-  }
-  if (type === 'designs') {
-    return DesignDocsList.map((elm) => (
-      <li><Link href={elm.href}>{elm.title}</Link></li>
-    ));
-  }
-  return null;
-};
 
 
 // TODO: use theme spacing
@@ -34,11 +17,7 @@ const WithDoc = (meta) => ({ children }) => (
       title={meta.title}
     />
     <Flex flexWrap="wrap" m="10px auto" maxWidth="1200px">
-      <Sidebar>
-        <ul>
-          {getSidebarRoutes(meta.type)}
-        </ul>
-      </Sidebar>
+      <Sidebar type={meta.type} />
       <Flex
         height="100%"
         paddingBottom="lg"

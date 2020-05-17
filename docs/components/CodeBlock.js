@@ -18,7 +18,7 @@ const Pre = ({ children, ...props }) => (
             white-space: pre;
             overflow: auto;
             padding: 1.5rem;
-            margin: 40px 0;
+            margin: 32px 0;
             border-radius: 8px;
             -webkit-overflow-scrolling: touch;
             font-size: 16px;
