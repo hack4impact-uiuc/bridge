@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen, cleanup } from '@testing-library/react';
+import { render, cleanup } from '@testing-library/react';
 import 'jest-styled-components';
 import '@testing-library/jest-dom';
 import { axe, toHaveNoViolations } from 'jest-axe';
@@ -11,7 +11,6 @@ import { renderJSON } from '../utils/testing';
 import 'babel-polyfill'; // axe violations required babel-polyfill
 
 expect.extend(toHaveNoViolations);
-const noop = () => {};
 
 describe('TextField', () => {
   it('renders a <div>', () => {
