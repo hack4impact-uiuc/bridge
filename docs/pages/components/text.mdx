@@ -1,0 +1,68 @@
+export const meta = {type: "components", title: "Text"}
+
+import { Text } from '@hack4impact-uiuc/bridge'
+import CodeExampleBox from '../../components/CodeExampleBox'
+
+import Layout from '../../components/layout.js'
+export default Layout({...meta})
+
+
+
+`Text` renders different text styles. You get the styling through the `type` prop and you render the element tag with the `as` prop. 
+
+It will default to the `span` semantically and the `body` styling. Check out [TODO HERE LINK]() for typography styling.
+
+### Example
+
+<CodeExampleBox>
+<Text>I'm a default body text</Text>
+</CodeExampleBox>
+
+```jsx
+import { Text } from '@hack4impact-uiuc/bridge'
+
+<Text>I'm a default body text</Text>
+
+```
+
+### Styling types
+
+<CodeExampleBox>
+<Text type="subtitle" as="p"> subtitle visually, semantically p </Text>
+<Text type="body" as="p"> body text visually, semantically p </Text>
+
+<Text type="caption" as="p"> caption visually, semantically p</Text>
+<Text type="overline" as="p"> overline visually,semantically p </Text>
+
+<Text type="alert" as="p"> use this in alerts, semantically p</Text>
+<Text type="table" as="p"> use this in tables, semantically p </Text>
+<Text type="form" as="p"> use this in forms, semantically p </Text>
+<Text type="quote" as="p">use this in quotes: "sorry I'm late, I didnt come", semantically p</Text>
+
+</CodeExampleBox>
+
+```jsx
+import { Heading } from '@hack4impact-uiuc/bridge'
+
+<Text type="subtitle" as="p"> subtitle visually, semantically p </Text>
+<Text type="body" as="p"> body text visually, semantically p </Text>
+
+<Text type="caption" as="p"> caption visually, semantically p</Text>
+<Text type="overline" as="p"> overline visually,semantically p </Text>
+
+<Text type="alert" as="p"> use this in alerts, semantically p</Text>
+<Text type="table" as="p"> use this in tables, semantically p </Text>
+<Text type="form" as="p"> use this in forms, semantically p </Text>
+<Text type="quote" as="p">quote: "sorry I'm late, I didnt come", semantically p</Text>
+```
+
+### System Props
+`Text` includes `COMMON` and `TYPOGRAPHY` system props. Read [System Props](/components/system-props) for details and API. These system props will override component props such as the color.
+
+### Component Props
+
+| Prop name | Type | Default | Description |
+| :- | :- | :-: | :- |
+| as | String | `h2` | sets the HTML tag for the component |
+| type | String | `h2` | sets styling of component (`'body', 'caption', 'overline', 'button', 'buttonSmall', 'alert', 'table', 'form', 'quote', 'subtitle'`) |
+| theme | Object | Bridge Theme | use to override default bridge theme|

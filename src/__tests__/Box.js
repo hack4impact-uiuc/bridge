@@ -1,3 +1,4 @@
+/* eslint-disable import/no-named-as-default-member */
 // taken from https://github.com/primer/components/blob/master/src/__tests__/Box.js
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
@@ -6,7 +7,9 @@ import '@testing-library/jest-dom';
 import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Box } from '..';
-import { COMMON, LAYOUT, FLEX } from '../utils/constants';
+import {
+  COMMON, LAYOUT, FLEX, BORDER,
+} from '../utils/constants';
 import theme from '../theme';
 import { renderJSON } from '../utils/testing';
 import 'babel-polyfill'; // axe violations required babel-polyfill
@@ -25,6 +28,7 @@ describe('Box', () => {
     expect(Box).toImplementSystemProps(LAYOUT);
     expect(Box).toImplementSystemProps(COMMON);
     expect(Box).toImplementSystemProps(FLEX);
+    expect(Box).toImplementSystemProps(BORDER);
   });
 
   it('respects the "as" prop', () => {
@@ -52,6 +56,19 @@ describe('Box', () => {
     expect(renderJSON(<Box display="inline-block" />)).toMatchSnapshot();
     expect(renderJSON(<Box display="none" />)).toMatchSnapshot();
     expect(renderJSON(<Box display={['none', 'none', 'block']} theme={theme} />)).toMatchSnapshot();
+  });
+
+  it('renders borders', () => {
+    const { container } = render(<Box borderColor="green.5" />);
+    expect(container.firstChild).toHaveStyle(`border-color: ${theme.colors.green[5]};`);
+    const { container: c } = render(<Box borderBottom={0} />);
+    expect(c.firstChild).toHaveStyle('border-bottom: 0;');
+  });
+
+  it('renders border radius', () => {
+    const { container } = render(<Box borderRadius={13} />);
+    // styled system adds px to the end
+    expect(container.firstChild).toHaveStyle('border-radius: 13px;');
   });
 
   // properties for children
