@@ -1,0 +1,27 @@
+export const meta = {type: "components", title: "TextField"}
+
+import Layout from '../../components/layout.js'
+
+export default Layout({...meta})
+
+`TextField` is used for user input.
+
+### System Props
+`TextField` includes `COMMON` and `COLOR` system props. Read [System Props](/components/system-props) for details and API. These system props will override component props such as the color.
+
+| Prop name | Type | Default | Description |
+| :- | :- | :-: | :- |
+| aria-label | String | | this should be set when the input's label is not visible on the screen |
+| as | `textarea` | | determines if the input is multiline or not |
+| autoComplete | String | | HTML autocomplete attribute |
+| disabled | Boolean | false | disable input |
+| error | `default` &#124; `error` &#124; `warning` &#124; `success` | 'default' | set the error state |
+| icon | ReactNode | null | set the icon component, displayed on the left of the input |
+| id | String | | input ID - this should be the same as a label's `for` prop |
+| lines | Number | 3 | Number of lines a `textarea` should be - this should only be used when `as=textarea`
+| name | String | | HTML name attribute |
+| onChange | Func | | callback to execute on user input |
+| placeholder | String | | the text to display in the input before typing |
+| theme | Object | Bridge Theme | use to override default bridge theme |
+| type | `email` &#124; `number` &#124; `password` &#124; `tel` &#124; `text` &#124; `url` | 'text' | the type of content (for `textarea`, use `as=textarea`) |
+| value | String | | the value of the content input |

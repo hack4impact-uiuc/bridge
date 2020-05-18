@@ -28,6 +28,7 @@ exports[`Button Colors renders error colors 1`] = `
   border: none;
   box-shadow: none;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .c0:disabled {
@@ -71,6 +72,7 @@ exports[`Button Colors renders primary colors 1`] = `
   border: none;
   box-shadow: none;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .c0:disabled {
@@ -114,6 +116,7 @@ exports[`Button Colors renders secondary colors 1`] = `
   border: none;
   box-shadow: none;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .c0:disabled {
@@ -157,6 +160,7 @@ exports[`Button Colors renders success colors 1`] = `
   border: none;
   box-shadow: none;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .c0:disabled {
@@ -200,6 +204,7 @@ exports[`Button Colors renders warning colors 1`] = `
   border: none;
   box-shadow: none;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .c0:disabled {
@@ -243,6 +248,7 @@ exports[`Button Sizes renders a large button 1`] = `
   border: none;
   box-shadow: none;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .c0:disabled {
@@ -286,6 +292,7 @@ exports[`Button Sizes renders a medium button 1`] = `
   border: none;
   box-shadow: none;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .c0:disabled {
@@ -329,6 +336,7 @@ exports[`Button Sizes renders a small button 1`] = `
   border: none;
   box-shadow: none;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .c0:disabled {
@@ -372,6 +380,7 @@ exports[`Button renders correct colors with "outline" and "disabled" props (prim
   border: 2px solid #0E4E8A;
   box-shadow: none;
   color: #0E4E8A;
+  cursor: pointer;
 }
 
 .c0:disabled {
@@ -416,6 +425,7 @@ exports[`Button respects "outline" prop 1`] = `
   border: 2px solid #0E4E8A;
   box-shadow: none;
   color: #0E4E8A;
+  cursor: pointer;
 }
 
 .c0:disabled {
@@ -459,6 +469,7 @@ exports[`Button respects the "disabled" prop 1`] = `
   border: none;
   box-shadow: none;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .c0:disabled {

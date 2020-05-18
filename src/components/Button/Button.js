@@ -38,6 +38,7 @@ const ButtonBase = styled.button`
     border: ${(props) => props.border.hover};
     box-shadow: ${(props) => props.shadow.hover};
     color: ${(props) => props.fontColor.hover};
+    cursor: pointer;
   }
 
   &:disabled {
