@@ -19,4 +19,8 @@ export default [
     title: 'Links',
     href: `${COMPONENTS_URL}/links`,
   },
+  {
+    title: 'TextField',
+    href: `${COMPONENTS_URL}/text-field`,
+  },
 ];

@@ -151,6 +151,7 @@ TextField.propTypes = {
   error: PropTypes.oneOf(['default', 'error', 'warning', 'success']),
   icon: PropTypes.element,
   id: PropTypes.string,
+  lines: PropTypes.number,
   name: PropTypes.string,
   onChange: PropTypes.func,
   placeholder: PropTypes.string,
