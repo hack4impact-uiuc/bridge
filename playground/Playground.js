@@ -3,7 +3,7 @@ import React from 'react';
 import { colors } from '../src/theme';
 
 import {
-  Button, Card, Heading, Link, Text, Icon,
+  Button, Card, Heading, Link, Text, Icon, TextField,
 } from '../src';
 
 const {

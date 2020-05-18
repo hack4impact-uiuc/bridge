@@ -64,8 +64,10 @@ export default [
         title: 'Text',
         href: `${COMPONENTS_URL}/text`,
       },
+      {
+        title: 'TextField',
+        href: `${COMPONENTS_URL}/text-field`,
+      },
     ],
   },
-
-
 ];
