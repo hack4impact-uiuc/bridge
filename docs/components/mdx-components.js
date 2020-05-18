@@ -119,8 +119,8 @@ const components = {
   h3: (props) => <PermalinkHeading type="h3" {...props} />,
   h4: (props) => <PermalinkHeading type="h4" {...props} />,
   // don't have styling for h5 or h6, use h4
-  h5: (props) => <PermalinkHeading type="h1" {...props} />,
-  h6: (props) => <PermalinkHeading type="h1" {...props} />,
+  h5: (props) => <PermalinkHeading type="h4" {...props} />,
+  h6: (props) => <PermalinkHeading type="h4" {...props} />,
   blockquote: Blockquote,
   ul: ({ children, ...props }) => <ul style={{ paddingInlineStart: '24px' }} {...props}>{children}</ul>,
   ol: ({ children, ...props }) => <ol style={{ paddingInlineStart: '24px' }} {...props}>{children}</ol>,
