@@ -1,0 +1,787 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField renders correct colors with "disabled" props 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 46px;
+  width: 100%;
+  border: 1px solid #8B9199;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0px 9px 0px 9px;
+}
+
+.c0:focus-within {
+  border: 2px solid #155DA1;
+}
+
+.c0[disabled] {
+  background-color: #EBEEF2;
+  border: 1px solid #8B9199;
+  color: #8B9199;
+}
+
+.c1 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #0A162A;
+  display: inline-block;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0;
+  position: relative;
+}
+
+.c1:disabled {
+  background-color: inherit;
+  color: inherit;
+}
+
+<div
+  className="c0"
+  disabled={true}
+>
+  <input
+    className="c1"
+    disabled={true}
+  />
+</div>
+`;
+
+exports[`TextField renders correct icon 1`] = `
+.c2 {
+  display: inline-block;
+  vertical-align: center;
+  fill: none;
+  width: 20px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 46px;
+  width: 100%;
+  border: 1px solid #8B9199;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0px 9px 0px 9px;
+}
+
+.c0:focus-within {
+  border: 2px solid #155DA1;
+}
+
+.c0[disabled] {
+  background-color: #EBEEF2;
+  border: 1px solid #8B9199;
+  color: #8B9199;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.c3 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #0A162A;
+  display: inline-block;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0;
+  position: relative;
+}
+
+.c3:disabled {
+  background-color: inherit;
+  color: inherit;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1"
+  >
+    <svg
+      className="c2"
+      fill="none"
+      viewBox="0 0 30 30"
+      width="20px"
+    >
+      <path
+        clipRule="evenodd"
+        d="M15 29C22.732 29 29 22.732 29 15C29 7.26801 22.732 1 15 1C7.26801 1 1 7.26801 1 15C1 22.732 7.26801 29 15 29Z"
+        fillRule="evenodd"
+        stroke="#A62B31"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      />
+      <path
+        d="M19.1998 10.8L10.7998 19.2"
+        stroke="#A62B31"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      />
+      <path
+        d="M10.7998 10.8L19.1998 19.2"
+        stroke="#A62B31"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </span>
+  <input
+    className="c3"
+  />
+</div>
+`;
+
+exports[`TextField renders textarea using "as" prop 1`] = `
+Object {
+  "lastCalledWith": [Function],
+  "lastReturnedWith": [Function],
+  "not": Object {
+    "lastCalledWith": [Function],
+    "lastReturnedWith": [Function],
+    "nthCalledWith": [Function],
+    "nthReturnedWith": [Function],
+    "toBe": [Function],
+    "toBeCalled": [Function],
+    "toBeCalledTimes": [Function],
+    "toBeCalledWith": [Function],
+    "toBeChecked": [Function],
+    "toBeCloseTo": [Function],
+    "toBeDefined": [Function],
+    "toBeDisabled": [Function],
+    "toBeEmpty": [Function],
+    "toBeEnabled": [Function],
+    "toBeFalsy": [Function],
+    "toBeGreaterThan": [Function],
+    "toBeGreaterThanOrEqual": [Function],
+    "toBeInTheDOM": [Function],
+    "toBeInTheDocument": [Function],
+    "toBeInstanceOf": [Function],
+    "toBeInvalid": [Function],
+    "toBeLessThan": [Function],
+    "toBeLessThanOrEqual": [Function],
+    "toBeNaN": [Function],
+    "toBeNull": [Function],
+    "toBeRequired": [Function],
+    "toBeTruthy": [Function],
+    "toBeUndefined": [Function],
+    "toBeValid": [Function],
+    "toBeVisible": [Function],
+    "toContain": [Function],
+    "toContainElement": [Function],
+    "toContainEqual": [Function],
+    "toContainHTML": [Function],
+    "toEqual": [Function],
+    "toHaveAttribute": [Function],
+    "toHaveBeenCalled": [Function],
+    "toHaveBeenCalledTimes": [Function],
+    "toHaveBeenCalledWith": [Function],
+    "toHaveBeenLastCalledWith": [Function],
+    "toHaveBeenNthCalledWith": [Function],
+    "toHaveClass": [Function],
+    "toHaveDescription": [Function],
+    "toHaveDisplayValue": [Function],
+    "toHaveFocus": [Function],
+    "toHaveFormValues": [Function],
+    "toHaveLastReturnedWith": [Function],
+    "toHaveLength": [Function],
+    "toHaveNoViolations": [Function],
+    "toHaveNthReturnedWith": [Function],
+    "toHaveProperty": [Function],
+    "toHaveReturned": [Function],
+    "toHaveReturnedTimes": [Function],
+    "toHaveReturnedWith": [Function],
+    "toHaveStyle": [Function],
+    "toHaveStyleRule": [Function],
+    "toHaveTextContent": [Function],
+    "toHaveValue": [Function],
+    "toImplementSystemProps": [Function],
+    "toMatch": [Function],
+    "toMatchInlineSnapshot": [Function],
+    "toMatchObject": [Function],
+    "toMatchSnapshot": [Function],
+    "toReturn": [Function],
+    "toReturnTimes": [Function],
+    "toReturnWith": [Function],
+    "toStrictEqual": [Function],
+    "toThrow": [Function],
+    "toThrowError": [Function],
+    "toThrowErrorMatchingInlineSnapshot": [Function],
+    "toThrowErrorMatchingSnapshot": [Function],
+  },
+  "nthCalledWith": [Function],
+  "nthReturnedWith": [Function],
+  "rejects": Object {
+    "lastCalledWith": [Function],
+    "lastReturnedWith": [Function],
+    "not": Object {
+      "lastCalledWith": [Function],
+      "lastReturnedWith": [Function],
+      "nthCalledWith": [Function],
+      "nthReturnedWith": [Function],
+      "toBe": [Function],
+      "toBeCalled": [Function],
+      "toBeCalledTimes": [Function],
+      "toBeCalledWith": [Function],
+      "toBeChecked": [Function],
+      "toBeCloseTo": [Function],
+      "toBeDefined": [Function],
+      "toBeDisabled": [Function],
+      "toBeEmpty": [Function],
+      "toBeEnabled": [Function],
+      "toBeFalsy": [Function],
+      "toBeGreaterThan": [Function],
+      "toBeGreaterThanOrEqual": [Function],
+      "toBeInTheDOM": [Function],
+      "toBeInTheDocument": [Function],
+      "toBeInstanceOf": [Function],
+      "toBeInvalid": [Function],
+      "toBeLessThan": [Function],
+      "toBeLessThanOrEqual": [Function],
+      "toBeNaN": [Function],
+      "toBeNull": [Function],
+      "toBeRequired": [Function],
+      "toBeTruthy": [Function],
+      "toBeUndefined": [Function],
+      "toBeValid": [Function],
+      "toBeVisible": [Function],
+      "toContain": [Function],
+      "toContainElement": [Function],
+      "toContainEqual": [Function],
+      "toContainHTML": [Function],
+      "toEqual": [Function],
+      "toHaveAttribute": [Function],
+      "toHaveBeenCalled": [Function],
+      "toHaveBeenCalledTimes": [Function],
+      "toHaveBeenCalledWith": [Function],
+      "toHaveBeenLastCalledWith": [Function],
+      "toHaveBeenNthCalledWith": [Function],
+      "toHaveClass": [Function],
+      "toHaveDescription": [Function],
+      "toHaveDisplayValue": [Function],
+      "toHaveFocus": [Function],
+      "toHaveFormValues": [Function],
+      "toHaveLastReturnedWith": [Function],
+      "toHaveLength": [Function],
+      "toHaveNoViolations": [Function],
+      "toHaveNthReturnedWith": [Function],
+      "toHaveProperty": [Function],
+      "toHaveReturned": [Function],
+      "toHaveReturnedTimes": [Function],
+      "toHaveReturnedWith": [Function],
+      "toHaveStyle": [Function],
+      "toHaveStyleRule": [Function],
+      "toHaveTextContent": [Function],
+      "toHaveValue": [Function],
+      "toImplementSystemProps": [Function],
+      "toMatch": [Function],
+      "toMatchInlineSnapshot": [Function],
+      "toMatchObject": [Function],
+      "toMatchSnapshot": [Function],
+      "toReturn": [Function],
+      "toReturnTimes": [Function],
+      "toReturnWith": [Function],
+      "toStrictEqual": [Function],
+      "toThrow": [Function],
+      "toThrowError": [Function],
+      "toThrowErrorMatchingInlineSnapshot": [Function],
+      "toThrowErrorMatchingSnapshot": [Function],
+    },
+    "nthCalledWith": [Function],
+    "nthReturnedWith": [Function],
+    "toBe": [Function],
+    "toBeCalled": [Function],
+    "toBeCalledTimes": [Function],
+    "toBeCalledWith": [Function],
+    "toBeChecked": [Function],
+    "toBeCloseTo": [Function],
+    "toBeDefined": [Function],
+    "toBeDisabled": [Function],
+    "toBeEmpty": [Function],
+    "toBeEnabled": [Function],
+    "toBeFalsy": [Function],
+    "toBeGreaterThan": [Function],
+    "toBeGreaterThanOrEqual": [Function],
+    "toBeInTheDOM": [Function],
+    "toBeInTheDocument": [Function],
+    "toBeInstanceOf": [Function],
+    "toBeInvalid": [Function],
+    "toBeLessThan": [Function],
+    "toBeLessThanOrEqual": [Function],
+    "toBeNaN": [Function],
+    "toBeNull": [Function],
+    "toBeRequired": [Function],
+    "toBeTruthy": [Function],
+    "toBeUndefined": [Function],
+    "toBeValid": [Function],
+    "toBeVisible": [Function],
+    "toContain": [Function],
+    "toContainElement": [Function],
+    "toContainEqual": [Function],
+    "toContainHTML": [Function],
+    "toEqual": [Function],
+    "toHaveAttribute": [Function],
+    "toHaveBeenCalled": [Function],
+    "toHaveBeenCalledTimes": [Function],
+    "toHaveBeenCalledWith": [Function],
+    "toHaveBeenLastCalledWith": [Function],
+    "toHaveBeenNthCalledWith": [Function],
+    "toHaveClass": [Function],
+    "toHaveDescription": [Function],
+    "toHaveDisplayValue": [Function],
+    "toHaveFocus": [Function],
+    "toHaveFormValues": [Function],
+    "toHaveLastReturnedWith": [Function],
+    "toHaveLength": [Function],
+    "toHaveNoViolations": [Function],
+    "toHaveNthReturnedWith": [Function],
+    "toHaveProperty": [Function],
+    "toHaveReturned": [Function],
+    "toHaveReturnedTimes": [Function],
+    "toHaveReturnedWith": [Function],
+    "toHaveStyle": [Function],
+    "toHaveStyleRule": [Function],
+    "toHaveTextContent": [Function],
+    "toHaveValue": [Function],
+    "toImplementSystemProps": [Function],
+    "toMatch": [Function],
+    "toMatchInlineSnapshot": [Function],
+    "toMatchObject": [Function],
+    "toMatchSnapshot": [Function],
+    "toReturn": [Function],
+    "toReturnTimes": [Function],
+    "toReturnWith": [Function],
+    "toStrictEqual": [Function],
+    "toThrow": [Function],
+    "toThrowError": [Function],
+    "toThrowErrorMatchingInlineSnapshot": [Function],
+    "toThrowErrorMatchingSnapshot": [Function],
+  },
+  "resolves": Object {
+    "lastCalledWith": [Function],
+    "lastReturnedWith": [Function],
+    "not": Object {
+      "lastCalledWith": [Function],
+      "lastReturnedWith": [Function],
+      "nthCalledWith": [Function],
+      "nthReturnedWith": [Function],
+      "toBe": [Function],
+      "toBeCalled": [Function],
+      "toBeCalledTimes": [Function],
+      "toBeCalledWith": [Function],
+      "toBeChecked": [Function],
+      "toBeCloseTo": [Function],
+      "toBeDefined": [Function],
+      "toBeDisabled": [Function],
+      "toBeEmpty": [Function],
+      "toBeEnabled": [Function],
+      "toBeFalsy": [Function],
+      "toBeGreaterThan": [Function],
+      "toBeGreaterThanOrEqual": [Function],
+      "toBeInTheDOM": [Function],
+      "toBeInTheDocument": [Function],
+      "toBeInstanceOf": [Function],
+      "toBeInvalid": [Function],
+      "toBeLessThan": [Function],
+      "toBeLessThanOrEqual": [Function],
+      "toBeNaN": [Function],
+      "toBeNull": [Function],
+      "toBeRequired": [Function],
+      "toBeTruthy": [Function],
+      "toBeUndefined": [Function],
+      "toBeValid": [Function],
+      "toBeVisible": [Function],
+      "toContain": [Function],
+      "toContainElement": [Function],
+      "toContainEqual": [Function],
+      "toContainHTML": [Function],
+      "toEqual": [Function],
+      "toHaveAttribute": [Function],
+      "toHaveBeenCalled": [Function],
+      "toHaveBeenCalledTimes": [Function],
+      "toHaveBeenCalledWith": [Function],
+      "toHaveBeenLastCalledWith": [Function],
+      "toHaveBeenNthCalledWith": [Function],
+      "toHaveClass": [Function],
+      "toHaveDescription": [Function],
+      "toHaveDisplayValue": [Function],
+      "toHaveFocus": [Function],
+      "toHaveFormValues": [Function],
+      "toHaveLastReturnedWith": [Function],
+      "toHaveLength": [Function],
+      "toHaveNoViolations": [Function],
+      "toHaveNthReturnedWith": [Function],
+      "toHaveProperty": [Function],
+      "toHaveReturned": [Function],
+      "toHaveReturnedTimes": [Function],
+      "toHaveReturnedWith": [Function],
+      "toHaveStyle": [Function],
+      "toHaveStyleRule": [Function],
+      "toHaveTextContent": [Function],
+      "toHaveValue": [Function],
+      "toImplementSystemProps": [Function],
+      "toMatch": [Function],
+      "toMatchInlineSnapshot": [Function],
+      "toMatchObject": [Function],
+      "toMatchSnapshot": [Function],
+      "toReturn": [Function],
+      "toReturnTimes": [Function],
+      "toReturnWith": [Function],
+      "toStrictEqual": [Function],
+      "toThrow": [Function],
+      "toThrowError": [Function],
+      "toThrowErrorMatchingInlineSnapshot": [Function],
+      "toThrowErrorMatchingSnapshot": [Function],
+    },
+    "nthCalledWith": [Function],
+    "nthReturnedWith": [Function],
+    "toBe": [Function],
+    "toBeCalled": [Function],
+    "toBeCalledTimes": [Function],
+    "toBeCalledWith": [Function],
+    "toBeChecked": [Function],
+    "toBeCloseTo": [Function],
+    "toBeDefined": [Function],
+    "toBeDisabled": [Function],
+    "toBeEmpty": [Function],
+    "toBeEnabled": [Function],
+    "toBeFalsy": [Function],
+    "toBeGreaterThan": [Function],
+    "toBeGreaterThanOrEqual": [Function],
+    "toBeInTheDOM": [Function],
+    "toBeInTheDocument": [Function],
+    "toBeInstanceOf": [Function],
+    "toBeInvalid": [Function],
+    "toBeLessThan": [Function],
+    "toBeLessThanOrEqual": [Function],
+    "toBeNaN": [Function],
+    "toBeNull": [Function],
+    "toBeRequired": [Function],
+    "toBeTruthy": [Function],
+    "toBeUndefined": [Function],
+    "toBeValid": [Function],
+    "toBeVisible": [Function],
+    "toContain": [Function],
+    "toContainElement": [Function],
+    "toContainEqual": [Function],
+    "toContainHTML": [Function],
+    "toEqual": [Function],
+    "toHaveAttribute": [Function],
+    "toHaveBeenCalled": [Function],
+    "toHaveBeenCalledTimes": [Function],
+    "toHaveBeenCalledWith": [Function],
+    "toHaveBeenLastCalledWith": [Function],
+    "toHaveBeenNthCalledWith": [Function],
+    "toHaveClass": [Function],
+    "toHaveDescription": [Function],
+    "toHaveDisplayValue": [Function],
+    "toHaveFocus": [Function],
+    "toHaveFormValues": [Function],
+    "toHaveLastReturnedWith": [Function],
+    "toHaveLength": [Function],
+    "toHaveNoViolations": [Function],
+    "toHaveNthReturnedWith": [Function],
+    "toHaveProperty": [Function],
+    "toHaveReturned": [Function],
+    "toHaveReturnedTimes": [Function],
+    "toHaveReturnedWith": [Function],
+    "toHaveStyle": [Function],
+    "toHaveStyleRule": [Function],
+    "toHaveTextContent": [Function],
+    "toHaveValue": [Function],
+    "toImplementSystemProps": [Function],
+    "toMatch": [Function],
+    "toMatchInlineSnapshot": [Function],
+    "toMatchObject": [Function],
+    "toMatchSnapshot": [Function],
+    "toReturn": [Function],
+    "toReturnTimes": [Function],
+    "toReturnWith": [Function],
+    "toStrictEqual": [Function],
+    "toThrow": [Function],
+    "toThrowError": [Function],
+    "toThrowErrorMatchingInlineSnapshot": [Function],
+    "toThrowErrorMatchingSnapshot": [Function],
+  },
+  "toBe": [Function],
+  "toBeCalled": [Function],
+  "toBeCalledTimes": [Function],
+  "toBeCalledWith": [Function],
+  "toBeChecked": [Function],
+  "toBeCloseTo": [Function],
+  "toBeDefined": [Function],
+  "toBeDisabled": [Function],
+  "toBeEmpty": [Function],
+  "toBeEnabled": [Function],
+  "toBeFalsy": [Function],
+  "toBeGreaterThan": [Function],
+  "toBeGreaterThanOrEqual": [Function],
+  "toBeInTheDOM": [Function],
+  "toBeInTheDocument": [Function],
+  "toBeInstanceOf": [Function],
+  "toBeInvalid": [Function],
+  "toBeLessThan": [Function],
+  "toBeLessThanOrEqual": [Function],
+  "toBeNaN": [Function],
+  "toBeNull": [Function],
+  "toBeRequired": [Function],
+  "toBeTruthy": [Function],
+  "toBeUndefined": [Function],
+  "toBeValid": [Function],
+  "toBeVisible": [Function],
+  "toContain": [Function],
+  "toContainElement": [Function],
+  "toContainEqual": [Function],
+  "toContainHTML": [Function],
+  "toEqual": [Function],
+  "toHaveAttribute": [Function],
+  "toHaveBeenCalled": [Function],
+  "toHaveBeenCalledTimes": [Function],
+  "toHaveBeenCalledWith": [Function],
+  "toHaveBeenLastCalledWith": [Function],
+  "toHaveBeenNthCalledWith": [Function],
+  "toHaveClass": [Function],
+  "toHaveDescription": [Function],
+  "toHaveDisplayValue": [Function],
+  "toHaveFocus": [Function],
+  "toHaveFormValues": [Function],
+  "toHaveLastReturnedWith": [Function],
+  "toHaveLength": [Function],
+  "toHaveNoViolations": [Function],
+  "toHaveNthReturnedWith": [Function],
+  "toHaveProperty": [Function],
+  "toHaveReturned": [Function],
+  "toHaveReturnedTimes": [Function],
+  "toHaveReturnedWith": [Function],
+  "toHaveStyle": [Function],
+  "toHaveStyleRule": [Function],
+  "toHaveTextContent": [Function],
+  "toHaveValue": [Function],
+  "toImplementSystemProps": [Function],
+  "toMatch": [Function],
+  "toMatchInlineSnapshot": [Function],
+  "toMatchObject": [Function],
+  "toMatchSnapshot": [Function],
+  "toReturn": [Function],
+  "toReturnTimes": [Function],
+  "toReturnWith": [Function],
+  "toStrictEqual": [Function],
+  "toThrow": [Function],
+  "toThrowError": [Function],
+  "toThrowErrorMatchingInlineSnapshot": [Function],
+  "toThrowErrorMatchingSnapshot": [Function],
+}
+`;
+
+exports[`TextField respects "error" prop 1`] = `
+.c2 {
+  display: inline-block;
+  vertical-align: center;
+  fill: none;
+  width: 20px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 46px;
+  width: 100%;
+  border: 1px solid #A62B31;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0px 9px 0px 9px;
+}
+
+.c0:focus-within {
+  border: 2px solid #A62B31;
+}
+
+.c0[disabled] {
+  background-color: #EBEEF2;
+  border: 1px solid #8B9199;
+  color: #8B9199;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 4px;
+  width: 16px;
+}
+
+.c1 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #0A162A;
+  display: inline-block;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0;
+  position: relative;
+}
+
+.c1:disabled {
+  background-color: inherit;
+  color: inherit;
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+  />
+  <svg
+    className="c2 c3"
+    fill="none"
+    viewBox="0 0 18 18"
+    width="20px"
+  >
+    <path
+      clipRule="evenodd"
+      d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z"
+      fillRule="evenodd"
+      stroke="#A62B31"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.25"
+    />
+    <path
+      d="M8.99961 5.7998V8.9998"
+      stroke="#A62B31"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.25"
+    />
+    <path
+      d="M8.99952 12.1998H9.00752"
+      stroke="#A62B31"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.25"
+    />
+  </svg>
+</div>
+`;
+
+exports[`TextField respects the "disabled" prop 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 46px;
+  width: 100%;
+  border: 1px solid #8B9199;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0px 9px 0px 9px;
+}
+
+.c0:focus-within {
+  border: 2px solid #155DA1;
+}
+
+.c0[disabled] {
+  background-color: #EBEEF2;
+  border: 1px solid #8B9199;
+  color: #8B9199;
+}
+
+.c1 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #0A162A;
+  display: inline-block;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0;
+  position: relative;
+}
+
+.c1:disabled {
+  background-color: inherit;
+  color: inherit;
+}
+
+<div
+  className="c0"
+  disabled={true}
+>
+  <input
+    className="c1"
+    disabled={true}
+  />
+</div>
+`;

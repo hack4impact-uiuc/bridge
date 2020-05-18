@@ -16,7 +16,7 @@ const Card = styled.div`
   display: inline-block;
   vertical-align: top;
 
-  width: 504px;
+  width: 471px;
 
   background-color: ${get('colors.white')};
   border-radius: 8px;
