@@ -4,7 +4,7 @@ import 'jest-styled-components';
 import '@testing-library/jest-dom';
 import { axe, toHaveNoViolations } from 'jest-axe';
 
-import { Button, Box } from '..';
+import { Button } from '..';
 import theme, { colors } from '../theme';
 import { COMMON, FLEX, BORDER } from '../utils/constants';
 import { renderJSON } from '../utils/testing';
