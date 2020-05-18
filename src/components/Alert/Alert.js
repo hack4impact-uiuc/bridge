@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { variant } from 'styled-system';
 import theme from '../../theme';
 import { get } from '../../utils/utils';
-import { COMMON, COLOR } from '../../utils/constants';
+import { COMMON } from '../../utils/constants';
 
 const Alert = styled.div`
   // text
@@ -40,14 +40,12 @@ const Alert = styled.div`
   }
 
   ${COMMON};
-  ${COLOR};
 `;
 
 Alert.propTypes = {
   variant: PropTypes.oneOf(['success', 'warning', 'error', 'information']),
   theme: PropTypes.object,
   ...COMMON.propTypes,
-  ...COLOR.propTypes,
 };
 
 Alert.defaultProps = {

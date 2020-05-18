@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
 import { get, lodashGet } from '../../utils/utils';
-import { COMMON, COLOR } from '../../utils/constants';
+import { COMMON } from '../../utils/constants';
 
 const TagBase = styled.div`
     // text
@@ -28,7 +28,6 @@ const TagBase = styled.div`
     background: ${(props) => props.background};
 
     ${COMMON};
-    ${COLOR};
 `;
 
 const Tag = ({
@@ -58,7 +57,6 @@ Tag.propTypes = {
   color: PropTypes.string,
   theme: PropTypes.object,
   ...COMMON.propTypes,
-  ...COLOR.propTypes,
 };
 
 Tag.defaultProps = {

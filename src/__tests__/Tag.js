@@ -6,7 +6,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Tag } from '..';
 import theme, { colors } from '../theme';
-import { COMMON, COLOR } from '../utils/constants';
+import { COMMON } from '../utils/constants';
 import { renderJSON } from '../utils/testing';
 import 'babel-polyfill'; // axe violations required babel-polyfill
 
@@ -26,7 +26,6 @@ describe('Tag', () => {
 
   it('implements system props', () => {
     expect(Tag).toImplementSystemProps(COMMON);
-    expect(Tag).toImplementSystemProps(COLOR);
   });
 
   it('renders children', () => {

@@ -6,7 +6,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Button, Card } from '..';
 import theme from '../theme';
-import { COLOR, COMMON, TYPOGRAPHY } from '../utils/constants';
+import { COMMON, TYPOGRAPHY } from '../utils/constants';
 import { renderJSON } from '../utils/testing';
 import 'babel-polyfill'; // axe violations required babel-polyfill
 
@@ -53,7 +53,6 @@ describe('Card', () => {
   });
 
   it('implements system props', () => {
-    expect(Card).toImplementSystemProps(COLOR);
     expect(Card).toImplementSystemProps(COMMON);
     expect(Content).toImplementSystemProps(COMMON);
     expect(Overline).toImplementSystemProps(TYPOGRAPHY);

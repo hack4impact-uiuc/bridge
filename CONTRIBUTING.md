@@ -18,7 +18,7 @@ Our Documentation site is in the folder `./docs`. This component library takes p
 
 - components should have access to the appropriate system and styling props (e.g. `width`, `onClick`, `m`)
 - every component should have access to `COMMON` (exported in `src/utils/constants.js`)
-- for more system props, look at [styled-system API](https://styled-system.com/api)
+- for more common/system props, look at [styled-system API](https://styled-system.com/api)
 
 
 **Theme**
