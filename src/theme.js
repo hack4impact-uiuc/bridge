@@ -241,18 +241,20 @@ const typography = {
 
 // styling specific to the Button component
 const buttons = {
+  // padding is 2px smaller than defined in design system
+  // because of 2px border
   sizingAndTypography: {
     small: {
       ...typography.buttonSmall,
-      padding: '12px 16px',
+      padding: '10px 14px',
     },
     medium: {
       ...typography.button,
-      padding: '12px 16px',
+      padding: '10px 14px',
     },
     large: {
       ...typography.button,
-      padding: '14px 32px',
+      padding: '12px 30px',
     },
   },
   // default values, based on the color palette
@@ -263,9 +265,9 @@ const buttons = {
       disabled: colorPalette.lighter,
     },
     border: {
-      default: 'none',
-      hover: 'none',
-      disabled: 'none',
+      default: 'transparent',
+      hover: 'transparent',
+      disabled: 'transparent',
     },
     fontColor: {
       default: colors.white,

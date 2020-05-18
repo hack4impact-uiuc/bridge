@@ -67,9 +67,9 @@ const Button = ({
   };
 
   let border = {
-    default: lodashGet(buttonTheme, 'border.default', buttonDefaultTheme.border.default),
-    hover: lodashGet(buttonTheme, 'border.hover', buttonDefaultTheme.border.hover),
-    disabled: lodashGet(buttonTheme, 'border.disabled', buttonDefaultTheme.border.disabled),
+    default: `2px solid ${lodashGet(buttonTheme, 'border.default', buttonDefaultTheme.border.default)}`,
+    hover: `2px solid ${lodashGet(buttonTheme, 'border.hover', buttonDefaultTheme.border.hover)}`,
+    disabled: `2px solid ${lodashGet(buttonTheme, 'border.disabled', buttonDefaultTheme.border.disabled)}`,
   };
 
   let fontColor = {
