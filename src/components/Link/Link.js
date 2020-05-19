@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
 import { get, lodashGet } from '../../utils/utils';
-import { COMMON, TYPOGRAPHY, COLOR } from '../../utils/constants';
+import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 
 const buttonStyles = (propTheme) => ({
   ...propTheme.typography.button,
@@ -41,7 +41,6 @@ const LinkBase = styled.a`
   
   ${COMMON}
   ${TYPOGRAPHY}
-  ${COLOR}
   `;
 
 const Link = ({
@@ -88,7 +87,6 @@ Link.propTypes = {
   onClick: PropTypes.func,
   ...COMMON.propTypes,
   ...TYPOGRAPHY.propTypes,
-  ...COLOR.propTypes,
 };
 
 

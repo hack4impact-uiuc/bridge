@@ -53,10 +53,23 @@ import { Button } from '@hack4impact-uiuc/bridge'
 ```
 
 ### Button Groups
+When using multiple buttons side by side, you can use `<Button.Group>`. This will add the correct 20px margin between buttons. `ButtonBox` has same props as [`Box`](/components/box)
+
+TODO render here
+
+```jsx
+import { Button } from '@hack4impact-uiuc/bridge'
+
+<Button.Group>
+    <Button variant="primary">Button #1</Button>
+    <Button variant="success">Button #2</Button>
+    <Button variant="error">Button #3</Button>
+</Button.Group>
+```
 
 
-### System Props
-`Button` includes `COMMON` and `COLOR` system props. Read [System Props](/components/system-props) for details and API. These system props will override component props such as the color.
+### Common Props
+`Button` includes `COMMON` props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
 
 ### Component Props
 
@@ -71,4 +84,4 @@ import { Button } from '@hack4impact-uiuc/bridge'
 | type | String | 'medium' | size of button (`large`, `medium`, `small`)|
 | theme | Object | Bridge Theme | use to override default bridge theme|
 
- 
+`ButtonBox` has same props as [`Box`](/components/box)

@@ -21,6 +21,7 @@ exports[`Card renders a <div> 1`] = `
 
 exports[`Card renders entire card properly 1`] = `
 .c8 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;

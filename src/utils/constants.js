@@ -14,10 +14,11 @@ textDecoration.propTypes = PropTypes.string;
 
 
 // common style props to be passed into components
-export const COMMON = compose(styledSystem.space, styledSystem.layout);
+export const COMMON = compose(styledSystem.space, styledSystem.layout, styledSystem.color);
 COMMON.propTypes = {
   ...systemPropTypes.space,
   ...systemPropTypes.layout,
+  ...systemPropTypes.color,
 };
 
 // for easier access

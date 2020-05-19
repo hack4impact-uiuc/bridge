@@ -4,9 +4,12 @@ import styled from 'styled-components';
 import { variant as styledVariant } from 'styled-system';
 import theme from '../../theme';
 import { lodashGet } from '../../utils/utils';
-import { COMMON, COLOR } from '../../utils/constants';
+import { COMMON } from '../../utils/constants';
+import ButtonGroup from './ButtonGroup';
 
 const ButtonBase = styled.button`
+  cursor: pointer;
+
   // text
   text-decoration: none;
   overflow: hidden;
@@ -49,7 +52,6 @@ const ButtonBase = styled.button`
   }
   
   ${COMMON};
-  ${COLOR};
 `;
 
 const Button = ({
@@ -150,7 +152,6 @@ Button.propTypes = {
   theme: PropTypes.object,
   type: PropTypes.oneOf(['small', 'medium', 'large']),
   ...COMMON.propTypes,
-  ...COLOR.propTypes,
 };
 
 Button.defaultProps = {
@@ -158,5 +159,7 @@ Button.defaultProps = {
   type: 'medium',
   theme,
 };
+
+Button.Group = ButtonGroup;
 
 export default Button;

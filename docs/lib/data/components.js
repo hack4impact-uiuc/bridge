@@ -12,8 +12,12 @@ export default [
         href: `${COMPONENTS_URL}`,
       },
       {
-        title: 'System Props',
-        href: `${COMPONENTS_URL}/system-props`,
+        title: 'Common Props',
+        href: `${COMPONENTS_URL}/common-props`,
+      },
+      {
+        title: 'Theming',
+        href: `${COMPONENTS_URL}/theming`,
       },
     ],
   },

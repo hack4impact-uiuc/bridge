@@ -2,6 +2,7 @@
 
 exports[`Button Colors renders error colors 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
@@ -46,6 +47,7 @@ exports[`Button Colors renders error colors 1`] = `
 
 exports[`Button Colors renders primary colors 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
@@ -90,6 +92,7 @@ exports[`Button Colors renders primary colors 1`] = `
 
 exports[`Button Colors renders secondary colors 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
@@ -134,6 +137,7 @@ exports[`Button Colors renders secondary colors 1`] = `
 
 exports[`Button Colors renders success colors 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
@@ -178,6 +182,7 @@ exports[`Button Colors renders success colors 1`] = `
 
 exports[`Button Colors renders warning colors 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
@@ -220,8 +225,82 @@ exports[`Button Colors renders warning colors 1`] = `
 />
 `;
 
+exports[`Button Group renders correctly with 20px margin per child besides last-child 1`] = `
+.c0 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.c0.c0 > *:not(:last-child) {
+  margin-right: 20px;
+}
+
+.c1 {
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 13px;
+  font-family: Chivo;
+  font-weight: 700px;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 14px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background: #155DA1;
+  border: 2px solid transparent;
+  color: #FFFFFF;
+}
+
+.c1:hover:not([disabled]) {
+  background: #0E4E8A;
+  border: 2px solid transparent;
+  box-shadow: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.c1:disabled {
+  background: #B4D8FA;
+  border: 2px solid transparent;
+  box-shadow: none;
+  color: #FFFFFF;
+}
+
+<div
+  className="Box-ik9o9h-0 c0"
+  display="inline-block"
+>
+  <button
+    className="c1"
+    type="medium"
+  >
+    APPLY
+  </button>
+  <button
+    className="c1"
+    type="medium"
+  >
+    APPLY
+  </button>
+  <button
+    className="c1"
+    type="medium"
+  >
+    APPLY
+  </button>
+</div>
+`;
+
 exports[`Button Sizes renders a large button 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
@@ -266,6 +345,7 @@ exports[`Button Sizes renders a large button 1`] = `
 
 exports[`Button Sizes renders a medium button 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
@@ -310,6 +390,7 @@ exports[`Button Sizes renders a medium button 1`] = `
 
 exports[`Button Sizes renders a small button 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
@@ -354,6 +435,7 @@ exports[`Button Sizes renders a small button 1`] = `
 
 exports[`Button renders correct colors with "outline" and "disabled" props (primary colors) 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
@@ -399,6 +481,7 @@ exports[`Button renders correct colors with "outline" and "disabled" props (prim
 
 exports[`Button respects "outline" prop 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;
@@ -443,6 +526,7 @@ exports[`Button respects "outline" prop 1`] = `
 
 exports[`Button respects the "disabled" prop 1`] = `
 .c0 {
+  cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   overflow: hidden;

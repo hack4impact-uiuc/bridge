@@ -6,7 +6,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Button } from '..';
 import theme, { colors } from '../theme';
-import { COLOR, COMMON } from '../utils/constants';
+import { COMMON, FLEX, BORDER } from '../utils/constants';
 import { renderJSON } from '../utils/testing';
 import 'babel-polyfill'; // axe violations required babel-polyfill
 
@@ -27,7 +27,6 @@ describe('Button', () => {
   });
 
   it('implements system props', () => {
-    expect(Button).toImplementSystemProps(COLOR);
     expect(Button).toImplementSystemProps(COMMON);
   });
 
@@ -127,5 +126,24 @@ describe('Button Sizes', () => {
   it('renders a large button', () => {
     const item = renderJSON(<Button type="large" />);
     expect(item).toMatchSnapshot();
+  });
+});
+
+describe('Button Group', () => {
+  it('implements system props - same as Box', () => {
+    // same as box
+    expect(Button.Group).toImplementSystemProps(COMMON);
+    expect(Button.Group).toImplementSystemProps(FLEX);
+    expect(Button.Group).toImplementSystemProps(BORDER);
+  });
+
+  it('renders correctly with 20px margin per child besides last-child', () => {
+    expect(renderJSON(
+      <Button.Group>
+        <Button variant="primary">APPLY</Button>
+        <Button variant="primary">APPLY</Button>
+        <Button variant="primary">APPLY</Button>
+      </Button.Group>,
+    )).toMatchSnapshot();
   });
 });
