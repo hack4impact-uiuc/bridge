@@ -1,2 +1,2 @@
 export const COMPONENTS_URL = '/components';
-export const DESIGNS_URL = '/designs';
+export const DESIGN_URL = '/design';
