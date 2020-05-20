@@ -76,7 +76,7 @@ const PermalinkHeading = ({ children, type, ...props }) => {
   const id = slugger.slug(text);
 
   return (
-    <Heading id={id} {...hSpacing} type={type} {...props}>
+    <Heading id={id} {...hSpacing} type={type} {...props} style={{ borderBottom: '1px solid #EBEEF2' }}>
       <a href={`#${id}`}>
         {children}
       </a>
@@ -113,7 +113,7 @@ const PermalinkHeading = ({ children, type, ...props }) => {
 };
 
 const components = {
-  p: (props) => <Text as="p" type="body" {...props} />,
+  p: (props) => <Text as="p" m="8px 0" type="body" {...props} />,
   h1: (props) => <PermalinkHeading type="h1" {...props} />,
   h2: (props) => <PermalinkHeading type="h2" {...props} />,
   h3: (props) => <PermalinkHeading type="h3" {...props} />,

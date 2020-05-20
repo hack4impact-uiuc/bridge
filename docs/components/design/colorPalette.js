@@ -2,52 +2,76 @@ import {
   theme, Flex, Box, Text, Heading,
 } from '@hack4impact-uiuc/bridge';
 
-const PaletteShade = ({ palette }) => (
+const WhiteBorderStyling = {
+  borderRadius: '4px',
+  border: 'solid 1px #979797',
+};
+
+
+const PaletteShade = ({ palette, name }) => (
   Object.entries(palette).map(([key, value]) => {
     let color = 'white';
     let bg = value;
-    if (key === 'lighter' || key === 'text') {
+    let label = key;
+    let borderStyling = {};
+    if (label === 'lighter' || label === 'text') {
       color = palette.text;
     }
+    if (label === 'white') {
+      color = theme.colors.text.grayScale.main;
+      borderStyling = WhiteBorderStyling;
+    }
+    if (label === 'primary') {
+      label = name;
+    }
+
     if (key === 'text') {
       bg = '#ECECEC';
     }
 
     return (
-      <Box width="100%" height="40px" bg={bg}>
-        <Text mt="8px" ml="16px" className="name" style={{ float: 'left' }} color={color} type="body" verticalAlign="middle">{key}</Text>
-        <Text mt="8px" mr="16px" className="value" style={{ float: 'right' }} color={color} type="body" verticalAlign="middle">{value}</Text>
+      <Box {...borderStyling} width="100%" height={key === 'primary' ? '80px' : '40px'} bg={bg}>
+        <Text
+          mt={key === 'primary' ? '28px' : '8px'}
+          ml="16px"
+          className="name"
+          style={{ float: 'left' }}
+          color={color}
+          type="body"
+          verticalAlign="middle"
+        >
+          {label}
+        </Text>
+        <Text
+          mt={key === 'primary' ? '28px' : '8px'}
+          mr="16px"
+          className="value"
+          style={{ float: 'right' }}
+          color={color}
+          type="body"
+          verticalAlign="middle"
+        >
+          {value}
+        </Text>
       </Box>
     );
   })
 );
 
-const ColorPalette = (props) => (
-  <Box mt="30px">
-    <Heading type="h4" as="h4">Base Colors</Heading>
-    <Flex flexWrap="wrap">
-      <Box flexGrow={1} width="30%" pr={['0', '30px']}>
-        <PaletteShade palette={theme.colors.bluePalette} />
-      </Box>
-      <Box flexGrow={1} width="30%" pr={['0', '30px']}>
-        <PaletteShade palette={theme.colors.indigoPalette} />
-      </Box>
-      <Box flexGrow={1} width="30%">
-        <PaletteShade palette={theme.colors.greyPalette} />
-      </Box>
-
-    </Flex>
-    <Heading type="h4" as="h4">Secondary Colors</Heading>
-    <Flex mt="30px" flexWrap="wrap">
-      <Box flexGrow={1} width="30%" pr={['0', '30px']}>
-        <PaletteShade palette={theme.colors.redPalette} />
-      </Box>
-      <Box flexGrow={1} width="30%" pr={['0', '30px']}>
-        <PaletteShade palette={theme.colors.greenPalette} />
-      </Box>
-      <Box flexGrow={1} width="30%">
-        <PaletteShade palette={theme.colors.yellowPalette} />
-      </Box>
+const ColorPalette = ({ palettes }) => (
+  <Box m="30px 0">
+    <Flex flexWrap="wrap" flexDirection="row">
+      {palettes.map((palette) => (
+        <Box
+          flexGrow={1}
+          flexBasis="30%"
+          p={['0', '0 12px']}
+          minWidth="240px"
+          m={['20px 0', '0']}
+        >
+          <PaletteShade name={palette.name} palette={palette.palette} />
+        </Box>
+      ))}
     </Flex>
   </Box>
 );

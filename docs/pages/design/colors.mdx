@@ -1,8 +1,34 @@
 export const meta = {type: "design", title: "Colors"}
 
 import ColorPalette from '../../components/design/colorPalette.js'
+import { theme, Flex, Box } from '@hack4impact-uiuc/bridge'
 
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
-<ColorPalette />
+#### Base Colors
+<ColorPalette palettes={[{name: "Blue", palette: theme.colors.bluePalette }, { name: "Indigo", palette: theme.colors.indigoPalette }, {name: "Grey", palette: theme.colors.greyPalette}]} />
+
+#### Secondary Colors
+<ColorPalette palettes={[{name: "Green", palette: theme.colors.greenPalette}, {name: "Red", palette: theme.colors.redPalette }, {name: "Yellow", palette: theme.colors.yellowPalette}]}/>
+
+#### Typography
+
+**Color Pairs**
+
+Top color indicates a color that can be used for main text.
+Bottom color is used for supporting text.
+
+<ColorPalette palettes={[{name: "Charcoal", palette: {"Charcoal": theme.colors.text.grayScale.main, "Iron": theme.colors.text.grayScale.support}}, {name: "Cool Tone", palette: { "Ink": theme.colors.text.coolTone.main, "Slate": theme.colors.text.coolTone.support}}, {name: "White", palette: {white: "#FFFFFF" }}]} />
+
+#### Usage
+
+<Flex flexWrap="wrap" flexDirection="row">
+    <Box flexGrow={1} flexBasis="40%" minWidth="240px" m={["20px 0", "0 10px"]}>
+        <img src="/docs-content/design/colors/color-do.png" width="100%"/>
+    </Box>
+    <Box flexGrow={1} minWidth="240px" flexBasis="40%" m={["20px 0", "0 10px"]}>
+        <img src="/docs-content/design/colors/color-dont.png" width="100%"/>
+    </Box>
+</Flex>
+
