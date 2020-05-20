@@ -1,7 +1,7 @@
 export const meta = {type: "design", title: "Alerts"}
 
 import ColorPalette from '../../components/design/colorPalette.js'
-import { theme, Flex, Box } from '@hack4impact-uiuc/bridge'
+import { theme, Alert } from '@hack4impact-uiuc/bridge'
 import Row from '../../components/row.js'
 import Col from '../../components/col.js'
 
@@ -9,6 +9,11 @@ import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
 <Row>
-<Col>Hi</Col>
-<Col>Blah</Col>
+    <Col>
+        <Alert>This is a success alert!</Alert>
+    </Col>
+    <Col>
+        <Alert>Hi I'm an alert</Alert>
+    </Col>
 </Row>
+
