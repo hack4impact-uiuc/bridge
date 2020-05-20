@@ -27,6 +27,10 @@ export default [
     routes: [{
       title: 'Buttons',
       href: `${DESIGN_URL}/buttons`,
+    },
+    {
+      title: 'Alerts',
+      href: `${DESIGN_URL}/alerts`,
     }],
   },
 ];
