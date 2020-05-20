@@ -11,7 +11,7 @@ export default [
     ],
   },
   {
-    name: 'UI Patterns',
+    name: 'Base',
     routes: [{
       title: 'Colors',
       href: `${DESIGN_URL}/colors`,
@@ -21,5 +21,12 @@ export default [
       href: `${DESIGN_URL}/typography`,
     },
     ],
+  },
+  {
+    name: 'UI Patterns',
+    routes: [{
+      title: 'Buttons',
+      href: `${DESIGN_URL}/buttons`,
+    }],
   },
 ];

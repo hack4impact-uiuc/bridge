@@ -6,10 +6,14 @@ import { theme, Flex, Box } from '@hack4impact-uiuc/bridge'
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
+Colors should be used purposefully to communicate how things should be used in the interface. Colors should be consistent so products may be easily interactable and predicatable. These colors are for Hack4Impact, but you may change the base colors to fit your products styling and branding.
+
 #### Base Colors
+Base colors are the primary branding colors. For bridge, it's Hack4Impact's blue, indigo and grey.
 <ColorPalette palettes={[{name: "Blue", palette: theme.colors.bluePalette }, { name: "Indigo", palette: theme.colors.indigoPalette }, {name: "Grey", palette: theme.colors.greyPalette}]} />
 
 #### Secondary Colors
+Secondary colors are for actions or states. Green is for success. Red is for error. Yellow is for warning.
 <ColorPalette palettes={[{name: "Green", palette: theme.colors.greenPalette}, {name: "Red", palette: theme.colors.redPalette }, {name: "Yellow", palette: theme.colors.yellowPalette}]}/>
 
 #### Typography
