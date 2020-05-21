@@ -7,32 +7,32 @@ import TableHeadContext from './TableHeadContext';
 
 
 const context = {
-    isHead: true
-}
+  isHead: true,
+};
 
-const TableHeadComponent = ({ children, ...props }) => {
-    return (
+const TableHead = ({ children, ...props }) => (
+    <TableHeadWrapper {...props}>
         <TableHeadContext.Provider value={context}>
-            <thead {...props}>
-                { children }
-            </thead>
-        </TableHeadContext.Provider>
-    )
-}
+        { children }
+    </TableHeadContext.Provider>
+    </TableHeadWrapper>
+  
+);
 
-const TableHead = styled(TableHeadComponent)`
+export const TableHeadWrapper = styled.thead`
     ${COLOR};
     ${COMMON};
     ${TYPOGRAPHY};
-`
+`;
 
 TableHead.defaultProps = { theme };
 
 TableHead.propTypes = {
-    theme: PropTypes.object,
-    ...COMMON.propTypes,
-    ...COLOR.propTypes,
-    ...TYPOGRAPHY.propTypes,
-}
+  theme: PropTypes.object,
+  children: PropTypes.node,
+  ...COMMON.propTypes,
+  ...COLOR.propTypes,
+  ...TYPOGRAPHY.propTypes,
+};
 
 export default TableHead;

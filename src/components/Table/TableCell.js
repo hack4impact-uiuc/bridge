@@ -9,50 +9,52 @@ import TableHeadContext from './TableHeadContext';
 
 const sharedStyle = css`
     padding: 0 20px;
-    ${TableCell}:first-child {
+    &:first-child {
         padding-left: 0;
     }
 
-    ${TableCell}__${TableHeadCellWrapper}:last-child {
+    &:last-child {
         padding-right: 0;
     }
+
+    ${get('typography.table')};
 
     ${COLOR};
     ${COMMON};
     ${TYPOGRAPHY};
-`
+`;
 
 const TableCellWrapper = styled.td`
     ${sharedStyle};
-`
+`;
 
 const TableHeadCellWrapper = styled.th`
     ${sharedStyle};
     ${get('typography.tableHead')};
-`
+`;
 
 const TableCell = ({ children, ...props }) => {
-    const tableHeadContext = React.useContext(TableHeadContext)
-    const isHeadCell = tableHeadContext && tableHeadContext.isHead === true
+  const tableHeadContext = React.useContext(TableHeadContext);
+  const isHeadCell = tableHeadContext && tableHeadContext.isHead === true;
 
-    return isHeadCell ? (
-        <TableHeadCellWrapper {...props}>
-            {children}
-        </TableHeadCellWrapper>
-    ) : (
-        <TableCellWrapper {...props}>
-            {children}
-        </TableCellWrapper>
-    )
-}
+  return isHeadCell ? (
+    <TableHeadCellWrapper {...props}>
+      {children}
+    </TableHeadCellWrapper>
+  ) : (
+    <TableCellWrapper {...props}>
+      {children}
+    </TableCellWrapper>
+  );
+};
 
 TableCell.defaultProps = { theme };
 
 TableCell.propTypes = {
-    theme: PropTypes.object,
-    ...COMMON.propTypes,
-    ...COLOR.propTypes,
-    ...TYPOGRAPHY.propTypes,
-}
+  theme: PropTypes.object,
+  ...COMMON.propTypes,
+  ...COLOR.propTypes,
+  ...TYPOGRAPHY.propTypes,
+};
 
 export default TableCell;

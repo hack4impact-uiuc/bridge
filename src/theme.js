@@ -150,7 +150,7 @@ const tableFormAlertStyle = {
 };
 
 const tableHeadStyle = {
-  fontWeight: fontWeights.medium
+  fontWeight: fontWeights.medium,
 };
 
 const typography = {
@@ -246,17 +246,17 @@ const typography = {
 
 const table = {
   primary: {
-    borderBottom: `1px solid ${colors.greyPalette.lighter}`
+    borderBottom: `1px solid ${colors.greyPalette.lighter}`,
   },
   borderless: {
-    borderBottom: `none`
+    borderBottom: 'none',
   },
   nthChild: {
-      zebra: {
-      background: `${colors.greyPalette.lighter}`
-    }
-  }
-}
+    zebra: {
+      background: `${colors.greyPalette.lighter}`,
+    },
+  },
+};
 
 
 // styling specific to the Button component

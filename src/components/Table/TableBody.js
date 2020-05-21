@@ -7,15 +7,15 @@ const TableBody = styled.tbody`
     ${COLOR};
     ${COMMON};
     ${TYPOGRAPHY};
-`
+`;
 
 TableBody.defaultProps = { theme };
 
 TableBody.propTypes = {
-    theme: PropTypes.object,
-    ...COMMON.propTypes,
-    ...COLOR.propTypes,
-    ...TYPOGRAPHY.propTypes,
-}
+  theme: PropTypes.object,
+  ...COMMON.propTypes,
+  ...COLOR.propTypes,
+  ...TYPOGRAPHY.propTypes,
+};
 
 export default TableBody;
