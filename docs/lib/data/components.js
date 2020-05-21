@@ -61,6 +61,10 @@ export default [
         href: `${COMPONENTS_URL}/heading`,
       },
       {
+        title: 'Tables',
+        href: `${COMPONENTS_URL}/tables`,
+      },
+      {
         title: 'Tags',
         href: `${COMPONENTS_URL}/tags`,
       },
