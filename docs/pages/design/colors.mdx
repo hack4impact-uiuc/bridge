@@ -1,0 +1,38 @@
+export const meta = {type: "design", title: "Colors"}
+
+import ColorPalette from '../../components/design/colorPalette.js'
+import { theme, Flex, Box } from '@hack4impact-uiuc/bridge'
+
+import Layout from '../../components/layout.js'
+export default Layout({...meta})
+
+Colors should be used purposefully to communicate how things should be used in the interface. Colors should be consistent so products may be easily interactable and predicatable. These colors are for Hack4Impact, but you may change the base colors to fit your products styling and branding.
+
+#### Base Colors
+Base colors are the primary branding colors. For bridge, it's Hack4Impact's blue, indigo and grey.
+<ColorPalette palettes={[{name: "Blue", palette: theme.colors.bluePalette }, { name: "Indigo", palette: theme.colors.indigoPalette }, {name: "Grey", palette: theme.colors.greyPalette}]} />
+
+#### Secondary Colors
+Secondary colors are for actions or states. Green is for success. Red is for error. Yellow is for warning.
+<ColorPalette palettes={[{name: "Green", palette: theme.colors.greenPalette}, {name: "Red", palette: theme.colors.redPalette }, {name: "Yellow", palette: theme.colors.yellowPalette}]}/>
+
+#### Typography
+
+**Color Pairs**
+
+Top color indicates a color that can be used for main text.
+Bottom color is used for supporting text.
+
+<ColorPalette palettes={[{name: "Charcoal", palette: {"Charcoal": theme.colors.text.grayScale.main, "Iron": theme.colors.text.grayScale.support}}, {name: "Cool Tone", palette: { "Ink": theme.colors.text.coolTone.main, "Slate": theme.colors.text.coolTone.support}}, {name: "White", palette: {white: "#FFFFFF" }}]} />
+
+#### Usage
+
+<Flex flexWrap="wrap" flexDirection="row">
+    <Box flexGrow={1} flexBasis="40%" minWidth="240px" m={["20px 0", "0 10px"]}>
+        <img src="/docs-content/design/colors/color-do.png" width="100%"/>
+    </Box>
+    <Box flexGrow={1} minWidth="240px" flexBasis="40%" m={["20px 0", "0 10px"]}>
+        <img src="/docs-content/design/colors/color-dont.png" width="100%"/>
+    </Box>
+</Flex>
+

@@ -1,6 +1,41 @@
 export const meta = {type: "components", title: "Links"}
 
+import { Link } from '@hack4impact-uiuc/bridge'
+import CodeExampleBox from '../../components/CodeExampleBox'
+
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
-Hi
+`Link` is used to move to a different destination. It has the primary blue styling and text underline when hovered.
+
+For tertiary buttons, or special cases, use the `as` prop: `<Link as="button">` and add an `onClick` prop.
+
+### Example
+<CodeExampleBox>
+    <Link href="#">Link</Link>
+</CodeExampleBox>
+
+```jsx
+import { Link } from '@hack4impact-uiuc/bridge'
+
+<Link href="#">Link</Link>
+```
+
+### Variants
+
+
+
+### Common Props
+`Link` includes `COMMON` and `TYPOGRAPHY` common props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
+
+### Component Props
+
+| Prop name | Type | Default | Description |
+| :- | :- | :-: | :- |
+| color | String | None | color of Link |
+| hoverColor | String | None | color of Link when in hover state |
+| underline | bool | False | Link has underline when in normal state (not just hover state) |
+| as | String | `h2` | sets the HTML tag for the component |
+| variant | String | None | for tertiary buttons - color variant of Link (`primary`, `secondary`, `white`) |
+| onClick | Func | null | prop function to handle onClick - only use when prop `as="button"` |
+| theme | Object | Bridge Theme | use to override default bridge theme|

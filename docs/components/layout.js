@@ -22,8 +22,9 @@ const WithDoc = (meta) => ({ children }) => (
         height="100%"
         paddingBottom="lg"
         flexDirection="column"
-        width={['100%', 'calc(100% - 300px)']}
+        width={['100%', '100%', 'calc(100% - 300px)']}
         maxWidth="800px"
+        m="0 20px"
       >
         <Markdown>
           <Heading mb="0px" type="h2">{meta.title}</Heading>
