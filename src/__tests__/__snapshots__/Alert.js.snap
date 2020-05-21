@@ -25,6 +25,7 @@ exports[`Alert Alert Variants renders error 1`] = `
   align-items: center;
   padding: 0px 18px;
   height: 54px;
+  width: 100%;
 }
 
 .c0 svg {
@@ -72,6 +73,7 @@ exports[`Alert Alert Variants renders information 1`] = `
   align-items: center;
   padding: 0px 18px;
   height: 54px;
+  width: 100%;
 }
 
 .c0 svg {
@@ -119,6 +121,7 @@ exports[`Alert Alert Variants renders success 1`] = `
   align-items: center;
   padding: 0px 18px;
   height: 54px;
+  width: 100%;
 }
 
 .c0 svg {
@@ -166,6 +169,7 @@ exports[`Alert Alert Variants renders warning 1`] = `
   align-items: center;
   padding: 0px 18px;
   height: 54px;
+  width: 100%;
 }
 
 .c0 svg {
