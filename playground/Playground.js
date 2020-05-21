@@ -3,12 +3,12 @@ import React from 'react';
 import { colors } from '../src/theme';
 
 import {
-  Button, Card, Heading, Link, Text, Icon, TextField,
+  Button, Card, Heading, Link, Text, Table
 } from '../src';
 
 const {
-  Image, Content, Overline, Title, Subtitle, Body, Footer,
-} = Card;
+  Head, Body, Row, Cell
+} = Table;
 // import any components here
 
 export function Playground() {
@@ -16,7 +16,203 @@ export function Playground() {
     <>
       <div>
         {/* Add the code you want to test here */}
-        <Button variant="primary">APPLY</Button>
+        <Table>
+          <Head>
+            <Row>
+              <Cell>First Name</Cell>
+              <Cell>Last Name</Cell>
+              <Cell>Favorite Color</Cell>
+              <Cell>Favorite Number</Cell>
+            </Row>
+          </Head>
+          <Body>
+            <Row>
+              <Cell>Chloe</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Pink</Cell>
+              <Cell>3</Cell>
+            </Row>
+            <Row>
+              <Cell>Ashley</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Blue</Cell>
+              <Cell>7</Cell>
+            </Row>
+            <Row>
+              <Cell>Nicole</Cell>
+              <Cell>Nguyen</Cell>
+              <Cell>Red</Cell>
+              <Cell>10</Cell>
+            </Row>
+          </Body>
+        </Table>
+        Bodyless:
+        <Table>
+          <Head>
+            <Row>
+              <Cell>First Name</Cell>
+              <Cell>Last Name</Cell>
+              <Cell>Favorite Color</Cell>
+              <Cell>Favorite Number</Cell>
+            </Row>
+          </Head>
+        </Table>
+        Headless:
+        <Table>
+          <Body>
+            <Row>
+              <Cell>Chloe</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Pink</Cell>
+              <Cell>3</Cell>
+            </Row>
+            <Row>
+              <Cell>Ashley</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Blue</Cell>
+              <Cell>7</Cell>
+            </Row>
+            <Row>
+              <Cell>Nicole</Cell>
+              <Cell>Nguyen</Cell>
+              <Cell>Red</Cell>
+              <Cell>10</Cell>
+            </Row>
+          </Body>
+        </Table>
+        <hr />
+        <Table type="borderless">
+          <Head>
+            <Row>
+              <Cell>First Name</Cell>
+              <Cell>Last Name</Cell>
+              <Cell>Favorite Color</Cell>
+              <Cell>Favorite Number</Cell>
+            </Row>
+          </Head>
+          <Body>
+            <Row>
+              <Cell>Chloe</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Pink</Cell>
+              <Cell>3</Cell>
+            </Row>
+            <Row>
+              <Cell>Ashley</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Blue</Cell>
+              <Cell>7</Cell>
+            </Row>
+            <Row>
+              <Cell>Nicole</Cell>
+              <Cell>Nguyen</Cell>
+              <Cell>Red</Cell>
+              <Cell>10</Cell>
+            </Row>
+          </Body>
+        </Table>
+        Bodyless:
+        <Table type="borderless">
+          <Head>
+            <Row>
+              <Cell>First Name</Cell>
+              <Cell>Last Name</Cell>
+              <Cell>Favorite Color</Cell>
+              <Cell>Favorite Number</Cell>
+            </Row>
+          </Head>
+        </Table>
+        Headless:
+        <Table type="borderless">
+          <Body>
+            <Row>
+              <Cell>Chloe</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Pink</Cell>
+              <Cell>3</Cell>
+            </Row>
+            <Row>
+              <Cell>Ashley</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Blue</Cell>
+              <Cell>7</Cell>
+            </Row>
+            <Row>
+              <Cell>Nicole</Cell>
+              <Cell>Nguyen</Cell>
+              <Cell>Red</Cell>
+              <Cell>10</Cell>
+            </Row>
+          </Body>
+        </Table>
+        <hr />
+        <Table type="zebra">
+          <Head>
+            <Row>
+              <Cell>First Name</Cell>
+              <Cell>Last Name</Cell>
+              <Cell>Favorite Color</Cell>
+              <Cell>Favorite Number</Cell>
+            </Row>
+          </Head>
+          <Body>
+            <Row>
+              <Cell>Chloe</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Pink</Cell>
+              <Cell>3</Cell>
+            </Row>
+            <Row>
+              <Cell>Ashley</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Blue</Cell>
+              <Cell>7</Cell>
+            </Row>
+            <Row>
+              <Cell>Nicole</Cell>
+              <Cell>Nguyen</Cell>
+              <Cell>Red</Cell>
+              <Cell>10</Cell>
+            </Row>
+          </Body>
+        </Table>
+        
+        Bodyless:
+        <Table type="zebra">
+          <Head>
+            <Row>
+              <Cell>First Name</Cell>
+              <Cell>Last Name</Cell>
+              <Cell>Favorite Color</Cell>
+              <Cell>Favorite Number</Cell>
+            </Row>
+          </Head>
+        </Table>
+        Headless:
+        <Table type="zebra">
+          <Body>
+            <Row>
+              <Cell>Chloe</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Pink</Cell>
+              <Cell>3</Cell>
+            </Row>
+            <Row>
+              <Cell>Ashley</Cell>
+              <Cell>Chan</Cell>
+              <Cell>Blue</Cell>
+              <Cell>7</Cell>
+            </Row>
+            <Row>
+              <Cell>Nicole</Cell>
+              <Cell>Nguyen</Cell>
+              <Cell>Red</Cell>
+              <Cell>10</Cell>
+            </Row>
+          </Body>
+        </Table>
+
+        <Button variant="white" href="https://google.com">APPLY</Button>
       </div>
     </>
   );

@@ -149,6 +149,10 @@ const tableFormAlertStyle = {
   lineHeight: '20px',
 };
 
+const tableHeadStyle = {
+  fontWeight: fontWeights.medium
+};
+
 const typography = {
   h1: {
     fontFamily: fonts.secondary, // Chivo
@@ -226,6 +230,7 @@ const typography = {
     lineHeight: '16px',
   },
   table: tableFormAlertStyle,
+  tableHead: tableHeadStyle,
   forms: tableFormAlertStyle,
   alert: tableFormAlertStyle,
   quote: {
@@ -237,6 +242,21 @@ const typography = {
   },
 
 };
+
+
+const table = {
+  primary: {
+    borderBottom: `1px solid ${colors.greyPalette.lighter}`
+  },
+  borderless: {
+    borderBottom: `none`
+  },
+  nthChild: {
+      zebra: {
+      background: `${colors.greyPalette.lighter}`
+    }
+  }
+}
 
 
 // styling specific to the Button component
@@ -460,6 +480,7 @@ const theme = {
   fontSizes,
   alert,
   buttons,
+  table,
   link,
   DEFAULT_SHADOW,
   space,
