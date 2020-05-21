@@ -11,12 +11,12 @@ const context = {
 };
 
 const TableHead = ({ children, ...props }) => (
-    <TableHeadWrapper {...props}>
-        <TableHeadContext.Provider value={context}>
-        { children }
+  <TableHeadWrapper {...props}>
+    <TableHeadContext.Provider value={context}>
+      { children }
     </TableHeadContext.Provider>
-    </TableHeadWrapper>
-  
+  </TableHeadWrapper>
+
 );
 
 export const TableHeadWrapper = styled.thead`
