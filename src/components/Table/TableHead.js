@@ -10,20 +10,20 @@ const context = {
   isHead: true,
 };
 
-const TableHead = ({ children, ...props }) => (
-  <TableHeadWrapper {...props}>
-    <TableHeadContext.Provider value={context}>
-      { children }
-    </TableHeadContext.Provider>
-  </TableHeadWrapper>
-
-);
-
-export const TableHeadWrapper = styled.thead`
+export const TableHeadBase = styled.thead`
     ${COLOR};
     ${COMMON};
     ${TYPOGRAPHY};
 `;
+
+const TableHead = ({ children, ...props }) => (
+  <TableHeadBase {...props}>
+    <TableHeadContext.Provider value={context}>
+      { children }
+    </TableHeadContext.Provider>
+  </TableHeadBase>
+
+);
 
 TableHead.defaultProps = { theme };
 

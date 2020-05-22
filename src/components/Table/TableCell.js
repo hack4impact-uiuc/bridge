@@ -24,11 +24,11 @@ const sharedStyle = css`
     ${TYPOGRAPHY};
 `;
 
-const TableCellWrapper = styled.td`
+const TableCellBase = styled.td`
     ${sharedStyle};
 `;
 
-const TableHeadCellWrapper = styled.th`
+const TableHeadCellBase = styled.th`
     ${sharedStyle};
     ${get('typography.tableHead')};
 `;
@@ -38,13 +38,13 @@ const TableCell = ({ children, ...props }) => {
   const isHeadCell = tableHeadContext && tableHeadContext.isHead === true;
 
   return isHeadCell ? (
-    <TableHeadCellWrapper {...props}>
+    <TableHeadCellBase {...props}>
       {children}
-    </TableHeadCellWrapper>
+    </TableHeadCellBase>
   ) : (
-    <TableCellWrapper {...props}>
+    <TableCellBase {...props}>
       {children}
-    </TableCellWrapper>
+    </TableCellBase>
   );
 };
 

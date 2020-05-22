@@ -1,16 +1,14 @@
 import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import React from 'react';
 import theme from '../../theme';
 import { COLOR, COMMON, TYPOGRAPHY } from '../../utils/constants';
 import TableHeadContext from './TableHeadContext';
 
 
-export const TableRowWrapper = styled.tr`
-    height: 52px;
-    ${(props) => props.isHeadRow && css`
-        height: 56px;
-    `}
+export const TableRowBase = styled.tr`
+    height: ${(props) => (props.isHeadRow ? '56px' : '52px')}
+
     ${COLOR};
     ${COMMON};
     ${TYPOGRAPHY};
@@ -18,11 +16,11 @@ export const TableRowWrapper = styled.tr`
 
 const TableRow = ({ children, ...props }) => {
   const tableHeadContext = React.useContext(TableHeadContext);
-  const isHeadRow = tableHeadContext && tableHeadContext.isHead === true;
+  const isHeadRow = tableHeadContext && tableHeadContext.isHead;
   return (
-    <TableRowWrapper isHeadRow={isHeadRow} {...props}>
+    <TableRowBase isHeadRow={isHeadRow} {...props}>
       {children}
-    </TableRowWrapper>
+    </TableRowBase>
   );
 };
 

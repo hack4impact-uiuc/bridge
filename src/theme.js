@@ -248,9 +248,6 @@ const table = {
   primary: {
     borderBottom: `1px solid ${colors.greyPalette.lighter}`,
   },
-  borderless: {
-    borderBottom: 'none',
-  },
   nthChild: {
     zebra: {
       background: `${colors.greyPalette.lighter}`,

@@ -1,14 +1,13 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { variant } from 'styled-system';
 import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { COLOR, COMMON, TYPOGRAPHY } from '../../utils/constants';
 
 import TableBody from './TableBody';
 import TableCell from './TableCell';
-import TableHead, { TableHeadWrapper } from './TableHead';
-import TableRow, { TableRowWrapper } from './TableRow';
+import TableHead, { TableHeadBase } from './TableHead';
+import TableRow, { TableRowBase } from './TableRow';
 
 
 const Table = styled.table`
@@ -17,30 +16,21 @@ const Table = styled.table`
     border-collapse: collapse;
     width: 100%;
     
-    ${TableHeadWrapper} ${TableRowWrapper} {
-        ${variant({
-    prop: 'type',
-    scale: 'table',
-  })}
-        border-width: 2px;
+    ${TableHeadBase} ${TableRowBase} {
+      border-bottom: ${(props) => props.type === 'primary' && `${get('table.primary.borderBottom')(props)}`};
+      border-width: 2px;
     }
 
-    ${TableBody} ${TableRowWrapper} {
-        ${variant({
-    prop: 'type',
-    scale: 'table',
-  })}
+    ${TableBody} ${TableRowBase} {
+      border-bottom: ${(props) => props.type === 'primary' && `${get('table.primary.borderBottom')(props)}`};
     }
 
-    ${TableBody} ${TableRowWrapper}:nth-child(odd) {
-        ${variant({
-    prop: 'type',
-    scale: 'table.nthChild',
-  })}
+    ${TableBody} ${TableRowBase}:nth-child(odd) {
+      background-color: ${(props) => props.type === 'zebra' && `${get('table.nthChild.zebra.background')(props)}`};
     }
 
-    ${TableBody} ${TableRowWrapper}:last-child {
-        border-bottom: none;
+    ${TableBody} ${TableRowBase}:last-child {
+      border-bottom: none;
     }
 
     ${COLOR};

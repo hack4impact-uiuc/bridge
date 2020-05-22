@@ -8,16 +8,16 @@ exports[`Table renders a <table> 1`] = `
   width: 100%;
 }
 
-.c0 .TableHead__TableHeadWrapper-sc-154km0i-0 .TableRow__TableRowWrapper-sc-1npg197-0 {
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .TableRow__TableRowBase-sc-1npg197-0 {
   border-bottom: 1px solid #EBEEF2;
   border-width: 2px;
 }
 
-.c0 .TableBody-lzp76z-0 .TableRow__TableRowWrapper-sc-1npg197-0 {
+.c0 .TableBody-lzp76z-0 .TableRow__TableRowBase-sc-1npg197-0 {
   border-bottom: 1px solid #EBEEF2;
 }
 
-.c0 .TableBody-lzp76z-0 .TableRow__TableRowWrapper-sc-1npg197-0:last-child {
+.c0 .TableBody-lzp76z-0 .TableRow__TableRowBase-sc-1npg197-0:last-child {
   border-bottom: none;
 }
 
@@ -53,7 +53,6 @@ Object {
 }
 
 .c3 {
-  height: 52px;
   height: 56px;
 }
 
@@ -65,12 +64,7 @@ Object {
 }
 
 .c0 .c1 .c2 {
-  border-bottom: none;
   border-width: 2px;
-}
-
-.c0 .TableBody-lzp76z-0 .c2 {
-  border-bottom: none;
 }
 
 .c0 .TableBody-lzp76z-0 .c2:last-child {
@@ -115,32 +109,32 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 imYujL"
+      class="Table-sc-1399pyx-0 hISsy"
       type="borderless"
     >
       <thead
-        class="TableHead__TableHeadWrapper-sc-154km0i-0 ihWUqU"
+        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 EFyDh"
+          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
         >
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Number
           </th>
@@ -248,7 +242,6 @@ Object {
 }
 
 .c3 {
-  height: 52px;
   height: 56px;
 }
 
@@ -264,12 +257,7 @@ Object {
 }
 
 .c0 .c1 .c2 {
-  border-bottom: none;
   border-width: 2px;
-}
-
-.c0 .c5 .c2 {
-  border-bottom: none;
 }
 
 .c0 .c5 .c2:last-child {
@@ -390,32 +378,32 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 imYujL"
+      class="Table-sc-1399pyx-0 hISsy"
       type="borderless"
     >
       <thead
-        class="TableHead__TableHeadWrapper-sc-154km0i-0 ihWUqU"
+        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 EFyDh"
+          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
         >
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Number
           </th>
@@ -425,73 +413,73 @@ Object {
         class="TableBody-lzp76z-0 dxOumm"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             10
           </td>
@@ -588,13 +576,8 @@ Object {
   width: 100%;
 }
 
-.c0 .TableHead__TableHeadWrapper-sc-154km0i-0 .c2 {
-  border-bottom: none;
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
   border-width: 2px;
-}
-
-.c0 .c1 .c2 {
-  border-bottom: none;
 }
 
 .c0 .c1 .c2:last-child {
@@ -687,80 +670,80 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 imYujL"
+      class="Table-sc-1399pyx-0 hISsy"
       type="borderless"
     >
       <tbody
         class="TableBody-lzp76z-0 dxOumm"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             10
           </td>
@@ -848,7 +831,6 @@ Object {
 }
 
 .c3 {
-  height: 52px;
   height: 56px;
 }
 
@@ -910,32 +892,32 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 cSzXEr"
+      class="Table-sc-1399pyx-0 jcTfZu"
       type="primary"
     >
       <thead
-        class="TableHead__TableHeadWrapper-sc-154km0i-0 ihWUqU"
+        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 EFyDh"
+          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
         >
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Number
           </th>
@@ -1042,7 +1024,6 @@ Object {
 }
 
 .c3 {
-  height: 52px;
   height: 56px;
 }
 
@@ -1185,32 +1166,32 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 cSzXEr"
+      class="Table-sc-1399pyx-0 jcTfZu"
       type="primary"
     >
       <thead
-        class="TableHead__TableHeadWrapper-sc-154km0i-0 ihWUqU"
+        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 EFyDh"
+          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
         >
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Number
           </th>
@@ -1220,73 +1201,73 @@ Object {
         class="TableBody-lzp76z-0 dxOumm"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             10
           </td>
@@ -1383,7 +1364,7 @@ Object {
   width: 100%;
 }
 
-.c0 .TableHead__TableHeadWrapper-sc-154km0i-0 .c2 {
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
   border-bottom: 1px solid #EBEEF2;
   border-width: 2px;
 }
@@ -1482,80 +1463,80 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 cSzXEr"
+      class="Table-sc-1399pyx-0 jcTfZu"
       type="primary"
     >
       <tbody
         class="TableBody-lzp76z-0 dxOumm"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             10
           </td>
@@ -1643,7 +1624,6 @@ Object {
 }
 
 .c3 {
-  height: 52px;
   height: 56px;
 }
 
@@ -1659,7 +1639,7 @@ Object {
 }
 
 .c0 .TableBody-lzp76z-0 .c2:nth-child(odd) {
-  background: #EBEEF2;
+  background-color: #EBEEF2;
 }
 
 .c0 .TableBody-lzp76z-0 .c2:last-child {
@@ -1704,32 +1684,32 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 cHTkAE"
+      class="Table-sc-1399pyx-0 knqaeG"
       type="zebra"
     >
       <thead
-        class="TableHead__TableHeadWrapper-sc-154km0i-0 ihWUqU"
+        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 EFyDh"
+          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
         >
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Number
           </th>
@@ -1837,7 +1817,6 @@ Object {
 }
 
 .c3 {
-  height: 52px;
   height: 56px;
 }
 
@@ -1857,7 +1836,7 @@ Object {
 }
 
 .c0 .c5 .c2:nth-child(odd) {
-  background: #EBEEF2;
+  background-color: #EBEEF2;
 }
 
 .c0 .c5 .c2:last-child {
@@ -1978,32 +1957,32 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 cHTkAE"
+      class="Table-sc-1399pyx-0 knqaeG"
       type="zebra"
     >
       <thead
-        class="TableHead__TableHeadWrapper-sc-154km0i-0 ihWUqU"
+        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 EFyDh"
+          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
         >
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellWrapper-sc-18perrz-1 kEcWNl"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
           >
             Favorite Number
           </th>
@@ -2013,73 +1992,73 @@ Object {
         class="TableBody-lzp76z-0 dxOumm"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             10
           </td>
@@ -2176,12 +2155,12 @@ Object {
   width: 100%;
 }
 
-.c0 .TableHead__TableHeadWrapper-sc-154km0i-0 .c2 {
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
   border-width: 2px;
 }
 
 .c0 .c1 .c2:nth-child(odd) {
-  background: #EBEEF2;
+  background-color: #EBEEF2;
 }
 
 .c0 .c1 .c2:last-child {
@@ -2274,80 +2253,80 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 cHTkAE"
+      class="Table-sc-1399pyx-0 knqaeG"
       type="zebra"
     >
       <tbody
         class="TableBody-lzp76z-0 dxOumm"
       >
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowWrapper-sc-1npg197-0 eWQHhI"
+          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
         >
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellWrapper-sc-18perrz-0 kjcbnY"
+            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
           >
             10
           </td>
