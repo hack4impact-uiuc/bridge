@@ -8,6 +8,7 @@ import FeedbackContext from './feedback-context';
 import Markdown from './markdown';
 import Sidebar from './sidebar';
 import Header from './header';
+import NavBar from './home/navbar';
 
 
 // TODO: use theme spacing
@@ -16,6 +17,7 @@ const WithDoc = (meta) => ({ children }) => (
     <Header
       title={meta.title}
     />
+    <NavBar />
     <Flex flexWrap="wrap" m="10px auto" maxWidth="1200px">
       <Sidebar type={meta.type} title={meta.title} />
       <Flex
