@@ -2,9 +2,11 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useState, useEffect } from 'react';
-import { Flex, Link, Box } from '@hack4impact-uiuc/bridge';
+import { useRouter } from 'next/router';
+import { Link, Box } from '@hack4impact-uiuc/bridge';
 
 const NavBar = () => {
+  const router = useRouter();
   const [showNav, toggleNav] = useState(false);
 
   const onToggle = () => {
@@ -26,17 +28,13 @@ const NavBar = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  console.log(windowDimensions);
-  console.log(showNav);
-
   return (
-
     <nav>
       <div className="navbar">
         <span className="navbar-toggle" id="js-navbar-toggle" onClick={onToggle}>
           <img src="/homepage/menu.svg" alt="hamburger menu" />
         </span>
-        <Link ml="22px" href="https://bridge-ui.now.sh">
+        <Link ml="22px" href="/">
           <img src="/bridge_full_logo.png" alt="bridge ui logo" width="128px" />
         </Link>
         <Box className="nav-links-box" display={showNav && windowDimensions.width <= 768 ? 'block' : windowDimensions.width > 768 ? 'flex' : 'none'}>
@@ -60,7 +58,8 @@ const NavBar = () => {
         <style jsx>
           {`
           .navbar {
-            max-width: 1000px;
+            max-width: ${router.pathname === '/' ? '1000px' : '1200px'};
+            width: 100%;
             margin: 20px;
           }
 
@@ -99,7 +98,6 @@ const NavBar = () => {
             height: 70px;
             align-items: center;
             
-            max-width: 1000px;
             margin: 12px auto;
           }
           

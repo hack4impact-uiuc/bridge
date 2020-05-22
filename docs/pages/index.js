@@ -17,7 +17,7 @@ const HomePage = () => {
   const router = useRouter();
   return (
     <Flex minHeight="100vh" flexDirection="column">
-      <NavBar />
+      <NavBar maxWidth="1000px" />
       <Box flex={1} m={['0px 16px', '32px auto']} width="100%" maxWidth="1000px">
         <Flex margin="40px auto" flexDirection="row" flexWrap="wrap">
           <Box m={['0 8px', '0 20px 0 0']} flex={['0 0 100%', 1]} width="100%" order={[2, 1]}>
