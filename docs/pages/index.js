@@ -18,7 +18,7 @@ const HomePage = () => {
   return (
     <Flex minHeight="100vh" flexDirection="column">
       <NavBar maxWidth="1000px" />
-      <Box flex={1} m={['0px 16px', '32px auto']} width="100%" maxWidth="1000px">
+      <Box style={{ boxSizing: 'border-box' }} flex={1} m={['0px', '32px auto']} p={['0 16px', '0']} width="100%" maxWidth="1000px">
         <Flex margin="40px auto" flexDirection="row" flexWrap="wrap">
           <Box m={['0 8px', '0 20px 0 0']} flex={['0 0 100%', 1]} width="100%" order={[2, 1]}>
             <Heading fontSize={[60, 84]} m={['12px 0 8px', '80px 0 20px']} type="h1">Bridge</Heading>
@@ -76,7 +76,7 @@ const HomePage = () => {
         </Box>
       </Box>
       <footer className="footer">
-        <Flex alignItem="center" bg="indigoPalette.dark" padding={['24px 0 20px 32px', '24px 0 20px 72px']} width="100%">
+        <Flex style={{ boxSizing: 'border-box' }} alignItem="center" bg="indigoPalette.dark" padding={['24px 0 20px 32px', '24px 0 20px 72px']} width="100%">
           <Box>
             <Link href="https://uiuc.hack4impact.org"><img src="/homepage/white_h4i_logo.png" width="150px" alt="hack4impact uiuc logo" /></Link>
           </Box>
@@ -84,12 +84,10 @@ const HomePage = () => {
       </footer>
       <style jsx>
         {`
-      .footer {
-        margin-top: 52px;
-      }
-    
-    `}
-
+          .footer {
+            margin-top: 52px;
+          }
+        `}
       </style>
     </Flex>
   );

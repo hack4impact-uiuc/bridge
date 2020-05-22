@@ -59,7 +59,6 @@ const NavBar = () => {
           {`
           .navbar {
             max-width: ${router.pathname === '/' ? '1000px' : '1200px'};
-            width: 100%;
             margin: 20px;
           }
 
@@ -83,6 +82,8 @@ const NavBar = () => {
           .nav-links {
             list-style-type: none;
             margin: 15px auto;
+            box-sizing: border-box;
+            padding: 0;
           }
           
           .nav-links li {
@@ -99,6 +100,7 @@ const NavBar = () => {
             align-items: center;
             
             margin: 12px auto;
+            width: 100%;
           }
           
           .nav-links {
