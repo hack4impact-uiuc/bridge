@@ -46,7 +46,8 @@ const HomePage = () => {
           <Row>
             <Col m={['24px 0', '0 48px']}>
               <Box width="100%">
-                <ComponentImage />
+                <img src="/homepage/design.svg" alt="description of react component library" width="100%" />
+
                 <Box m={['0 8px']}>
                   <Text type="overline" as="p">Design</Text>
                   <Text type="body" as="p">
@@ -60,7 +61,7 @@ const HomePage = () => {
             <Col m={['24px 0', '0 48px']}>
               <Box width="100%">
 
-                <img src="/homepage/design.svg" alt="description of react component library" width="100%" />
+                <ComponentImage />
                 <Box m={['0 8px']}>
                   <Text type="overline" as="p">React Components</Text>
                   <Text type="body" as="p">
