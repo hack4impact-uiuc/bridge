@@ -38,13 +38,13 @@ const RadioGroup = ({
   </RadioGroupBase>
 );
 
-RadioGroup.defaultProps = { theme };
+RadioGroup.defaultProps = { theme, error: 'default' };
 
 RadioGroup.propTypes = {
   children: PropTypes.node,
   defaultValue: PropTypes.any,
   disabled: PropTypes.bool,
-  error: PropTypes.string,
+  error: PropTypes.oneOf(['default', 'error', 'warning', 'success']),
   name: PropTypes.string,
   onChange: PropTypes.func,
   theme: PropTypes.object,

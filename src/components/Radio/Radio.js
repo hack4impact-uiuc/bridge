@@ -110,7 +110,7 @@ const Radio = ({
       type="radio"
       value={value}
     />
-    <CustomButton disabled={disabled} vertical={vertical} />
+    <CustomButton disabled={disabled} theme={propTheme} vertical={vertical} />
   </LabelBase>
 );
 
@@ -121,7 +121,7 @@ Radio.propTypes = {
   children: PropTypes.node,
   defaultChecked: PropTypes.bool,
   disabled: PropTypes.bool,
-  error: PropTypes.string,
+  error: PropTypes.oneOf(['default', 'error', 'warning', 'success']),
   id: PropTypes.string,
   name: PropTypes.string,
   onChange: PropTypes.func,
