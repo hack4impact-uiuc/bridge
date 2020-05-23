@@ -8,6 +8,7 @@ export { default as Grid } from './Grid';
 export { default as Heading } from './Heading';
 export { default as Icon } from './Icon';
 export { default as Link } from './Link';
+export { default as Radio } from './Radio';
 export { default as Tag } from './Tag';
 export { default as Text } from './Text';
 export { default as TextField } from './TextField';

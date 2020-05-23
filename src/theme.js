@@ -437,6 +437,25 @@ const textField = {
   },
 };
 
+const radio = {
+  default: {
+    background: `${colors.bluePalette.primary}`,
+  },
+  success: {
+    background: `${colors.greenPalette.primary}`,
+  },
+  warning: {
+    background: `${colors.yellowPalette.primary}`,
+  },
+  error: {
+    background: `${colors.redPalette.primary}`,
+  },
+  disabled: {
+    background: `${colors.greyPalette.lighter}`,
+    border: `1px solid ${colors.greyPalette.primary}`,
+  },
+};
+
 const breakpoints = ['544px', '768px', '992px', '1280px'];
 breakpoints.xs = breakpoints[0];
 breakpoints.sm = breakpoints[1];
@@ -464,6 +483,7 @@ const theme = {
   DEFAULT_SHADOW,
   space,
   breakpoints,
+  radio,
   textField,
   typography,
 };
