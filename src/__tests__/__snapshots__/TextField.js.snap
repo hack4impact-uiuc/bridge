@@ -35,7 +35,7 @@ exports[`TextField renders correct colors with "disabled" props 1`] = `
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
   line-height: 20px;
-  color: #0A162A;
+  color: #272A2D;
   display: inline-block;
   width: 100%;
   outline: none;
@@ -117,7 +117,7 @@ exports[`TextField renders correct icon 1`] = `
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
   line-height: 20px;
-  color: #0A162A;
+  color: #272A2D;
   display: inline-block;
   width: 100%;
   outline: none;
@@ -673,7 +673,7 @@ exports[`TextField respects "error" prop 1`] = `
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
   line-height: 20px;
-  color: #0A162A;
+  color: #272A2D;
   display: inline-block;
   width: 100%;
   outline: none;
@@ -761,7 +761,7 @@ exports[`TextField respects the "disabled" prop 1`] = `
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
   line-height: 20px;
-  color: #0A162A;
+  color: #272A2D;
   display: inline-block;
   width: 100%;
   outline: none;

@@ -1,12 +1,7 @@
 import React, { cloneElement } from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import theme from '../../theme';
-import { COMMON } from '../../utils/constants';
-
-const RadioGroupBase = styled.div`
-  ${COMMON};
-`;
+import Box from '../Box';
 
 const RadioGroup = ({
   children,
@@ -19,7 +14,7 @@ const RadioGroup = ({
   vertical,
   ...props
 }) => (
-  <RadioGroupBase {...props}>
+  <Box {...props}>
     {children.map((child, idx) => cloneElement(child, {
       key: child.props.id,
       disabled: disabled || child.props.disabled,
@@ -35,10 +30,10 @@ const RadioGroup = ({
       vertical,
       marginLeft: idx !== 0 && !vertical ? '28px' : 0,
     }))}
-  </RadioGroupBase>
+  </Box>
 );
 
-RadioGroup.defaultProps = { theme, error: 'default' };
+RadioGroup.defaultProps = { theme };
 
 RadioGroup.propTypes = {
   children: PropTypes.node,
@@ -50,7 +45,7 @@ RadioGroup.propTypes = {
   theme: PropTypes.object,
   value: PropTypes.any,
   vertical: PropTypes.bool,
-  ...COMMON.propTypes,
+  ...Box.propTypes,
 };
 
 export default RadioGroup;
