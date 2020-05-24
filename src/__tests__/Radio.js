@@ -5,7 +5,6 @@ import '@testing-library/jest-dom';
 import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Radio } from '..';
-import theme, { colors } from '../theme';
 import { COMMON, FLEX, BORDER } from '../utils/constants';
 import { renderJSON } from '../utils/testing';
 import 'babel-polyfill'; // axe violations required babel-polyfill
