@@ -8,6 +8,29 @@ exports[`Table renders a <table> 1`] = `
   width: 100%;
 }
 
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
 .c0 .TableHead__TableHeadBase-sc-154km0i-0 .TableRow__TableRowBase-sc-1npg197-0 {
   border-bottom: 1px solid #EBEEF2;
   border-width: 2px;
@@ -33,15 +56,6 @@ Object {
   "baseElement": <body>
     .c4 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4:first-child {
@@ -61,6 +75,29 @@ Object {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
 }
 
 .c0 .c1 .c2 {
@@ -109,32 +146,32 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 hISsy"
+      class="Table-sc-1399pyx-0 eeyPOb"
       type="borderless"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Number
           </th>
@@ -202,14 +239,6 @@ Object {
   "baseElement": <body>
     .c7 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
 }
 
 .c7:first-child {
@@ -222,15 +251,6 @@ Object {
 
 .c4 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4:first-child {
@@ -254,6 +274,29 @@ Object {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
 }
 
 .c0 .c1 .c2 {
@@ -378,108 +421,108 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 hISsy"
+      class="Table-sc-1399pyx-0 eeyPOb"
       type="borderless"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Number
           </th>
         </tr>
       </thead>
       <tbody
-        class="TableBody-lzp76z-0 dxOumm"
+        class="TableBody-lzp76z-0 jDkdhk"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             10
           </td>
@@ -547,14 +590,6 @@ Object {
   "baseElement": <body>
     .c4 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
 }
 
 .c4:first-child {
@@ -574,6 +609,29 @@ Object {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
 }
 
 .c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
@@ -670,80 +728,80 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 hISsy"
+      class="Table-sc-1399pyx-0 eeyPOb"
       type="borderless"
     >
       <tbody
-        class="TableBody-lzp76z-0 dxOumm"
+        class="TableBody-lzp76z-0 jDkdhk"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             10
           </td>
@@ -811,15 +869,6 @@ Object {
   "baseElement": <body>
     .c4 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4:first-child {
@@ -839,6 +888,29 @@ Object {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
 }
 
 .c0 .c1 .c2 {
@@ -892,32 +964,32 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 jcTfZu"
+      class="Table-sc-1399pyx-0 ebRcbD"
       type="primary"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Number
           </th>
@@ -984,14 +1056,6 @@ Object {
   "asFragment": [Function],
   "baseElement": .c7 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
 }
 
 .c7:first-child {
@@ -1004,15 +1068,6 @@ Object {
 
 .c4 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4:first-child {
@@ -1036,6 +1091,29 @@ Object {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
 }
 
 .c0 .c1 .c2 {
@@ -1166,108 +1244,108 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 jcTfZu"
+      class="Table-sc-1399pyx-0 ebRcbD"
       type="primary"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Number
           </th>
         </tr>
       </thead>
       <tbody
-        class="TableBody-lzp76z-0 dxOumm"
+        class="TableBody-lzp76z-0 jDkdhk"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             10
           </td>
@@ -1335,14 +1413,6 @@ Object {
   "baseElement": <body>
     .c4 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
 }
 
 .c4:first-child {
@@ -1362,6 +1432,29 @@ Object {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
 }
 
 .c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
@@ -1463,80 +1556,80 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 jcTfZu"
+      class="Table-sc-1399pyx-0 ebRcbD"
       type="primary"
     >
       <tbody
-        class="TableBody-lzp76z-0 dxOumm"
+        class="TableBody-lzp76z-0 jDkdhk"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             10
           </td>
@@ -1604,15 +1697,6 @@ Object {
   "baseElement": <body>
     .c4 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4:first-child {
@@ -1632,6 +1716,29 @@ Object {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
 }
 
 .c0 .c1 .c2 {
@@ -1684,32 +1791,32 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 knqaeG"
+      class="Table-sc-1399pyx-0 jjNDbD"
       type="zebra"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Number
           </th>
@@ -1777,14 +1884,6 @@ Object {
   "baseElement": <body>
     .c7 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
 }
 
 .c7:first-child {
@@ -1797,15 +1896,6 @@ Object {
 
 .c4 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4:first-child {
@@ -1829,6 +1919,29 @@ Object {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
 }
 
 .c0 .c1 .c2 {
@@ -1957,108 +2070,108 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 knqaeG"
+      class="Table-sc-1399pyx-0 jjNDbD"
       type="zebra"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 bAScSy"
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bAPgTJ"
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 edTMeH"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
           >
             Favorite Number
           </th>
         </tr>
       </thead>
       <tbody
-        class="TableBody-lzp76z-0 dxOumm"
+        class="TableBody-lzp76z-0 jDkdhk"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             10
           </td>
@@ -2126,14 +2239,6 @@ Object {
   "baseElement": <body>
     .c4 {
   padding: 0 20px;
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
 }
 
 .c4:first-child {
@@ -2153,6 +2258,29 @@ Object {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
 }
 
 .c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
@@ -2253,80 +2381,80 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 knqaeG"
+      class="Table-sc-1399pyx-0 jjNDbD"
       type="zebra"
     >
       <tbody
-        class="TableBody-lzp76z-0 dxOumm"
+        class="TableBody-lzp76z-0 jDkdhk"
       >
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chloe
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Chan
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Pink
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             3
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Eric
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Lee
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Blue
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             18
           </td>
         </tr>
         <tr
-          class="TableRow__TableRowBase-sc-1npg197-0 bOkcJN"
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
         >
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nicole
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Nguyen
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             Red
           </td>
           <td
-            class="TableCell__TableCellBase-sc-18perrz-0 fkCeia"
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
           >
             10
           </td>

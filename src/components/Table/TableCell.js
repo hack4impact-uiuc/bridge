@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import React from 'react';
 import theme from '../../theme';
-import { get } from '../../utils/utils';
 import { COLOR, COMMON, TYPOGRAPHY } from '../../utils/constants';
 import TableHeadContext from './TableHeadContext';
 
@@ -17,7 +16,6 @@ const sharedStyle = css`
         padding-right: 0;
     }
 
-    ${get('typography.table')};
 
     ${COMMON};
     ${TYPOGRAPHY};
@@ -29,7 +27,6 @@ const TableCellBase = styled.td`
 
 const TableHeadCellBase = styled.th`
     ${sharedStyle};
-    ${get('typography.tableHead')};
 `;
 
 const TableCell = ({ children, ...props }) => {

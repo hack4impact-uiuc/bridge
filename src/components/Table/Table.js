@@ -16,6 +16,15 @@ const Table = styled.table`
     border-collapse: collapse;
     width: 100%;
     
+    & td {
+      ${get('typography.table')};
+    }
+
+    & th {
+      ${get('typography.table')};
+      ${get('typography.tableHead')}
+    }
+
     ${TableHeadBase} ${TableRowBase} {
       border-bottom: ${(props) => props.type === 'primary' && `${get('table.primary.borderBottom')(props)}`};
       border-width: 2px;
