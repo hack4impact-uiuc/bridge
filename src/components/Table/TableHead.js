@@ -11,7 +11,6 @@ const context = {
 };
 
 export const TableHeadBase = styled.thead`
-    ${COLOR};
     ${COMMON};
     ${TYPOGRAPHY};
 `;

@@ -4,7 +4,6 @@ import theme from '../../theme';
 import { COLOR, COMMON, TYPOGRAPHY } from '../../utils/constants';
 
 const TableBody = styled.tbody`
-    ${COLOR};
     ${COMMON};
     ${TYPOGRAPHY};
 `;

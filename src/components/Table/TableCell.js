@@ -19,7 +19,6 @@ const sharedStyle = css`
 
     ${get('typography.table')};
 
-    ${COLOR};
     ${COMMON};
     ${TYPOGRAPHY};
 `;

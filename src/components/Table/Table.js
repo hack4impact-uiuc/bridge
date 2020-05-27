@@ -33,7 +33,6 @@ const Table = styled.table`
       border-bottom: none;
     }
 
-    ${COLOR};
     ${COMMON};
     ${TYPOGRAPHY};
 `;
