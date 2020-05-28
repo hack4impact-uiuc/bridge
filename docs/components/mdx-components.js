@@ -60,7 +60,7 @@ const Blockquote = ({ children, ...props }) => (
 );
 
 
-const hSpacing = { mb: '24px', mt: '16px' };
+const hSpacing = { mb: '24px', mt: '20px' };
 const PermalinkHeading = ({ children, type, ...props }) => {
   const slugger = new GithubSlugger();
 

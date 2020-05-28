@@ -6,9 +6,13 @@ import CodeExampleBox from '../../components/CodeExampleBox'
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
+Icons is a wrapper around svg icons we would commonly use in Bridge. You choose the type of Icon to display via the `type` prop. If not given, it defaults to `infoAlert1.
+
 ### Alert Icons
+These icons may be used in conjuction with [`Alert`](/components/alerts). 
+
 <CodeExampleBox>
-<Icon width="20px" type="errorAlert" />
+<Icon type="errorAlert" />
 <Icon type="infoAlert" />
 <Icon type="successAlert" />
 <Icon type="warningAlert" />
@@ -18,13 +22,14 @@ export default Layout({...meta})
 ```jsx
 import { Icon } from '@hack4impact-uiuc/bridge'
 
-<Icon width="20px" type="errorAlert" />
+<Icon type="errorAlert" />
 <Icon type="infoAlert" />
 <Icon type="successAlert" />
 <Icon type="warningAlert" />
 ```
 
 ### Form Icons
+Icons used with forms.
 <CodeExampleBox>
     <Icon type="fileDragDrop" />
     <Icon type="opacityUploadFile" />
@@ -39,14 +44,12 @@ import { Icon } from '@hack4impact-uiuc/bridge'
 <Icon type="uploadFile" />
 ```
 
+### Common Props
+`Button` includes `COMMON` props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
 
-```
-'errorAlert',
-'infoAlert',
-'successAlert',
-'warningAlert',
-'fileDragDrop',
-'formErrorAlert',
-'opacityUploadFile',
-'uploadFile',
-```
+### Component Props
+
+| Prop name | Type | Default | Description |
+| :- | :- | :-: | :- |
+| type | String | 'infoAlert' | color variant (`errorAlert`, `infoAlert`, `successAlert`, `warningAlert`, `fileDragDrop`, `formErrorAlert`, `opacityUploadFile`, `uploadFile`) |
+| theme | Object | Bridge Theme | use to override default bridge theme|

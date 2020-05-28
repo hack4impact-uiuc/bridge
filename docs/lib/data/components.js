@@ -19,6 +19,10 @@ export default [
         title: 'Theming',
         href: `${COMPONENTS_URL}/theming`,
       },
+      {
+        title: 'Responsive Styling',
+        href: `${COMPONENTS_URL}/responsive`,
+      },
     ],
   },
   {

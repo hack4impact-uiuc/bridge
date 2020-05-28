@@ -1,9 +1,67 @@
 export const meta = {type: "components", title: "Alerts"}
 
-import { Alert } from '@hack4impact-uiuc/bridge'
+import { Alert, Link, Icon } from '@hack4impact-uiuc/bridge'
 import CodeExampleBox from '../../components/CodeExampleBox'
 
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
-alerts
+Alerts are used to inform users of a particular action or state. Refrain from using multiple at the same time. `Alert` will span across the parents width and has styling for Links and icons within the alert.
+
+### Example
+<CodeExampleBox>
+    <Alert>This is a success alert!</Alert>
+</CodeExampleBox>
+
+```jsx
+import { Alert } from '@hack4impact-uiuc/bridge'
+
+<Alert>This is a success alert!</Alert>
+```
+
+### Variants
+There are multiple color variants you may use (`success`, `warning`, `error`, `information`). If not given, it defaults to `success`.
+<CodeExampleBox>
+    <Alert variant="success" mb="8px">This is a success alert!</Alert>
+    <Alert variant="error" mb="8px">This is a error alert!</Alert>
+    <Alert variant="information" mb="8px">This is a information  alert!</Alert>
+    <Alert variant="warning">This is a warning alert!</Alert>
+</CodeExampleBox>
+
+```jsx
+import { Alert } from '@hack4impact-uiuc/bridge'
+
+<Alert variant="success" mb="6px">This is a success alert!</Alert>
+<Alert variant="error" mb="6px">This is a error alert!</Alert>
+<Alert variant="information" mb="6px">This is a information  alert!</Alert>
+<Alert variant="warning">This is a warning alert!</Alert>
+```
+
+### Adding Links & Icons
+Links in alerts will be styled with the darker shade of the color variant. Any svg icon will automatically be placed on the left.
+<CodeExampleBox>
+    <Alert variant="error" mb="8px">
+        <Icon type="errorAlert" />
+        Error! Logs will be <Link href="#">here</Link>!
+    </Alert>
+</CodeExampleBox>
+
+```jsx
+import { Alert, Link, Icon } from '@hack4impact-uiuc/bridge'
+
+<Alert variant="error" mb="8px">
+    <Icon type="errorAlert" />
+    Error! Logs will be <Link href="#">here</Link>!
+</Alert>
+```
+
+
+### Common Props
+`Alert` includes `COMMON` props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
+
+### Component Props
+
+| Prop name | Type | Default | Description |
+| :- | :- | :-: | :- |
+| variant | String | 'success' | color variant (`success`, `error`, `warning`, `information`) |
+| theme | Object | Bridge Theme | use to override default bridge theme|
