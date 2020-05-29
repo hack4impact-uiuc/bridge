@@ -438,6 +438,8 @@ const textField = {
 };
 
 const radio = {
+  border: `1px solid ${colors.greyPalette.light}`,
+  disabledFill: `${colors.greyPalette.primary}`, // fill of the button when disabled
   default: {
     background: `${colors.bluePalette.primary}`,
   },
@@ -452,7 +454,6 @@ const radio = {
   },
   disabled: {
     background: `${colors.greyPalette.lighter}`,
-    border: `1px solid ${colors.greyPalette.primary}`,
   },
 };
 

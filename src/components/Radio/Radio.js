@@ -42,7 +42,7 @@ const LabelBase = styled.label`
   }
 
   &[disabled] span::after {
-    background: ${get('colors.greyPalette.primary')};
+    background: ${get('radio.disabledFill')};
   }
 
   ${COMMON};
@@ -64,7 +64,7 @@ const CustomButton = styled.span`
 
   background: ${get('colors.white')};
   border-radius: 50%;
-  border: 1px solid ${get('colors.greyPalette.light')};
+  border: ${get('radio.border')};
 
   &::after {
     content: "";

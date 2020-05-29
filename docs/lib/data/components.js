@@ -61,6 +61,10 @@ export default [
         href: `${COMPONENTS_URL}/heading`,
       },
       {
+        title: 'Radio',
+        href: `${COMPONENTS_URL}/radio`,
+      },
+      {
         title: 'Tags',
         href: `${COMPONENTS_URL}/tags`,
       },
