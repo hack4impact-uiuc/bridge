@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import React from 'react';
 import theme from '../../theme';
-import { COLOR, COMMON, TYPOGRAPHY } from '../../utils/constants';
+import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 import TableHeadContext from './TableHeadContext';
 
 
@@ -30,7 +30,6 @@ TableHead.propTypes = {
   theme: PropTypes.object,
   children: PropTypes.node,
   ...COMMON.propTypes,
-  ...COLOR.propTypes,
   ...TYPOGRAPHY.propTypes,
 };
 

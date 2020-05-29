@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
 import { get } from '../../utils/utils';
-import { COLOR, COMMON, TYPOGRAPHY } from '../../utils/constants';
+import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 
 import TableBody from './TableBody';
 import TableCell from './TableCell';
@@ -55,7 +55,6 @@ Table.propTypes = {
   type: PropTypes.string,
   theme: PropTypes.object,
   ...COMMON.propTypes,
-  ...COLOR.propTypes,
   ...TYPOGRAPHY.propTypes,
 };
 
