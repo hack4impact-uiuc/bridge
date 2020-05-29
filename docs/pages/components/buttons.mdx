@@ -16,16 +16,7 @@ For special cases, if you want to use `href`, you may do `<Button as="a" href="#
 
 ### Color Variants
 
-<Button>Button</Button>
-
-<Button variant="primary">Button</Button>
-<Button variant="secondary">Button</Button>
-<Button variant="success">Button</Button>
-<Button variant="error">Button</Button>
-<Button variant="warning">Button</Button>
-
-```jsx
-import { Button } from '@hack4impact-uiuc/bridge'
+```jsx live
 
 <Button>Button</Button>
 
@@ -40,13 +31,7 @@ import { Button } from '@hack4impact-uiuc/bridge'
 ### Sizing
 There are three sizes of buttons: `large`, `medium`, `small`. Default is medium.
 
-<Button type="large">Large Button</Button>
-<Button type="medium">Medium Button</Button>
-<Button type="small">Small Button</Button>
-
-```jsx
-import { Button } from '@hack4impact-uiuc/bridge'
-
+```jsx live
 <Button type="large">Large Button</Button>
 <Button type="medium">Medium Button</Button>
 <Button type="small">Small Button</Button>
@@ -55,24 +40,7 @@ import { Button } from '@hack4impact-uiuc/bridge'
 ### Button Groups
 When using multiple buttons side by side, you can use `<Button.Group>`. This will add the correct 20px margin between buttons. `ButtonBox` has same props as [`Box`](/components/box)
 
-<Button.Group>
-    <Button> Button inline </Button>
-    <Button outline> Button inline #2</Button>
-    <Button variant="success"> Button inline #3</Button>
-</Button.Group>
-
-```jsx
-import { Button } from '@hack4impact-uiuc/bridge'
-
-<Button.Group>
-    <Button> Button inline </Button>
-    <Button> Button inline #2</Button>
-</Button.Group>
-```
-
-```jsx
-import { Button } from '@hack4impact-uiuc/bridge'
-
+```jsx live
 <Button.Group>
     <Button variant="primary">Button #1</Button>
     <Button variant="success">Button #2</Button>
@@ -85,16 +53,16 @@ import { Button } from '@hack4impact-uiuc/bridge'
 `Button` includes `COMMON` props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
 
 ### Component Props
+Note: `ButtonBox` has same props as [`Box`](/components/box)
 
 | Prop name | Type | Default | Description |
 | :- | :- | :-: | :- |
 | as | String | `button` | sets the HTML tag for the component |
-| variant | String | 'primary' | color variant |
+| variant | String | 'primary' | color variant (`primary` &#124; `secondary` &#124; `success` &#124; `error` &#124; `warning` &#124; `white`) |
 | disabled | Boolean | false | disable button |
 | outline | Boolean | false | outline button - secondary button |
 | onClick | Func | null | prop function to handle onClick |
 | className | String | '' | classNames to override styling for button  |
-| type | String | 'medium' | size of button (`large`, `medium`, `small`)|
+| type | String | 'medium' | size of button (`large` &#124; `medium` &#124; `small`)|
 | theme | Object | Bridge Theme | use to override default bridge theme|
 
-Note: `ButtonBox` has same props as [`Box`](/components/box)

@@ -4,11 +4,53 @@ import Layout from '../../components/layout.js'
 
 export default Layout({...meta})
 
-`TextField` is used for user input.
+`TextField` is used for user input. You would use it in forms when user input is required or for search. A TextField may be a single line or have multiple lines (textarea). Look into [Forms](/components/forms) for more on how to add labels and group inputs together.
+
+### Example
+A default TextField.
+```jsx live
+<TextField placeholder="placeholder text"/>
+```
+
+### Text Areas
+In order to have a multi-line text field, you must set it as a `textarea`. You can then define how many lines you would like the `TextField` to be.
+```jsx live
+<TextField lines="4" as="textarea" />
+```
+
+
+### Error State
+You may provide styling for error state via the `error` prop - the border color will change and the respective icon will show on the right side. The TextField will not do any automatic text validation - you must manually trigger the error style. Look into `Form` on form validation. You may choose between `default`, `error`, `warning`, and `success`.
+```jsx live
+<Box>
+    <TextField error="default" mb="xs"/>
+</Box>
+<Box>
+    <TextField error="error" mb="xs"/>
+</Box>
+<Box>
+    <TextField error="warning" mb="xs"/>
+</Box>
+<Box>
+    <TextField error="success"/>
+</Box>
+```
+
+### Other Styling
+You may disable a `TextField` via the `disabled` prop. You could also add an svg icon without changing the error state via the `icon` prop.
+```jsx live
+<Box mb="xs">
+    <TextField disabled />
+</Box>
+<Box>
+    <TextField icon={<Icon type="errorAlert"/>} />
+</Box>
+```
 
 ### Common Props
 `TextField` includes `COMMON` and `COLOR` common props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
 
+### Component Props
 | Prop name | Type | Default | Description |
 | :- | :- | :-: | :- |
 | aria-label | String | | this should be set when the input's label is not visible on the screen |

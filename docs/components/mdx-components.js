@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import {
-  Link, Heading, Text,
+  Link, Heading, Text, Table,
 } from '@hack4impact-uiuc/bridge';
 import GithubSlugger from 'github-slugger';
 import CodeBlock from './CodeBlock';
@@ -28,12 +28,6 @@ const InlineCode = ({ children }) => (
         font-size: 0.875em;
         white-space: pre-wrap;
       }
-      code::before {
-        content: '\`';
-      }
-      code::after {
-        content: '\`';
-      }
       :global(a) code {
         color: inherit;
       }
@@ -60,7 +54,7 @@ const Blockquote = ({ children, ...props }) => (
 );
 
 
-const hSpacing = { mb: '24px', mt: '20px' };
+const hSpacing = { mb: '24px', mt: '24px' };
 const PermalinkHeading = ({ children, type, ...props }) => {
   const slugger = new GithubSlugger();
 
@@ -127,6 +121,12 @@ const components = {
   a: (props) => <Link {...props} />,
   code: CodeBlock,
   inlineCode: InlineCode,
+  table: (props) => <Table textAlign="left" {...props} />,
+  thead: Table.Head,
+  tbody: Table.Body,
+  tr: Table.Row,
+  td: Table.Cell,
+  th: Table.Cell,
 };
 
 export default components;

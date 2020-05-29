@@ -36,3 +36,7 @@ if it's a design doc, make type `"design"`.
 3. Add route to `./lib/data/components.js` in the corresponding section, giving `title` and `href` (href for alerts will be `/components/alerts`). This data tells the sidebar, which links to show. It will show up in the same order as listed in the file.
    - `title` will be rendered as the heading in page
    - if it's a design doc, add it to `./lib/data/design.js`
+4. when using code blocks for examples, use add the live prop to the code block, such as
+```
+```jsx live
+```
