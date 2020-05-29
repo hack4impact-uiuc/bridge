@@ -1,0 +1,65 @@
+export const meta = {type: "components", title: "Introduction"}
+
+import CodeExampleBox from '../../components/CodeExampleBox'
+
+import Layout from '../../components/layout.js'
+export default Layout({...meta})
+
+The Bridge React component library are a collection of resuable interface of elements. It implements and extends the [Bridge Design system](/design). You will find the implementations of each UI component and additional components that help developers quickly create the best experience for our products.
+
+
+### Installation
+```
+npm install @hack4impact-uiuc/bridge
+```
+or
+```
+yarn add @hack4impact-uiuc/bridge
+```
+
+### Usage
+
+Import the CSS directly into your project (`src/index.js`) if your asset packager supports it:
+```jsx
+import '@hack4impact-uiuc/bridge/dist/styles.css'
+```
+
+Import required h4i-design components within `src/App.js` file or your custom component files:
+```jsx
+import { Button } from '@hack4impact-uiuc/bridge';
+```
+
+Now you are ready to use the imported components, such as:
+```jsx
+import React from 'react';
+import { Button } from '@hack4impact-uiuc/bridge';
+
+const App = () => (
+    <Button onClick={() => alert('Button clicked!')}>APPLY NOW</Button>
+)
+export default App
+```
+
+#### Theming
+Components use Hack4Impact's Design theme by default (`src/theme.js`) but you can provide your own theme using styled-component's [ThemeProvider](https://styled-components.com/docs/advanced). You can either fully replace the theme or replace parts of the theme by placing your custom theme through a prop to our components or through `<ThemeProvider>` in the root of the application.
+
+### Local Development
+We use Storybook to hot-reload and test our components during development. You can edit the `playground/Playground.js` file to import and test the components you are working on. Please do not commit any work on the file so other developers can use the same file to test.
+
+To run:
+```
+yarn
+yarn storybook
+```
+
+Check out our [Contributing Guidelines](CONTRIBUTING.md) for code style, testing, component dev, etc
+
+## Authors
+- Timothy Ko ([@tko22](https://github.com/tko22))
+- Jackie Osborn ([@jackieo5023](https://github.com/jackieo5023))
+- David Wang ([@davidenwang](https://github.com/davidenwang))
+- Chloe Chan ([Product Designer](https://chloechan.me/))
+
+## License
+[MIT](https://opensource.org/licenses/MIT)
+Copyright (c) 2020-present, Timothy Ko

@@ -6,4 +6,54 @@ import CodeExampleBox from '../../components/CodeExampleBox'
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
+Tags are used for categorizing and labeling. `Tag` will fit to expand the text inside it.
+
+### Example
+
 <Tag>I'm a tag</Tag>
+
+```jsx
+import { Tag } from '@hack4impact-uiuc/bridge'
+
+<Tag>I'm a tag</Tag>
+```
+
+### Color Variants
+Tags follow the color palette shades. You define the color palette with the `color` prop and the shade of the color with the `variant` prop. Only use the `light`, `primary`, and `dark` shades.
+
+
+Bridge has `blue`, `indigo`, `grey`, `yellow`, `red`, and `green` palettes. Check out [the design principles](/design/colors) for more detailed information.
+
+<CodeExampleBox>
+<Tag color="yellow" variant="light" mr="xs">Light yellow</Tag> 
+<Tag color="yellow" variant="primary" mr="xs">primary yellow</Tag>
+<Tag color="yellow" variant="dark" mr="xs">Dark yellow</Tag> 
+
+<Tag color="green" variant="light" mr="xs">light green</Tag> 
+<Tag color="indigo" variant="primary" mr="xs">primary indigo</Tag> 
+<Tag color="red" variant="darker" mr="xs">Darker red</Tag>
+</CodeExampleBox>
+
+```jsx
+import { Tag } from '@hack4impact-uiuc/bridge'
+
+<Tag color="yellow" variant="light" mr="xs">Light yellow</Tag> 
+<Tag color="yellow" variant="primary" mr="xs">primary yellow</Tag>
+<Tag color="yellow" variant="dark" mr="xs">Dark yellow</Tag> 
+
+<Tag color="green" variant="light" mr="xs">light green</Tag> 
+<Tag color="indigo" variant="primary" mr="xs">primary indigo</Tag> 
+<Tag color="red" variant="darker" mr="xs">Darker red</Tag>
+```
+
+### Common Props
+`Tag` includes `COMMON` props. Note that `color` will not work here due to its use for color variants. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
+
+
+### Component Props
+
+| Prop name | Type | Default | Description |
+| :- | :- | :-: | :- |
+| variant | String | 'primary' | color shade (`light`, `primary`, `dark`) |
+| color | String | 'blue' | color palette (`blue`, `indigo`, `grey`, `yellow`, `red`, and `green` for bridge theme. this can change if theme is overriden) |
+| theme | Object | Bridge Theme | use to override default bridge theme|

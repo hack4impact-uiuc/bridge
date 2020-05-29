@@ -29,7 +29,7 @@ const WithDoc = (meta) => ({ children }) => (
         m="0 20px"
       >
         <Markdown>
-          <Heading mb="0px" type="h2">{meta.title}</Heading>
+          <Heading mb="0px" mt="0px" type="h2">{meta.title}</Heading>
           <main>{children}</main>
         </Markdown>
       </Flex>

@@ -1,9 +1,75 @@
 export const meta = {type: "components", title: "Flex"}
 
-import { Flex } from '@hack4impact-uiuc/bridge'
+import { Flex, Box, Heading, Text } from '@hack4impact-uiuc/bridge'
 import CodeExampleBox from '../../components/CodeExampleBox'
 
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
-flex
+Flex is a `Box` with `display: flex`. Use `Box` for flexbox items. Visit [CSS Tricks' guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to learn more on how to use flexbox.
+
+### Basic Example
+Using flexbox to vertically center text. 
+<CodeExampleBox>
+<Flex backgroundColor="grey.0" alignItems="center" width="200px" height="160px">
+    Hi, I'm centered vertically with flexbox align-items!
+</Flex>
+</CodeExampleBox>
+
+```jsx
+import { Flex} from '@hack4impact-uiuc/bridge'
+
+<Flex backgroundColor="grey.0" alignItems="center" width="100px" height="100px">
+    Hi, I'm centered vertically with flexbox align-items!
+</Flex>
+```
+
+
+### More complex example
+This example is somewhat like the banner of Bridge's landing page. Here, we make two columns (or flexbox items) with text on the left column and an image on the right column. We then use `Box` as flexbox items since their `display` property isnt default `flex`
+<CodeExampleBox>
+<Flex flexDirection="row" flexWrap="wrap">
+    <Box m='0 20px 0 0' flex={1} width="100%" order={1}>
+        <Heading mt="50px" mb="10px" type="h4">Bridge</Heading>
+        <Text type="body" as="p">
+            A design system built for Hack4Impact UIUC
+            to help us build great products for all kinds
+            of nonprofits.
+        </Text>
+    </Box>
+    <Box flex={1} width="100%" order={2}>
+        <Box minWidth="100px" maxWidth="400px" m="0 auto">
+            <img src="/homepage/bridge-web-landing.svg" alt="bridge hero" width="100%" />
+        </Box>
+    </Box>
+</Flex>
+</CodeExampleBox>
+
+```jsx
+import { Flex, Box, Heading, Text } from '@hack4impact-uiuc/bridge'
+
+<Flex flexDirection="row" flexWrap="wrap">
+    <Box m='0 20px 0 0' flex={1} width="100%" order={1}>
+        <Heading mt="50px" mb="10px" type="h4">Bridge</Heading>
+        <Text type="body" as="p">
+            A design system built for Hack4Impact UIUC
+            to help us build great products for all kinds
+            of nonprofits.
+        </Text>
+    </Box>
+    <Box flex={1} width="100%" order={2}>
+        <Box minWidth="100px" maxWidth="400px" m="0 auto">
+            <img src="/homepage/bridge-web-landing.svg" alt="bridge hero" width="100%" />
+        </Box>
+    </Box>
+</Flex>
+```
+
+### Common Props
+`Flex` includes `COMMON`, `FLEX`, and `BORDER` props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
+
+### Component Props
+
+| Prop name | Type | Default | Description |
+| :- | :- | :-: | :- |
+| theme | Object | Bridge Theme | use to override default bridge theme|

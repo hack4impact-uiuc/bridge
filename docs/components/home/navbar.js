@@ -112,7 +112,7 @@ const NavBar = () => {
 
           .nav-links li {
             text-align: center;
-            margin: 15px 40px;
+            margin: 15px 32px;
           }
 
           .navbar-toggle {
