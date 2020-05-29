@@ -1,0 +1,2517 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table renders a <table> 1`] = `
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .TableRow__TableRowBase-sc-1npg197-0 {
+  border-bottom: 1px solid #EBEEF2;
+  border-width: 2px;
+}
+
+.c0 .TableBody-lzp76z-0 .TableRow__TableRowBase-sc-1npg197-0 {
+  border-bottom: 1px solid #EBEEF2;
+}
+
+.c0 .TableBody-lzp76z-0 .TableRow__TableRowBase-sc-1npg197-0:last-child {
+  border-bottom: none;
+}
+
+<table
+  className="c0"
+  type="primary"
+/>
+`;
+
+exports[`Table renders borderless bodyless table successfully 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c4 {
+  padding: 0 20px;
+}
+
+.c4:first-child {
+  padding-left: 0;
+}
+
+.c4:last-child {
+  padding-right: 0;
+}
+
+.c3 {
+  height: 56px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.c0 .c1 .c2 {
+  border-width: 2px;
+}
+
+.c0 .TableBody-lzp76z-0 .c2:last-child {
+  border-bottom: none;
+}
+
+<div>
+      <table
+        class="c0"
+        type="borderless"
+      >
+        <thead
+          class="c1 "
+        >
+          <tr
+            class="c2 c3"
+          >
+            <th
+              class="c4"
+            >
+              First Name
+            </th>
+            <th
+              class="c4"
+            >
+              Last Name
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Color
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Number
+            </th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="Table-sc-1399pyx-0 eeyPOb"
+      type="borderless"
+    >
+      <thead
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
+        >
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            First Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Last Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Color
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Number
+          </th>
+        </tr>
+      </thead>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Table renders borderless full table successfully 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c7 {
+  padding: 0 20px;
+}
+
+.c7:first-child {
+  padding-left: 0;
+}
+
+.c7:last-child {
+  padding-right: 0;
+}
+
+.c4 {
+  padding: 0 20px;
+}
+
+.c4:first-child {
+  padding-left: 0;
+}
+
+.c4:last-child {
+  padding-right: 0;
+}
+
+.c3 {
+  height: 56px;
+}
+
+.c6 {
+  height: 52px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.c0 .c1 .c2 {
+  border-width: 2px;
+}
+
+.c0 .c5 .c2:last-child {
+  border-bottom: none;
+}
+
+<div>
+      <table
+        class="c0"
+        type="borderless"
+      >
+        <thead
+          class="c1 "
+        >
+          <tr
+            class="c2 c3"
+          >
+            <th
+              class="c4"
+            >
+              First Name
+            </th>
+            <th
+              class="c4"
+            >
+              Last Name
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Color
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Number
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="c5 "
+        >
+          <tr
+            class="c2 c6"
+          >
+            <td
+              class="c7"
+            >
+              Chloe
+            </td>
+            <td
+              class="c7"
+            >
+              Chan
+            </td>
+            <td
+              class="c7"
+            >
+              Pink
+            </td>
+            <td
+              class="c7"
+            >
+              3
+            </td>
+          </tr>
+          <tr
+            class="c2 c6"
+          >
+            <td
+              class="c7"
+            >
+              Eric
+            </td>
+            <td
+              class="c7"
+            >
+              Lee
+            </td>
+            <td
+              class="c7"
+            >
+              Blue
+            </td>
+            <td
+              class="c7"
+            >
+              18
+            </td>
+          </tr>
+          <tr
+            class="c2 c6"
+          >
+            <td
+              class="c7"
+            >
+              Nicole
+            </td>
+            <td
+              class="c7"
+            >
+              Nguyen
+            </td>
+            <td
+              class="c7"
+            >
+              Red
+            </td>
+            <td
+              class="c7"
+            >
+              10
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="Table-sc-1399pyx-0 eeyPOb"
+      type="borderless"
+    >
+      <thead
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
+        >
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            First Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Last Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Color
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Number
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="TableBody-lzp76z-0 jDkdhk"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chloe
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chan
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Pink
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            3
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Eric
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Lee
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Blue
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            18
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nicole
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nguyen
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Red
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            10
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Table renders borderless headless table successfully 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c4 {
+  padding: 0 20px;
+}
+
+.c4:first-child {
+  padding-left: 0;
+}
+
+.c4:last-child {
+  padding-right: 0;
+}
+
+.c3 {
+  height: 52px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
+  border-width: 2px;
+}
+
+.c0 .c1 .c2:last-child {
+  border-bottom: none;
+}
+
+<div>
+      <table
+        class="c0"
+        type="borderless"
+      >
+        <tbody
+          class="c1 "
+        >
+          <tr
+            class="c2 c3"
+          >
+            <td
+              class="c4"
+            >
+              Chloe
+            </td>
+            <td
+              class="c4"
+            >
+              Chan
+            </td>
+            <td
+              class="c4"
+            >
+              Pink
+            </td>
+            <td
+              class="c4"
+            >
+              3
+            </td>
+          </tr>
+          <tr
+            class="c2 c3"
+          >
+            <td
+              class="c4"
+            >
+              Eric
+            </td>
+            <td
+              class="c4"
+            >
+              Lee
+            </td>
+            <td
+              class="c4"
+            >
+              Blue
+            </td>
+            <td
+              class="c4"
+            >
+              18
+            </td>
+          </tr>
+          <tr
+            class="c2 c3"
+          >
+            <td
+              class="c4"
+            >
+              Nicole
+            </td>
+            <td
+              class="c4"
+            >
+              Nguyen
+            </td>
+            <td
+              class="c4"
+            >
+              Red
+            </td>
+            <td
+              class="c4"
+            >
+              10
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="Table-sc-1399pyx-0 eeyPOb"
+      type="borderless"
+    >
+      <tbody
+        class="TableBody-lzp76z-0 jDkdhk"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chloe
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chan
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Pink
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            3
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Eric
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Lee
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Blue
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            18
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nicole
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nguyen
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Red
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            10
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Table renders primary bodyless table successfully 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c4 {
+  padding: 0 20px;
+}
+
+.c4:first-child {
+  padding-left: 0;
+}
+
+.c4:last-child {
+  padding-right: 0;
+}
+
+.c3 {
+  height: 56px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.c0 .c1 .c2 {
+  border-bottom: 1px solid #EBEEF2;
+  border-width: 2px;
+}
+
+.c0 .TableBody-lzp76z-0 .c2 {
+  border-bottom: 1px solid #EBEEF2;
+}
+
+.c0 .TableBody-lzp76z-0 .c2:last-child {
+  border-bottom: none;
+}
+
+<div>
+      <table
+        class="c0"
+        type="primary"
+      >
+        <thead
+          class="c1 "
+        >
+          <tr
+            class="c2 c3"
+          >
+            <th
+              class="c4"
+            >
+              First Name
+            </th>
+            <th
+              class="c4"
+            >
+              Last Name
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Color
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Number
+            </th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="Table-sc-1399pyx-0 ebRcbD"
+      type="primary"
+    >
+      <thead
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
+        >
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            First Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Last Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Color
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Number
+          </th>
+        </tr>
+      </thead>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Table renders primary full table successfully 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c7 {
+  padding: 0 20px;
+}
+
+.c7:first-child {
+  padding-left: 0;
+}
+
+.c7:last-child {
+  padding-right: 0;
+}
+
+.c4 {
+  padding: 0 20px;
+}
+
+.c4:first-child {
+  padding-left: 0;
+}
+
+.c4:last-child {
+  padding-right: 0;
+}
+
+.c3 {
+  height: 56px;
+}
+
+.c6 {
+  height: 52px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.c0 .c1 .c2 {
+  border-bottom: 1px solid #EBEEF2;
+  border-width: 2px;
+}
+
+.c0 .c5 .c2 {
+  border-bottom: 1px solid #EBEEF2;
+}
+
+.c0 .c5 .c2:last-child {
+  border-bottom: none;
+}
+
+<body>
+    <div>
+      <table
+        class="c0"
+        type="primary"
+      >
+        <thead
+          class="c1 "
+        >
+          <tr
+            class="c2 c3"
+          >
+            <th
+              class="c4"
+            >
+              First Name
+            </th>
+            <th
+              class="c4"
+            >
+              Last Name
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Color
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Number
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="c5 "
+        >
+          <tr
+            class="c2 c6"
+          >
+            <td
+              class="c7"
+            >
+              Chloe
+            </td>
+            <td
+              class="c7"
+            >
+              Chan
+            </td>
+            <td
+              class="c7"
+            >
+              Pink
+            </td>
+            <td
+              class="c7"
+            >
+              3
+            </td>
+          </tr>
+          <tr
+            class="c2 c6"
+          >
+            <td
+              class="c7"
+            >
+              Eric
+            </td>
+            <td
+              class="c7"
+            >
+              Lee
+            </td>
+            <td
+              class="c7"
+            >
+              Blue
+            </td>
+            <td
+              class="c7"
+            >
+              18
+            </td>
+          </tr>
+          <tr
+            class="c2 c6"
+          >
+            <td
+              class="c7"
+            >
+              Nicole
+            </td>
+            <td
+              class="c7"
+            >
+              Nguyen
+            </td>
+            <td
+              class="c7"
+            >
+              Red
+            </td>
+            <td
+              class="c7"
+            >
+              10
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="Table-sc-1399pyx-0 ebRcbD"
+      type="primary"
+    >
+      <thead
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
+        >
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            First Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Last Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Color
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Number
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="TableBody-lzp76z-0 jDkdhk"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chloe
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chan
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Pink
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            3
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Eric
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Lee
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Blue
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            18
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nicole
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nguyen
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Red
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            10
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Table renders primary headless table successfully 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c4 {
+  padding: 0 20px;
+}
+
+.c4:first-child {
+  padding-left: 0;
+}
+
+.c4:last-child {
+  padding-right: 0;
+}
+
+.c3 {
+  height: 52px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
+  border-bottom: 1px solid #EBEEF2;
+  border-width: 2px;
+}
+
+.c0 .c1 .c2 {
+  border-bottom: 1px solid #EBEEF2;
+}
+
+.c0 .c1 .c2:last-child {
+  border-bottom: none;
+}
+
+<div>
+      <table
+        class="c0"
+        type="primary"
+      >
+        <tbody
+          class="c1 "
+        >
+          <tr
+            class="c2 c3"
+          >
+            <td
+              class="c4"
+            >
+              Chloe
+            </td>
+            <td
+              class="c4"
+            >
+              Chan
+            </td>
+            <td
+              class="c4"
+            >
+              Pink
+            </td>
+            <td
+              class="c4"
+            >
+              3
+            </td>
+          </tr>
+          <tr
+            class="c2 c3"
+          >
+            <td
+              class="c4"
+            >
+              Eric
+            </td>
+            <td
+              class="c4"
+            >
+              Lee
+            </td>
+            <td
+              class="c4"
+            >
+              Blue
+            </td>
+            <td
+              class="c4"
+            >
+              18
+            </td>
+          </tr>
+          <tr
+            class="c2 c3"
+          >
+            <td
+              class="c4"
+            >
+              Nicole
+            </td>
+            <td
+              class="c4"
+            >
+              Nguyen
+            </td>
+            <td
+              class="c4"
+            >
+              Red
+            </td>
+            <td
+              class="c4"
+            >
+              10
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="Table-sc-1399pyx-0 ebRcbD"
+      type="primary"
+    >
+      <tbody
+        class="TableBody-lzp76z-0 jDkdhk"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chloe
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chan
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Pink
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            3
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Eric
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Lee
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Blue
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            18
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nicole
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nguyen
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Red
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            10
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Table renders zebra bodyless table successfully 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c4 {
+  padding: 0 20px;
+}
+
+.c4:first-child {
+  padding-left: 0;
+}
+
+.c4:last-child {
+  padding-right: 0;
+}
+
+.c3 {
+  height: 56px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.c0 .c1 .c2 {
+  border-width: 2px;
+}
+
+.c0 .TableBody-lzp76z-0 .c2:nth-child(odd) {
+  background-color: #EBEEF2;
+}
+
+.c0 .TableBody-lzp76z-0 .c2:last-child {
+  border-bottom: none;
+}
+
+<div>
+      <table
+        class="c0"
+        type="zebra"
+      >
+        <thead
+          class="c1 "
+        >
+          <tr
+            class="c2 c3"
+          >
+            <th
+              class="c4"
+            >
+              First Name
+            </th>
+            <th
+              class="c4"
+            >
+              Last Name
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Color
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Number
+            </th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="Table-sc-1399pyx-0 jjNDbD"
+      type="zebra"
+    >
+      <thead
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
+        >
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            First Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Last Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Color
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Number
+          </th>
+        </tr>
+      </thead>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Table renders zebra full table successfully 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c7 {
+  padding: 0 20px;
+}
+
+.c7:first-child {
+  padding-left: 0;
+}
+
+.c7:last-child {
+  padding-right: 0;
+}
+
+.c4 {
+  padding: 0 20px;
+}
+
+.c4:first-child {
+  padding-left: 0;
+}
+
+.c4:last-child {
+  padding-right: 0;
+}
+
+.c3 {
+  height: 56px;
+}
+
+.c6 {
+  height: 52px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.c0 .c1 .c2 {
+  border-width: 2px;
+}
+
+.c0 .c5 .c2:nth-child(odd) {
+  background-color: #EBEEF2;
+}
+
+.c0 .c5 .c2:last-child {
+  border-bottom: none;
+}
+
+<div>
+      <table
+        class="c0"
+        type="zebra"
+      >
+        <thead
+          class="c1 "
+        >
+          <tr
+            class="c2 c3"
+          >
+            <th
+              class="c4"
+            >
+              First Name
+            </th>
+            <th
+              class="c4"
+            >
+              Last Name
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Color
+            </th>
+            <th
+              class="c4"
+            >
+              Favorite Number
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="c5 "
+        >
+          <tr
+            class="c2 c6"
+          >
+            <td
+              class="c7"
+            >
+              Chloe
+            </td>
+            <td
+              class="c7"
+            >
+              Chan
+            </td>
+            <td
+              class="c7"
+            >
+              Pink
+            </td>
+            <td
+              class="c7"
+            >
+              3
+            </td>
+          </tr>
+          <tr
+            class="c2 c6"
+          >
+            <td
+              class="c7"
+            >
+              Eric
+            </td>
+            <td
+              class="c7"
+            >
+              Lee
+            </td>
+            <td
+              class="c7"
+            >
+              Blue
+            </td>
+            <td
+              class="c7"
+            >
+              18
+            </td>
+          </tr>
+          <tr
+            class="c2 c6"
+          >
+            <td
+              class="c7"
+            >
+              Nicole
+            </td>
+            <td
+              class="c7"
+            >
+              Nguyen
+            </td>
+            <td
+              class="c7"
+            >
+              Red
+            </td>
+            <td
+              class="c7"
+            >
+              10
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="Table-sc-1399pyx-0 jjNDbD"
+      type="zebra"
+    >
+      <thead
+        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
+        >
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            First Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Last Name
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Color
+          </th>
+          <th
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+          >
+            Favorite Number
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="TableBody-lzp76z-0 jDkdhk"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chloe
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chan
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Pink
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            3
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Eric
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Lee
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Blue
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            18
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nicole
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nguyen
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Red
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            10
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Table renders zebra headless table successfully 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c4 {
+  padding: 0 20px;
+}
+
+.c4:first-child {
+  padding-left: 0;
+}
+
+.c4:last-child {
+  padding-right: 0;
+}
+
+.c3 {
+  height: 52px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c0 th {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
+  border-width: 2px;
+}
+
+.c0 .c1 .c2:nth-child(odd) {
+  background-color: #EBEEF2;
+}
+
+.c0 .c1 .c2:last-child {
+  border-bottom: none;
+}
+
+<div>
+      <table
+        class="c0"
+        type="zebra"
+      >
+        <tbody
+          class="c1 "
+        >
+          <tr
+            class="c2 c3"
+          >
+            <td
+              class="c4"
+            >
+              Chloe
+            </td>
+            <td
+              class="c4"
+            >
+              Chan
+            </td>
+            <td
+              class="c4"
+            >
+              Pink
+            </td>
+            <td
+              class="c4"
+            >
+              3
+            </td>
+          </tr>
+          <tr
+            class="c2 c3"
+          >
+            <td
+              class="c4"
+            >
+              Eric
+            </td>
+            <td
+              class="c4"
+            >
+              Lee
+            </td>
+            <td
+              class="c4"
+            >
+              Blue
+            </td>
+            <td
+              class="c4"
+            >
+              18
+            </td>
+          </tr>
+          <tr
+            class="c2 c3"
+          >
+            <td
+              class="c4"
+            >
+              Nicole
+            </td>
+            <td
+              class="c4"
+            >
+              Nguyen
+            </td>
+            <td
+              class="c4"
+            >
+              Red
+            </td>
+            <td
+              class="c4"
+            >
+              10
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="Table-sc-1399pyx-0 jjNDbD"
+      type="zebra"
+    >
+      <tbody
+        class="TableBody-lzp76z-0 jDkdhk"
+      >
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chloe
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Chan
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Pink
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            3
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Eric
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Lee
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Blue
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            18
+          </td>
+        </tr>
+        <tr
+          class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
+        >
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nicole
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Nguyen
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            Red
+          </td>
+          <td
+            class="TableCell__TableCellBase-sc-18perrz-0 eYrjDm"
+          >
+            10
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
