@@ -32,6 +32,7 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     .c5 {
+  font-weight: 500px;
   padding: 0 20px;
 }
 
@@ -52,7 +53,6 @@ Object {
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
   line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4 {
@@ -116,28 +116,28 @@ Object {
       type="borderless"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
+        class="TableHead__TableHeadBase-sc-154km0i-0 egHoGZ"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Number
           </th>
@@ -227,6 +227,7 @@ Object {
 }
 
 .c5 {
+  font-weight: 500px;
   padding: 0 20px;
 }
 
@@ -247,7 +248,6 @@ Object {
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
   line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4 {
@@ -391,28 +391,28 @@ Object {
       type="borderless"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
+        class="TableHead__TableHeadBase-sc-154km0i-0 egHoGZ"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Number
           </th>
@@ -822,6 +822,7 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     .c5 {
+  font-weight: 500px;
   padding: 0 20px;
 }
 
@@ -842,7 +843,6 @@ Object {
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
   line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4 {
@@ -911,28 +911,28 @@ Object {
       type="primary"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
+        class="TableHead__TableHeadBase-sc-154km0i-0 egHoGZ"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Number
           </th>
@@ -1021,6 +1021,7 @@ Object {
 }
 
 .c5 {
+  font-weight: 500px;
   padding: 0 20px;
 }
 
@@ -1041,7 +1042,6 @@ Object {
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
   line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4 {
@@ -1191,28 +1191,28 @@ Object {
       type="primary"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
+        class="TableHead__TableHeadBase-sc-154km0i-0 egHoGZ"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Number
           </th>
@@ -1627,6 +1627,7 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     .c5 {
+  font-weight: 500px;
   padding: 0 20px;
 }
 
@@ -1647,7 +1648,6 @@ Object {
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
   line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4 {
@@ -1715,28 +1715,28 @@ Object {
       type="zebra"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
+        class="TableHead__TableHeadBase-sc-154km0i-0 egHoGZ"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Number
           </th>
@@ -1826,6 +1826,7 @@ Object {
 }
 
 .c5 {
+  font-weight: 500px;
   padding: 0 20px;
 }
 
@@ -1846,7 +1847,6 @@ Object {
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
   line-height: 20px;
-  font-weight: 500px;
 }
 
 .c4 {
@@ -1994,28 +1994,28 @@ Object {
       type="zebra"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
+        class="TableHead__TableHeadBase-sc-154km0i-0 egHoGZ"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
         >
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             First Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Last Name
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Color
           </th>
           <th
-            class="TableCell__TableHeadCellBase-sc-18perrz-1 dDqyXv"
+            class="TableCell__TableHeadCellBase-sc-18perrz-1 hOwtmk"
           >
             Favorite Number
           </th>

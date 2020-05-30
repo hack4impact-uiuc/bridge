@@ -131,7 +131,7 @@ describe('Table', () => {
       </Table>,
     );
 
-    const head = container.firstChild.firstChild;
+    const head = container.firstChild.firstChild.firstChild.firstChild;
     expect(head).toHaveStyle(`font-weight: ${theme.typography.tableHead.fontWeight}px`);
   });
 
