@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 import React from 'react';
 import theme from '../../theme';
 import { COMMON, TYPOGRAPHY } from '../../utils/constants';
+import { get } from '../../utils/utils';
 import TableHeadContext from './TableHeadContext';
 
 
@@ -26,6 +27,7 @@ const TableCellBase = styled.td`
 `;
 
 const TableHeadCellBase = styled.th`
+  ${get('typography.tableHead')}
   ${sharedStyle};
 `;
 

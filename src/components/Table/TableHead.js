@@ -13,7 +13,6 @@ const context = {
 
 export const TableHeadBase = styled.thead`
   ${get('typography.table')}
-  ${get('typography.tableHead')}
   
   ${COMMON};
   ${TYPOGRAPHY};
