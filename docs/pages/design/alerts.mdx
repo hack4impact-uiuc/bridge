@@ -1,19 +1,111 @@
 export const meta = {type: "design", title: "Alerts"}
 
 import ColorPalette from '../../components/design/colorPalette.js'
-import { theme, Alert } from '@hack4impact-uiuc/bridge'
+import { theme, Alert, Heading, Box, Text, Link, Icon } from '@hack4impact-uiuc/bridge'
 import Row from '../../components/row.js'
 import Col from '../../components/col.js'
+import CodeExampleBox from '../../components/CodeExampleBox'
 
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
 <Row>
-    <Col>
-        <Alert>This is a success alert!</Alert>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4" as="h4" mb="8px" >Success</Heading>
+            <Text type="body" as="p" pb={["16px", "40px"]}>Provides a static persistent success message. For when an action/trigger is successful.</Text>
+            <CodeExampleBox p="md">
+                <Alert>This is a success alert!</Alert>
+            </CodeExampleBox>
+        </Box>
     </Col>
-    <Col>
-        <Alert>Hi I'm an alert</Alert>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4" as="h4" mb="8px">Warning</Heading>
+            <Text type="body" as="p" pb="16px">Reserved for warnings, messages that require attention or acknowledgement of users, but may not cause errors.</Text>
+            <CodeExampleBox p="md">
+                <Alert variant="warning">This is a warning alert!</Alert>
+            </CodeExampleBox>
+        </Box>
+    </Col>
+</Row>
+<Row>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4" as="h4" mb="8px">Error</Heading>
+            <Text type="body" as="p" pb="16px">Reserved for errors, malfunctions, and critical issues.</Text>
+            <CodeExampleBox p="md">
+                <Alert variant="error">This is an error alert!</Alert>
+            </CodeExampleBox>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4" as="h4" mb="8px">Information</Heading>
+            <Text type="body" as="p" pb="16px">Provides contextual information to users. Do not overuse to replace regular content.</Text>
+            <CodeExampleBox p="md">
+                <Alert variant="information">This is an information alert!</Alert>
+            </CodeExampleBox>
+        </Box>
     </Col>
 </Row>
 
+### Adding Elements to Alerts
+
+#### Links
+Links within alerts are set in 18px HK Grotesk SemiBold text (check [typography](/design/typography)). The link color is the palette's `text` shade. When hovered, the text is underlined.
+
+<CodeExampleBox p="md" pb="xxs">
+<Alert variant="success" mb="md">
+    This is a success alert! This is an accompanying  <Link href="#">link</Link>.
+</Alert>
+
+<Alert variant="error" mb="md">
+    This is an error alert! This is an accompanying  <Link href="#">link</Link>.
+</Alert>
+
+<Alert variant="warning" mb="md">
+    This is a warning alert! This is an accompanying  <Link href="#">link</Link>.
+</Alert>
+
+<Alert variant="information" mb="md">
+    This is an information alert! This is an accompanying  <Link href="#">link</Link>.
+</Alert>
+</CodeExampleBox>
+
+#### Icons
+Icons should have even padding (16px) on each side. The icon’s borders should be colorized only using the colors used in the particular instance of an alert. Icons here have a size of 28px/7rem.
+
+<CodeExampleBox p="md" pb="xxs">
+<Alert variant="success" mb="md">
+    <Icon width="28px" type="successAlert" />
+    This is a success alert! This is an accompanying  <Link href="#">link</Link>.
+</Alert>
+
+<Alert variant="error" mb="md">
+    <Icon width="28px" type="errorAlert" />
+    This is an error alert! This is an accompanying  <Link href="#">link</Link>.
+</Alert>
+
+<Alert variant="warning" mb="md">
+    <Icon width="28px" type="warningAlert" />
+    This is a warning alert! This is an accompanying  <Link href="#">link</Link>.
+</Alert>
+
+<Alert variant="information" mb="md">
+    <Icon width="28px" type="infoAlert" />
+    This is an information alert! This is an accompanying  <Link href="#">link</Link>.
+</Alert>
+</CodeExampleBox>
+
+### Basic Visual Style
+
+**Borders**
+
+Alerts have a border radius of 14 px and a border width of 1px.
+
+<br/>
+
+**Dimensions**
+
+Alerts have vertical padding of 16 px. Width should fill the parent container width.
