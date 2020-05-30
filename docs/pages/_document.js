@@ -36,7 +36,7 @@ class DocSite extends Document {
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
           <meta charSet="UTF-8" />
         </Head>
-        <body>
+        <body style={{ margin: 0 }}>
           <Main />
           <NextScript />
         </body>

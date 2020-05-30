@@ -19,6 +19,10 @@ export default [
         title: 'Theming',
         href: `${COMPONENTS_URL}/theming`,
       },
+      {
+        title: 'Responsive Styling',
+        href: `${COMPONENTS_URL}/responsive`,
+      },
     ],
   },
   {
@@ -63,6 +67,10 @@ export default [
       {
         title: 'Radio',
         href: `${COMPONENTS_URL}/radio`,
+      },
+      {
+        title: 'Tables',
+        href: `${COMPONENTS_URL}/tables`,
       },
       {
         title: 'Tags',

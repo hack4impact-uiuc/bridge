@@ -5,7 +5,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.3px;
-  color: "#0A162A";
+  color: #0A162A;
 }
 
 /* TEXT */
@@ -77,7 +77,7 @@ body {
 }
 
 .link {
-  color: "#155DA1";
+  color: #155DA1;
   text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .link:disabled {
-  color: "#B4D8FA";
+  color: #B4D8FA;
 }
 
 @font-face {

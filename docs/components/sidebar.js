@@ -39,6 +39,7 @@ const Sidebar = ({
     width="280px"
     pb="md"
     pr="sm"
+    pl="sm"
   >
     {children}
     {getSidebarRoutes(type, title)}

@@ -1,19 +1,34 @@
 export const meta = {type: "components", title: "Cards"}
 
+import { Card, Button } from '@hack4impact-uiuc/bridge'
+import CodeExampleBox from '../../components/CodeExampleBox'
+
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
-~~title~~
+`Card` is used to contain information together. There are multiple ways to customize the content within the card.
 
-> some quote
+<CodeExampleBox>
+<Card>
+    <Card.Content>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Body>lorem asdfaskdjflkajdslkfj</Card.Body>
+    </Card.Content>
+    <Card.Footer>
+        <Button>"hi"</Button>
+    </Card.Footer>
+</Card>
+</CodeExampleBox>
 
+```jsx
+<Card>
+Hi
+</Card>
 
-yeah
-
-1. adsf
-2. asdf
-```js
-foo()
 ```
 
-[Heelo]("http://google.com")
+### Component Props
+
+| Prop name | Type | Default | Description |
+| :- | :- | :-: | :- |
+| theme | Object | Bridge Theme | use to override default bridge theme|

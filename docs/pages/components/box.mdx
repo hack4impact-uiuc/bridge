@@ -6,4 +6,30 @@ import CodeExampleBox from '../../components/CodeExampleBox'
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
-boxes
+A `Box` is a `div` with styling props, allowing you to stay consistent with how you use other bridge components.
+
+Use this in replacement of a `div`. It also includes flex properties - use `Box` as flexbox items with [`Flex`](/components/flex)
+
+<CodeExampleBox>
+<Box bg="blue.1" width="100px" height="100px">
+    Hi
+</Box>
+</CodeExampleBox>
+
+```jsx
+import { Box } from '@hack4impact-uiuc/bridge'
+
+<Box bg="blue.4">
+    Hi
+</Box>
+```
+
+
+### Common Props
+`Box` includes `COMMON`, `FLEX`, and `BORDER` props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
+
+### Component Props
+
+| Prop name | Type | Default | Description |
+| :- | :- | :-: | :- |
+| theme | Object | Bridge Theme | use to override default bridge theme|
