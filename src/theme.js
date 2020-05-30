@@ -92,7 +92,7 @@ const colors = {
   redPalette,
   yellowPalette,
   text: {
-    grayScale: {
+    greyScale: {
       main: typographyColors.charcoal,
       support: typographyColors.iron,
     },
