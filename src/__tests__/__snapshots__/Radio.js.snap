@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio Group renders correctly with 28px left margin per child besides first child 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #272A2D;
+  position: relative;
+  padding-left: 40px;
+  margin-left: 0px;
+}
+
+.c0 input:checked ~ span::after {
+  display: block;
+}
+
+.c0 span::after {
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #155DA1;
+}
+
+.c0[disabled] span::after {
+  background: #666B72;
+}
+
+.c3 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #272A2D;
+  position: relative;
+  padding-left: 40px;
+  margin-left: 28px;
+}
+
+.c3 input:checked ~ span::after {
+  display: block;
+}
+
+.c3 span::after {
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #155DA1;
+}
+
+.c3[disabled] span::after {
+  background: #666B72;
+}
+
+.c1 {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  border: 1px solid #8B9199;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.c2[disabled] {
+  background: #EBEEF2;
+}
+
+<div
+  className=""
+>
+  <label
+    className="c0"
+    htmlFor="1"
+  >
+    option 1
+    <input
+      checked={true}
+      className="c1"
+      defaultChecked={true}
+      id="1"
+      type="radio"
+    />
+    <span
+      className="c2"
+    />
+  </label>
+  <label
+    className="c3"
+    htmlFor="2"
+  >
+    option 2
+    <input
+      checked={true}
+      className="c1"
+      defaultChecked={true}
+      id="2"
+      type="radio"
+    />
+    <span
+      className="c2"
+    />
+  </label>
+  <label
+    className="c3"
+    htmlFor="3"
+  >
+    option 3
+    <input
+      checked={true}
+      className="c1"
+      defaultChecked={true}
+      id="3"
+      type="radio"
+    />
+    <span
+      className="c2"
+    />
+  </label>
+</div>
+`;
+
+exports[`Radio respects "error" prop 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #272A2D;
+  position: relative;
+  padding-left: 40px;
+}
+
+.c0 input:checked ~ span::after {
+  display: block;
+}
+
+.c0 span::after {
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #A62B31;
+}
+
+.c0[disabled] span::after {
+  background: #666B72;
+}
+
+.c1 {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  border: 1px solid #8B9199;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.c2[disabled] {
+  background: #EBEEF2;
+}
+
+<label
+  className="c0"
+>
+  radio
+  <input
+    className="c1"
+    type="radio"
+  />
+  <span
+    className="c2"
+  />
+</label>
+`;
+
+exports[`Radio respects the "disabled" prop 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #272A2D;
+  position: relative;
+  padding-left: 40px;
+}
+
+.c0 input:checked ~ span::after {
+  display: block;
+}
+
+.c0 span::after {
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #155DA1;
+}
+
+.c0[disabled] span::after {
+  background: #666B72;
+}
+
+.c1 {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  border: 1px solid #8B9199;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.c2[disabled] {
+  background: #EBEEF2;
+}
+
+<label
+  className="c0"
+  disabled={true}
+>
+  radio
+  <input
+    className="c1"
+    disabled={true}
+    type="radio"
+  />
+  <span
+    className="c2"
+    disabled={true}
+  />
+</label>
+`;

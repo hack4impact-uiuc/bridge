@@ -54,7 +54,7 @@ const TextFieldSuffixIcon = styled(Icon)`
 
 const TextFieldBase = styled.input`
   ${get('typography.forms')}
-  color: ${get('colors.text.coolTone.main')};
+  color: ${get('colors.text.grayScale.main')};
 
   display: inline-block;
   width: 100%;
