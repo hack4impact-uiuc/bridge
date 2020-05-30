@@ -8,29 +8,6 @@ exports[`Table renders a <table> 1`] = `
   width: 100%;
 }
 
-.c0 td {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-}
-
-.c0 th {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-  font-weight: 500px;
-}
-
 .c0 .TableHead__TableHeadBase-sc-154km0i-0 .TableRow__TableRowBase-sc-1npg197-0 {
   border-bottom: 1px solid #EBEEF2;
   border-width: 2px;
@@ -54,41 +31,19 @@ exports[`Table renders borderless bodyless table successfully 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    .c4 {
+    .c5 {
   padding: 0 20px;
 }
 
-.c4:first-child {
+.c5:first-child {
   padding-left: 0;
 }
 
-.c4:last-child {
+.c5:last-child {
   padding-right: 0;
 }
 
-.c3 {
-  height: 56px;
-}
-
-.c0 {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.c0 td {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-}
-
-.c0 th {
+.c2 {
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 18px;
@@ -100,11 +55,22 @@ Object {
   font-weight: 500px;
 }
 
-.c0 .c1 .c2 {
+.c4 {
+  height: 56px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 .c1 .c3 {
   border-width: 2px;
 }
 
-.c0 .TableBody-lzp76z-0 .c2:last-child {
+.c0 .TableBody-lzp76z-0 .c3:last-child {
   border-bottom: none;
 }
 
@@ -114,28 +80,28 @@ Object {
         type="borderless"
       >
         <thead
-          class="c1 "
+          class="c1 c2"
         >
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <th
-              class="c4"
+              class="c5"
             >
               First Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Last Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Color
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Number
             </th>
@@ -146,11 +112,11 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 eeyPOb"
+      class="Table-sc-1399pyx-0 iCcwbF"
       type="borderless"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
@@ -238,45 +204,6 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     .c7 {
-  padding: 0 20px;
-}
-
-.c7:first-child {
-  padding-left: 0;
-}
-
-.c7:last-child {
-  padding-right: 0;
-}
-
-.c4 {
-  padding: 0 20px;
-}
-
-.c4:first-child {
-  padding-left: 0;
-}
-
-.c4:last-child {
-  padding-right: 0;
-}
-
-.c3 {
-  height: 56px;
-}
-
-.c6 {
-  height: 52px;
-}
-
-.c0 {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.c0 td {
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 18px;
@@ -287,7 +214,31 @@ Object {
   line-height: 20px;
 }
 
-.c0 th {
+.c9 {
+  padding: 0 20px;
+}
+
+.c9:first-child {
+  padding-left: 0;
+}
+
+.c9:last-child {
+  padding-right: 0;
+}
+
+.c5 {
+  padding: 0 20px;
+}
+
+.c5:first-child {
+  padding-left: 0;
+}
+
+.c5:last-child {
+  padding-right: 0;
+}
+
+.c2 {
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 18px;
@@ -299,11 +250,26 @@ Object {
   font-weight: 500px;
 }
 
-.c0 .c1 .c2 {
+.c4 {
+  height: 56px;
+}
+
+.c8 {
+  height: 52px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 .c1 .c3 {
   border-width: 2px;
 }
 
-.c0 .c5 .c2:last-child {
+.c0 .c6 .c3:last-child {
   border-bottom: none;
 }
 
@@ -313,104 +279,104 @@ Object {
         type="borderless"
       >
         <thead
-          class="c1 "
+          class="c1 c2"
         >
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <th
-              class="c4"
+              class="c5"
             >
               First Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Last Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Color
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Number
             </th>
           </tr>
         </thead>
         <tbody
-          class="c5 "
+          class="c6 c7"
         >
           <tr
-            class="c2 c6"
+            class="c3 c8"
           >
             <td
-              class="c7"
+              class="c9"
             >
               Chloe
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Chan
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Pink
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               3
             </td>
           </tr>
           <tr
-            class="c2 c6"
+            class="c3 c8"
           >
             <td
-              class="c7"
+              class="c9"
             >
               Eric
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Lee
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Blue
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               18
             </td>
           </tr>
           <tr
-            class="c2 c6"
+            class="c3 c8"
           >
             <td
-              class="c7"
+              class="c9"
             >
               Nicole
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Nguyen
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Red
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               10
             </td>
@@ -421,11 +387,11 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 eeyPOb"
+      class="Table-sc-1399pyx-0 iCcwbF"
       type="borderless"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
@@ -453,7 +419,7 @@ Object {
         </tr>
       </thead>
       <tbody
-        class="TableBody-lzp76z-0 jDkdhk"
+        class="TableBody-lzp76z-0 dTozHy"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
@@ -588,19 +554,30 @@ exports[`Table renders borderless headless table successfully 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    .c4 {
+    .c2 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c5 {
   padding: 0 20px;
 }
 
-.c4:first-child {
+.c5:first-child {
   padding-left: 0;
 }
 
-.c4:last-child {
+.c5:last-child {
   padding-right: 0;
 }
 
-.c3 {
+.c4 {
   height: 52px;
 }
 
@@ -611,34 +588,11 @@ Object {
   width: 100%;
 }
 
-.c0 td {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-}
-
-.c0 th {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-  font-weight: 500px;
-}
-
-.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c3 {
   border-width: 2px;
 }
 
-.c0 .c1 .c2:last-child {
+.c0 .c1 .c3:last-child {
   border-bottom: none;
 }
 
@@ -648,76 +602,76 @@ Object {
         type="borderless"
       >
         <tbody
-          class="c1 "
+          class="c1 c2"
         >
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <td
-              class="c4"
+              class="c5"
             >
               Chloe
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Chan
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Pink
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               3
             </td>
           </tr>
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <td
-              class="c4"
+              class="c5"
             >
               Eric
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Lee
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Blue
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               18
             </td>
           </tr>
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <td
-              class="c4"
+              class="c5"
             >
               Nicole
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Nguyen
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Red
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               10
             </td>
@@ -728,11 +682,11 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 eeyPOb"
+      class="Table-sc-1399pyx-0 iCcwbF"
       type="borderless"
     >
       <tbody
-        class="TableBody-lzp76z-0 jDkdhk"
+        class="TableBody-lzp76z-0 dTozHy"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
@@ -867,41 +821,19 @@ exports[`Table renders primary bodyless table successfully 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    .c4 {
+    .c5 {
   padding: 0 20px;
 }
 
-.c4:first-child {
+.c5:first-child {
   padding-left: 0;
 }
 
-.c4:last-child {
+.c5:last-child {
   padding-right: 0;
 }
 
-.c3 {
-  height: 56px;
-}
-
-.c0 {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.c0 td {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-}
-
-.c0 th {
+.c2 {
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 18px;
@@ -913,16 +845,27 @@ Object {
   font-weight: 500px;
 }
 
-.c0 .c1 .c2 {
+.c4 {
+  height: 56px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 .c1 .c3 {
   border-bottom: 1px solid #EBEEF2;
   border-width: 2px;
 }
 
-.c0 .TableBody-lzp76z-0 .c2 {
+.c0 .TableBody-lzp76z-0 .c3 {
   border-bottom: 1px solid #EBEEF2;
 }
 
-.c0 .TableBody-lzp76z-0 .c2:last-child {
+.c0 .TableBody-lzp76z-0 .c3:last-child {
   border-bottom: none;
 }
 
@@ -932,28 +875,28 @@ Object {
         type="primary"
       >
         <thead
-          class="c1 "
+          class="c1 c2"
         >
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <th
-              class="c4"
+              class="c5"
             >
               First Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Last Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Color
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Number
             </th>
@@ -964,11 +907,11 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 ebRcbD"
+      class="Table-sc-1399pyx-0 eWlCfV"
       type="primary"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
@@ -1055,45 +998,6 @@ exports[`Table renders primary full table successfully 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c7 {
-  padding: 0 20px;
-}
-
-.c7:first-child {
-  padding-left: 0;
-}
-
-.c7:last-child {
-  padding-right: 0;
-}
-
-.c4 {
-  padding: 0 20px;
-}
-
-.c4:first-child {
-  padding-left: 0;
-}
-
-.c4:last-child {
-  padding-right: 0;
-}
-
-.c3 {
-  height: 56px;
-}
-
-.c6 {
-  height: 52px;
-}
-
-.c0 {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.c0 td {
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 18px;
@@ -1104,7 +1008,31 @@ Object {
   line-height: 20px;
 }
 
-.c0 th {
+.c9 {
+  padding: 0 20px;
+}
+
+.c9:first-child {
+  padding-left: 0;
+}
+
+.c9:last-child {
+  padding-right: 0;
+}
+
+.c5 {
+  padding: 0 20px;
+}
+
+.c5:first-child {
+  padding-left: 0;
+}
+
+.c5:last-child {
+  padding-right: 0;
+}
+
+.c2 {
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 18px;
@@ -1116,16 +1044,31 @@ Object {
   font-weight: 500px;
 }
 
-.c0 .c1 .c2 {
+.c4 {
+  height: 56px;
+}
+
+.c8 {
+  height: 52px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 .c1 .c3 {
   border-bottom: 1px solid #EBEEF2;
   border-width: 2px;
 }
 
-.c0 .c5 .c2 {
+.c0 .c6 .c3 {
   border-bottom: 1px solid #EBEEF2;
 }
 
-.c0 .c5 .c2:last-child {
+.c0 .c6 .c3:last-child {
   border-bottom: none;
 }
 
@@ -1136,104 +1079,104 @@ Object {
         type="primary"
       >
         <thead
-          class="c1 "
+          class="c1 c2"
         >
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <th
-              class="c4"
+              class="c5"
             >
               First Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Last Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Color
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Number
             </th>
           </tr>
         </thead>
         <tbody
-          class="c5 "
+          class="c6 c7"
         >
           <tr
-            class="c2 c6"
+            class="c3 c8"
           >
             <td
-              class="c7"
+              class="c9"
             >
               Chloe
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Chan
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Pink
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               3
             </td>
           </tr>
           <tr
-            class="c2 c6"
+            class="c3 c8"
           >
             <td
-              class="c7"
+              class="c9"
             >
               Eric
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Lee
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Blue
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               18
             </td>
           </tr>
           <tr
-            class="c2 c6"
+            class="c3 c8"
           >
             <td
-              class="c7"
+              class="c9"
             >
               Nicole
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Nguyen
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Red
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               10
             </td>
@@ -1244,11 +1187,11 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 ebRcbD"
+      class="Table-sc-1399pyx-0 eWlCfV"
       type="primary"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
@@ -1276,7 +1219,7 @@ Object {
         </tr>
       </thead>
       <tbody
-        class="TableBody-lzp76z-0 jDkdhk"
+        class="TableBody-lzp76z-0 dTozHy"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
@@ -1411,19 +1354,30 @@ exports[`Table renders primary headless table successfully 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    .c4 {
+    .c2 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c5 {
   padding: 0 20px;
 }
 
-.c4:first-child {
+.c5:first-child {
   padding-left: 0;
 }
 
-.c4:last-child {
+.c5:last-child {
   padding-right: 0;
 }
 
-.c3 {
+.c4 {
   height: 52px;
 }
 
@@ -1434,39 +1388,16 @@ Object {
   width: 100%;
 }
 
-.c0 td {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-}
-
-.c0 th {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-  font-weight: 500px;
-}
-
-.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c3 {
   border-bottom: 1px solid #EBEEF2;
   border-width: 2px;
 }
 
-.c0 .c1 .c2 {
+.c0 .c1 .c3 {
   border-bottom: 1px solid #EBEEF2;
 }
 
-.c0 .c1 .c2:last-child {
+.c0 .c1 .c3:last-child {
   border-bottom: none;
 }
 
@@ -1476,76 +1407,76 @@ Object {
         type="primary"
       >
         <tbody
-          class="c1 "
+          class="c1 c2"
         >
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <td
-              class="c4"
+              class="c5"
             >
               Chloe
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Chan
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Pink
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               3
             </td>
           </tr>
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <td
-              class="c4"
+              class="c5"
             >
               Eric
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Lee
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Blue
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               18
             </td>
           </tr>
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <td
-              class="c4"
+              class="c5"
             >
               Nicole
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Nguyen
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Red
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               10
             </td>
@@ -1556,11 +1487,11 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 ebRcbD"
+      class="Table-sc-1399pyx-0 eWlCfV"
       type="primary"
     >
       <tbody
-        class="TableBody-lzp76z-0 jDkdhk"
+        class="TableBody-lzp76z-0 dTozHy"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
@@ -1695,41 +1626,19 @@ exports[`Table renders zebra bodyless table successfully 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    .c4 {
+    .c5 {
   padding: 0 20px;
 }
 
-.c4:first-child {
+.c5:first-child {
   padding-left: 0;
 }
 
-.c4:last-child {
+.c5:last-child {
   padding-right: 0;
 }
 
-.c3 {
-  height: 56px;
-}
-
-.c0 {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.c0 td {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-}
-
-.c0 th {
+.c2 {
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 18px;
@@ -1741,15 +1650,26 @@ Object {
   font-weight: 500px;
 }
 
-.c0 .c1 .c2 {
+.c4 {
+  height: 56px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 .c1 .c3 {
   border-width: 2px;
 }
 
-.c0 .TableBody-lzp76z-0 .c2:nth-child(odd) {
+.c0 .TableBody-lzp76z-0 .c3:nth-child(odd) {
   background-color: #EBEEF2;
 }
 
-.c0 .TableBody-lzp76z-0 .c2:last-child {
+.c0 .TableBody-lzp76z-0 .c3:last-child {
   border-bottom: none;
 }
 
@@ -1759,28 +1679,28 @@ Object {
         type="zebra"
       >
         <thead
-          class="c1 "
+          class="c1 c2"
         >
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <th
-              class="c4"
+              class="c5"
             >
               First Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Last Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Color
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Number
             </th>
@@ -1791,11 +1711,11 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 jjNDbD"
+      class="Table-sc-1399pyx-0 iyjCWd"
       type="zebra"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
@@ -1883,45 +1803,6 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     .c7 {
-  padding: 0 20px;
-}
-
-.c7:first-child {
-  padding-left: 0;
-}
-
-.c7:last-child {
-  padding-right: 0;
-}
-
-.c4 {
-  padding: 0 20px;
-}
-
-.c4:first-child {
-  padding-left: 0;
-}
-
-.c4:last-child {
-  padding-right: 0;
-}
-
-.c3 {
-  height: 56px;
-}
-
-.c6 {
-  height: 52px;
-}
-
-.c0 {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.c0 td {
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 18px;
@@ -1932,7 +1813,31 @@ Object {
   line-height: 20px;
 }
 
-.c0 th {
+.c9 {
+  padding: 0 20px;
+}
+
+.c9:first-child {
+  padding-left: 0;
+}
+
+.c9:last-child {
+  padding-right: 0;
+}
+
+.c5 {
+  padding: 0 20px;
+}
+
+.c5:first-child {
+  padding-left: 0;
+}
+
+.c5:last-child {
+  padding-right: 0;
+}
+
+.c2 {
   font-family: HKGrotesk;
   font-weight: 400px;
   font-size: 18px;
@@ -1944,15 +1849,30 @@ Object {
   font-weight: 500px;
 }
 
-.c0 .c1 .c2 {
+.c4 {
+  height: 56px;
+}
+
+.c8 {
+  height: 52px;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 .c1 .c3 {
   border-width: 2px;
 }
 
-.c0 .c5 .c2:nth-child(odd) {
+.c0 .c6 .c3:nth-child(odd) {
   background-color: #EBEEF2;
 }
 
-.c0 .c5 .c2:last-child {
+.c0 .c6 .c3:last-child {
   border-bottom: none;
 }
 
@@ -1962,104 +1882,104 @@ Object {
         type="zebra"
       >
         <thead
-          class="c1 "
+          class="c1 c2"
         >
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <th
-              class="c4"
+              class="c5"
             >
               First Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Last Name
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Color
             </th>
             <th
-              class="c4"
+              class="c5"
             >
               Favorite Number
             </th>
           </tr>
         </thead>
         <tbody
-          class="c5 "
+          class="c6 c7"
         >
           <tr
-            class="c2 c6"
+            class="c3 c8"
           >
             <td
-              class="c7"
+              class="c9"
             >
               Chloe
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Chan
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Pink
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               3
             </td>
           </tr>
           <tr
-            class="c2 c6"
+            class="c3 c8"
           >
             <td
-              class="c7"
+              class="c9"
             >
               Eric
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Lee
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Blue
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               18
             </td>
           </tr>
           <tr
-            class="c2 c6"
+            class="c3 c8"
           >
             <td
-              class="c7"
+              class="c9"
             >
               Nicole
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Nguyen
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               Red
             </td>
             <td
-              class="c7"
+              class="c9"
             >
               10
             </td>
@@ -2070,11 +1990,11 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 jjNDbD"
+      class="Table-sc-1399pyx-0 iyjCWd"
       type="zebra"
     >
       <thead
-        class="TableHead__TableHeadBase-sc-154km0i-0 cbcdZM"
+        class="TableHead__TableHeadBase-sc-154km0i-0 frVrMO"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 hezjzp"
@@ -2102,7 +2022,7 @@ Object {
         </tr>
       </thead>
       <tbody
-        class="TableBody-lzp76z-0 jDkdhk"
+        class="TableBody-lzp76z-0 dTozHy"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
@@ -2237,19 +2157,30 @@ exports[`Table renders zebra headless table successfully 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    .c4 {
+    .c2 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.c5 {
   padding: 0 20px;
 }
 
-.c4:first-child {
+.c5:first-child {
   padding-left: 0;
 }
 
-.c4:last-child {
+.c5:last-child {
   padding-right: 0;
 }
 
-.c3 {
+.c4 {
   height: 52px;
 }
 
@@ -2260,38 +2191,15 @@ Object {
   width: 100%;
 }
 
-.c0 td {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-}
-
-.c0 th {
-  font-family: HKGrotesk;
-  font-weight: 400px;
-  font-size: 18px;
-  -webkit-letter-spacing: 0.3px;
-  -moz-letter-spacing: 0.3px;
-  -ms-letter-spacing: 0.3px;
-  letter-spacing: 0.3px;
-  line-height: 20px;
-  font-weight: 500px;
-}
-
-.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c2 {
+.c0 .TableHead__TableHeadBase-sc-154km0i-0 .c3 {
   border-width: 2px;
 }
 
-.c0 .c1 .c2:nth-child(odd) {
+.c0 .c1 .c3:nth-child(odd) {
   background-color: #EBEEF2;
 }
 
-.c0 .c1 .c2:last-child {
+.c0 .c1 .c3:last-child {
   border-bottom: none;
 }
 
@@ -2301,76 +2209,76 @@ Object {
         type="zebra"
       >
         <tbody
-          class="c1 "
+          class="c1 c2"
         >
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <td
-              class="c4"
+              class="c5"
             >
               Chloe
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Chan
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Pink
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               3
             </td>
           </tr>
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <td
-              class="c4"
+              class="c5"
             >
               Eric
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Lee
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Blue
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               18
             </td>
           </tr>
           <tr
-            class="c2 c3"
+            class="c3 c4"
           >
             <td
-              class="c4"
+              class="c5"
             >
               Nicole
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Nguyen
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               Red
             </td>
             <td
-              class="c4"
+              class="c5"
             >
               10
             </td>
@@ -2381,11 +2289,11 @@ Object {
   </body>,
   "container": <div>
     <table
-      class="Table-sc-1399pyx-0 jjNDbD"
+      class="Table-sc-1399pyx-0 iyjCWd"
       type="zebra"
     >
       <tbody
-        class="TableBody-lzp76z-0 jDkdhk"
+        class="TableBody-lzp76z-0 dTozHy"
       >
         <tr
           class="TableRow__TableRowBase-sc-1npg197-0 EQrRR"
