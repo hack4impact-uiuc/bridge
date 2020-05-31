@@ -18,7 +18,7 @@ const verticalStyle = css`
 // help from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
 const LabelBase = styled.label`
   ${get('typography.forms')}
-  color: ${get('colors.text.grayScale.main')};
+  color: ${get('colors.text.greyScale.main')};
 
   position: relative;
   padding-left: 40px;
