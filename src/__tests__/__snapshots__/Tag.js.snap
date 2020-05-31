@@ -4,12 +4,12 @@ exports[`Tag Colors renders blue dark 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -37,12 +37,12 @@ exports[`Tag Colors renders blue light 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -70,12 +70,12 @@ exports[`Tag Colors renders blue primary 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -103,12 +103,12 @@ exports[`Tag Colors renders green dark 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -136,12 +136,12 @@ exports[`Tag Colors renders green light 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #031D07;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -169,12 +169,12 @@ exports[`Tag Colors renders green primary 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -202,12 +202,12 @@ exports[`Tag Colors renders grey dark 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -235,12 +235,12 @@ exports[`Tag Colors renders grey light 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -268,12 +268,12 @@ exports[`Tag Colors renders grey primary 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -301,12 +301,12 @@ exports[`Tag Colors renders indigo dark 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -334,12 +334,12 @@ exports[`Tag Colors renders indigo light 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -367,12 +367,12 @@ exports[`Tag Colors renders indigo primary 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -400,12 +400,12 @@ exports[`Tag Colors renders red dark 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -433,12 +433,12 @@ exports[`Tag Colors renders red light 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -466,12 +466,12 @@ exports[`Tag Colors renders red primary 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -499,12 +499,12 @@ exports[`Tag Colors renders yellow dark 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -532,12 +532,12 @@ exports[`Tag Colors renders yellow light 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #201803;
   border-radius: 4px;
   display: -webkit-inline-box;
@@ -565,12 +565,12 @@ exports[`Tag Colors renders yellow primary 1`] = `
 .c0 {
   font-family: HKGrotesk;
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 12px;
   -webkit-letter-spacing: 0.3px;
   -moz-letter-spacing: 0.3px;
   -ms-letter-spacing: 0.3px;
   letter-spacing: 0.3px;
-  line-height: 24px;
+  line-height: 16px;
   color: #FFFFFF;
   border-radius: 4px;
   display: -webkit-inline-box;
