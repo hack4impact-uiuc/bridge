@@ -11,18 +11,12 @@ export default Layout({...meta})
 For tertiary buttons, or special cases, use the `as` prop: `<Link as="button">` and add an `onClick` prop.
 
 ### Example
-<CodeExampleBox>
-    <Link href="#">Link</Link>
-</CodeExampleBox>
-
-```jsx
-import { Link } from '@hack4impact-uiuc/bridge'
-
+Links font styling is inherited.
+```jsx live
 <Link href="#">Link</Link>
 ```
 
 ### Variants
-
 
 
 ### Common Props
@@ -36,6 +30,6 @@ import { Link } from '@hack4impact-uiuc/bridge'
 | hoverColor | String | None | color of Link when in hover state |
 | underline | bool | False | Link has underline when in normal state (not just hover state) |
 | as | String | `h2` | sets the HTML tag for the component |
-| variant | String | None | for tertiary buttons - color variant of Link (`primary`, `secondary`, `white`) |
+| variant | String | None | for tertiary buttons - color variant of Link (`primary` &#124; `secondary` &#124; `white`) |
 | onClick | Func | null | prop function to handle onClick - only use when prop `as="button"` |
 | theme | Object | Bridge Theme | use to override default bridge theme|

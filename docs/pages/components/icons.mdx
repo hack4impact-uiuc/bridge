@@ -11,17 +11,8 @@ Icons is a wrapper around svg icons we would commonly use in Bridge. You choose 
 ### Alert Icons
 These icons may be used in conjuction with [`Alert`](/components/alerts). 
 
-<CodeExampleBox>
-<Icon type="errorAlert" />
-<Icon type="infoAlert" />
-<Icon type="successAlert" />
-<Icon type="warningAlert" />
-</CodeExampleBox>
 
-
-```jsx
-import { Icon } from '@hack4impact-uiuc/bridge'
-
+```jsx live
 <Icon type="errorAlert" />
 <Icon type="infoAlert" />
 <Icon type="successAlert" />
@@ -30,15 +21,7 @@ import { Icon } from '@hack4impact-uiuc/bridge'
 
 ### Form Icons
 Icons used with forms.
-<CodeExampleBox>
-    <Icon type="fileDragDrop" />
-    <Icon type="opacityUploadFile" />
-    <Icon type="uploadFile" />
-</CodeExampleBox>
-
-```jsx
-import { Icon } from '@hack4impact-uiuc/bridge'
-
+```jsx live
 <Icon type="fileDragDrop" />
 <Icon type="opacityUploadFile" />
 <Icon type="uploadFile" />
@@ -51,5 +34,5 @@ import { Icon } from '@hack4impact-uiuc/bridge'
 
 | Prop name | Type | Default | Description |
 | :- | :- | :-: | :- |
-| type | String | 'infoAlert' | color variant (`errorAlert`, `infoAlert`, `successAlert`, `warningAlert`, `fileDragDrop`, `formErrorAlert`, `opacityUploadFile`, `uploadFile`) |
+| type | String | 'infoAlert' | color variant (`errorAlert` &#124; `infoAlert` &#124; `successAlert` &#124; `warningAlert` &#124; `fileDragDrop` &#124; `formErrorAlert` &#124; `opacityUploadFile` &#124; `uploadFile`) |
 | theme | Object | Bridge Theme | use to override default bridge theme|

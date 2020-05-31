@@ -10,8 +10,106 @@ Bridge offers three table "types" which will style the table differently.
 ### Primary
 The primary table will go here if we get to it.
 
-### Borderless
-The borderless table will go here if we get to it.
+```jsx live
+<Table>
+  <Table.Head>
+    <Table.Row>
+      <Table.Cell>Name</Table.Cell>
+      <Table.Cell>Favorite Color</Table.Cell>
+      <Table.Cell>Favorite Number</Table.Cell>
+    </Table.Row>
+  </Table.Head>
+  <Table.Body>
+    <Table.Row>
+      <Table.Cell>Sharkira</Table.Cell>
+      <Table.Cell>Pink</Table.Cell>
+      <Table.Cell>3</Table.Cell>
+    </Table.Row>
+    <Table.Row>
+      <Table.Cell>Gillfunkel</Table.Cell>
+      <Table.Cell>Purple</Table.Cell>
+      <Table.Cell>72</Table.Cell>
+    </Table.Row>
+    <Table.Row>
+      <Table.Cell>Swim shady</Table.Cell>
+      <Table.Cell>Yellow</Table.Cell>
+      <Table.Cell>10000</Table.Cell>
+    </Table.Row>
+  </Table.Body>
+</Table>
+```
 
-### Zebra
+
+### Borderless Tables
+You can change the type of the table with the prop `type`. For borderless, its `type="borderless"`. The default table is `type="primary"`
+
+```jsx live
+<Table type="borderless">
+  <Table.Head>
+    <Table.Row>
+      <Table.Cell>Name</Table.Cell>
+      <Table.Cell>Favorite Color</Table.Cell>
+      <Table.Cell>Favorite Number</Table.Cell>
+    </Table.Row>
+  </Table.Head>
+  <Table.Body>
+    <Table.Row>
+      <Table.Cell>Sharkira</Table.Cell>
+      <Table.Cell>Pink</Table.Cell>
+      <Table.Cell>3</Table.Cell>
+    </Table.Row>
+    <Table.Row>
+      <Table.Cell>Gillfunkel</Table.Cell>
+      <Table.Cell>Purple</Table.Cell>
+      <Table.Cell>72</Table.Cell>
+    </Table.Row>
+    <Table.Row>
+      <Table.Cell>Swim shady</Table.Cell>
+      <Table.Cell>Yellow</Table.Cell>
+      <Table.Cell>10000</Table.Cell>
+    </Table.Row>
+  </Table.Body>
+</Table>
+```
+
+### Zebra Tables
 Do you think Zebras neigh like horses, or make completely different sounds?
+
+```jsx live
+<Table type="zebra">
+  <Table.Head>
+    <Table.Row>
+      <Table.Cell>Name</Table.Cell>
+      <Table.Cell>Favorite Color</Table.Cell>
+      <Table.Cell>Favorite Number</Table.Cell>
+    </Table.Row>
+  </Table.Head>
+  <Table.Body>
+    <Table.Row>
+      <Table.Cell>Sharkira</Table.Cell>
+      <Table.Cell>Pink</Table.Cell>
+      <Table.Cell>3</Table.Cell>
+    </Table.Row>
+    <Table.Row>
+      <Table.Cell>Gillfunkel</Table.Cell>
+      <Table.Cell>Purple</Table.Cell>
+      <Table.Cell>72</Table.Cell>
+    </Table.Row>
+    <Table.Row>
+      <Table.Cell>Swim shady</Table.Cell>
+      <Table.Cell>Yellow</Table.Cell>
+      <Table.Cell>10000</Table.Cell>
+    </Table.Row>
+  </Table.Body>
+</Table>
+```
+
+### Common Props
+`Table` includes `COMMON` and `TYPOGRAPHY` common props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
+
+### Component Props
+
+| Prop name | Type | Default | Description |
+| :- | :- | :-: | :- |
+| type | String | 'primary' | variants of tables (`primary`, `borderless`, `zebra`) |
+| theme | Object | Bridge Theme | use to override default bridge theme|

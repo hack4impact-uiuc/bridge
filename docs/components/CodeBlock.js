@@ -5,7 +5,13 @@ import React from 'react';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import theme from 'prism-react-renderer/themes/nightOwlLight';
 import { mdx } from '@mdx-js/react';
-import { Text } from '@hack4impact-uiuc/bridge';
+import * as bridgeComp from '@hack4impact-uiuc/bridge';
+
+import {
+  LiveProvider, LiveEditor, LiveError, LivePreview,
+} from 'react-live';
+import CodeExampleBox from './CodeExampleBox';
+
 
 const Pre = ({ children, ...props }) => (
   <pre {...props}>
@@ -33,9 +39,51 @@ const Pre = ({ children, ...props }) => (
 );
 
 export default ({
-  children, className,
+  children, className, live,
 }) => {
   const language = className ? className.replace(/language-/, '') : null;
+  const { Box, Text } = bridgeComp;
+
+  if (live) {
+    return (
+      <Box style={{ marginTop: '24px' }}>
+        <CodeExampleBox>
+          <LiveProvider
+            code={children.trim()}
+            transformCode={(code) => `/** @jsx mdx */\n <Box> ${code} </Box>`}
+            scope={{ ...bridgeComp, mdx }}
+            theme={theme}
+          >
+            <LivePreview
+              style={{
+                padding: '20px',
+              }}
+            />
+            <LiveEditor
+              padding="20px"
+              style={{
+                fontFamily: "'Ubuntu Mono', monospace",
+                fontSize: '16px',
+                letterSpacing: '0.5px',
+                lineHeight: '20px',
+                borderTop: '1px solid #eaeaea',
+                borderBottomLeftRadius: '8px',
+                borderBottomRightRadius: '8px',
+              }}
+            />
+            <Text
+              as={LiveError}
+              m={0}
+              p="20px"
+              type="body"
+              color="white"
+              bg="red.2"
+            />
+          </LiveProvider>
+        </CodeExampleBox>
+      </Box>
+    );
+  }
 
   return (
     <Highlight {...defaultProps} theme={theme} code={children.trim()} language={language}>

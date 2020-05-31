@@ -14,37 +14,19 @@ It will default to the `h2` tag and styling.
 
 ### Example
 
-<CodeExampleBox>
+```jsx live
 <Heading>I'm a Heading</Heading>
-</CodeExampleBox>
-
-```jsx
-import { Heading } from '@hack4impact-uiuc/bridge'
-
-<Heading>I'm a Heading</Heading>
-
 ```
 
 ### Styles
 
-<CodeExampleBox>
+```jsx live
 <Heading type="h1" as="h1">I'm a H1 Heading</Heading>
 <Heading type="h2" as="h2">I'm a H2 Heading</Heading>
 <Heading type="h3" as="h3">I'm a H3 Heading</Heading>
 <Heading type="h4" as="h4">I'm a H4 Heading</Heading>
 
-<Heading type="h4" as="h2">h4 style but h2 semantically</Heading>
-</CodeExampleBox>
-
-```jsx
-import { Heading } from '@hack4impact-uiuc/bridge'
-
-<Heading type="h1" as="h1">I'm a H1 Heading</Heading>
-<Heading type="h2" as="h2">I'm a H2 Heading</Heading>
-<Heading type="h3" as="h3">I'm a H3 Heading</Heading>
-<Heading type="h4" as="h4">I'm a H4 Heading</Heading>
-
-// you can also render a h4 style in an h2 semantically, etc
+{/* you can also render a h4 style in an h2 semantically, etc */}
 <Heading type="h4" as="h2">h4 style but h2 semantically</Heading>
 ```
 

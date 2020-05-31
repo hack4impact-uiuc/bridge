@@ -10,40 +10,17 @@ export default Layout({...meta})
 
 `Text` renders different text styles. You get the styling through the `type` prop and you render the element tag with the `as` prop. 
 
-It will default to the `span` semantically and the `body` styling. Check out [TODO HERE LINK]() for typography styling.
+It will default to the `span` semantically and the `body` styling. Check out [the design guidelines](/design/typography) for typography styling.
 
 ### Example
 
-<CodeExampleBox>
+```jsx live
 <Text>I'm a default body text</Text>
-</CodeExampleBox>
-
-```jsx
-import { Text } from '@hack4impact-uiuc/bridge'
-
-<Text>I'm a default body text</Text>
-
 ```
 
 ### Styling types
 
-<CodeExampleBox>
-<Text type="subtitle" as="p"> subtitle visually, semantically p </Text>
-<Text type="body" as="p"> body text visually, semantically p </Text>
-
-<Text type="caption" as="p"> caption visually, semantically p</Text>
-<Text type="overline" as="p"> overline visually,semantically p </Text>
-
-<Text type="alert" as="p"> use this in alerts, semantically p</Text>
-<Text type="table" as="p"> use this in tables, semantically p </Text>
-<Text type="form" as="p"> use this in forms, semantically p </Text>
-<Text type="quote" as="p">use this in quotes: "sorry I'm late, I didn't want to come", semantically p</Text>
-
-</CodeExampleBox>
-
-```jsx
-import { Heading } from '@hack4impact-uiuc/bridge'
-
+```jsx live
 <Text type="subtitle" as="p"> subtitle visually, semantically p </Text>
 <Text type="body" as="p"> body text visually, semantically p </Text>
 
@@ -64,5 +41,5 @@ import { Heading } from '@hack4impact-uiuc/bridge'
 | Prop name | Type | Default | Description |
 | :- | :- | :-: | :- |
 | as | String | `h2` | sets the HTML tag for the component |
-| type | String | `h2` | sets styling of component (`'body', 'caption', 'overline', 'button', 'buttonSmall', 'alert', 'table', 'form', 'quote', 'subtitle'`) |
+| type | String | `h2` | sets styling of component ( `body` &#124; `caption` &#124; `overline` &#124; `button` &#124; `buttonSmall` &#124; `alert` &#124; `table` &#124; `form` &#124; `quote` &#124; `subtitle` ) |
 | theme | Object | Bridge Theme | use to override default bridge theme|
