@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import React from 'react';
 import theme from '../../theme';
+import { get } from '../../utils/utils';
 import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 import TableHeadContext from './TableHeadContext';
 
@@ -11,8 +12,10 @@ const context = {
 };
 
 export const TableHeadBase = styled.thead`
-    ${COMMON};
-    ${TYPOGRAPHY};
+  ${get('typography.table')}
+  
+  ${COMMON};
+  ${TYPOGRAPHY};
 `;
 
 const TableHead = ({ children, ...props }) => (
