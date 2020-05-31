@@ -23,12 +23,11 @@ const Alert = styled.div`
   align-items: center;
 
   // size
-  padding: 0px 18px;
-  height: 54px;
+  padding: 16px 16px;
   width: 100%;
 
   svg {
-    margin-right: 18px;
+    margin-right: 16px;
   }
 
   a {

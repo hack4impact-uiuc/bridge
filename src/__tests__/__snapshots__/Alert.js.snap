@@ -23,13 +23,12 @@ exports[`Alert Alert Variants renders error 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0px 18px;
-  height: 54px;
+  padding: 16px 16px;
   width: 100%;
 }
 
 .c0 svg {
-  margin-right: 18px;
+  margin-right: 16px;
 }
 
 .c0 a {
@@ -71,13 +70,12 @@ exports[`Alert Alert Variants renders information 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0px 18px;
-  height: 54px;
+  padding: 16px 16px;
   width: 100%;
 }
 
 .c0 svg {
-  margin-right: 18px;
+  margin-right: 16px;
 }
 
 .c0 a {
@@ -119,13 +117,12 @@ exports[`Alert Alert Variants renders success 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0px 18px;
-  height: 54px;
+  padding: 16px 16px;
   width: 100%;
 }
 
 .c0 svg {
-  margin-right: 18px;
+  margin-right: 16px;
 }
 
 .c0 a {
@@ -167,13 +164,12 @@ exports[`Alert Alert Variants renders warning 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0px 18px;
-  height: 54px;
+  padding: 16px 16px;
   width: 100%;
 }
 
 .c0 svg {
-  margin-right: 18px;
+  margin-right: 16px;
 }
 
 .c0 a {
