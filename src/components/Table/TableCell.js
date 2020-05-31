@@ -3,30 +3,32 @@ import styled, { css } from 'styled-components';
 import React from 'react';
 import theme from '../../theme';
 import { COMMON, TYPOGRAPHY } from '../../utils/constants';
+import { get } from '../../utils/utils';
 import TableHeadContext from './TableHeadContext';
 
 
 const sharedStyle = css`
-    padding: 0 20px;
-    &:first-child {
-        padding-left: 0;
-    }
 
-    &:last-child {
-        padding-right: 0;
-    }
+  padding: 0 20px;
+  &:first-child {
+      padding-left: 0;
+  }
 
+  &:last-child {
+      padding-right: 0;
+  }
 
-    ${COMMON};
-    ${TYPOGRAPHY};
+  ${COMMON};
+  ${TYPOGRAPHY};
 `;
 
 const TableCellBase = styled.td`
-    ${sharedStyle};
+  ${sharedStyle};
 `;
 
 const TableHeadCellBase = styled.th`
-    ${sharedStyle};
+  ${get('typography.tableHead')}
+  ${sharedStyle};
 `;
 
 const TableCell = ({ children, ...props }) => {

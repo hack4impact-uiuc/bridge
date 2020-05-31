@@ -1,5 +1,5 @@
 import {
-  theme, Flex, Box, Text, Heading,
+  theme, Flex, Box, Text,
 } from '@hack4impact-uiuc/bridge';
 
 const WhiteBorderStyling = {

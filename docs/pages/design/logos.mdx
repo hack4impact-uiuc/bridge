@@ -1,4 +1,70 @@
 export const meta = {type: "design", title: "Logos"}
 
+import { Box, Flex } from '@hack4impact-uiuc/bridge'
+
+import Row from '../../components/row.js'
+import Col from '../../components/col.js'
+import CodeExampleBox from '../../components/CodeExampleBox'
+
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
+
+#### Primary Logos
+
+<Row>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Flex alignItems="center" borderRadius='8px' border='1px solid #eaeaea'  height="300px">
+                <Box p="md" maxWidth="300px" >
+                    <img src="/h4i-logos/h4i-colored-logo.png" width="100%" />
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Flex alignItems="center" bg="blue.3" borderRadius='8px' height="300px">
+                <Box alignItems="center" p="md"  maxWidth="300px">
+                    <img src="/h4i-logos/h4i-white-logo.png" width="100%"/>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+</Row>
+
+
+<br/>
+
+#### Secondary Logos
+
+<Row>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Flex alignItems="center" borderRadius='8px' border='1px solid #eaeaea' height="300px">
+                <Box p="md" maxWidth="300px" >
+                    <img src="/h4i-logos/h4i-colored-square.png" width="200px" style={{marginLeft: "56px"}} />
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Flex alignItems="center" bg="blue.3" borderRadius='8px' height="300px">
+                <Box alignItems="center" p="md" maxWidth="300px">
+                    <img src="/h4i-logos/h4i-white-square.png" width="200px" style={{marginLeft: "56px"}}/>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+</Row>
+
+<br/>
+
+#### Logo Usage
+
+The Hack4Impact logo is made with a globe graphic and a logotype set in Chivo Regular font with a custom "4" and a custom “i”.
+
+The horizontal logo is the primary logo and should be used in most instances.
+
+The icon logo is the secondary logo and should be used in small-scale formats or in situations where the brand must be 
+communicated quickly. An example of this situation would be social media profile photos.

@@ -131,8 +131,8 @@ describe('Table', () => {
       </Table>,
     );
 
-    const headCell = container.firstChild.firstChild.firstChild.firstChild;
-    expect(headCell).toHaveStyle(`font-weight: ${theme.typography.tableHead.fontWeight}px`);
+    const head = container.firstChild.firstChild.firstChild.firstChild;
+    expect(head).toHaveStyle(`font-weight: ${theme.typography.tableHead.fontWeight}px`);
   });
 
   it('uses table body typography from theme', () => {
@@ -142,7 +142,7 @@ describe('Table', () => {
       </Table>,
     );
 
-    const bodyCell = container.firstChild.firstChild.firstChild.firstChild;
+    const bodyCell = container.firstChild.firstChild;
     expect(bodyCell).toHaveStyle(`font-weight: ${theme.typography.table.fontWeight}px`);
     expect(bodyCell).toHaveStyle(`font-size: ${theme.typography.table.fontSize}`);
     expect(bodyCell).toHaveStyle(`line-height: ${theme.typography.table.lineHeight}`);
