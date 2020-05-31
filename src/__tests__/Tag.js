@@ -39,13 +39,13 @@ describe('Tag', () => {
     expect(container.firstChild).toHaveStyle('height: 200px;');
   });
 
-  it('renders typography using body styles', () => {
+  it('renders typography using tags styles', () => {
     const { container } = render(<Tag>Blue</Tag>);
-    expect(container.firstChild).toHaveStyle(`font-family: ${theme.typography.body.fontFamily}`);
-    expect(container.firstChild).toHaveStyle(`font-weight: ${theme.typography.body.fontWeight}px`);
-    expect(container.firstChild).toHaveStyle(`font-size: ${theme.typography.body.fontSize}`);
-    expect(container.firstChild).toHaveStyle(`letter-spacing: ${theme.typography.body.letterSpacing}`);
-    expect(container.firstChild).toHaveStyle(`line-height: ${theme.typography.body.lineHeight}`);
+    expect(container.firstChild).toHaveStyle(`font-family: ${theme.typography.tags.fontFamily}`);
+    expect(container.firstChild).toHaveStyle(`font-weight: ${theme.typography.tags.fontWeight}px`);
+    expect(container.firstChild).toHaveStyle(`font-size: ${theme.typography.tags.fontSize}`);
+    expect(container.firstChild).toHaveStyle(`letter-spacing: ${theme.typography.tags.letterSpacing}`);
+    expect(container.firstChild).toHaveStyle(`line-height: ${theme.typography.tags.lineHeight}`);
   });
 
   it('renders blue primary color as default', () => {
