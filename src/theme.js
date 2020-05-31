@@ -240,6 +240,13 @@ const typography = {
     letterSpacing: letterSpacings.half, // 0.5px
     lineHeight: '33px',
   },
+  tags: {
+    fontFamily: fonts.main,
+    fontWeight: fontWeights.regular,
+    fontSize: '12px',
+    letterSpacing: letterSpacings.third, // 0.3px
+    lineHeight: '16px',
+  },
 
 };
 

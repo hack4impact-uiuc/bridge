@@ -7,7 +7,7 @@ import { COMMON } from '../../utils/constants';
 
 const TagBase = styled.div`
     // text
-    ${get('typography.body')};
+    ${get('typography.tags')};
     color: ${(props) => props.textColor};
 
     // border
