@@ -1,4 +1,442 @@
 export const meta = {type: "design", title: "Typography"}
 
+import { Heading, Text, theme} from '@hack4impact-uiuc/bridge'
+import Row from '../../components/row.js'
+import Col from '../../components/col.js'
+
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
+
+typography styles.
+
+- [Headings](#headings)
+- [Main Text](#main-text)
+- [Component Text](#component-text)
+
+
+### Headings
+
+<Heading type="h1" mb="12px">Heading 1</Heading>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.h1.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.h1.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.h1.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.h1.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.h1.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
+<Heading type="h2" mb="12px">Heading 2</Heading>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.h2.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.h2.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.h2.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.h2.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.h2.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+<Heading type="h3" mb="12px">Heading 3</Heading>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.h3.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.h3.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.h3.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.h3.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.h3.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
+<Heading type="h4" mb="12px">Heading 4</Heading>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.h4.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.h4.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.h4.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.h4.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.h4.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+<Heading type="h4" mb="12px">Heading 4</Heading>
+<Row pb="40px">
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.body.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.h4.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.h4.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.h4.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.h4.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
+### Main Text
+
+<Text type="subtitle" as="p" mb="16px" mt="32px">Subtitle</Text>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box>
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.subtitle.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.subtitle.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.subtitle.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.subtitle.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.subtitle.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
+
+<Text type="body" as="p" mb="16px" mt="32px">Body</Text>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.body.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.body.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.body.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.body.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.body.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
+
+<Text type="caption" as="p" mb="16px" mt="32px">Caption</Text>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.caption.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.caption.fontStyle}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.caption.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.caption.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.caption.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
+
+
+<Text type="overline" as="p" mb="16px" mt="32px">Overline</Text>
+<Row pb="40px">
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.overline.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.overline.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.overline.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.overline.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.caption.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
+### Component Text
+
+<Text type="quote" as="p" mb="16px" mt="32px">Quote</Text>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.quote.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.quote.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.quote.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.quote.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.quote.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
+<Text type="alert" as="p" mb="16px" mt="32px">Tables, Forms, Alerts</Text>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.alert.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.alert.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.alert.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.alert.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.alert.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
+<Text type="tags" as="p" mb="16px" mt="32px">Tags</Text>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.body.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.body.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.body.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.body.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.body.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
