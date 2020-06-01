@@ -5,58 +5,57 @@ import { theme, Flex, Box, Heading, Button, Link, Text } from '@hack4impact-uiuc
 import Row from '../../components/row.js'
 import Col from '../../components/col.js'
 import ButtonStyleText from '../../components/design/buttonStyleText.js'
+import LgButton from '../../public/docs-content/design/buttons/LgButton.svg'
+import MedButton from '../../public/docs-content/design/buttons/MedButton.svg'
+import SmButton from '../../public/docs-content/design/buttons/SmButton.svg'
 
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
+A button is used to trigger an action. 
+
+- **Primary Buttons** are strong visual indicators to guide the user to complete their goal or journey. Example situations are where the user would want to go to the next step, starting a journey, etc. These should be obvious.
+- **Secondary Buttons** are used for to provide an alternative action to the primary one. These should be clear but not obvious.
+- **Tertiary Buttons** are used for actions that may be used by the user but not necessarily the action they would need to do right then.
+
+For the primary set of colors (blue), you should use a different shade based on the background its on top of (note the differences in hover as well).
+
+#### Primary Color
+
 <Row>
     <Col mr={[0, "20px"]}>
         <Box flex="1">
-            <Flex>
-                <Box m="0 auto">
-                    <Heading type="h4">Primary</Heading>
-                </Box>
-            </Flex>
+            <Heading ml="52px" type="h4">Primary</Heading>
         </Box>
     </Col>
     <Col mr={[0, "20px"]}>
         <Box flex="1">
-            <Flex>
-                <Box m="0 auto">
-                    <Heading type="h4">Secondary</Heading>
-                </Box>
-            </Flex>
+            <Heading ml="52px" type="h4">Secondary</Heading>
         </Box>
     </Col>
     <Col mr={[0, "20px"]}>
         <Box flex="1">
-            <Flex>
-                <Box m="0 auto">
-                    <Heading type="h4">Tertiary</Heading>
-                </Box>
-            </Flex>
+            <Heading ml="52px" type="h4">Tertiary</Heading>
         </Box>
     </Col>
 </Row>
+
 <hr/>
-<Row height={["520px","240px"]}>
+
+<Row height={["520px","252px"]}>
     <Col alignItems="center">
         <Box flex="1">
+            <Button ml="52px"variant="primary" type="medium">APPLY NOW</Button>
             <Flex>
-                <Box m="0 auto">
-                    <Button variant="primary" type="medium">APPLY NOW</Button>
-                </Box>
-            </Flex>
-            <Flex>
-                <Box pl="40px">
+                <Box pl="52px">
                     <ButtonStyleText order={1}>
-                        BG Color: #155DA1
+                        Background:  #155DA1
                     </ButtonStyleText>
                     <ButtonStyleText>
-                        Hover BG Color: #0E4E8A
+                        Hover Background:  #0E4E8A
                     </ButtonStyleText>
                     <ButtonStyleText>
-                        Text Color: #FFFFFF
+                        Text: #FFFFFF
                     </ButtonStyleText>
                 </Box>
             </Flex>
@@ -64,21 +63,17 @@ export default Layout({...meta})
     </Col>
     <Col alignItems="center">
         <Box flex="1">
+            <Button ml="52px"outline variant="secondary" type="medium">APPLY NOW</Button>
             <Flex>
-                <Box m="0 auto">
-                    <Button outline variant="secondary" type="medium">APPLY NOW</Button>
-                </Box>
-            </Flex>
-            <Flex>
-                <Box pl="40px">
+                <Box pl="52px">
                     <ButtonStyleText order={1}>
-                            BG Color: #FFFFFF
+                            Background: #FFFFFF
                     </ButtonStyleText>
                     <ButtonStyleText>
-                            Border/Text Color: #155DA1
+                            Border/Text: #155DA1
                     </ButtonStyleText>
                     <ButtonStyleText>
-                            Hover Border/Text Color: #0E4E8A
+                            Hover Border/Text: #0E4E8A
                     </ButtonStyleText>
                 </Box>
             </Flex>
@@ -86,18 +81,14 @@ export default Layout({...meta})
     </Col>
     <Col alignItems="center">
         <Box flex="1">
+            <Link ml="60px" as="button">APPLY NOW</Link>
             <Flex>
-                <Box m="0 auto">
-                    <Link as="button">APPLY NOW</Link>
-                </Box>
-            </Flex>
-            <Flex>
-                <Box pl="64px">
+                <Box pl="60px">
                     <ButtonStyleText order={1}>
-                            Text Color: #155DA1
+                        Text:  #155DA1
                     </ButtonStyleText>
                     <ButtonStyleText>
-                            Hover Text Color: #0E4E8A
+                        Hover Text:  #0E4E8A
                     </ButtonStyleText>
                 </Box>
             </Flex>
@@ -105,80 +96,66 @@ export default Layout({...meta})
     </Col>
 </Row>
 
-<Row height={["520px","240px"]} bg="grey.0" height="240px">
+<Row height={["520px","252px"]} bg="#FAFBFC" height="252px">
     <Col mr={[0, "20px"]} alignItems="center">
         <Box flex="1">
-            <Flex>
-                <Box m="0 auto">
-                    <Button variant="primary" type="medium">APPLY NOW</Button>
-                </Box>
-            </Flex>
-            <Box pl="40px">
+            <Button ml="52px" variant="primary" type="medium">APPLY NOW</Button>
+            <Box pl="52px">
                 <ButtonStyleText order={1}>
-                    BG Color: #155DA1
+                    Background: #155DA1
                 </ButtonStyleText>
                 <ButtonStyleText>
-                    Hover BG Color: #0D3F6E
+                    Hover Background: #0D3F6E
                 </ButtonStyleText>
                 <ButtonStyleText>
-                    Text Color: #FFFFFF
+                    Text:  #FFFFFF
                 </ButtonStyleText>
             </Box>
         </Box>
     </Col>
     <Col mr={[0, "20px"]} alignItems="center">
         <Box flex="1">
+            <Button ml="52px" variant="primary" outline type="medium">APPLY NOW</Button>
             <Flex>
-                <Box m="0 auto">
-                    <Button variant="primary" outline type="medium">APPLY NOW</Button>
+                <Box pl="52px">
+                    <ButtonStyleText order={1}>
+                            Background: #FFFFFF
+                    </ButtonStyleText>
+                    <ButtonStyleText>
+                            Border/Text: #155DA1
+                    </ButtonStyleText>
+                    <ButtonStyleText>
+                            Hover Border/Text: #0D3F6E
+                    </ButtonStyleText>
                 </Box>
             </Flex>
-            <Box pl="40px">
-                <ButtonStyleText order={1}>
-                        BG Color: #FFFFFF
-                </ButtonStyleText>
-                <ButtonStyleText>
-                        Border/Text Color: #155DA1
-                </ButtonStyleText>
-                <ButtonStyleText>
-                        Hover Border/Text Color: #0D3F6E
-                </ButtonStyleText>
-            </Box>
         </Box>
     </Col>
     <Col mr={[0, "20px"]} alignItems="center">
         <Box flex="1">
-            <Flex>
-                <Box m="0 auto">
-                    <Link variant="primary" as="button">APPLY NOW</Link>
-                </Box>
-            </Flex>
-            <Box pl="64px">
+            <Link ml="60px" variant="primary" as="button">APPLY NOW</Link>
+            <Box pl="60px">
                 <ButtonStyleText order={1}>
-                        Text Color: #155DA1
+                        Text: #155DA1
                 </ButtonStyleText>
                 <ButtonStyleText>
-                        Hover Text Color: #0D3F6E
+                        Hover Text: #0D3F6E
                 </ButtonStyleText>
             </Box>
         </Box>
     </Col>
 </Row>
 
-<Row height={["520px","240px"]} bg="indigo.2" height="200px">
+<Row height={["520px","252px"]} bg="indigo.2">
     <Col mr={[0, "20px"]} alignItems="center">
         <Box flex="1">
-            <Flex>
-                <Box m="0 auto">
-                    <Button variant="white" type="medium">APPLY NOW</Button>
-                </Box>
-            </Flex>
-            <Box pl="40px">
+            <Button ml="52px" variant="white" type="medium">APPLY NOW</Button>
+            <Box pl="52px">
                 <ButtonStyleText color="white" order={1}>
                     Background: #FFFFFF
                 </ButtonStyleText>
                 <ButtonStyleText color="white">
-                    Text Color: #2D4979
+                    Text: #2D4979
                 </ButtonStyleText>
                 <ButtonStyleText color="white">
                     Drop Shadow on Hover
@@ -188,17 +165,13 @@ export default Layout({...meta})
     </Col>
     <Col mr={[0, "20px"]} alignItems="center">
         <Box flex="1">
-            <Flex>
-                <Box m="0 auto">
-                    <Button variant="white" outline type="medium">APPLY NOW</Button>
-                </Box>
-            </Flex>
-            <Box pl="40px">
+            <Button  ml="52px"variant="white" outline type="medium">APPLY NOW</Button>
+            <Box pl="52px">
                 <ButtonStyleText color="white" order={1}>
                     Background: #2D4979
                 </ButtonStyleText>
                 <ButtonStyleText color="white">
-                    Border/Text Color: #FFFFFF
+                    Border/Text: #FFFFFF
                 </ButtonStyleText>
                 <ButtonStyleText color="white">
                     Drop Shadow on Hover
@@ -208,16 +181,365 @@ export default Layout({...meta})
     </Col>
     <Col mr={[0, "20px"]} alignItems="center">
         <Box flex="1">
-            <Flex>
-                <Box m="0 auto">
-                    <Link variant="white" as="button">APPLY NOW</Link>
-                </Box>
-            </Flex>
-            <Box pl="40px">
+            <Link ml="60px" variant="white" as="button">APPLY NOW</Link>
+            <Box pl="60px">
                 <ButtonStyleText color="white" order={1}>
-                    Text Color: #FFFFFF
+                    Text: #FFFFFF
                 </ButtonStyleText>
             </Box>
         </Box>
     </Col>
 </Row>
+
+
+<br/>
+<br/>
+
+### Disabled State
+
+
+<Row>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading ml="52px" type="h4">Primary</Heading>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading ml="52px" type="h4">Secondary</Heading>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading ml="52px" type="h4">Tertiary</Heading>
+        </Box>
+    </Col>
+</Row>
+
+<hr/>
+
+<Row height={["520px","252px"]}>
+    <Col alignItems="center">
+        <Box flex="1">
+            <Button disabled ml="52px"variant="primary" type="medium">APPLY NOW</Button>
+            <Flex>
+                <Box pl="52px">
+                    <ButtonStyleText order={1}>
+                        Background: #B4D8FA
+                    </ButtonStyleText>
+                    <ButtonStyleText>
+                        Text: #FFFFFF
+                    </ButtonStyleText>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+    <Col alignItems="center">
+        <Box flex="1">
+            <Button disabled ml="52px"outline variant="primary" type="medium">APPLY NOW</Button>
+            <Flex>
+                <Box pl="52px">
+                    <ButtonStyleText order={1}>
+                            Background: #FFFFFF
+                    </ButtonStyleText>
+                    <ButtonStyleText>
+                            Border/Text: #B4D8FA
+                    </ButtonStyleText>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+    <Col alignItems="center">
+        <Box flex="1">
+            <Text textAlign="center" as="p" color="blue.0">n/a</Text>
+        </Box>
+    </Col>
+</Row>
+
+<Row height={["520px","252px"]} bg="#FAFBFC" height="252px">
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Button ml="52px" disabled variant="secondary" type="medium">APPLY NOW</Button>
+            <Box pl="52px">
+                <ButtonStyleText order={1}>
+                    Background:  #EBEEF2
+                </ButtonStyleText>
+                <ButtonStyleText>
+                    Border: #8B9199
+                </ButtonStyleText>
+            </Box>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Button mt="16px" ml="52px" disabled variant="secondary" outline type="medium">APPLY NOW</Button>
+            <Flex>
+                <Box pl="52px">
+                    <ButtonStyleText order={1}>
+                    Background:  #FFFFFF
+                </ButtonStyleText>
+                <ButtonStyleText>
+                    Border: #EBEEF2
+                </ButtonStyleText>
+                <ButtonStyleText>
+                    Text: #8B9199
+                </ButtonStyleText>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Text textAlign="center" as="p" color="grey.1">n/a</Text>
+        </Box>
+    </Col>
+</Row>
+
+<Row height={["520px","252px"]} bg="indigo.2">
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Button disabled ml="52px" variant="white" type="medium">APPLY NOW</Button>
+            <Box pl="52px">
+                <ButtonStyleText color="white" order={1}>
+                    Background: #415F94
+                </ButtonStyleText>
+                <ButtonStyleText color="white">
+                    Text: #7D9CD2
+                </ButtonStyleText>
+            </Box>    
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Button mt="16px" disabled ml="52px" variant="white" outline type="medium">APPLY NOW</Button>
+            <Box pl="52px">
+                <ButtonStyleText color="white" order={1}>
+                    Background: #2D4979
+                </ButtonStyleText>
+                <ButtonStyleText color="white">
+                    Border: #415F94
+                </ButtonStyleText>
+                <ButtonStyleText color="white">
+                    Text Color: #7D9CD2
+                </ButtonStyleText>
+            </Box>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Text textAlign="center" as="p" color="indigo.0">n/a</Text>
+        </Box>
+    </Col>
+</Row>
+<br/>
+
+
+#### For all other colors
+
+This includes secondary colors (red, green, yellow) and indigo. You should use the "dark" shade of the color for the hover state and the "light" shade of the color for disabled state. Look at [Colors](/design/colors) from more specifics.
+
+<Row>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4">State</Heading>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4">Primary</Heading>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4">Secondary</Heading>
+        </Box>
+    </Col>
+</Row>
+
+<hr/>
+
+<Row height={["460px","252px"]}>
+    <Col alignItems="center">
+        <Box flex="1">
+            <Text as="p">Active</Text>
+        </Box>
+    </Col>
+    <Col alignItems="center">
+        <Box flex="1">
+            <Button mt="16px" variant="success" type="medium">APPLY NOW</Button>
+            <ButtonStyleText order={1}>
+                Use the primary color in the palette.
+            </ButtonStyleText>
+        </Box>
+    </Col>
+    <Col alignItems="center">
+        <Box flex="1">
+            <Button mt="28px" variant="success" outline type="medium">APPLY NOW</Button>
+            <ButtonStyleText order={1}>
+                Use the primary color in the palette for both border and text.
+            </ButtonStyleText>
+        </Box>
+    </Col>
+</Row>
+
+<Row height={["460px","252px"]}>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Text as="p">Hovered</Text>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Button mt="16px" variant="success" bg="greenPalette.dark" type="medium">APPLY NOW</Button>
+            <ButtonStyleText order={1}>
+                Use the “dark” color in the palette.
+            </ButtonStyleText>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Button mt="28px" variant="success" color="greenPalette.dark" style={{border: "2px solid #256830"}} outline type="medium">APPLY NOW</Button>
+             <ButtonStyleText order={1}>
+                Use the “dark” color in the palette for both border and text..
+            </ButtonStyleText>
+        </Box>
+    </Col>
+</Row>
+
+<Row height={["460px","252px"]}>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Text as="p">Disabled</Text>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Button mt="16px" variant="success" disabled type="medium">APPLY NOW</Button>
+            <ButtonStyleText order={1}>
+                Use the “lighter” color in the palette.
+            </ButtonStyleText>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Button mt="28px" variant="success" outline disabled type="medium">APPLY NOW</Button>
+            <ButtonStyleText order={1}>
+                Use the “lighter” color in the palette for both  border and text.
+            </ButtonStyleText>
+        </Box>
+    </Col>
+</Row>
+
+<br/>
+
+#### Button Sizing
+There are 3 sizes of buttons. Large buttons are mainly used for call to actions and homepage. Use sparingly.
+
+<Text as="p" fontWeight="500" fontSize="20px">Large</Text>
+<LgButton style={{maxWidth:"316px"}}/>
+
+
+<Text as="p" fontWeight="500" fontSize="20px">Medium</Text>
+<MedButton style={{maxWidth:"316px"}}/>
+
+
+<Text as="p" fontWeight="500" fontSize="20px">Small</Text>
+<SmButton style={{maxWidth:"316px"}}/>
+
+<br/>
+
+<br/>
+
+#### Basic Visual Style
+
+**Borders**
+
+Buttons have a border radius of 13 px.
+Secondary Buttons have border widths of 2 px.
+
+<br/>
+
+**Drop Shadow**
+
+Drop shadows have these attributes: `box-shadow: 0 1px 6px 2px rgba(0,0,0,0.15);`
+
+<br/>
+
+**Inline Links**
+
+Inline links should inherit text style.
+
+<br/>
+
+**Button Typography**
+
+<Text as="p" type="button">Large & Medium Button</Text>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.button.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.button.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.button.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.button.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.button.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
+<Text as="p" type="buttonSmall">Small Button</Text>
+<Row>
+    <Col borderLeft="1px solid #979797" pl="32px">
+        <Box >
+            <Text as="p" mb="xs">Font</Text>
+            <Text as="p" mt="xs">{theme.typography.buttonSmall.fontFamily}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Weight</Text>
+            <Text as="p" mt="xs">{theme.typography.buttonSmall.fontWeight}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Size</Text>
+            <Text as="p" mt="xs">{theme.typography.buttonSmall.fontSize}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Letter Spacing</Text>
+            <Text as="p" mt="xs">{theme.typography.buttonSmall.letterSpacing}</Text>
+        </Box>
+    </Col>
+    <Col>
+        <Box>
+            <Text as="p" mb="xs">Line Height</Text>
+            <Text as="p" mt="xs">{theme.typography.buttonSmall.lineHeight}</Text>
+        </Box>
+    </Col>
+</Row>
+
+
