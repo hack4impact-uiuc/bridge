@@ -18,7 +18,7 @@ const PaletteShade = ({ palette, name }) => (
       color = palette.text;
     }
     if (label === 'white') {
-      color = theme.colors.text.grayScale.main;
+      color = theme.colors.text.greyScale.main;
       borderStyling = WhiteBorderStyling;
     }
     if (label === 'primary') {

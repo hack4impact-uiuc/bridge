@@ -7,7 +7,7 @@ const sidebarSection = (section, title) => (
     <Text type="body" fontWeight="700" as="p" m="24px 0 8px 0">{section.name}</Text>
     {
         section.routes.map((elm) => (
-          <Text as="p" m="5px 0" fontWeight={title === elm.title ? '700' : '500'}><Link href={elm.href}>{elm.title}</Link></Text>
+          <Text key={elm.title} as="p" m="5px 0" fontWeight={title === elm.title ? '700' : '500'}><Link href={elm.href}>{elm.title}</Link></Text>
         ))
       }
   </>

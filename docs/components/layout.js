@@ -2,7 +2,7 @@
 /* eslint-disable global-require */
 import React from 'react';
 import {
-  Flex, Link, Heading, Text,
+  Flex, Heading,
 } from '@hack4impact-uiuc/bridge';
 import FeedbackContext from './feedback-context';
 import Markdown from './markdown';

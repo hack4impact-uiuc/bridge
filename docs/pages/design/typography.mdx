@@ -1,6 +1,6 @@
 export const meta = {type: "design", title: "Typography"}
 
-import { Heading, Text, theme} from '@hack4impact-uiuc/bridge'
+import { Heading, Text, Box, theme } from '@hack4impact-uiuc/bridge'
 import Row from '../../components/row.js'
 import Col from '../../components/col.js'
 
@@ -412,31 +412,31 @@ typography styles.
     <Col borderLeft="1px solid #979797" pl="32px">
         <Box >
             <Text as="p" mb="xs">Font</Text>
-            <Text as="p" mt="xs">{theme.typography.body.fontFamily}</Text>
+            <Text as="p" mt="xs">{theme.typography.tags.fontFamily}</Text>
         </Box>
     </Col>
     <Col>
         <Box>
             <Text as="p" mb="xs">Weight</Text>
-            <Text as="p" mt="xs">{theme.typography.body.fontWeight}</Text>
+            <Text as="p" mt="xs">{theme.typography.tags.fontWeight}</Text>
         </Box>
     </Col>
     <Col>
         <Box>
             <Text as="p" mb="xs">Size</Text>
-            <Text as="p" mt="xs">{theme.typography.body.fontSize}</Text>
+            <Text as="p" mt="xs">{theme.typography.tags.fontSize}</Text>
         </Box>
     </Col>
     <Col>
         <Box>
             <Text as="p" mb="xs">Letter Spacing</Text>
-            <Text as="p" mt="xs">{theme.typography.body.letterSpacing}</Text>
+            <Text as="p" mt="xs">{theme.typography.tags.letterSpacing}</Text>
         </Box>
     </Col>
     <Col>
         <Box>
             <Text as="p" mb="xs">Line Height</Text>
-            <Text as="p" mt="xs">{theme.typography.body.lineHeight}</Text>
+            <Text as="p" mt="xs">{theme.typography.tags.lineHeight}</Text>
         </Box>
     </Col>
 </Row>
