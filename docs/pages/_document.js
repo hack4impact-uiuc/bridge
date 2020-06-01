@@ -25,15 +25,10 @@ class DocSite extends Document {
             sizes="16x16"
             href="/favicons/favicon-16x16.svg"
           />
-          <link rel="manifest" href="/favicons/site.webmanifest" />
-          <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#000000" />
           <link rel="shortcut icon" href="/favicons/favicon.ico" />
           <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet" />
 
-          <meta name="msapplication-TileColor" content="#000000" />
-          <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
           <meta name="theme-color" content="#155DA1" />
-          <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
           <meta charSet="UTF-8" />
         </Head>
         <body style={{ margin: 0 }}>

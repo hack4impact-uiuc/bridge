@@ -1,4 +1,88 @@
 export const meta = {type: "design", title: "Tags"}
 
+import { Tag, Box, Flex } from '@hack4impact-uiuc/bridge'
+import CodeExampleBox from '../../components/CodeExampleBox'
+
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
+
+Tags are used for categorizing and labeling. Tags may be any color in your color palette, along with their light, primary, dark shades with white text. Check out [Bridge's color palette](/design/colors) for more information on colors.
+
+<br />
+
+#### Light
+
+<Tag color="red" variant="light" mr="xs">Light Red</Tag> 
+<Tag color="yellow" variant="light" mr="xs">Light Yellow</Tag>
+<Tag color="green" variant="light" mr="xs">Light Green</Tag> 
+
+<Tag color="blue" variant="light" mr="xs">Light Blue</Tag> 
+<Tag color="indigo" variant="light" mr="xs">Light Indigo</Tag> 
+<Tag color="grey" variant="light" mr="xs">Light Grey</Tag>
+
+
+<br />
+
+#### Primary
+
+<Tag color="red" mr="xs">Red</Tag> 
+<Tag color="yellow" mr="xs">Yellow</Tag>
+<Tag color="green" mr="xs">Green</Tag> 
+
+<Tag color="blue" mr="xs">Blue</Tag> 
+<Tag color="indigo" mr="xs">Indigo</Tag> 
+<Tag color="grey" mr="xs">Grey</Tag>
+
+
+<br />
+
+#### Dark
+
+<Tag color="red" variant="dark" mr="xs">Dark Red</Tag> 
+<Tag color="yellow" variant="dark" mr="xs">Dark Yellow</Tag>
+<Tag color="green" variant="dark" mr="xs">Dark Green</Tag> 
+
+<Tag color="blue" variant="dark" mr="xs">Dark Blue</Tag> 
+<Tag color="indigo" variant="dark" mr="xs">Dark Indigo</Tag> 
+<Tag color="grey" variant="dark" mr="xs">Dark Grey</Tag>
+
+
+<br/>
+<br/>
+<br/>
+
+### Tags Visual Style
+
+**Structure and Spacing**
+<img src="/docs-content/design/tags/tags-dimensions.svg" />
+
+
+**Dimensions**
+
+Tags have horizontal padding of 8 px and vertical padding of 8 px.
+Tags have a default height of 28 px.
+
+<br/>
+
+**Borders**
+
+Tags have a border radius of 4 px.
+
+<br/>
+
+**Text**
+
+Buttons use body text style.
+
+<br/>
+
+### Usage
+
+<Flex flexWrap="wrap" flexDirection="row">
+    <Box flexGrow={1} flexBasis="40%" minWidth="240px" m={["20px 0", "0 10px"]}>
+        <img src="/docs-content/design/tags/tags-do.svg" width="100%"/>
+    </Box>
+    <Box flexGrow={1} minWidth="240px" flexBasis="40%" m={["20px 0", "0 10px"]}>
+        <img src="/docs-content/design/tags/tags-dont.svg" width="100%"/>
+    </Box>
+</Flex>

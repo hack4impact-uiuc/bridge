@@ -1,7 +1,223 @@
 export const meta = {type: "design", title: "Buttons"}
 
-import ColorPalette from '../../components/design/colorPalette.js'
-import { theme, Flex, Box } from '@hack4impact-uiuc/bridge'
+import CodeExampleBox from '../../components/CodeExampleBox'
+import { theme, Flex, Box, Heading, Button, Link, Text } from '@hack4impact-uiuc/bridge'
+import Row from '../../components/row.js'
+import Col from '../../components/col.js'
+import ButtonStyleText from '../../components/design/buttonStyleText.js'
 
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
+
+<Row>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Heading type="h4">Primary</Heading>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Heading type="h4">Secondary</Heading>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Heading type="h4">Tertiary</Heading>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+</Row>
+<hr/>
+<Row height={["520px","240px"]}>
+    <Col alignItems="center">
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Button variant="primary" type="medium">APPLY NOW</Button>
+                </Box>
+            </Flex>
+            <Flex>
+                <Box pl="40px">
+                    <ButtonStyleText order={1}>
+                        BG Color: #155DA1
+                    </ButtonStyleText>
+                    <ButtonStyleText>
+                        Hover BG Color: #0E4E8A
+                    </ButtonStyleText>
+                    <ButtonStyleText>
+                        Text Color: #FFFFFF
+                    </ButtonStyleText>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+    <Col alignItems="center">
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Button outline variant="secondary" type="medium">APPLY NOW</Button>
+                </Box>
+            </Flex>
+            <Flex>
+                <Box pl="40px">
+                    <ButtonStyleText order={1}>
+                            BG Color: #FFFFFF
+                    </ButtonStyleText>
+                    <ButtonStyleText>
+                            Border/Text Color: #155DA1
+                    </ButtonStyleText>
+                    <ButtonStyleText>
+                            Hover Border/Text Color: #0E4E8A
+                    </ButtonStyleText>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+    <Col alignItems="center">
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Link as="button">APPLY NOW</Link>
+                </Box>
+            </Flex>
+            <Flex>
+                <Box pl="64px">
+                    <ButtonStyleText order={1}>
+                            Text Color: #155DA1
+                    </ButtonStyleText>
+                    <ButtonStyleText>
+                            Hover Text Color: #0E4E8A
+                    </ButtonStyleText>
+                </Box>
+            </Flex>
+        </Box>
+    </Col>
+</Row>
+
+<Row height={["520px","240px"]} bg="grey.0" height="240px">
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Button variant="primary" type="medium">APPLY NOW</Button>
+                </Box>
+            </Flex>
+            <Box pl="40px">
+                <ButtonStyleText order={1}>
+                    BG Color: #155DA1
+                </ButtonStyleText>
+                <ButtonStyleText>
+                    Hover BG Color: #0D3F6E
+                </ButtonStyleText>
+                <ButtonStyleText>
+                    Text Color: #FFFFFF
+                </ButtonStyleText>
+            </Box>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Button variant="primary" outline type="medium">APPLY NOW</Button>
+                </Box>
+            </Flex>
+            <Box pl="40px">
+                <ButtonStyleText order={1}>
+                        BG Color: #FFFFFF
+                </ButtonStyleText>
+                <ButtonStyleText>
+                        Border/Text Color: #155DA1
+                </ButtonStyleText>
+                <ButtonStyleText>
+                        Hover Border/Text Color: #0D3F6E
+                </ButtonStyleText>
+            </Box>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Link variant="primary" as="button">APPLY NOW</Link>
+                </Box>
+            </Flex>
+            <Box pl="64px">
+                <ButtonStyleText order={1}>
+                        Text Color: #155DA1
+                </ButtonStyleText>
+                <ButtonStyleText>
+                        Hover Text Color: #0D3F6E
+                </ButtonStyleText>
+            </Box>
+        </Box>
+    </Col>
+</Row>
+
+<Row height={["520px","240px"]} bg="indigo.2" height="200px">
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Button variant="white" type="medium">APPLY NOW</Button>
+                </Box>
+            </Flex>
+            <Box pl="40px">
+                <ButtonStyleText color="white" order={1}>
+                    Background: #FFFFFF
+                </ButtonStyleText>
+                <ButtonStyleText color="white">
+                    Text Color: #2D4979
+                </ButtonStyleText>
+                <ButtonStyleText color="white">
+                    Drop Shadow on Hover
+                </ButtonStyleText>
+            </Box>    
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Button variant="white" outline type="medium">APPLY NOW</Button>
+                </Box>
+            </Flex>
+            <Box pl="40px">
+                <ButtonStyleText color="white" order={1}>
+                    Background: #2D4979
+                </ButtonStyleText>
+                <ButtonStyleText color="white">
+                    Border/Text Color: #FFFFFF
+                </ButtonStyleText>
+                <ButtonStyleText color="white">
+                    Drop Shadow on Hover
+                </ButtonStyleText>
+            </Box>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]} alignItems="center">
+        <Box flex="1">
+            <Flex>
+                <Box m="0 auto">
+                    <Link variant="white" as="button">APPLY NOW</Link>
+                </Box>
+            </Flex>
+            <Box pl="40px">
+                <ButtonStyleText color="white" order={1}>
+                    Text Color: #FFFFFF
+                </ButtonStyleText>
+            </Box>
+        </Box>
+    </Col>
+</Row>
