@@ -1,6 +1,6 @@
 export const meta = {type: "design", title: "Tags"}
 
-import { Tag, Box, Flex } from '@hack4impact-uiuc/bridge'
+import { Tag, Box, Flex, Text } from '@hack4impact-uiuc/bridge'
 import CodeExampleBox from '../../components/CodeExampleBox'
 
 import Layout from '../../components/layout.js'
@@ -10,7 +10,9 @@ Tags are used for categorizing and labeling. Tags may be any color in your color
 
 <br />
 
-#### Light
+#### Colors
+
+<Text as="p" type="subtitle" fontWeight="500">Light</Text>
 
 <Tag color="red" variant="light" mr="xs">Light Red</Tag> 
 <Tag color="yellow" variant="light" mr="xs">Light Yellow</Tag>
@@ -23,7 +25,7 @@ Tags are used for categorizing and labeling. Tags may be any color in your color
 
 <br />
 
-#### Primary
+<Text as="p" type="subtitle" fontWeight="500">Primary</Text>
 
 <Tag color="red" mr="xs">Red</Tag> 
 <Tag color="yellow" mr="xs">Yellow</Tag>
@@ -36,7 +38,7 @@ Tags are used for categorizing and labeling. Tags may be any color in your color
 
 <br />
 
-#### Dark
+<Text as="p" type="subtitle" fontWeight="500">Dark</Text>
 
 <Tag color="red" variant="dark" mr="xs">Dark Red</Tag> 
 <Tag color="yellow" variant="dark" mr="xs">Dark Yellow</Tag>
@@ -49,13 +51,15 @@ Tags are used for categorizing and labeling. Tags may be any color in your color
 
 <br/>
 <br/>
+
+
+#### Tags Structure and Spacing
+
+<img src="/docs-content/design/tags/tags-dimensions.svg" />
+<br/>
 <br/>
 
-### Tags Visual Style
-
-**Structure and Spacing**
-<img src="/docs-content/design/tags/tags-dimensions.svg" />
-
+#### Tags Visual Style
 
 **Dimensions**
 
@@ -76,7 +80,7 @@ Buttons use body text style.
 
 <br/>
 
-### Usage
+#### Usage
 
 <Flex flexWrap="wrap" flexDirection="row">
     <Box flexGrow={1} flexBasis="40%" minWidth="240px" m={["20px 0", "0 10px"]}>

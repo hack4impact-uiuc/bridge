@@ -8,7 +8,7 @@ const CardOverline = styled.div`
   ${get('typography.overline')};
   color: ${get('colors.text.coolTone.main')};
 
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 
   ${TYPOGRAPHY};
   ${COMMON};

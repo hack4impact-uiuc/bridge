@@ -4,7 +4,7 @@ exports[`Card renders a <div> 1`] = `
 .c0 {
   display: inline-block;
   vertical-align: top;
-  width: 318px;
+  width: 100%;
   background-color: #FFFFFF;
   border-radius: 8px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
@@ -77,7 +77,7 @@ exports[`Card renders entire card properly 1`] = `
   line-height: 16px;
   text-transform: uppercase;
   color: #0A162A;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .c4 {
@@ -102,7 +102,7 @@ exports[`Card renders entire card properly 1`] = `
   letter-spacing: 1px;
   line-height: 28px;
   color: #0A162A;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .c6 {
@@ -115,7 +115,7 @@ exports[`Card renders entire card properly 1`] = `
   letter-spacing: 0.3px;
   line-height: 24px;
   color: #0A162A;
-  margin-top: 16px;
+  margin-top: 12px;
 }
 
 .c7 {
@@ -125,7 +125,7 @@ exports[`Card renders entire card properly 1`] = `
 .c0 {
   display: inline-block;
   vertical-align: top;
-  width: 318px;
+  width: 100%;
   background-color: #FFFFFF;
   border-radius: 8px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);

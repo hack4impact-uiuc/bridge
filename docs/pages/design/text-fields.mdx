@@ -1,0 +1,104 @@
+export const meta = {type: "design", title: "Text Fields"}
+
+import {Card, Text, TextField, Box, Flex} from '@hack4impact-uiuc/bridge'
+import Row from '../../components/row.js'
+import Col from '../../components/col.js'
+import CodeExampleBox from '../../components/CodeExampleBox'
+
+import Layout from '../../components/layout.js'
+export default Layout({...meta})
+
+
+For form usage and structure, look at [Forms](/design/forms).
+
+#### Text Field
+
+Use text fields for single line inputs such as email, phone numbers, name, etc.
+
+<CodeExampleBox p="32px" width="280px">
+    <Text mt="0" as="p" type="forms">Text field label</Text>
+    <TextField error="default" mb="xs" placeholder="placeholder text"/>
+</CodeExampleBox>
+
+#### Text Area
+
+Use text areas that may require multiple lines of input.
+
+<CodeExampleBox p="32px" width="280px" >
+    <Text mt="0" as="p" type="forms">Text area label</Text>
+    <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+</CodeExampleBox>
+
+
+#### Required/Optional Text
+
+Required and Optional fields should be denoted by italicized letters in primary blue body text 8px from the bottom of the input prompt.
+
+<Row>
+    <Col>
+    <CodeExampleBox p="32px" width="280px" >
+        <Text mt="0" as="p" type="forms">
+            Text area label
+            <Text types="forms" color="blue.3" fontStyle="italic" ml="12px">Required</Text>
+        </Text>
+        <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+    </CodeExampleBox>
+    </Col>
+    <Col>
+        <CodeExampleBox p="32px" width="280px" >
+            <Text mt="0" as="p" type="forms">
+                Text area label
+                <Text types="forms" color="blue.3" fontStyle="italic" ml="12px">Optional</Text>
+            </Text>
+            <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+        </CodeExampleBox>
+    </Col>
+</Row>
+
+#### Helper Text
+
+
+Helper text should be denoted by italicized letters in primary blue body text 8px from the bottom of the input prompt (same as required/optional text).
+
+<CodeExampleBox p="32px" width="280px" >
+    <Text mt="0" as="p" type="forms">Text area label</Text>
+    <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+    <Text types="forms" color="blue.3" fontStyle="italic">8 or more characters</Text>
+</CodeExampleBox>
+
+
+#### Error Styling
+
+- Field errors should be located 8 px below input field.
+- Error icons are located 12 px from the right of the input field.
+- Use the primary red
+
+For more basic information on error styles for forms look at the [Form Design Guidelines](/design/forms#errors).
+
+<Row>
+    <Col>
+        <CodeExampleBox p="32px" width="280px">
+            <Text mt="0" as="p" type="forms">Text field label</Text>
+            <TextField error="default" mb="xs" placeholder="placeholder text" error="error"/>
+            <Text mt="0" as="p" type="forms" color="redPalette.primary">Text field label</Text>
+        </CodeExampleBox>
+    </Col>
+    <Col>
+        <CodeExampleBox p="32px" width="280px">
+            <Text mt="0" as="p" type="forms">Text area label</Text>
+            <TextField error="default" mb="xs" placeholder="placeholder text" error="error"/>
+            <Text mt="0" as="p" type="forms" color="redPalette.primary">Text field label</Text>
+        </CodeExampleBox>
+    </Col>
+</Row>
+
+#### Basic Visual Style
+
+**Dimensions**
+
+- Each text field line has a height of 44 px.
+
+**Borders**
+
+- Text fields have a 1 px border in “lighter” grey.
+- Active text fields have a 2 px border in primary blue.

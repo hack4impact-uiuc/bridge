@@ -8,7 +8,7 @@ const CardBody = styled.div`
   ${get('typography.body')};
   color: ${get('colors.text.coolTone.main')};
 
-  margin-top: 16px;
+  margin-top: 12px;
 
   ${TYPOGRAPHY};
   ${COMMON};

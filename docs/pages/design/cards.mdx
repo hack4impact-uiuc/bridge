@@ -1,4 +1,119 @@
 export const meta = {type: "design", title: "Cards"}
 
+import {Card, Heading, Box, Flex, Button, Link} from '@hack4impact-uiuc/bridge'
+import Row from '../../components/row.js'
+import Col from '../../components/col.js'
+import CodeExampleBox from '../../components/CodeExampleBox'
+import CardDimensions from '../../public/docs-content/design/cards/cards-dimensions.svg'
+
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
+
+Cards are flexible and extensible containers for content. It includes headers, footer, images, and you may place a variety of different content types inside. Use Cards to display content related to single subject.
+
+<Row>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4" as="h4" mb="32px" >Default Card</Heading>
+            <Card width="324px">
+                <Card.Image src="/docs-content/design/cards/BlueRectangle.svg"/>
+                <Card.Content>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Subtitle>Optional Subtitle</Card.Subtitle>
+                    <Card.Body>Here is some optional text that you can include in the card’s body so you can learn more about what the card is supposed to be for.  </Card.Body>
+                </Card.Content>
+            </Card>
+        </Box>
+    </Col>
+</Row>
+
+
+<Row mt="40px">
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4" as="h4" mb="32px" >Card with Buttons</Heading>
+            <Card width="324px">
+                <Card.Image src="/docs-content/design/cards/BlueRectangle.svg"/>
+                <Card.Content>
+                    <Card.Overline>OPTIONAL OVERLINE</Card.Overline>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Subtitle>Optional Subtitle</Card.Subtitle>
+                    <Card.Body>Here is some optional text that you can include in the card’s body so you can learn more about what the card is supposed to be for. This particular card has an overline and actions at the bottom.</Card.Body>
+                    <Button mt="24px">ACTION 1</Button>
+                </Card.Content>
+            </Card>
+        </Box>
+    </Col>
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4" as="h4" mb="32px" >Card with Links</Heading>
+            <Card width="324px">
+                <Card.Image src="/docs-content/design/cards/BlueRectangle.svg"/>
+                <Card.Content>
+                    <Card.Overline>OPTIONAL OVERLINE</Card.Overline>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Subtitle>Optional Subtitle</Card.Subtitle>
+                    <Card.Body>Here is some optional text that you can include in the card’s body so you can learn more about what the card is supposed to be for. This particular card has an overline and actions at the bottom.</Card.Body>
+                    <Button.Group mt="24px">
+                        <Link>Link 1</Link>
+                        <Link>Link 2</Link>
+                    </Button.Group>
+                </Card.Content>
+            </Card>
+        </Box>
+    </Col>
+</Row>
+
+<Row mt="40px">
+    <Col mr={[0, "20px"]}>
+        <Box flex="1">
+            <Heading type="h4" as="h4" mb="32px" >Card without Media</Heading>
+            <Card width="324px">
+                <Card.Content>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Subtitle>Optional Subtitle</Card.Subtitle>
+                    <Card.Body>Here is some optional text that you can include in the card’s body so you can learn more about what the card is supposed to be for.  </Card.Body>
+                    <Button mt="24px">ACTION</Button>
+                </Card.Content>
+            </Card>
+        </Box>
+    </Col>
+</Row>
+
+<br/>
+<br/>
+
+#### Card Structure and Spacing
+
+Cards may be any width but whenever used in a group, they should have the same width.
+
+<CardDimensions width="720px"/>
+
+#### Basic Visual Style
+
+**Stationary**
+
+Border Radius: 8 px
+
+Drop Shadow: `box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);`
+
+<br/>
+
+**Hovered**
+
+Border Radius: 8 px
+
+Drop Shadow: `box-shadow: 0 2px 16px 0 rgba(0,0,0,0.24);`
+
+<br/>
+
+#### Usage
+
+<Flex flexWrap="wrap" flexDirection="row">
+    <Box flexGrow={1} flexBasis="40%" minWidth="240px" m={["20px 0", "0 10px"]}>
+        <img src="/docs-content/design/cards/cards-do.svg" width="100%"/>
+    </Box>
+    <Box flexGrow={1} minWidth="240px" flexBasis="40%" m={["20px 0", "0 10px"]}>
+        <img src="/docs-content/design/cards/cards-dont.svg" width="100%"/>
+    </Box>
+</Flex>
