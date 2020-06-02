@@ -1,0 +1,118 @@
+export const meta = {type: "design", title: "Form Selections"}
+
+import { Box, Flex, Radio, Text, Checkbox, Icon } from '@hack4impact-uiuc/bridge'
+import Row from '../../components/row.js'
+import Col from '../../components/col.js'
+import CodeExampleBox from '../../components/CodeExampleBox'
+
+import Layout from '../../components/layout.js'
+export default Layout({...meta})
+
+For form usage and structure, look at [Forms](/design/forms).
+
+#### Radio Buttons
+
+Use radio buttons when a user has to choose only one option. They should be used when there are five or less options that the user must choose from. In instances where there are more than five, use a dropdown.
+
+<CodeExampleBox p="32px" maxWidth="280px">
+<Text type="forms" ml="24px" mb="28px" as="p">Best Color</Text>
+<Radio.Group vertical ml="24px" name="colors">
+  <Radio id="blue" value="blue">
+    Blue
+  </Radio>
+  <Radio defaultChecked id="red" value="red">
+    Red
+  </Radio>
+  <Radio id="purple" value="purple">
+    Purple
+  </Radio>
+  <Radio id="green" value="green">
+    Green
+  </Radio>
+</Radio.Group>
+</CodeExampleBox>
+
+#### Checkboxes
+
+Use checkboxes when allowing the user to select more than one option to the prompt.
+
+
+#### Dropdowns
+
+Use dropdowns when the user must choose one option of more than five choices.  
+
+#### Error Styling
+
+For more basic information on error styles for forms look at the [Form Design Guidelines](/design/forms#errors).
+
+**Button Errors**
+
+- Selection button errors should be located 28 px below the last selection item.
+- Error icons are located 8 px from the beginning of the error message.
+
+<Row>
+    <Col>
+        <CodeExampleBox p="32px" width="280px">
+            <Text type="forms" ml="24px" mb="28px" as="p">Best Color</Text>
+            <Radio.Group vertical ml="24px" name="colors">
+                <Radio id="blue-2" value="blue-2">
+                    Blue
+                </Radio>
+                <Radio error="error" defaultChecked id="red-2" value="red-2">
+                    Red
+                </Radio>
+                <Radio id="purple-2" value="purple-2">
+                    Purple
+                </Radio>
+                <Radio id="green-2" value="green-2">
+                    Green
+                </Radio>
+            </Radio.Group>
+            <Text mb="0" ml="24px" mt="0" mt="16px" as="p" type="forms" color="redPalette.primary"><Flex alignItems="center"><Icon type="errorAlert" pr="8px"/> Radio label</Flex></Text>
+        </CodeExampleBox>
+    </Col>
+    <Col>
+        <Box>
+        TODO checkbox
+        <CodeExampleBox p="32px" width="280px">
+            <Text type="forms" ml="24px" mb="28px" as="p">Best Color</Text>
+            <Radio.Group vertical ml="24px" name="colors">
+                <Radio id="blue-3" value="blue-3">
+                    Blue
+                </Radio>
+                <Radio error="error-3" defaultChecked id="red" value="red-3">
+                    Red
+                </Radio>
+                <Radio id="purple-3" value="purple-3">
+                    Purple
+                </Radio>
+                <Radio id="green-3" value="green-3">
+                    Green
+                </Radio>
+            </Radio.Group>
+            <Text ml="24px" mt="16px" as="p" type="forms" color="redPalette.primary"><Flex alignItems="center"><Icon type="errorAlert" pr="8px"/>Checkbox label</Flex></Text>
+        </CodeExampleBox>
+        </Box>
+    </Col>
+</Row>
+
+
+#### Basic Visual Style
+
+**Dimensions**
+
+- Each text field line has a height of 44 px.
+- Radio buttons and checkboxes both are 20 px x 20 px. 
+- Checkboxes have a border radius of 3 px. 
+- Dropdown item heights are 40 px.
+
+
+**Borders**
+
+- All selctions have a 1 px border in “lighter” grey.
+- When selected, checkboxes have a 1 px border and fill of primary blue.
+- When active, dropdowns have a 2 px border in primary blue.
+
+**Colors**
+
+- Dropdown items are highlighted with primary blue with a 5% alpha.

@@ -1,4 +1,89 @@
 export const meta = {type: "design", title: "Forms"}
 
+import {Card, Heading, Box, Flex, Button, Link} from '@hack4impact-uiuc/bridge'
+import Row from '../../components/row.js'
+import Col from '../../components/col.js'
+import FormNav from '../../public/docs-content/design/forms/form-nav.svg'
+import MultiStepForm from '../../public/docs-content/design/forms/multi-step-form.svg'
+
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
+
+Bridge supports multiple form components. This page describes general form usage and structure. Specific form design patterns:
+- [Text Fields](/design/text-fields)
+- [Form Selections](/design/form-selections) - includes radio, checkboxes, and dropdowns
+- [File Upload](/design/file-upload) 
+
+#### Basic Structure for all forms
+**Prompts**
+
+Prompts should follow the Tables/Alerts/Forms text style and be
+12 px from the form field.
+
+They should be:
+- Written in sentence case
+- 1 to 4 words in length
+
+**Section Titles**
+
+Similar groups of information should be separated into sections.
+
+They should be:
+- Written in sentence case
+- 1 to 4 words in length
+
+#### Required/Optional Fields
+
+Required and Optional fields should be denoted by italicized letters in primary blue body text following the input prompt.
+
+#### Helper Text
+
+Required and Optional fields should be denoted by italicized letters in primary blue body text 8px from the bottom of the input prompt.
+
+#### Errors
+
+Error messages should:
+- Be colored in primary red
+- Written in sentence case
+- Visible immediately after the user has filled in an invalid input,
+  NOT during
+- Be removed immediately once the user enters a valid input
+
+Prompts and Fields with errors should:
+- Be colored in primary red
+- Have borders in 1 px primary red
+
+**Please look at documentation on each form component for examples and guides on their error state.**
+
+#### Multi-step forms
+
+Forms with steps should be broken up into individual pages so that the user isn’t overwhelmed by a seemingly
+endless scroll of content. Names of steps should be clearly labeled on each page.
+
+<br/>
+
+**Progress Bars**
+
+Steps should be broken up into individual pages. Include status bars at the top so that the user knows where
+they are in the process of completing the form at all times. Each step should be clickable.
+
+<MultiStepForm/>
+
+**Navigation Buttons**
+
+Buttons to advance the user or bring the user back a step in the process of completing the form should be
+in the bottom right of the form.
+
+<FormNav/>
+
+#### Usage
+
+
+<Flex flexWrap="wrap" flexDirection="row">
+    <Box flexGrow={1} flexBasis="40%" minWidth="240px" m={["20px 0", "0 10px"]}>
+        <img src="/docs-content/design/forms/forms-do.svg" width="100%"/>
+    </Box>
+    <Box flexGrow={1} minWidth="240px" flexBasis="40%" m={["20px 0", "0 10px"]}>
+        <img src="/docs-content/design/forms/forms-dont.svg" width="100%"/>
+    </Box>
+</Flex>

@@ -51,16 +51,28 @@ export default [
         href: `${DESIGN_URL}/cards`,
       },
       {
+        title: 'File Upload',
+        href: `${DESIGN_URL}/file-upload`,
+      },
+      {
         title: 'Forms',
         href: `${DESIGN_URL}/forms`,
+      },
+      {
+        title: 'Form Selections',
+        href: `${DESIGN_URL}/form-selections`,
+      },
+      {
+        title: 'Tables',
+        href: `${DESIGN_URL}/tables`,
       },
       {
         title: 'Tags',
         href: `${DESIGN_URL}/tags`,
       },
       {
-        title: 'Tables',
-        href: `${DESIGN_URL}/tables`,
+        title: 'Text Fields',
+        href: `${DESIGN_URL}/text-fields`,
       },
 
     ],
