@@ -8,7 +8,7 @@ const CardSubtitle = styled.div`
   ${get('typography.subtitle')};
   color: ${get('colors.text.coolTone.main')};
 
-  margin-top: 8px;
+  margin-top: 4px;
 
   ${TYPOGRAPHY};
   ${COMMON};
