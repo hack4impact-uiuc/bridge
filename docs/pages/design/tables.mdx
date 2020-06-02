@@ -1,4 +1,129 @@
 export const meta = {type: "design", title: "Tables"}
 
+import { Table } from '@hack4impact-uiuc/bridge'
+import CodeExampleBox from '../../components/CodeExampleBox'
+
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
+
+Tables are used to display information in an organized way, generally from a dataset. Use tables for tabular data.
+
+#### Basic Table
+
+Basic Tables have a default style which includes:
+- Center Alignment
+- Row Dividers in “Lighter” Grey
+- White Background
+
+Table Head styling:
+- Text is 18 px HK Grotesk Medium. Check [typography](/design/components) for more information.
+- The row divider is 2 px “Lighter” Grey.
+
+<br/>
+
+<CodeExampleBox p="36px">
+    <Table type="primary">
+    <Table.Head>
+        <Table.Row>
+        <Table.Cell>Name</Table.Cell>
+        <Table.Cell>Favorite Color</Table.Cell>
+        <Table.Cell>Favorite Number</Table.Cell>
+        </Table.Row>
+    </Table.Head>
+    <Table.Body>
+        <Table.Row>
+        <Table.Cell>Sharkira</Table.Cell>
+        <Table.Cell>Pink</Table.Cell>
+        <Table.Cell>3</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+        <Table.Cell>Gillfunkel</Table.Cell>
+        <Table.Cell>Purple</Table.Cell>
+        <Table.Cell>72</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+        <Table.Cell>Swim shady</Table.Cell>
+        <Table.Cell>Yellow</Table.Cell>
+        <Table.Cell>10000</Table.Cell>
+        </Table.Row>
+    </Table.Body>
+    </Table>
+</CodeExampleBox>
+
+#### Borderless Table
+
+Borderless tables do not have any borders :) 
+
+<br/>
+
+<CodeExampleBox p="36px">
+    <Table type="borderless">
+    <Table.Head>
+        <Table.Row>
+        <Table.Cell>Name</Table.Cell>
+        <Table.Cell>Favorite Color</Table.Cell>
+        <Table.Cell>Favorite Number</Table.Cell>
+        </Table.Row>
+    </Table.Head>
+    <Table.Body>
+        <Table.Row>
+        <Table.Cell>Sharkira</Table.Cell>
+        <Table.Cell>Pink</Table.Cell>
+        <Table.Cell>3</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+        <Table.Cell>Gillfunkel</Table.Cell>
+        <Table.Cell>Purple</Table.Cell>
+        <Table.Cell>72</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+        <Table.Cell>Swim shady</Table.Cell>
+        <Table.Cell>Yellow</Table.Cell>
+        <Table.Cell>10000</Table.Cell>
+        </Table.Row>
+    </Table.Body>
+    </Table>
+</CodeExampleBox>
+
+<br/>
+
+#### Zebra Table
+
+A zebra table is a borderless table with the ligher shade of grey (#EBEEF2). Check out [Colors](/design/colors) for more information on the color palette.
+
+<Table type="zebra">
+  <Table.Head>
+    <Table.Row>
+      <Table.Cell>Name</Table.Cell>
+      <Table.Cell>Favorite Color</Table.Cell>
+      <Table.Cell>Favorite Number</Table.Cell>
+    </Table.Row>
+  </Table.Head>
+  <Table.Body>
+    <Table.Row>
+      <Table.Cell>Sharkira</Table.Cell>
+      <Table.Cell>Pink</Table.Cell>
+      <Table.Cell>3</Table.Cell>
+    </Table.Row>
+    <Table.Row>
+      <Table.Cell>Gillfunkel</Table.Cell>
+      <Table.Cell>Purple</Table.Cell>
+      <Table.Cell>72</Table.Cell>
+    </Table.Row>
+    <Table.Row>
+      <Table.Cell>Swim shady</Table.Cell>
+      <Table.Cell>Yellow</Table.Cell>
+      <Table.Cell>10000</Table.Cell>
+    </Table.Row>
+  </Table.Body>
+</Table>
+
+<br/>
+
+#### Table Visual Style
+
+**Table Spacing**
+
+- Elements should have 40 px spacing between them.
+- First row (table head) has a height of 56 px.
+- All following rows have heights of 52 px. 
