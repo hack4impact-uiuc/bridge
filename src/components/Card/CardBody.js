@@ -4,11 +4,12 @@ import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 
-const CardBody = styled.div`
+const CardBody = styled.p`
   ${get('typography.body')};
   color: ${get('colors.text.coolTone.main')};
 
   margin-top: 12px;
+  word-wrap: break-word;
 
   ${TYPOGRAPHY};
   ${COMMON};

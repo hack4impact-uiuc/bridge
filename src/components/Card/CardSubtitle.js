@@ -9,6 +9,7 @@ const CardSubtitle = styled.div`
   color: ${get('colors.text.coolTone.main')};
 
   margin-top: 4px;
+  word-wrap: break-word;
 
   ${TYPOGRAPHY};
   ${COMMON};

@@ -4,6 +4,7 @@ import {Card, Heading, Box, Flex, Button, Link} from '@hack4impact-uiuc/bridge'
 import Row from '../../components/row.js'
 import Col from '../../components/col.js'
 import FileUploadPic from '../../public/docs-content/design/file-upload/file-upload.svg'
+import FileUploadError from '../../public/docs-content/design/file-upload/file-upload-error.svg'
 
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
@@ -12,6 +13,14 @@ export default Layout({...meta})
 For form usage and structure, look at [Forms](/design/forms).
 
 <FileUploadPic />
+
+#### Error Styling
+
+- File upload errors should be located  8 px under the file with the error.
+- These errors use body text size. 
+- Error icons should be 8 px from the beginning of the error message.
+
+<FileUploadError />
 
 
 #### Basic Visual Style

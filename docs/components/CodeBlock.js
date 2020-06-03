@@ -65,7 +65,7 @@ export default ({
                 fontFamily: "'Ubuntu Mono', monospace",
                 fontSize: '16px',
                 letterSpacing: '0.5px',
-                lineHeight: '20px',
+                lineHeight: '24px',
                 borderTop: '1px solid #eaeaea',
                 borderBottomLeftRadius: '8px',
                 borderBottomRightRadius: '8px',

@@ -5,7 +5,35 @@ export default Layout({ ...meta });
 
 Props from Radio.Group that also appear in Radio will be overridden by Radio.Group's. In general, you should never use `Radio` without a `Radio.Group`.
 
-Jackie's code dump of examples that can be cleaned up later:
+For information on Radio and Form style and usage guidelines, check out [Form Selection Design Guidelines](/design/form-selections) and [Form Design Guidelines](/design/forms).
+
+#### Example
+
+A normal example of a vertical group of Radio components. 
+
+```jsx live
+<Radio.Group 
+  vertical 
+  ml="24px"
+  name="colors"
+>
+  <Radio id="blue" value="blue">
+    Blue
+  </Radio>
+  <Radio defaultChecked id="red" value="red">
+    Red
+  </Radio>
+  <Radio id="purple" value="purple">
+    Purple
+  </Radio>
+  <Radio id="green" value="green">
+    Green
+  </Radio>
+</Radio.Group>
+```
+
+#### Using State
+`Radio` comes with `onChange` and `value` event props for you to handle in any way. Here's an example of it with React Hooks. 
 
 ```jsx
 const [value, setValue] = useState('female');
@@ -29,57 +57,55 @@ const handleChange = (e) => {
     Other
   </Radio>
 </Radio.Group>
-<Radio.Group vertical marginTop="50px" name="colors">
-  <Radio id="blue" value="blue">
-    Blue
-  </Radio>
-  <Radio color="#f00" defaultChecked id="red" value="red">
-    Red
-  </Radio>
-  <Radio error="warning" id="purple" value="purple">
-    Purple
-  </Radio>
-  <Radio disabled id="green" value="green">
-    Green
-  </Radio>
-</Radio.Group>
+```
+
+
+#### Error Handling
+Use the `error` prop in `Radio` to define the error state of that Radio Component. You may choose between `default`, `error`, `warning`, and `success`. Note the style change when the Radio is selected.
+
+```jsx live
 <Radio.Group
   defaultValue="red2"
-  disabled
   vertical
-  marginTop="50px"
-  name="secondColors"
+  ml="24px"
+  name="colorsError"
 >
-  <Radio id="blue2" value="blue2">
-    Blue
+  <Radio error="success" id="blue2" value="blue2">
+    Success
   </Radio>
-  <Radio id="red2" value="red2">
-    Red
+  <Radio error="error" id="red2" value="red2">
+    Error
   </Radio>
-  <Radio id="purple2" value="purple2">
-    Purple
+  <Radio error="warning" id="purple2" value="purple2">
+    Warning
   </Radio>
-  <Radio id="green2" value="green2">
-    Green
+  <Radio error="default" id="green2" value="green2">
+    Default
   </Radio>
 </Radio.Group>
-<Radio.Group
-  defaultValue="blue3"
-  error="error"
-  vertical
-  marginTop="50px"
-  name="thirdColors"
+```
+
+#### Disabled
+You can disable individual radios with the `disabled` prop. The same applies to entire Radio Group with the `disabled` prop in `Radio.Group`. 
+
+Try adding it to `Radio.Group`.
+
+```jsx live
+<Radio.Group 
+  vertical 
+  ml="24px" 
+  name="colors-disabled"
 >
-  <Radio id="blue3" value="blue3">
+  <Radio id="blue4" value="blue4">
     Blue
   </Radio>
-  <Radio id="red3" value="red3">
+  <Radio defaultChecked id="red4" value="red4">
     Red
   </Radio>
-  <Radio id="purple3" value="purple3">
+  <Radio id="purple4" value="purple4">
     Purple
   </Radio>
-  <Radio id="green3" value="green3">
+  <Radio disabled id="green4" value="green4">
     Green
   </Radio>
 </Radio.Group>

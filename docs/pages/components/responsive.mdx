@@ -2,3 +2,64 @@ export const meta = {type: "components", title: "Responsive Styling"}
 
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
+
+Bridge components allow for responsive styling through its styling props from [styled-system](https://styled-system.com/). Styled system offers a convenient shorthand in dealing with responsive styles. For more details on styled system and their responsive styles [click here](https://styled-system.com/responsive-styles).
+
+With Bridge, we have set breakpoints to which you may define styles for. Our Breakpoints (from our [design guidelines](/design/breakpoints)):
+
+| Size        | Key Value |  Pixel Value     |
+| ----------- | --------- |:----------------:|
+| X-Small     | xs        | 544 px - 767 px  |
+| Small       | sm        | 768 px - 991 px  |
+| Medium      | md        | 992 px - 1279 px |
+| Large       | lg        | 1280 px +        |
+
+You may define the styles for any [Common Props](/components/common-props) at each breakpoint.
+```jsx
+<Box
+  width={[
+    1,    // 100% width below the X-Small (544px)
+    1/2,  // 50% width from X-Small to Small (544px - 767px)
+    1/4   // 25% width from Small and bigger (767px+)
+    // note that you can continue to define it for `Medium to Large` and `Large and above
+    // but in this configuration it will be 25% width from anything bigger than 767px
+  ]}
+/>
+
+<Box m={["12px", "20px", "32px", "48px", "64px"]}> // responsive margins
+```
+
+#### What it does
+Taken from Styled-System Docs:
+```jsx
+<Box width={[1, 1 / 2, 1 / 4]} />
+```
+
+will generate
+
+```jsx
+
+.Box-hash {
+  width: 100%;
+}
+
+@media screen and (min-width: 40em) {
+  .Box-hash {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 52em) {
+  .Box-hash {
+    width: 25%;
+  }
+}
+```
+
+#### Object instead Array
+
+You may also define responsive styles with an object instead of an array. Their key values are listed in the table above under the "Key Value" column.
+
+```jsx
+<Box width={{ _ 1, sm: 1, md: 1 / 2, lg: 1 / 4 }} />
+```

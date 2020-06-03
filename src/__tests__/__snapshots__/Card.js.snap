@@ -2,9 +2,14 @@
 
 exports[`Card renders a <div> 1`] = `
 .c0 {
-  display: inline-block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   vertical-align: top;
-  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-color: #FFFFFF;
   border-radius: 8px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
@@ -15,7 +20,8 @@ exports[`Card renders a <div> 1`] = `
 }
 
 <div
-  className="c0"
+  className="Box-ik9o9h-0 Flex-sc-1ir7tao-0 c0"
+  display="flex"
 />
 `;
 
@@ -63,7 +69,11 @@ exports[`Card renders entire card properly 1`] = `
 }
 
 .c2 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   padding: 28px;
+  word-wrap: break-word;
 }
 
 .c3 {
@@ -103,6 +113,7 @@ exports[`Card renders entire card properly 1`] = `
   line-height: 28px;
   color: #0A162A;
   margin-top: 4px;
+  word-wrap: break-word;
 }
 
 .c6 {
@@ -116,6 +127,7 @@ exports[`Card renders entire card properly 1`] = `
   line-height: 24px;
   color: #0A162A;
   margin-top: 12px;
+  word-wrap: break-word;
 }
 
 .c7 {
@@ -123,9 +135,14 @@ exports[`Card renders entire card properly 1`] = `
 }
 
 .c0 {
-  display: inline-block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   vertical-align: top;
-  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-color: #FFFFFF;
   border-radius: 8px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
@@ -136,7 +153,8 @@ exports[`Card renders entire card properly 1`] = `
 }
 
 <div
-  className="c0"
+  className="Box-ik9o9h-0 Flex-sc-1ir7tao-0 c0"
+  display="flex"
 >
   <img
     alt="h4i"
@@ -144,7 +162,7 @@ exports[`Card renders entire card properly 1`] = `
     src="https://uiuc.hack4impact.org/static/images/colored-logo.png"
   />
   <div
-    className="c2"
+    className="Box-ik9o9h-0 c2"
   >
     <div
       className="c3"
@@ -161,13 +179,13 @@ exports[`Card renders entire card properly 1`] = `
     >
       Optional Subtitle
     </div>
-    <div
+    <p
       className="c6"
     >
       Body
-    </div>
+    </p>
     <div
-      className="c7"
+      className="Box-ik9o9h-0 c7"
     >
       <button
         className="c8"

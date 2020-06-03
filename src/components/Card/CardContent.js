@@ -1,19 +1,20 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
-import { COMMON } from '../../utils/constants';
+import Box from '../Box';
 
-const CardContent = styled.div`
+const CardContent = styled(Box)`
+  flex: 1 1 auto;
   padding: 28px;
 
-  ${COMMON};
+  word-wrap: break-word;
 `;
 
 CardContent.defaultProps = { theme };
 
 CardContent.propTypes = {
   theme: PropTypes.object,
-  ...COMMON.propTypes,
+  ...Box.propTypes,
 };
 
 export default CardContent;

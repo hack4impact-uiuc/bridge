@@ -1,10 +1,11 @@
 export const meta = {type: "design", title: "Forms"}
 
-import {Card, Heading, Box, Flex, Button, Link} from '@hack4impact-uiuc/bridge'
+import {Card, Heading, Box, Flex, Button, Link, Text, TextField, Radio} from '@hack4impact-uiuc/bridge'
 import Row from '../../components/row.js'
 import Col from '../../components/col.js'
 import FormNav from '../../public/docs-content/design/forms/form-nav.svg'
 import MultiStepForm from '../../public/docs-content/design/forms/multi-step-form.svg'
+import CodeExampleBox from '../../components/CodeExampleBox'
 
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
@@ -15,6 +16,10 @@ Bridge supports multiple form components. This page describes general form usage
 - [File Upload](/design/file-upload) 
 
 #### Basic Structure for all forms
+<Row>
+    <Col>
+        <Box>
+
 **Prompts**
 
 Prompts should follow the Tables/Alerts/Forms text style and be
@@ -24,6 +29,11 @@ They should be:
 - Written in sentence case
 - 1 to 4 words in length
 
+</Box>
+</Col>
+<Col>
+<Box>
+
 **Section Titles**
 
 Similar groups of information should be separated into sections.
@@ -32,13 +42,128 @@ They should be:
 - Written in sentence case
 - 1 to 4 words in length
 
+</Box>
+</Col>
+</Row>
+
+
+#### Form Components
+
+<Row>
+    <Col mt="12px">
+        <Box>
+            <Link fontWeight="500" href="/design/text-field">Text Field</Link>
+            <CodeExampleBox p="32px" width="280px" height="160px" >
+                <Text mt="0" as="p" type="forms">
+                    Text field label
+                </Text>
+                <TextField error="default" mb="xs"  placeholder="placeholder text"/>
+            </CodeExampleBox>
+        </Box>
+    </Col>
+    <Col mt="12px">
+        <Box>
+            <Link fontWeight="500" href="/design/text-field">Text Area</Link>
+            <CodeExampleBox p="32px" width="280px" height="160px">
+                <Text mt="0" as="p" type="forms">
+                    Text area label
+                </Text>
+                <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+            </CodeExampleBox>
+        </Box>
+    </Col>
+    <Col mt="32px">
+        <Box>
+            <Link fontWeight="500" href="/design/form-selections">Radio</Link>
+            <CodeExampleBox p="32px" width="280px" height="240px">
+                <Text type="forms" ml="24px" mb="28px" as="p">
+                    Best Color
+                </Text>
+                <Radio.Group vertical ml="24px" name="colors">
+                    <Radio id="blue" value="blue">
+                        Blue
+                    </Radio>
+                    <Radio defaultChecked id="red" value="red">
+                        Red
+                    </Radio>
+                    <Radio id="purple" value="purple">
+                        Purple
+                    </Radio>
+                    <Radio id="green" value="green">
+                        Green
+                    </Radio>
+                </Radio.Group>
+            </CodeExampleBox>
+        </Box>
+    </Col>
+    <Col mt="32px">
+        <Box>
+            <Link fontWeight="500" href="/design/form-selections">Checkbox TODO</Link>
+            <CodeExampleBox p="32px" width="280px" height="240px">
+                <Text mt="0" as="p" type="forms">
+                    Checkbox Label
+                </Text>
+                <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+            </CodeExampleBox>
+        </Box>
+    </Col>
+     <Col mt="32px">
+        <Box>
+            <Link fontWeight="500" href="/design/form-selections">Dropdown TODO</Link>
+            <CodeExampleBox p="32px" width="280px" >
+                <Text mt="0" as="p" type="forms">
+                    Dropdown Label
+                </Text>
+                <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+            </CodeExampleBox>
+        </Box>
+    </Col>
+</Row>
+
+<br/>
+
 #### Required/Optional Fields
 
-Required and Optional fields should be denoted by italicized letters in primary blue body text following the input prompt.
+Required and Optional fields should be denoted by italicized letters in primary blue body text following the input prompt. 
+
+This applies to all form components. Below are examples of it on TextFields and TextAreas.
+
+<Row>
+    <Col>
+    <CodeExampleBox p="32px" width="280px" >
+        <Text mt="0" as="p" type="forms">
+            Text area label
+            <Text types="forms" color="blue.3" fontStyle="italic" ml="12px">Required</Text>
+        </Text>
+        <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+    </CodeExampleBox>
+    </Col>
+    <Col>
+        <CodeExampleBox p="32px" width="280px" >
+            <Text mt="0" as="p" type="forms">
+                Text area label
+                <Text types="forms" color="blue.3" fontStyle="italic" ml="12px">Optional</Text>
+            </Text>
+            <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+        </CodeExampleBox>
+    </Col>
+</Row>
+
+<br/>
 
 #### Helper Text
 
-Required and Optional fields should be denoted by italicized letters in primary blue body text 8px from the bottom of the input prompt.
+Required and Optional fields should be denoted by italicized letters in primary blue body text 8px from the bottom of the input prompt. 
+
+This applies to all form components. Below is an example of helper text on a TextField.
+
+<CodeExampleBox p="32px" width="280px" >
+    <Text mt="0" as="p" type="forms">Text area label</Text>
+    <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+    <Text types="forms" color="blue.3" fontStyle="italic">8 or more characters</Text>
+</CodeExampleBox>
+
+<br/>
 
 #### Errors
 
@@ -52,6 +177,18 @@ Error messages should:
 Prompts and Fields with errors should:
 - Be colored in primary red
 - Have borders in 1 px primary red
+
+<br/>
+
+Here's an example of a text field component:
+
+ <CodeExampleBox p="32px" width="280px">
+    <Text mt="0" as="p" type="forms">Text field label</Text>
+    <TextField error="default" mb="xs" placeholder="placeholder text" error="error"/>
+    <Text mt="0" as="p" type="forms" color="redPalette.primary">Text field label</Text>
+</CodeExampleBox>
+
+<br/>
 
 **Please look at documentation on each form component for examples and guides on their error state.**
 
