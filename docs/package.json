@@ -7,7 +7,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@hack4impact-uiuc/bridge": "^0.0.9",
+    "@hack4impact-uiuc/bridge": "^0.1.0",
     "@mdx-js/loader": "^1.6.1",
     "@mdx-js/tag": "^0.20.3",
     "@next/mdx": "^9.3.6",

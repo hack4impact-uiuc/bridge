@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1044px" height="584px" viewBox="0 0 1044 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1044px" height="602px" viewBox="0 0 1044 602" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>Cards</title>
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="568" y="0" width="471" height="437" rx="8"></rect>
@@ -19,7 +19,7 @@
     </defs>
     <g id="Bridge---Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Cards" transform="translate(-111.000000, -2535.000000)">
-            <g transform="translate(111.000000, 2538.000000)">
+            <g id="Group" transform="translate(111.000000, 2538.000000)">
                 <g id="Rectangle-Copy-49">
                     <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                     <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
@@ -36,8 +36,8 @@
                 </text>
                 <text id="Here-is-some-optiona-Copy-5" font-family="HKGrotesk-Regular, HK Grotesk" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="0.3" fill="#0A162A">
                     <tspan x="597" y="351">Here is some optional text that you can include in the </tspan>
-                    <tspan x="597" y="375">card’s body so you can learn more about what the card is </tspan>
-                    <tspan x="597" y="399">supposed to be for.  </tspan>
+                    <tspan x="597" y="375">card’s body so you can learn more about what the card </tspan>
+                    <tspan x="597" y="399">is supposed to be for.  </tspan>
                 </text>
                 <g id="Rectangle-Copy-49">
                     <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
@@ -57,7 +57,7 @@
                 <path d="M89.5,277.5 L247.5,277.5" id="Line-26-Copy-2" stroke="#5A67E6" stroke-linecap="square" stroke-dasharray="2"></path>
                 <path d="M90,326.5 L248,326.5" id="Line-26-Copy" stroke="#5A67E6" stroke-linecap="square" stroke-dasharray="2"></path>
                 <path d="M90,284.5 L248,284.5" id="Line-26-Copy-3" stroke="#5A67E6" stroke-linecap="square" stroke-dasharray="2"></path>
-                <text id="Optional-Subtitle-Copy-5" font-family="HKGrotesk-Regular, HK Grotesk" font-size="20" font-weight="normal" letter-spacing="0.5" fill="#363949">
+                <text id="Optional-Subtitle" font-family="HKGrotesk-Regular, HK Grotesk" font-size="20" font-weight="normal" line-spacing="24" letter-spacing="0.5" fill="#363949">
                     <tspan x="88" y="345">Optional Subtitle </tspan>
                 </text>
                 <text id="Here-is-some-optiona-Copy-4" font-family="HKGrotesk-Regular, HK Grotesk" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="0.3" fill="#0A162A">
@@ -67,8 +67,8 @@
                     <tspan x="88" y="451">and actions at the bottom.</tspan>
                 </text>
                 <rect id="Rectangle" fill-opacity="0.48" fill="#83ED52" x="89" y="351" width="159" height="16"></rect>
-                <text id="OPTIONAL-OVERLINE-Copy-2" font-family="HKGrotesk-Bold, HK Grotesk" font-size="12" font-weight="bold" line-spacing="12" letter-spacing="2" fill="#0A162A">
-                    <tspan x="88" y="276">OPTIONAL OVERLINE</tspan>
+                <text id="OPTIONAL-OVERLINE-Copy-2" font-family="HKGrotesk-Bold, HK Grotesk" font-size="12" font-weight="bold" line-spacing="14" letter-spacing="2" fill="#0A162A">
+                    <tspan x="88" y="275">OPTIONAL OVERLINE</tspan>
                 </text>
                 <path d="M89.5,351.5 L247.5,351.5" id="Line-24" stroke="#83ED52" stroke-linecap="square" stroke-dasharray="2"></path>
                 <path d="M90,366.5 L248,366.5" id="Line-24-Copy" stroke="#83ED52" stroke-linecap="square" stroke-dasharray="2"></path>
@@ -113,14 +113,14 @@
                 <text id="24-px" font-family="TTCommons-Light, TT Commons" font-size="12" font-weight="300" letter-spacing="0.51200016" fill="#4CDDD1">
                     <tspan x="245" y="470">24 px</tspan>
                 </text>
-                <text id="16-px" font-family="TTCommons-Light, TT Commons" font-size="12" font-weight="300" letter-spacing="0.51200016" fill="#609946">
-                    <tspan x="287" y="362">16 px</tspan>
+                <text id="12-px" font-family="TTCommons-Light, TT Commons" font-size="12" font-weight="300" letter-spacing="0.51200016" fill="#609946">
+                    <tspan x="287" y="362">12 px</tspan>
                 </text>
-                <text id="8-px" font-family="TTCommons-Light, TT Commons" font-size="12" font-weight="300" letter-spacing="0.51200016" fill="#5A67E6">
-                    <tspan x="287" y="327">8 px</tspan>
+                <text id="4-px" font-family="TTCommons-Light, TT Commons" font-size="12" font-weight="300" letter-spacing="0.51200016" fill="#5A67E6">
+                    <tspan x="287" y="327">4 px</tspan>
                 </text>
-                <text id="8-px-copy-3" font-family="TTCommons-Light, TT Commons" font-size="12" font-weight="300" letter-spacing="0.51200016" fill="#5A67E6">
-                    <tspan x="287" y="285">8 px</tspan>
+                <text id="4-px" font-family="TTCommons-Light, TT Commons" font-size="12" font-weight="300" letter-spacing="0.51200016" fill="#5A67E6">
+                    <tspan x="287" y="285">4 px</tspan>
                 </text>
                 <path d="M221.5,455.5 L239.5,455.5" id="Line-22" stroke="#4CDDD1" stroke-linecap="square"></path>
                 <path d="M260,351.5 L278,351.5" id="Line-22-Copy-2" stroke="#83ED52" stroke-linecap="square"></path>
@@ -134,6 +134,12 @@
                 <path d="M221.5,479.5 L239.5,479.5" id="Line-22-Copy" stroke="#4CDDD1" stroke-linecap="square"></path>
                 <path d="M230.5,456.5 L230.5,478.5" id="Line-23" stroke="#4CDDD1" stroke-linecap="square"></path>
                 <path d="M269.5,352.5 L269.5,366.5" id="Line-25" stroke="#83ED52" stroke-linecap="square"></path>
+                <text id="28-px-copy" font-family="TTCommons-Light, TT Commons" font-size="12" font-weight="300" letter-spacing="0.51200016" fill="#E260D7">
+                    <tspan x="61" y="597">28 px</tspan>
+                </text>
+                <text id="28-px-copy-2" font-family="TTCommons-Light, TT Commons" font-size="12" font-weight="300" letter-spacing="0.51200016" fill="#E260D7">
+                    <tspan x="505" y="597">28 px</tspan>
+                </text>
             </g>
         </g>
     </g>
