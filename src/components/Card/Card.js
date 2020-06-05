@@ -15,6 +15,8 @@ import Flex from '../Flex';
 const Card = styled(Flex)`
   vertical-align: top;
   flex-direction: column;
+  
+  white-space: pre-wrap;
 
   background-color: ${get('colors.white')};
   border-radius: 8px;

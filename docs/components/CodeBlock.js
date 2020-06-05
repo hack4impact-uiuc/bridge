@@ -46,7 +46,7 @@ export default ({
 
   if (live) {
     return (
-      <Box style={{ marginTop: '24px' }}>
+      <Box style={{ marginTop: '24px', whiteSpace: 'pre-wrap' }}>
         <CodeExampleBox>
           <LiveProvider
             code={children.trim()}
