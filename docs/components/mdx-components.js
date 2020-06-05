@@ -107,7 +107,7 @@ const PermalinkHeading = ({ children, type, ...props }) => {
 };
 
 const components = {
-  p: (props) => <Text as="p" m="8px 0" type="body" {...props} />,
+  p: (props) => <Text as="p" m="20px 0" type="body" {...props} />,
   h1: (props) => <PermalinkHeading type="h1" {...props} />,
   h2: (props) => <PermalinkHeading type="h2" {...props} />,
   h3: (props) => <PermalinkHeading type="h3" {...props} />,
@@ -124,9 +124,9 @@ const components = {
   table: (props) => <Table textAlign="left" {...props} />,
   thead: Table.Head,
   tbody: Table.Body,
-  tr: Table.Row,
-  td: Table.Cell,
-  th: Table.Cell,
+  tr: (props) => <Table.Row height="auto" {...props} />,
+  td: (props) => <Table.Cell fontSize="16px" pt="12px" pb="12px" {...props} />,
+  th: (props) => <Table.Cell fontSize="16px" pt="12px" pb="12px" {...props} />,
 };
 
 export default components;

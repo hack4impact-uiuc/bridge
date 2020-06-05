@@ -506,6 +506,7 @@ const theme = {
   buttons,
   table,
   link,
+  letterSpacings,
   DEFAULT_SHADOW,
   space,
   breakpoints,

@@ -1,6 +1,5 @@
 export const meta = {type: "components", title: "Cards"}
 
-import { Card, Button } from '@hack4impact-uiuc/bridge'
 import CodeExampleBox from '../../components/CodeExampleBox'
 
 import Layout from '../../components/layout.js'
@@ -8,24 +7,69 @@ export default Layout({...meta})
 
 `Card` is used to contain information together. There are multiple ways to customize the content within the card. Cards are 100% wide unless otherwise stated.
 
+For information on Card style and usage guidelines, check out [Card Design Guidelines](/design/card).
+
+#### Example
+
+This example includes all Card components, which are: `Image`, `Content`, `Overline`, `Title`, `Subtitle`, `Body`, `Footer`. Unless it's media, put all content under `Card.Content` to have the correct spacing within the Card.
+
 ```jsx live
-<Card>
+<Box width="324px">
+    <Card>
+        <Card.Image src="/docs-content/design/cards/BlueRectangle.svg"/>
+        <Card.Content>
+            <Card.Overline>Card Title</Card.Overline>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Subtitle>Optional Subtitle</Card.Subtitle>
+            <Card.Body>
+                Here is some optional text that you can include in the card’s body so you can learn more about what the card is supposed to be for.
+            </Card.Body>
+            <Card.Footer>
+                <Button.Group>
+                    <Button>Action 1</Button>
+                    <Button outline>Action 2</Button>
+                </Button.Group>
+            </Card.Footer>
+        </Card.Content>
+    </Card>
+</Box>
+```
+
+<br/>
+
+#### A Card without Media but with 2 Links
+
+You may pick and choose what elements may be inside the Card. 
+```jsx live
+<Card width="324px">
     <Card.Content>
         <Card.Title>Card Title</Card.Title>
-        <Card.Body>lorem asdfaskdjflkajdslkfj</Card.Body>
+        <Card.Body>
+            Here is some optional text that you can include in the card’s body so you can learn more about what the card is supposed to be for.
+        </Card.Body>
+        <Card.Footer>
+            <Link href="#" mr="12px">Link 1</Link>
+            <Link href="#">Link 2</Link>
+        </Card.Footer>
     </Card.Content>
-    <Card.Footer>
-        <Button>"hi"</Button>
-    </Card.Footer>
 </Card>
 ```
 
+<br/>
+
 
 ### Common Props
-`Card` includes `COMMON` common props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
+`Card`, `Card.Content`, `Card.Footer` includes `COMMON`, `BORDER`, `FLEX` common props since they wrap around the [Box](/components/box) component.
+
+`Card.Body`, `Card.Title`, `Card.Overline`, `Card.Subtitle` includes `COMMON` and `TYPOGRAPHY` common props.
+
+Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
+
+<br/>
 
 ### Component Props
+All Card components include these props.
 
 | Prop name | Type | Default | Description |
 | :- | :- | :-: | :- |
-| theme | Object | Bridge Theme | use to override default bridge theme|
+| theme | Object | Bridge Theme | use to override default bridge theme |

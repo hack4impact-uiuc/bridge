@@ -17,6 +17,25 @@ Links font styling is inherited.
 ```
 
 ### Variants
+There are three variants: `primary`, `secondary`, and `white`. These variants match the Primary Styles of [Tertiary Buttons](design/buttons) in our Design Guidelines.
+
+```jsx live
+<Box p="24px">
+    <Text as="p">
+        <Link href="#" variant="primary">Primary Style</Link>
+    </Text>
+</Box>
+<Box p="24px" bg="#FAFBFC">
+    <Text as="p">
+        <Link href="#" variant="secondary">Secondary Style (blue.darker hover color)</Link>
+    </Text>
+</Box>
+<Box p="24px" bg="indigo.2">
+     <Text as="p">
+        <Link href="#" variant="white">White Style</Link>
+    </Text>
+</Box>
+```
 
 
 ### Common Props

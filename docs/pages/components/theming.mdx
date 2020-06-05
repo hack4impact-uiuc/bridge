@@ -3,4 +3,64 @@ export const meta = {type: "components", title: "Theming"}
 import Layout from '../../components/layout.js'
 export default Layout({...meta})
 
-Custom Themes
+Bridge Components are styled with the Bridge Theme. Each component comes with a `theme` prop, which defualts to the Bridge theme but may be overrided to include your own theme. This is the core of Bridge Components - you may override styles to fit your product and brand guidelines. 
+
+We follow the [Styled System Theme Specification](https://styled-system.com/theme-specification), which has a standardized set of theme keys, including colors, fonts, etc as well as specific styles for components like buttons and tags. Our components pull from these keys, which you may override in a custom theme.
+
+Check out our [full theme file](https://github.com/hack4impact-uiuc/bridge/blob/master/src/theme.js).
+
+#### Custom Theming
+
+There are multiple ways to override themes. 
+
+1. Set theme for all components in tree, even if they are multiple levels deep with [styled-components theming](https://styled-components.com/docs/advanced#theming)
+```js
+import { theme, Box, Text } from '@hack4impact-uiuc/bridge'
+import { ThemeProvider } from 'styled-components'
+
+// theme to add "randomColor" to colors and 
+// override the "body" text font styling
+const newTheme = { 
+    ...theme,
+    colors: {...theme.colors, randomColor: "#fa787c"}
+}
+
+newTheme.typography.body = {
+    fontFamily: theme.fonts.main,
+    fontWeight: theme.fontWeights.regular,
+    fontSize: '14px',
+    letterSpacing: letterSpacings.half,
+    lineHeight: '20px',
+}
+
+const ExampleRoot = () => (
+    <ThemeProvider theme={newTheme}>
+        <Box bg="randomColor">
+            <Text type="body">Hello, world!</Text>
+        </Box>
+  </ThemeProvider>
+)
+```
+**You can also merge the Bridge default theme with your custom theme using  `Object.assign({}, theme, yourTheme)`**
+
+
+
+2. Set theme on a component
+
+```js
+import { theme, Box, Text } from '@hack4impact-uiuc/bridge'
+
+// theme to add "randomColor" to colors
+const newTheme = { 
+    ...theme, // this is necessary if you want to keep all other bridge styles
+    colors: {...theme.colors, randomColor: "#fa787c"}
+}
+
+const ExampleComponent = () => (
+    <Box bg="randomColor" theme={newTheme}>
+        <Text type="body">
+            The box surrounding me has a background of #fa787c.
+        </Text>
+    </Box>
+)
+```

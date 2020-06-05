@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
 import { get } from '../../utils/utils';
-import { COMMON } from '../../utils/constants';
 
 import CardImage from './CardImage';
 import CardContent from './CardContent';
@@ -11,12 +10,11 @@ import CardTitle from './CardTitle';
 import CardSubtitle from './CardSubtitle';
 import CardBody from './CardBody';
 import CardFooter from './CardFooter';
+import Flex from '../Flex';
 
-const Card = styled.div`
-  display: inline-block;
+const Card = styled(Flex)`
   vertical-align: top;
-
-  width: 100%;
+  flex-direction: column;
 
   background-color: ${get('colors.white')};
   border-radius: 8px;
@@ -25,15 +23,13 @@ const Card = styled.div`
   &:hover {
     box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.24);
   }
-
-  ${COMMON};
 `;
 
 Card.defaultProps = { theme };
 
 Card.propTypes = {
   theme: PropTypes.object,
-  ...COMMON.propTypes,
+  ...Flex.propTypes,
 };
 
 Card.Image = CardImage;

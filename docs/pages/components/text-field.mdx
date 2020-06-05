@@ -6,6 +6,8 @@ export default Layout({ ...meta });
 
 `TextField` is used for user input. You would use it in forms when user input is required or for search. A TextField may be a single line or have multiple lines (textarea). Look into [Forms](/components/forms) for more on how to add labels and group inputs together.
 
+For information on TextField/TextArea and Form style and usage guidelines, check out [TextField Design Guidelines](/design/text-field) and [Form Design Guidelines](/design/forms).
+
 ### Example
 A default TextField.
 ```jsx live
@@ -15,7 +17,7 @@ A default TextField.
 ### Text Areas
 In order to have a multi-line text field, you must set it as a `textarea`. You can then define how many lines you would like the `TextField` to be.
 ```jsx live
-<TextField lines="4" as="textarea" />
+<TextField lines="4" as="textarea" placeholder="placeholder text for textarea"/>
 ```
 
 
@@ -23,16 +25,16 @@ In order to have a multi-line text field, you must set it as a `textarea`. You c
 You may provide styling for error state via the `error` prop - the border color will change and the respective icon will show on the right side. The TextField will not do any automatic text validation - you must manually trigger the error style. Look into `Form` on form validation. You may choose between `default`, `error`, `warning`, and `success`.
 ```jsx live
 <Box>
-    <TextField error="default" mb="xs"/>
+    <TextField error="default" mb="xs" placeholder="default state"/>
 </Box>
 <Box>
-    <TextField error="error" mb="xs"/>
+    <TextField error="error" mb="xs" placeholder="error state"/>
 </Box>
 <Box>
-    <TextField error="warning" mb="xs"/>
+    <TextField error="warning" mb="xs" placeholder="warning state"/>
 </Box>
 <Box>
-    <TextField error="success"/>
+    <TextField error="success" placeholder="success state"/>
 </Box>
 ```
 
@@ -40,10 +42,10 @@ You may provide styling for error state via the `error` prop - the border color 
 You may disable a `TextField` via the `disabled` prop. You could also add an svg icon without changing the error state via the `icon` prop.
 ```jsx live
 <Box mb="xs">
-    <TextField disabled />
+    <TextField disabled placeholder="disabled"/>
 </Box>
 <Box>
-    <TextField icon={<Icon type="errorAlert"/>} />
+    <TextField icon={<Icon type="errorAlert"/>} placeholder="with an error icon!"/>
 </Box>
 ```
 

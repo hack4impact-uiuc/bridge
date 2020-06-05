@@ -1,19 +1,17 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import theme from '../../theme';
-import { COMMON } from '../../utils/constants';
+import Box from '../Box';
 
-const CardFooter = styled.div`
+const CardFooter = styled(Box)`
   margin-top: 24px;
-
-  ${COMMON};
 `;
 
 CardFooter.defaultProps = { theme };
 
 CardFooter.propTypes = {
   theme: PropTypes.object,
-  ...COMMON.propTypes,
+  ...Box.propTypes,
 };
 
 export default CardFooter;
