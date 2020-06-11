@@ -39,6 +39,9 @@ export default App
 ### Theming
 Components use Hack4Impact's Design theme by default (`src/theme.js`) but you can provide your own theme using styled-component's [<ThemeProvider>](https://styled-components.com/docs/advanced). You can either fully replace the theme or replace parts of the theme by placing your custom theme through a prop to our components or through `<ThemeProvider>` in the root of the application.
 
+### Server-side Rendering
+
+This library depends on [styled-components](https://styled-components.com/). Thus, if you are server rendering React or using a framework like next.js or gatsby, follow styled-component's [server rendering setup](https://styled-components.com/docs/advanced#server-side-rendering).
 
 ## Local Development
 We use Storybook to hot-reload and test our components during development. You can edit the [`playground/Playground.js`](playground/Playground.js) file to import and test the components you are working on. Please do not commit any work on the file so other developers can use the same file to test.
