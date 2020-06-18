@@ -15,7 +15,7 @@ For form usage and structure, look at [Forms](/design/forms).
 Use radio buttons when a user has to choose only one option. They should be used when there are five or less options that the user must choose from. In instances where there are more than five, use a dropdown.
 
 <CodeExampleBox p="32px" maxWidth="280px">
-<Text type="forms" ml="24px" mb="28px" as="p">Best Color</Text>
+<Text type="forms" ml="24px" mb="28px" as="p">Favorite Color</Text>
 <Radio.Group vertical ml="24px" name="colors">
   <Radio id="blue" value="blue">
     Blue
@@ -35,7 +35,25 @@ Use radio buttons when a user has to choose only one option. They should be used
 #### Checkboxes
 
 Use checkboxes when allowing the user to select more than one option to the prompt.
-
+<CodeExampleBox p="32px" maxWidth="280px">
+    <Text type="forms" ml="24px" mb="28px" as="p">
+        Pick colors
+    </Text>
+    <Checkbox.Group vertical ml="24px" name="colors">
+        <Checkbox id="blue-c" value="blue">
+            Blue
+        </Checkbox>
+        <Checkbox id="red-c" value="red">
+            Red
+        </Checkbox>
+        <Checkbox defaultChecked id="purple-c" value="purple">
+            Purple
+        </Checkbox>
+        <Checkbox id="green-c" value="green">
+            Green
+        </Checkbox>
+    </Checkbox.Group>
+</CodeExampleBox>
 
 #### Dropdowns
 
@@ -53,7 +71,9 @@ For more basic information on error styles for forms look at the [Form Design Gu
 <Row>
     <Col>
         <CodeExampleBox p="32px" width="280px">
-            <Text type="forms" ml="24px" mb="28px" as="p">Best Color</Text>
+            <Text type="forms" ml="24px" mb="28px" as="p">
+                Favorite Color
+            </Text>
             <Radio.Group vertical ml="24px" name="colors">
                 <Radio id="blue-2" value="blue-2">
                     Blue
@@ -72,27 +92,26 @@ For more basic information on error styles for forms look at the [Form Design Gu
         </CodeExampleBox>
     </Col>
     <Col>
-        <Box>
-        TODO checkbox
-        <CodeExampleBox p="32px" width="280px">
-            <Text type="forms" ml="24px" mb="28px" as="p">Best Color</Text>
-            <Radio.Group vertical ml="24px" name="colors">
-                <Radio id="blue-3" value="blue-3">
+       <CodeExampleBox p="32px" width="280px">
+            <Text type="forms" ml="24px" mb="28px" as="p">
+                Pick colors
+            </Text>
+            <Checkbox.Group vertical ml="24px" name="colors">
+                <Checkbox id="blue-c" value="blue">
                     Blue
-                </Radio>
-                <Radio error="error-3" defaultChecked id="red" value="red-3">
+                </Checkbox>
+                <Checkbox id="red-c" value="red">
                     Red
-                </Radio>
-                <Radio id="purple-3" value="purple-3">
+                </Checkbox>
+                <Checkbox defaultChecked id="purple-c" value="purple">
                     Purple
-                </Radio>
-                <Radio id="green-3" value="green-3">
+                </Checkbox>
+                <Checkbox id="green-c" value="green">
                     Green
-                </Radio>
-            </Radio.Group>
+                </Checkbox>
+            </Checkbox.Group>
             <Text ml="24px" mt="16px" as="p" type="forms" color="redPalette.primary"><Flex alignItems="center"><Icon type="errorAlert" pr="8px"/>Checkbox label</Flex></Text>
         </CodeExampleBox>
-        </Box>
     </Col>
 </Row>
 

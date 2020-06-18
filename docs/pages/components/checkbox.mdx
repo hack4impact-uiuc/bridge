@@ -8,9 +8,7 @@ export default Layout({ ...meta });
 
 If you have multiple checkboxes, use a `Checkbox.Group` to group them together with spacing. 
 
-
-
-For information on Radio and Form style and usage guidelines, check out [Form Selection Design Guidelines](/design/form-selections) and [Form Design Guidelines](/design/forms).
+For information on Checkboxes and Form style and usage guidelines, check out [Form Selection Design Guidelines](/design/form-selections) and [Form Design Guidelines](/design/forms).
 
 #### Example
 
@@ -144,7 +142,7 @@ Try adding it to `Checkbox.Group`.
 | :------------- | :--------------------------------------------------------- | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | checked        | Boolean                                                    |              | Whether the checkbox is selected or not.                                                                                                                             |
 | children       | Node                                                       |              | The label of the `Checkbox`.                                                                                                                                         |
-| defaultChecked | Boolean                                                    |              | Whether it is initially selected or not. This should not be used when `checked` and `onChange` is used or when it's `Checkbox.Group` has `value` and `onChange` set. |
+| defaultChecked | Boolean                                                    |              | Whether it is initially selected or not. This should not be used when `checked` and `onChange` is used or when it's `Checkbox.Group` has `onChange` set. |
 | disabled       | Boolean                                                    |    false     | Disable input                                                                                                                                                     |
 | error          | `default` &#124; `error` &#124; `warning` &#124; `success` |  'default'   | Set the error state                                                                                                                                               |
 | id             | String                                                     |              | Input ID. This should always be set for accessibility purposes.                                                                                                   |
@@ -158,7 +156,7 @@ Try adding it to `Checkbox.Group`.
 | Prop name    | Type                                                       |   Default    | Description                                                                                                                   |
 | :----------- | :--------------------------------------------------------- | :----------: | :---------------------------------------------------------------------------------------------------------------------------- |
 | children     | Node                                                       |              | These should be `Checkbox` components to be grouped together                                                                     |
-| defaultValue | Any                                                        |              | The default value (out of the children `Checkbox`s) to be selected. This should not be used when `value` and `onChange` are used |
+| defaultValue | Any                                                        |              | The default value (out of the children `Checkbox`s) to be selected. This should not be used when `onChange` are used |
 | disabled     | Boolean                                                    |    false     | Disable input for all children                                                                                                |
 | error        | `default` &#124; `error` &#124; `warning` &#124; `success` |  'default'   | Set the error state for all children                                                                                          |
 | theme        | Object                                                     | Bridge Theme | Use to override default bridge theme                                                                                          |

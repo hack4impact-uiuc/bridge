@@ -1,6 +1,6 @@
 export const meta = {type: "design", title: "Forms"}
 
-import {Card, Heading, Box, Flex, Button, Link, Text, TextField, Radio} from '@hack4impact-uiuc/bridge'
+import {Card, Heading, Box, Flex, Button, Link, Text, TextField, Radio, Checkbox} from '@hack4impact-uiuc/bridge'
 import Row from '../../components/row.js'
 import Col from '../../components/col.js'
 import FormNav from '../../public/docs-content/design/forms/form-nav.svg'
@@ -77,7 +77,7 @@ They should be:
             <Link fontWeight="500" href="/design/form-selections">Radio</Link>
             <CodeExampleBox p="32px" width="280px" height="240px">
                 <Text type="forms" ml="24px" mb="28px" as="p">
-                    Best Color
+                    Favorite Color
                 </Text>
                 <Radio.Group vertical ml="24px" name="colors">
                     <Radio id="blue" value="blue">
@@ -98,12 +98,25 @@ They should be:
     </Col>
     <Col mt="32px">
         <Box>
-            <Link fontWeight="500" href="/design/form-selections">Checkbox TODO</Link>
+            <Link fontWeight="500" href="/design/form-selections">Checkbox</Link>
             <CodeExampleBox p="32px" width="280px" height="240px">
-                <Text mt="0" as="p" type="forms">
-                    Checkbox Label
+                <Text type="forms" ml="24px" mb="28px" as="p">
+                    Pick colors
                 </Text>
-                <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+                <Checkbox.Group vertical ml="24px" name="colors">
+                    <Checkbox id="blue-c" value="blue">
+                        Blue
+                    </Checkbox>
+                    <Checkbox id="red-c" value="red">
+                        Red
+                    </Checkbox>
+                    <Checkbox defaultChecked id="purple-c" value="purple">
+                        Purple
+                    </Checkbox>
+                    <Checkbox id="green-c" value="green">
+                        Green
+                    </Checkbox>
+                </Checkbox.Group>
             </CodeExampleBox>
         </Box>
     </Col>
