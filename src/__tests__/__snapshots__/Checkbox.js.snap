@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Group renders correctly with 28px left margin per child besides first child 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #272A2D;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.c0 input:checked ~ span {
+  background: #155DA1;
+  border: 1px solid #155DA1;
+  border-radius: 3px;
+  display: block;
+}
+
+.c0 input:checked ~ span svg {
+  display: inline-block;
+}
+
+.c3 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #272A2D;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+  margin-left: 28px;
+}
+
+.c3 input:checked ~ span {
+  background: #155DA1;
+  border: 1px solid #155DA1;
+  border-radius: 3px;
+  display: block;
+}
+
+.c3 input:checked ~ span svg {
+  display: inline-block;
+}
+
+.c1 {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background: #FFFFFF;
+  border: 1px solid #8B9199;
+  border-radius: 3px;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.c2 svg {
+  position: absolute;
+  top: 4px;
+  left: 2.2px;
+  height: 10px;
+  display: none;
+}
+
+.c2[disabled] {
+  background: #EBEEF2;
+  border: 1px solid #666B72;
+}
+
+<div
+  className=""
+>
+  <label
+    className="c0"
+    htmlFor="1"
+  >
+    option 1
+    <input
+      className="c1"
+      defaultChecked={true}
+      id="1"
+      type="checkbox"
+    />
+    <span
+      className="c2"
+    >
+      <svg
+        fill="none"
+        height="10"
+        viewBox="0 0 14 10"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13 1L4.75 9L1 5.36364"
+          stroke="white"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </span>
+  </label>
+  <label
+    className="c3"
+    htmlFor="2"
+  >
+    option 2
+    <input
+      className="c1"
+      defaultChecked={true}
+      id="2"
+      type="checkbox"
+    />
+    <span
+      className="c2"
+    >
+      <svg
+        fill="none"
+        height="10"
+        viewBox="0 0 14 10"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13 1L4.75 9L1 5.36364"
+          stroke="white"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </span>
+  </label>
+  <label
+    className="c3"
+    htmlFor="3"
+  >
+    option 3
+    <input
+      className="c1"
+      defaultChecked={true}
+      id="3"
+      type="checkbox"
+    />
+    <span
+      className="c2"
+    >
+      <svg
+        fill="none"
+        height="10"
+        viewBox="0 0 14 10"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13 1L4.75 9L1 5.36364"
+          stroke="white"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Checkbox respects "error" prop 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #272A2D;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.c0 input:checked ~ span {
+  background: #A62B31;
+  border: 1px solid #A62B31;
+  border-radius: 3px;
+  display: block;
+}
+
+.c0 input:checked ~ span svg {
+  display: inline-block;
+}
+
+.c1 {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background: #FFFFFF;
+  border: 1px solid #8B9199;
+  border-radius: 3px;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.c2 svg {
+  position: absolute;
+  top: 4px;
+  left: 2.2px;
+  height: 10px;
+  display: none;
+}
+
+.c2[disabled] {
+  background: #EBEEF2;
+  border: 1px solid #666B72;
+}
+
+<label
+  className="c0"
+>
+  Checkbox
+  <input
+    className="c1"
+    type="checkbox"
+  />
+  <span
+    className="c2"
+  >
+    <svg
+      fill="none"
+      height="10"
+      viewBox="0 0 14 10"
+      width="14"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M13 1L4.75 9L1 5.36364"
+        stroke="white"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </span>
+</label>
+`;
+
+exports[`Checkbox respects the "disabled" prop 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: #272A2D;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.c0 input:checked ~ span {
+  background: #155DA1;
+  border: 1px solid #155DA1;
+  border-radius: 3px;
+  display: block;
+}
+
+.c0 input:checked ~ span svg {
+  display: inline-block;
+}
+
+.c1 {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background: #FFFFFF;
+  border: 1px solid #8B9199;
+  border-radius: 3px;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.c2 svg {
+  position: absolute;
+  top: 4px;
+  left: 2.2px;
+  height: 10px;
+  display: none;
+}
+
+.c2[disabled] {
+  background: #EBEEF2;
+  border: 1px solid #666B72;
+}
+
+<label
+  className="c0"
+  disabled={true}
+>
+  Checkbox
+  <input
+    className="c1"
+    disabled={true}
+    type="checkbox"
+  />
+  <span
+    className="c2"
+    disabled={true}
+  >
+    <svg
+      fill="none"
+      height="10"
+      viewBox="0 0 14 10"
+      width="14"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M13 1L4.75 9L1 5.36364"
+        stroke="white"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      />
+    </svg>
+  </span>
+</label>
+`;

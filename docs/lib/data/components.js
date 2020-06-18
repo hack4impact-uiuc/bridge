@@ -45,6 +45,10 @@ export default [
         href: `${COMPONENTS_URL}/cards`,
       },
       {
+        title: 'Checkbox',
+        href: `${COMPONENTS_URL}/checkbox`,
+      },
+      {
         title: 'Flex',
         href: `${COMPONENTS_URL}/flex`,
       },

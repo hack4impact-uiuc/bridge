@@ -3,7 +3,9 @@ export const meta = { type: "components", title: "Radio" };
 import Layout from "../../components/layout.js";
 export default Layout({ ...meta });
 
-Props from Radio.Group that also appear in Radio will be overridden by Radio.Group's. In general, you should never use `Radio` without a `Radio.Group`.
+`Radio`'s allow the user to select at most one option in a group.
+
+Props from `Radio.Group` that also appear in `Radio` will be overridden by Radio.Group's. In general, you should never use `Radio` without a `Radio.Group`.
 
 For information on Radio and Form style and usage guidelines, check out [Form Selection Design Guidelines](/design/form-selections) and [Form Design Guidelines](/design/forms).
 
@@ -41,22 +43,24 @@ const handleChange = (e) => {
   setValue(e.target.value);
 };
 
-<Radio.Group
-  marginTop="50px"
-  name="gender"
-  onChange={handleChange}
-  value={value}
->
-  <Radio id="male" value="male">
-    Male
-  </Radio>
-  <Radio id="female" value="female">
-    Female
-  </Radio>
-  <Radio id="other" value="other">
-    Other
-  </Radio>
-</Radio.Group>
+return (
+  <Radio.Group
+    marginTop="50px"
+    name="gender"
+    onChange={handleChange}
+    value={value}
+  >
+    <Radio id="male" value="male">
+      Male
+    </Radio>
+    <Radio id="female" value="female">
+      Female
+    </Radio>
+    <Radio id="other" value="other">
+      Other
+    </Radio>
+  </Radio.Group>
+)
 ```
 
 

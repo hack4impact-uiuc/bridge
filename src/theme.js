@@ -481,6 +481,34 @@ const radio = {
   },
 };
 
+const checkbox = {
+  border: `1px solid ${colors.greyPalette.light}`,
+  borderRadius: '3px',
+  disabled: {
+    background: `${colors.greyPalette.lighter}`,
+    border: `1px solid ${colors.greyPalette.primary}`,
+  },
+  // error states
+  checked: {
+    default: {
+      background: `${colors.bluePalette.primary}`,
+      border: `1px solid ${colors.bluePalette.primary}`,
+    },
+    success: {
+      background: `${colors.greenPalette.primary}`,
+      border: `1px solid ${colors.greenPalette.primary}`,
+    },
+    warning: {
+      background: `${colors.yellowPalette.primary}`,
+      border: `1px solid ${colors.yellowPalette.primary}`,
+    },
+    error: {
+      background: `${colors.redPalette.primary}`,
+      border: `1px solid ${colors.redPalette.primary}`,
+    },
+  },
+};
+
 const breakpoints = ['544px', '768px', '992px', '1280px'];
 breakpoints.xs = breakpoints[0];
 breakpoints.sm = breakpoints[1];
@@ -513,6 +541,7 @@ const theme = {
   radio,
   textField,
   typography,
+  checkbox,
 };
 
 

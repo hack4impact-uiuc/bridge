@@ -1,0 +1,165 @@
+export const meta = { type: "components", title: "Checkbox" };
+
+import Layout from "../../components/layout.js";
+export default Layout({ ...meta });
+
+
+`Checkbox`'s allow the user to select at multiple options in a group at once.
+
+If you have multiple checkboxes, use a `Checkbox.Group` to group them together with spacing. 
+
+
+
+For information on Radio and Form style and usage guidelines, check out [Form Selection Design Guidelines](/design/form-selections) and [Form Design Guidelines](/design/forms).
+
+#### Example
+
+A normal example of a vertical group of Checkbox components.
+
+```jsx live
+<Checkbox.Group 
+  vertical 
+  ml="24px"
+>
+  <Checkbox id="blue" value="blue">
+    Blue
+  </Checkbox>
+  <Checkbox defaultChecked id="red" value="red">
+    Red
+  </Checkbox>
+  <Checkbox id="purple" value="purple">
+    Purple
+  </Checkbox>
+  <Checkbox id="green" value="green">
+    Green
+  </Checkbox>
+</Checkbox.Group>
+```
+
+#### Using State
+`Checkbox` comes with `onChange` and `value` event props for you to handle in any way. Here's an example of a single checkbox with React Hooks. 
+
+```jsx
+const [checked, setChecked] = useState(false);
+const handleChange = (e) => {
+  setChecked(e.target.checked);
+};
+
+return (
+  <Checkbox id="male" value="male">
+    Male
+  </Checkbox>
+)
+```
+
+You can use the same handler for all checkboxes through `onChange` in the `Checkbox.Group`. Not that you will need to indivdually set the `checked` prop of each `Checkbox`.
+
+```jsx
+const [state, setState] = React.useState({
+  male: true,
+  female: false,
+  other: false,
+});
+
+const handleChange = (e) => {
+  setState({ ...state, e.target.id: e.target.checked });
+}
+
+return (
+  <Checkbox.Group
+    onChange={handleChange}
+  >
+    <Checkbox id="male" checked={state.male} value="male">
+      Male
+    </Checkbox>
+    <Checkbox id="female" checked={state.female} value="female">
+      Female
+    </Checkbox>
+    <Checkbox id="other" checked={state.other} value="other">
+      Other
+    </Checkbox>
+  </Checkbox.Group>
+)
+```
+
+
+#### Error Handling
+Use the `error` prop in `Checkbox` to define the error state of that Checkbox Component. You may choose between `default`, `error`, `warning`, and `success`. Note the style change when the Checkbox is selected.
+
+```jsx live
+<Checkbox.Group
+  defaultValue="red2"
+  vertical
+  ml="24px"
+  name="colorsError"
+>
+  <Checkbox error="success" id="blue2" value="blue2">
+    Success
+  </Checkbox>
+  <Checkbox error="error" id="red2" value="red2">
+    Error
+  </Checkbox>
+  <Checkbox error="warning" id="purple2" value="purple2">
+    Warning
+  </Checkbox>
+  <Checkbox error="default" id="green2" value="green2">
+    Default
+  </Checkbox>
+</Checkbox.Group>
+```
+
+#### Disabled
+You can disable individual checkboxes with the `disabled` prop. The same applies to entire Radio Group with the `disabled` prop in `Checkbox.Group`. 
+
+Try adding it to `Checkbox.Group`.
+
+```jsx live
+<Checkbox.Group 
+  vertical 
+  ml="24px" 
+  name="colors-disabled"
+>
+  <Checkbox id="blue4" value="blue4">
+    Blue
+  </Checkbox>
+  <Checkbox defaultChecked id="red4" value="red4">
+    Red
+  </Checkbox>
+  <Checkbox id="purple4" value="purple4">
+    Purple
+  </Checkbox>
+  <Checkbox disabled id="green4" value="green4">
+    Green
+  </Checkbox>
+</Checkbox.Group>
+```
+
+### Common Props
+
+`Checkbox` includes `COMMON` common props. `Checkbox.Group` includes `COMMON`, `FLEX`, and `BORDER` props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
+
+### Checkbox Component Props
+
+| Prop name      | Type                                                       |   Default    | Description                                                                                                                                                       |
+| :------------- | :--------------------------------------------------------- | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| checked        | Boolean                                                    |              | Whether the checkbox is selected or not.                                                                                                                             |
+| children       | Node                                                       |              | The label of the `Checkbox`.                                                                                                                                         |
+| defaultChecked | Boolean                                                    |              | Whether it is initially selected or not. This should not be used when `checked` and `onChange` is used or when it's `Checkbox.Group` has `value` and `onChange` set. |
+| disabled       | Boolean                                                    |    false     | Disable input                                                                                                                                                     |
+| error          | `default` &#124; `error` &#124; `warning` &#124; `success` |  'default'   | Set the error state                                                                                                                                               |
+| id             | String                                                     |              | Input ID. This should always be set for accessibility purposes.                                                                                                   |
+| name           | String                                                     |              | HTML name attribute (used for grouping) - this is unnecessary to set when using `Checkbox.Group`.                                                                    |
+| onChange       | Func                                                       |              | Callback to execute on user input                                                                                                                                 |
+| theme          | Object                                                     | Bridge Theme | Use to override default bridge theme                                                                                                                              |
+| value          | Any                                                        |              | The value used to compare to see if it is selected                                                                                                                |
+
+### Checkbox.Group Component Props
+
+| Prop name    | Type                                                       |   Default    | Description                                                                                                                   |
+| :----------- | :--------------------------------------------------------- | :----------: | :---------------------------------------------------------------------------------------------------------------------------- |
+| children     | Node                                                       |              | These should be `Checkbox` components to be grouped together                                                                     |
+| defaultValue | Any                                                        |              | The default value (out of the children `Checkbox`s) to be selected. This should not be used when `value` and `onChange` are used |
+| disabled     | Boolean                                                    |    false     | Disable input for all children                                                                                                |
+| error        | `default` &#124; `error` &#124; `warning` &#124; `success` |  'default'   | Set the error state for all children                                                                                          |
+| theme        | Object                                                     | Bridge Theme | Use to override default bridge theme                                                                                          |
+| vertical     | Boolean                                                    |    false     | Enable vertical grouping                                                                                                      |

@@ -21,8 +21,8 @@ exports[`Radio Group renders correctly with 28px left margin per child besides f
 }
 
 .c0 span::after {
-  top: 4px;
-  left: 4px;
+  top: 3px;
+  left: 3px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -53,8 +53,8 @@ exports[`Radio Group renders correctly with 28px left margin per child besides f
 }
 
 .c3 span::after {
-  top: 4px;
-  left: 4px;
+  top: 3px;
+  left: 3px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -76,8 +76,8 @@ exports[`Radio Group renders correctly with 28px left margin per child besides f
   position: absolute;
   top: 0;
   left: 0;
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
   background: #FFFFFF;
   border-radius: 50%;
   border: 1px solid #8B9199;
@@ -167,8 +167,8 @@ exports[`Radio respects "error" prop 1`] = `
 }
 
 .c0 span::after {
-  top: 4px;
-  left: 4px;
+  top: 3px;
+  left: 3px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -190,8 +190,8 @@ exports[`Radio respects "error" prop 1`] = `
   position: absolute;
   top: 0;
   left: 0;
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
   background: #FFFFFF;
   border-radius: 50%;
   border: 1px solid #8B9199;
@@ -241,8 +241,8 @@ exports[`Radio respects the "disabled" prop 1`] = `
 }
 
 .c0 span::after {
-  top: 4px;
-  left: 4px;
+  top: 3px;
+  left: 3px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -264,8 +264,8 @@ exports[`Radio respects the "disabled" prop 1`] = `
   position: absolute;
   top: 0;
   left: 0;
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
   background: #FFFFFF;
   border-radius: 50%;
   border: 1px solid #8B9199;

@@ -6,8 +6,7 @@ import { variant as styledVariant } from 'styled-system';
 import theme from '../../theme';
 import { get } from '../../utils/utils';
 import { COMMON } from '../../utils/constants';
-
-import RadioGroup from './RadioGroup';
+import CheckboxGroup from './CheckboxGroup';
 
 const verticalStyle = css`
   display: block;
@@ -22,27 +21,21 @@ const LabelBase = styled.label`
 
   position: relative;
   padding-left: 40px;
+  cursor: pointer;
 
   ${(props) => props.vertical && verticalStyle}
 
-  & input:checked ~ span::after {
+  & input:checked ~ span {
+    ${styledVariant({
+      prop: 'error',
+      scale: 'checkbox.checked',
+    })};
+    border-radius: 3px;
     display: block;
   }
 
-  & span::after {
-    top: 3px;
-    left: 3px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    ${styledVariant({
-      prop: 'error',
-      scale: 'radio',
-    })};
-  }
-
-  &[disabled] span::after {
-    background: ${get('radio.disabledFill')};
+  & input:checked ~ span svg {
+    display: inline-block;
   }
 
   ${COMMON};
@@ -63,8 +56,8 @@ const CustomButton = styled.span`
   width: 18px;
 
   background: ${get('colors.white')};
-  border-radius: 50%;
-  border: ${get('radio.border')};
+  border: ${get('checkbox.border')};
+  border-radius: 3px;
 
   &::after {
     content: "";
@@ -72,12 +65,21 @@ const CustomButton = styled.span`
     display: none;
   }
 
+  & svg {
+    position: absolute;
+    top: 4px;
+    left: 2.2px;
+    height: 10px;
+
+    display: none;
+  }
+
   &[disabled] {
-    ${get('radio.disabled')};
+    ${get('checkbox.disabled')};
   }
 `;
 
-const Radio = ({
+const Checkbox = ({
   checked,
   children,
   defaultChecked,
@@ -107,16 +109,26 @@ const Radio = ({
       id={id}
       name={name}
       onChange={onChange}
-      type="radio"
+      type="checkbox"
       value={value}
     />
-    <CustomButton disabled={disabled} theme={propTheme} vertical={vertical} />
+    <CustomButton disabled={disabled} theme={propTheme} vertical={vertical}>
+      <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M13 1L4.75 9L1 5.36364"
+          stroke="white"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </CustomButton>
   </LabelBase>
 );
 
-Radio.defaultProps = { theme, error: 'default' };
+Checkbox.defaultProps = { theme, error: 'default' };
 
-Radio.propTypes = {
+Checkbox.propTypes = {
   checked: PropTypes.bool,
   children: PropTypes.node,
   defaultChecked: PropTypes.bool,
@@ -131,6 +143,6 @@ Radio.propTypes = {
   ...COMMON.propTypes,
 };
 
-Radio.Group = RadioGroup;
+Checkbox.Group = CheckboxGroup;
 
-export default Radio;
+export default Checkbox;
