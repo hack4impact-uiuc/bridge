@@ -22,8 +22,10 @@
     "storybook": "start-storybook"
   },
   "files": [
-    "dist/*"
+    "dist/*",
+    "index.d.ts"
   ],
+  "typings": "index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
@@ -60,6 +62,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "@primer/components": "^19.1.1",
     "@styled-system/prop-types": "^5.1.5",
     "@styled-system/theme-get": "^5.1.2",
     "@types/styled-components": "^5.1.0",
@@ -68,8 +71,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-is": "^16.13.1",
-    "styled-system": "^5.1.5",
-    "styled-components": "^5.1.0"
+    "styled-components": "^5.1.0",
+    "styled-system": "^5.1.5"
   },
   "peerDependencies": {
     "react": "^16.12.0",

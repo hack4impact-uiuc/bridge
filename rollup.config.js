@@ -31,6 +31,7 @@ export default {
     copy({
       targets: [
         { src: ['src/static/fonts/hk-grotesk/HKGrotesk-Regular.otf', 'src/static/fonts/hk-grotesk/HKGrotesk-Medium.otf', 'src/static/fonts/hk-grotesk/HKGrotesk-Bold.otf'], dest: 'dist/fonts/hk-grotesk' },
+        { src: 'index.d.ts', dest: 'dist/index.d.ts' },
       ],
     }),
     resolve(),
