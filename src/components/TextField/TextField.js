@@ -156,7 +156,7 @@ TextField.propTypes = {
   onChange: PropTypes.func,
   placeholder: PropTypes.string,
   theme: PropTypes.object,
-  type: PropTypes.oneOf(['email', 'number', 'password', 'tel', 'text', 'url']),
+  type: PropTypes.oneOf(['email', 'number', 'password', 'tel', 'text', 'url', 'date']),
   value: PropTypes.any,
   ...COMMON.propTypes,
   ...COLOR.propTypes,
