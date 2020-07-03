@@ -5,7 +5,6 @@ import '@testing-library/jest-dom';
 import { axe, toHaveNoViolations } from 'jest-axe';
 
 import { Dropdown } from '..';
-import { colors } from '../theme';
 import { COMMON, TYPOGRAPHY } from '../utils/constants';
 import { renderJSON } from '../utils/testing';
 import 'babel-polyfill';
