@@ -49,6 +49,10 @@ export default [
         href: `${COMPONENTS_URL}/checkbox`,
       },
       {
+        title: 'Dropdown',
+        href: `${COMPONENTS_URL}/dropdown`,
+      },
+      {
         title: 'Flex',
         href: `${COMPONENTS_URL}/flex`,
       },
