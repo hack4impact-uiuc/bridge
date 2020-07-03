@@ -509,6 +509,8 @@ const checkbox = {
   },
 };
 
+const dropdown = textField;
+
 const breakpoints = ['544px', '768px', '992px', '1280px'];
 breakpoints.xs = breakpoints[0];
 breakpoints.sm = breakpoints[1];
@@ -542,6 +544,7 @@ const theme = {
   textField,
   typography,
   checkbox,
+  dropdown,
 };
 
 

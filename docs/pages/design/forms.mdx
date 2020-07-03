@@ -122,12 +122,19 @@ They should be:
     </Col>
      <Col mt="32px">
         <Box>
-            <Link fontWeight="500" href="/design/form-selections">Dropdown TODO</Link>
+            <Link fontWeight="500" href="/design/form-selections">Dropdown</Link>
             <CodeExampleBox p="32px" width="280px" >
                 <Text mt="0" as="p" type="forms">
                     Dropdown Label
                 </Text>
-                <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+                <Dropdown open={open} onToggle={handleToggle} onClickOutside={handleClickOutside}>
+                    <Dropdown.Summary>Dropdown</Dropdown.Summary>
+                    <Dropdown.Menu>
+                        <Dropdown.Item>Item 1</Dropdown.Item>
+                        <Dropdown.Item>Item 2</Dropdown.Item>
+                        <Dropdown.Item>Item 3</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
             </CodeExampleBox>
         </Box>
     </Col>
