@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown renders correctly 1`] = `
+.c3 {
+  background-clip: padding-box;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.15);
+  left: 0;
+  list-style: none;
+  margin-top: 0px;
+  padding: 0 !important;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
+.c3::before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+}
+
+.c3::after {
+  position: absolute;
+  display: inline-block;
+  content: '';
+}
+
+.c3 > ul {
+  list-style: none;
+}
+
+.c3::before {
+  top: -16px;
+  left: 9px;
+}
+
+.c3::after {
+  top: -14px;
+  left: 10px;
+}
+
+.c2 {
+  display: inline-block;
+  float: right;
+  margin-left: 12px;
+  margin-bottom: 1px;
+  vertical-align: middle;
+}
+
+.c4 {
+  display: block;
+  padding: 12px 10px 12px 14px;
+  overflow: hidden;
+  color: #272A2D;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c4 a {
+  color: #272A2D;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: block;
+  padding: 12px 10px 12px 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c4:focus,
+.c4 a:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: rgba(21,93,161,0.05);
+}
+
+.c4:hover,
+.c4:hover a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: rgba(21,93,161,0.05);
+  outline: none;
+}
+
+.c1 {
+  background: #FFFFFF;
+  color: #8B9199;
+  border-radius: 4px;
+  padding: 12px;
+  pointer: cursor;
+}
+
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  position: relative;
+  display: inline-block;
+  pointer: cursor;
+  width: 100%;
+}
+
+.c0 > summary {
+  list-style: none;
+  border: 1px solid #8B9199;
+  outline: none;
+}
+
+.c0[open] > summary {
+  border: 2px solid #155DA1;
+}
+
+.c0 > summary::-webkit-details-marker {
+  display: none;
+}
+
+<details
+  className="c0"
+  onToggle={[Function]}
+  open={false}
+>
+  <summary
+    aria-haspopup="true"
+    className="c1"
+  >
+    Choose a color
+    <span
+      className="c2"
+    >
+      <svg
+        fill="none"
+        height="10"
+        viewBox="0 0 14 8"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1L7 7L13 1"
+          stroke="#272A2D"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        />
+      </svg>
+    </span>
+  </summary>
+  <ul
+    className="c3"
+  >
+    <li
+      className="c4"
+    >
+      Item 1
+    </li>
+    <li
+      className="c4"
+    >
+      Item 2
+    </li>
+    <li
+      className="c4"
+    >
+      Item 3
+    </li>
+  </ul>
+</details>
+`;
+
+exports[`Dropdown respects "error" prop 1`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  position: relative;
+  display: inline-block;
+  pointer: cursor;
+  width: 100%;
+}
+
+.c0 > summary {
+  list-style: none;
+  border: 1px solid #A62B31;
+  outline: none;
+}
+
+.c0[open] > summary {
+  border: 2px solid #A62B31;
+}
+
+.c0 > summary::-webkit-details-marker {
+  display: none;
+}
+
+<details
+  className="c0"
+  onToggle={[Function]}
+  open={false}
+/>
+`;
+
+exports[`Dropdown respects "error" prop 2`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  position: relative;
+  display: inline-block;
+  pointer: cursor;
+  width: 100%;
+}
+
+.c0 > summary {
+  list-style: none;
+  border: 1px solid #4C9859;
+  outline: none;
+}
+
+.c0[open] > summary {
+  border: 2px solid #4C9859;
+}
+
+.c0 > summary::-webkit-details-marker {
+  display: none;
+}
+
+<details
+  className="c0"
+  onToggle={[Function]}
+  open={false}
+/>
+`;
+
+exports[`Dropdown respects "error" prop 3`] = `
+.c0 {
+  font-family: HKGrotesk;
+  font-weight: 400px;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.3px;
+  -moz-letter-spacing: 0.3px;
+  -ms-letter-spacing: 0.3px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  position: relative;
+  display: inline-block;
+  pointer: cursor;
+  width: 100%;
+}
+
+.c0 > summary {
+  list-style: none;
+  border: 1px solid #FDBE21;
+  outline: none;
+}
+
+.c0[open] > summary {
+  border: 2px solid #FDBE21;
+}
+
+.c0 > summary::-webkit-details-marker {
+  display: none;
+}
+
+<details
+  className="c0"
+  onToggle={[Function]}
+  open={false}
+/>
+`;
