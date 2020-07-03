@@ -1,6 +1,6 @@
 export const meta = {type: "design", title: "Forms"}
 
-import {Card, Heading, Box, Flex, Button, Link, Text, TextField, Radio, Checkbox} from '@hack4impact-uiuc/bridge'
+import {Card, Heading, Box, Flex, Button, Link, Text, TextField, Radio, Checkbox, Dropdown} from '@hack4impact-uiuc/bridge'
 import Row from '../../components/row.js'
 import Col from '../../components/col.js'
 import FormNav from '../../public/docs-content/design/forms/form-nav.svg'
@@ -127,7 +127,7 @@ They should be:
                 <Text mt="0" as="p" type="forms">
                     Dropdown Label
                 </Text>
-                <Dropdown open={open} onToggle={handleToggle} onClickOutside={handleClickOutside}>
+                <Dropdown>
                     <Dropdown.Summary>Dropdown</Dropdown.Summary>
                     <Dropdown.Menu>
                         <Dropdown.Item>Item 1</Dropdown.Item>
