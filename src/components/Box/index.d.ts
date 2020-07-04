@@ -1,8 +1,8 @@
-import { CommonProps, BorderProps } from "../../utils/common";
+import { CommonProps, BordersProps } from "../../utils/common";
 import { FlexboxProps, Theme } from "styled-system";
 import { FunctionComponent } from "react";
 
-export interface BoxProps extends CommonProps, FlexboxProps, BorderProps {
+export interface BoxProps extends CommonProps, FlexboxProps, BordersProps {
   theme?: Theme;
 }
 

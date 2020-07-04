@@ -1,9 +1,10 @@
-import { CommonProps, BorderProps } from "../../utils/common";
-import { default as Box } from "../Box";
-import { FunctionComponent } from "react";
+import { CommonProps } from "../../utils/common";
+import Box from "../Box";
+import { FunctionComponent, ReactType } from "react";
 import { Theme } from "styled-system";
 
 export interface ButtonProps extends CommonProps {
+  as?: ReactType;
   variant?: "primary" | "secondary" | "success" | "error" | "warning" | "white";
   disabled?: boolean;
   outline?: boolean;

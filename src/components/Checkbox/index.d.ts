@@ -1,6 +1,6 @@
 import { CommonProps } from "../../utils/common";
 import { ChangeEvent, FunctionComponent, ReactNode } from "react";
-import Box, { BoxProps } from "../Box";
+import { BoxProps } from "../Box";
 import { Theme } from "styled-system";
 
 export interface CheckboxProps extends CommonProps {

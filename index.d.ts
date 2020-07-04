@@ -8,6 +8,9 @@ export { default as Box } from "./src/components/Box";
 export { default as Button } from "./src/components/Button";
 export { default as Card } from "./src/components/Card";
 export { default as Checkbox } from "./src/components/Checkbox";
+export { default as Flex } from "./src/components/Flex";
+export { default as Grid } from "./src/components/Grid";
+export { default as Heading } from "./src/components/Heading";
 // export interface BaseProps extends React.Props<any> {
 //   as?: React.ReactType;
 //   className?: string;

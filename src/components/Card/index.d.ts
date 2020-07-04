@@ -1,6 +1,6 @@
 import { CommonProps, TypographyProps } from "../../utils/common";
 import { FunctionComponent } from "react";
-import Box, { BoxProps } from "../Box";
+import { BoxProps } from "../Box";
 import { Theme } from "styled-system";
 
 interface CardWrapperProps extends BoxProps {

@@ -20,4 +20,4 @@ export interface CommonProps
 
 export interface TypographyProps extends BaseProps, StyledTypographyProps {}
 
-export interface BorderProps extends StyledBordersProps, BoxShadowProps {}
+export interface BordersProps extends StyledBordersProps, BoxShadowProps {}
