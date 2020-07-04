@@ -1,10 +1,9 @@
-declare module "@hack4impact-uiuc/bridge/lib/Box" {
-  import { CommonProps, BorderProps } from "@hack4impact-uiuc/bridge/common";
-  import { FlexboxProps, Theme } from "styled-system";
+import { CommonProps, BorderProps } from "../../utils/common";
+import { FlexboxProps, Theme } from "styled-system";
+import { FunctionComponent } from "react";
 
-  export interface BoxProps extends CommonProps, FlexboxProps, BorderProps {
-    theme?: Theme;
-  }
-
-  export default interface Box extends React.FC<BoxProps> {}
+export interface BoxProps extends CommonProps, FlexboxProps, BorderProps {
+  theme?: Theme;
 }
+
+export default interface Box extends FunctionComponent<BoxProps> {}
