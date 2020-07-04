@@ -1,5 +1,5 @@
 import { CommonProps, TypographyProps } from "../../utils/common";
-import { FunctionComponent } from "react";
+import { FunctionComponent, HTMLProps } from "react";
 import { BoxProps } from "../Box";
 import { Theme } from "styled-system";
 
@@ -20,7 +20,7 @@ export interface CardContentProps extends CardWrapperProps {}
 
 export interface CardFooterProps extends CardWrapperProps {}
 
-export interface CardImageProps extends React.HTMLProps<HTMLImageElement> {
+export interface CardImageProps extends HTMLProps<HTMLImageElement> {
   theme: Theme;
 }
 
