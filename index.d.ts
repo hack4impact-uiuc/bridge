@@ -14,6 +14,7 @@ export { default as Heading } from "./src/components/Heading";
 export { default as Icon } from "./src/components/Icon";
 export { default as Link } from "./src/components/Link";
 export { default as Radio } from "./src/components/Radio";
+export { default as Table } from "./src/components/Table";
 // export interface BaseProps extends React.Props<any> {
 //   as?: React.ReactType;
 //   className?: string;

@@ -1,11 +1,5 @@
-import { CommonProps, BordersProps, TypographyProps } from "../../utils/common";
-import {
-  FunctionComponent,
-  HTMLProps,
-  ReactType,
-  HTMLAttributes,
-  ReactNode,
-} from "react";
+import { CommonProps, BordersProps } from "../../utils/common";
+import { FunctionComponent, ReactNode } from "react";
 import { FlexboxProps, Theme } from "styled-system";
 
 export interface RadioProps extends CommonProps {
