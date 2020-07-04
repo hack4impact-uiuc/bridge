@@ -1,28 +1,16 @@
 declare module "@hack4impact-uiuc/bridge" {
-  type Omit<T, K> = Pick<T, Exclude<keyof T, K>>;
-  import * as StyledSystem from "styled-system";
-  import { SystemStyleObject } from "@styled-system/css";
+  // type Omit<T, K> = Pick<T, Exclude<keyof T, K>>;
+  // import * as StyledSystem from "styled-system";
+  // import { SystemStyleObject } from "@styled-system/css";
 
-  export interface BaseProps extends React.Props<any> {
-    as?: React.ReactType;
-    className?: string;
-  }
-
-  interface CommonProps
-    extends BaseProps,
-      StyledSystem.ColorProps,
-      StyledSystem.SpaceProps,
-      StyledSystem.LayoutProps {}
-
-  interface LayoutProps extends BaseProps, StyledSystem.LayoutProps {}
-
-  interface TypographyProps extends BaseProps, StyledSystem.TypographyProps {}
-
-  interface BorderProps
-    extends StyledSystem.BordersProps,
-      StyledSystem.BoxShadowProps {}
-
-  interface PositionProps extends StyledSystem.PositionProps {}
+  export { default as Alert } from "@hack4impact-uiuc/bridge/lib/Alert";
+  export { default as Box } from "@hack4impact-uiuc/bridge/lib/Box";
+  export { default as Button } from "@hack4impact-uiuc/bridge/lib/Button";
+  export { default as Card } from "@hack4impact-uiuc/bridge/lib/Card";
+  // export interface BaseProps extends React.Props<any> {
+  //   as?: React.ReactType;
+  //   className?: string;
+  // }
 
   // export interface BoxProps
   //   extends BaseProps,
@@ -32,7 +20,7 @@ declare module "@hack4impact-uiuc/bridge" {
 
   // export const Box: React.FunctionComponent<BoxProps>
 
-  export const Flex: React.FunctionComponent<FlexProps>;
+  // export const Flex: React.FunctionComponent<FlexProps>;
 
   // interface AlertProps
   //   extends BaseProps,
@@ -65,9 +53,9 @@ declare module "@hack4impact-uiuc/bridge" {
   //   export const CardTitle: React.FunctionComponent<ButtonProps>;
   // }
 
-  export interface GridProps extends BoxProps, StyledSystem.GridProps {}
+  // export interface GridProps extends BoxProps, StyledSystem.GridProps {}
 
-  export const Grid: React.FunctionComponent<GridProps>;
+  // export const Grid: React.FunctionComponent<GridProps>;
 }
 
 // declare module "@hack4impact-uiuc/bridge/lib/Box" {

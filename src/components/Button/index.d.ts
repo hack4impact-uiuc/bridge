@@ -1,8 +1,8 @@
-import { CommonProps } from "@hack4impact-uiuc/bridge";
-import Box from "@hack4impact-uiuc/bridge/lib/Box";
-import { Theme } from "styled-system";
-
 declare module "@hack4impact-uiuc/bridge/lib/Button" {
+  import { CommonProps } from "@hack4impact-uiuc/bridge/common";
+  import Box from "@hack4impact-uiuc/bridge/lib/Box";
+  import { Theme } from "styled-system";
+
   export interface ButtonProps extends CommonProps {
     variant?:
       | "primary"

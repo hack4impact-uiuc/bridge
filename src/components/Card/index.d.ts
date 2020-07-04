@@ -1,8 +1,11 @@
-import { CommonProps, TypographyProps } from "@hack4impact-uiuc/bridge";
-import Box, { BoxProps } from "@hack4impact-uiuc/bridge/lib/Box";
-import { Theme } from "styled-system";
+declare module "@hack4impact-uiuc/bridge/lib/Card" {
+  import {
+    CommonProps,
+    TypographyProps,
+  } from "@hack4impact-uiuc/bridge/common";
+  import Box, { BoxProps } from "@hack4impact-uiuc/bridge/lib/Box";
+  import { Theme } from "styled-system";
 
-declare module "@hack4impact-uiuc/bridge/lib/Button" {
   interface CardWrapperProps extends BoxProps {
     theme: Theme;
   }
@@ -20,7 +23,7 @@ declare module "@hack4impact-uiuc/bridge/lib/Button" {
 
   export interface CardFooterProps extends CardWrapperProps {}
 
-  export interface CardImageProps extends React.ImgHTMLAttributes {
+  export interface CardImageProps extends React.HTMLProps<HTMLImageElement> {
     theme: Theme;
   }
 
