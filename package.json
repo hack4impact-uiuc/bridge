@@ -14,7 +14,8 @@
     "design system"
   ],
   "scripts": {
-    "build": "NODE_ENV=production rollup -c",
+    "build": "NODE_ENV=production rollup -c && yarn build:types",
+    "build:types": "dts-bundle --baseDir src --name @hack4impact-uiuc/bridge --main src/index.d.ts --out ../dist/index.d.ts",
     "prebuild": "rm -rf dist",
     "lint": "eslint --ext .js,.jsx ./src",
     "lint:fix": "eslint --ext .js,.jsx ./src --fix",
@@ -22,10 +23,9 @@
     "storybook": "start-storybook"
   },
   "files": [
-    "dist/*",
-    "index.d.ts"
+    "dist"
   ],
-  "typings": "index.d.ts",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
@@ -38,6 +38,7 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.10.7",
     "babel-polyfill": "^6.26.0",
+    "dts-bundle": "^0.7.3",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
@@ -59,7 +60,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.2",
     "rollup-plugin-postcss": "^3.1.1",
     "rollup-pluginutils": "^2.8.2",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.6"
   },
   "dependencies": {
     "@primer/components": "^19.1.1",

@@ -5,4 +5,4 @@ package-lock.json
 .test
 coverage
 .now
-.tgz
+*.tgz
