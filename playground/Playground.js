@@ -3,7 +3,7 @@ import React from 'react';
 import { colors } from '../src/theme';
 
 import {
-  Button, Card, Heading, Link, Text, Icon,
+  Button, Card, Heading, Link, Text, Icon, Dropdown, TextField,
 } from '../src';
 
 const {
@@ -16,7 +16,16 @@ export function Playground() {
     <>
       <div>
         {/* Add the code you want to test here */}
-        <Button variant="primary">APPLY</Button>
+        <Dropdown error="success">
+          <Dropdown.Summary>Choose a color</Dropdown.Summary>
+          <Dropdown.Menu>
+            <Dropdown.Item>Item 1</Dropdown.Item>
+            <Dropdown.Item>Item 2</Dropdown.Item>
+            <Dropdown.Item>Item 3</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+
+        <TextField />
       </div>
     </>
   );

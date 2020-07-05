@@ -1,6 +1,6 @@
 export const meta = {type: "design", title: "Forms"}
 
-import {Card, Heading, Box, Flex, Button, Link, Text, TextField, Radio, Checkbox} from '@hack4impact-uiuc/bridge'
+import {Card, Heading, Box, Flex, Button, Link, Text, TextField, Radio, Checkbox, Dropdown} from '@hack4impact-uiuc/bridge'
 import Row from '../../components/row.js'
 import Col from '../../components/col.js'
 import FormNav from '../../public/docs-content/design/forms/form-nav.svg'
@@ -122,12 +122,19 @@ They should be:
     </Col>
      <Col mt="32px">
         <Box>
-            <Link fontWeight="500" href="/design/form-selections">Dropdown TODO</Link>
+            <Link fontWeight="500" href="/design/form-selections">Dropdown</Link>
             <CodeExampleBox p="32px" width="280px" >
                 <Text mt="0" as="p" type="forms">
                     Dropdown Label
                 </Text>
-                <TextField error="default" mb="xs" as="textarea" placeholder="placeholder text" lines={4}/>
+                <Dropdown>
+                    <Dropdown.Summary>Dropdown</Dropdown.Summary>
+                    <Dropdown.Menu>
+                        <Dropdown.Item>Item 1</Dropdown.Item>
+                        <Dropdown.Item>Item 2</Dropdown.Item>
+                        <Dropdown.Item>Item 3</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
             </CodeExampleBox>
         </Box>
     </Col>

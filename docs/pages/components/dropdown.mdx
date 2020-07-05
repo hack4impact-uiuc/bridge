@@ -1,0 +1,80 @@
+export const meta = { type: "components", title: "Dropdown" };
+
+import Layout from "../../components/layout.js";
+export default Layout({ ...meta });
+
+Dropdowns are used for displaying lists or selecting options.
+
+`Dropdown` is a `detail` element. For Bridge styling and toggling, use `Dropdown.Summary` with it. If not, use a custom `summary`. The Dropdown will display the menu right below it.
+
+#### Example
+```jsx live
+<Dropdown>
+    <Dropdown.Summary>Choose a color</Dropdown.Summary>
+    <Dropdown.Menu>
+        <Dropdown.Item>Blue</Dropdown.Item>
+        <Dropdown.Item>Red</Dropdown.Item>
+        <Dropdown.Item>Green</Dropdown.Item>
+        <Dropdown.Item>Purple</Dropdown.Item>
+        <Dropdown.Item>Lavender</Dropdown.Item>
+        <Dropdown.Item>Black</Dropdown.Item>
+    </Dropdown.Menu>
+</Dropdown>
+```
+
+#### Using State
+`Dropdown` comes with `onToggle`, `onClickOutside` and `open` event props for you to handle in any way. Here's an example of a single checkbox with React Hooks. 
+
+```jsx
+const [open, setOpen] = useState(false);
+
+const handleToggle = (e) => setOpen(e.target.open)
+const handleClickOutside = () => setOpen(false)
+
+return (
+<Dropdown open={open} onToggle={handleToggle} onClickOutside={handleClickOutside}>
+    <Dropdown.Summary>Dropdown</Dropdown.Summary>
+    <Dropdown.Menu>
+        <Dropdown.Item>Item 1</Dropdown.Item>
+        <Dropdown.Item>Item 2</Dropdown.Item>
+        <Dropdown.Item>Item 3</Dropdown.Item>
+    </Dropdown.Menu>
+</Dropdown>
+)
+```
+
+
+#### Error Handling
+Use the `error` prop in `Dropdown` to define the error state of that Checkbox Component. You may choose between `default`, `error`, `warning`, and `success`.
+
+```jsx live
+<Dropdown error="error">
+    <Dropdown.Summary>Choose a color</Dropdown.Summary>
+    <Dropdown.Menu>
+        <Dropdown.Item>Blue</Dropdown.Item>
+        <Dropdown.Item>Red</Dropdown.Item>
+        <Dropdown.Item>Green</Dropdown.Item>
+        <Dropdown.Item>Purple</Dropdown.Item>
+        <Dropdown.Item>Lavender</Dropdown.Item>
+        <Dropdown.Item>Black</Dropdown.Item>
+    </Dropdown.Menu>
+</Dropdown>
+```
+
+### Common Props
+
+`Dropdown`, `Dropdown.Menu`, `Dropdown.Summary`, and `Dropdown.Item` includes `COMMON` and `TYPOGRAPHY` common props. `Dropdown.Caret` includes `COMMON` common props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.
+
+### Dropdown Component Props
+
+| Prop name      | Type                                                       |   Default    | Description                                                                                                                                                       |
+| :------------- | :--------------------------------------------------------- | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| children       | Node                                                       |              | Children of `Dropdown`                                             |
+| className      | String                                                     |              | CSS classes to add to `Dropdown`                                   |
+| defaultOpen    | Boolean                                                    |  False       | Whether it is initially open or not. This should not be used when `open`, `onToggle`, `onClickOutside` is used  |
+| error          | `default` &#124; `error` &#124; `warning` &#124; `success` |  'default'   | Set the error state                                                                                                                                               |
+| id             | String                                                     |              | Input ID. This should always be set for accessibility purposes.   |
+| open | Boolean | | Use the open prop if you'd like to manage the open state |              |                                                                  |
+| onToggle | Function | | Called whenever user clicks on `summary` element. If you are controlling your own `open` state this will be the only function called on click, otherwise it's called before the internal `handleToggle` function.|
+| onClickOutside | Function | | Function to call whenever user clicks outside of the Details component. This is optional and only necessary if you are controlling your own `open` state. |
+| theme          | Object                                                     | Bridge Theme | Use to override default bridge theme  |
