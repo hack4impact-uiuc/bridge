@@ -1,11 +1,11 @@
 import { Props, ReactType } from "react";
 import {
+  BoxShadowProps,
   ColorProps,
-  SpaceProps,
   LayoutProps,
   TypographyProps as StyledTypographyProps,
   BordersProps as StyledBordersProps,
-  BoxShadowProps,
+  SpaceProps,
 } from "styled-system";
 
 export interface BaseProps extends Props<any> {
@@ -18,6 +18,6 @@ export interface CommonProps
     SpaceProps,
     LayoutProps {}
 
-export interface TypographyProps extends BaseProps, StyledTypographyProps {}
+export interface BordersProps extends BoxShadowProps, StyledBordersProps {}
 
-export interface BordersProps extends StyledBordersProps, BoxShadowProps {}
+export interface TypographyProps extends BaseProps, StyledTypographyProps {}
