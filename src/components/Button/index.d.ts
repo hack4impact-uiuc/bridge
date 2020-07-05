@@ -1,7 +1,7 @@
-import { CommonProps } from "../../utils/common";
-import Box from "../Box";
 import { FunctionComponent, ReactType } from "react";
 import { Theme } from "styled-system";
+import { CommonProps } from "../../utils/common";
+import Box from "../Box";
 
 export interface ButtonProps extends CommonProps {
   as?: ReactType;

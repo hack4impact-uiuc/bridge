@@ -1,6 +1,6 @@
-import { CommonProps, TypographyProps } from "../../utils/common";
 import { FunctionComponent, ReactNode } from "react";
-import { FlexboxProps, Theme } from "styled-system";
+import { Theme } from "styled-system";
+import { CommonProps, TypographyProps } from "../../utils/common";
 
 export interface TableProps extends CommonProps, TypographyProps {
   type?: "primary" | "borderless" | "zebra";

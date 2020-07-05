@@ -1,7 +1,7 @@
-import { CommonProps } from "../../utils/common";
 import { ChangeEvent, FunctionComponent, ReactNode } from "react";
-import { BoxProps } from "../Box";
 import { Theme } from "styled-system";
+import { CommonProps } from "../../utils/common";
+import { BoxProps } from "../Box";
 
 export interface CheckboxProps extends CommonProps {
   checked: boolean;

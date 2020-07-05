@@ -1,6 +1,6 @@
-import { CommonProps, TypographyProps } from "../../utils/common";
 import { FunctionComponent, ReactType } from "react";
 import { Theme } from "styled-system";
+import { CommonProps, TypographyProps } from "../../utils/common";
 
 export interface TextProps extends CommonProps, TypographyProps {
   as?: ReactType;

@@ -1,6 +1,6 @@
-import { CommonProps, BordersProps } from "../../utils/common";
 import { FunctionComponent, ReactNode } from "react";
 import { FlexboxProps, Theme } from "styled-system";
+import { BordersProps, CommonProps } from "../../utils/common";
 
 export interface RadioProps extends CommonProps {
   checked: boolean;
@@ -16,8 +16,8 @@ export interface RadioProps extends CommonProps {
 }
 
 export interface RadioGroupProps
-  extends CommonProps,
-    BordersProps,
+  extends BordersProps,
+    CommonProps,
     FlexboxProps {
   children: ReactNode;
   defaultValue: any;

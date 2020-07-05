@@ -1,10 +1,10 @@
-import { CommonProps } from "../../utils/common";
 import { FunctionComponent, ReactNode } from "react";
 import { Theme } from "styled-system";
+import { CommonProps } from "../../utils/common";
 
 export interface TextFieldProps extends CommonProps {
   "aria-label": string;
-  // TODO: what is this???
+  // TODO: what is this? - what type should it be
   as: any;
   autoComplete: string;
   disabled?: boolean;

@@ -1,6 +1,6 @@
-import { CommonProps, TypographyProps } from "../../utils/common";
-import { FunctionComponent, HTMLProps, ReactType, HTMLAttributes } from "react";
+import { FunctionComponent, HTMLProps, ReactType } from "react";
 import { Theme } from "styled-system";
+import { CommonProps, TypographyProps } from "../../utils/common";
 
 export interface LinkProps
   extends CommonProps,

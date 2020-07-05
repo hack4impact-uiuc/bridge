@@ -1,6 +1,6 @@
-import { CommonProps } from "../../utils/common";
 import { FunctionComponent } from "react";
 import { Theme } from "styled-system";
+import { CommonProps } from "../../utils/common";
 
 export interface IconProps extends CommonProps {
   type?:
