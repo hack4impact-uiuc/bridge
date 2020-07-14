@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "NODE_ENV=production rollup -c && yarn build:types",
-    "build:types": "dts-bundle --baseDir src --name @hack4impact-uiuc/bridge --main src/index.d.ts --out ../dist/index.d.ts",
+    "build:types": "copyfiles -u 1 src/index.d.ts dist/types && copyfiles -u 1 src/utils/common.d.ts dist/types && copyfiles -u 1 src/components/*/index.d.ts dist/types",
     "prebuild": "rm -rf dist",
     "lint": "eslint --ext .js,.jsx ./src",
     "lint:fix": "eslint --ext .js,.jsx ./src --fix",
@@ -25,7 +25,7 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
@@ -38,7 +38,7 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.10.7",
     "babel-polyfill": "^6.26.0",
-    "dts-bundle": "^0.7.3",
+    "copyfiles": "^2.3.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
