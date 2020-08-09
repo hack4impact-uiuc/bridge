@@ -54,6 +54,13 @@ yarn storybook
 
 Check out our [Contributing Guidelines](CONTRIBUTING.md) for code style, testing, component dev, etc
 
+## Design Library
+For design work, use the [Figma component library](https://www.figma.com/file/S4SnLb6KD7OWe5G0UPboBN/Bridge-Hack4Impact-UIUC-Design-System-Library?node-id=359%3A280) which includes all text styles, components, complete color palette, and proper box shadows as implemented in the React library. Any changes to the master components are reflected through all instances of that component throughout your designs. 
+
+To use the library, make a copy into your workspace and create a new page for your designs. All components are accessible through the "Assets" tab as you design on any page. 
+
+Refer to the [Bridge website](https://bridge-ui.now.sh/) for complete design guidelines.
+
 ## Authors
 - Timothy Ko ([@tko22](https://github.com/tko22))
 - Jackie Osborn ([@jackieo5023](https://github.com/jackieo5023))
