@@ -10,12 +10,12 @@ export default {
   output: [
     {
       file: "dist/index.js",
-      format: "cjs",
+      format: "esm",
       sourcemap: true,
     },
     {
       file: "dist/index.esm.js",
-      format: "esm",
+      format: "cjs",
       name: "h4i-design",
     },
     {
