@@ -30,7 +30,7 @@ export interface CardSubtitleProps extends CardTypographyProps {}
 
 export interface CardTitleProps extends CardTypographyProps {}
 
-export default interface Card extends FunctionComponent<CardProps> {
+interface Card extends FunctionComponent<CardProps> {
   Body: FunctionComponent<CardBodyProps>;
   Content: FunctionComponent<CardContentProps>;
   Footer: FunctionComponent<CardFooterProps>;
@@ -39,3 +39,7 @@ export default interface Card extends FunctionComponent<CardProps> {
   Subtitle: FunctionComponent<CardSubtitleProps>;
   Title: FunctionComponent<CardTitleProps>;
 }
+
+declare const Card: Card;
+
+export default Card;

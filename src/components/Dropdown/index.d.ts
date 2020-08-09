@@ -32,9 +32,13 @@ export interface DropdownSummaryProps extends CommonProps, TypographyProps {
   theme?: Theme;
 }
 
-export default interface Dropdown extends FunctionComponent<DropdownProps> {
+interface Dropdown extends FunctionComponent<DropdownProps> {
   Caret: FunctionComponent<DropdownCaretProps>;
   Item: FunctionComponent<DropdownItemProps>;
   Menu: FunctionComponent<DropdownMenuProps>;
   Summary: FunctionComponent<DropdownSummaryProps>;
 }
+
+declare const Dropdown: Dropdown;
+
+export default Dropdown;

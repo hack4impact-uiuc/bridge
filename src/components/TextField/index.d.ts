@@ -19,4 +19,8 @@ export interface TextFieldProps extends CommonProps {
   value: string;
 }
 
-export default interface TextField extends FunctionComponent<TextFieldProps> {}
+interface TextField extends FunctionComponent<TextFieldProps> {}
+
+declare const TextField: TextField;
+
+export default TextField;

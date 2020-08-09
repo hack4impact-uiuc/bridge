@@ -6,4 +6,8 @@ export interface BoxProps extends BordersProps, CommonProps, FlexboxProps {
   theme?: Theme;
 }
 
-export default interface Box extends FunctionComponent<BoxProps> {}
+interface Box extends FunctionComponent<BoxProps> {}
+
+declare const Box: Box;
+
+export default Box;

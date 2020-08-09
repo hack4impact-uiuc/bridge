@@ -18,4 +18,8 @@ export interface TextProps extends CommonProps, TypographyProps {
   theme?: Theme;
 }
 
-export default interface Text extends FunctionComponent<TextProps> {}
+interface Text extends FunctionComponent<TextProps> {}
+
+declare const Text: Text;
+
+export default Text;

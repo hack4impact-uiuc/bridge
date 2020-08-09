@@ -18,4 +18,8 @@ export interface LinkProps
   theme?: Theme;
 }
 
-export default interface Link extends FunctionComponent<LinkProps> {}
+interface Link extends FunctionComponent<LinkProps> {}
+
+declare const Link: Link;
+
+export default Link;

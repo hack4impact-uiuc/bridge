@@ -15,4 +15,8 @@ export interface IconProps extends CommonProps {
   theme?: Theme;
 }
 
-export default interface Icon extends FunctionComponent<IconProps> {}
+interface Icon extends FunctionComponent<IconProps> {}
+
+declare const Icon: Icon;
+
+export default Icon;

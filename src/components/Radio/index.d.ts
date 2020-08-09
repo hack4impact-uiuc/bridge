@@ -30,6 +30,10 @@ export interface RadioGroupProps
   vertical?: boolean;
 }
 
-export default interface Radio extends FunctionComponent<RadioProps> {
+interface Radio extends FunctionComponent<RadioProps> {
   Group: FunctionComponent<RadioGroupProps>;
 }
+
+declare const Radio: Radio;
+
+export default Radio;

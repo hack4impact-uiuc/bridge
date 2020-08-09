@@ -6,4 +6,8 @@ export interface GridProps extends BordersProps, CommonProps, StyledGridProps {
   theme?: Theme;
 }
 
-export default interface Grid extends FunctionComponent<GridProps> {}
+interface Grid extends FunctionComponent<GridProps> {}
+
+declare const Grid: Grid;
+
+export default Grid;

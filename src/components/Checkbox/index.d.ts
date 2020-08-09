@@ -25,6 +25,10 @@ export interface CheckboxGroupProps extends BoxProps {
   vertical?: boolean;
 }
 
-export default interface Checkbox extends FunctionComponent<CheckboxProps> {
+interface Checkbox extends FunctionComponent<CheckboxProps> {
   Group: FunctionComponent<CheckboxGroupProps>;
 }
+
+declare const Checkbox: Checkbox;
+
+export default Checkbox;

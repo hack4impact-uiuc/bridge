@@ -6,4 +6,8 @@ export interface FlexProps extends BordersProps, CommonProps, FlexboxProps {
   theme?: Theme;
 }
 
-export default interface Flex extends FunctionComponent<FlexProps> {}
+interface Flex extends FunctionComponent<FlexProps> {}
+
+declare const Flex: Flex;
+
+export default Flex;

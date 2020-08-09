@@ -24,9 +24,13 @@ export interface TableRowProps extends CommonProps, TypographyProps {
   theme?: Theme;
 }
 
-export default interface Table extends FunctionComponent<TableProps> {
+interface Table extends FunctionComponent<TableProps> {
   Body: FunctionComponent<TableBodyProps>;
   Cell: FunctionComponent<TableCellProps>;
   Head: FunctionComponent<TableHeadProps>;
   Row: FunctionComponent<TableRowProps>;
 }
+
+declare const Table: Table;
+
+export default Table;

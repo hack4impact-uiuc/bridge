@@ -14,6 +14,10 @@ export interface ButtonProps extends CommonProps {
   theme?: Theme;
 }
 
-export default interface Button extends FunctionComponent<ButtonProps> {
+interface Button extends FunctionComponent<ButtonProps> {
   Group: Box;
 }
+
+declare const Button: Button;
+
+export default Button;

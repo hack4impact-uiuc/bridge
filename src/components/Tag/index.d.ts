@@ -8,4 +8,8 @@ export interface TagProps extends CommonProps {
   theme?: Theme;
 }
 
-export default interface Tag extends FunctionComponent<TagProps> {}
+interface Tag extends FunctionComponent<TagProps> {}
+
+declare const Tag: Tag;
+
+export default Tag;

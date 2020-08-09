@@ -8,4 +8,8 @@ export interface HeadingProps extends CommonProps, TypographyProps {
   theme?: Theme;
 }
 
-export default interface Heading extends FunctionComponent<HeadingProps> {}
+interface Heading extends FunctionComponent<HeadingProps> {}
+
+declare const Heading: Heading;
+
+export default Heading;
