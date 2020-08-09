@@ -9,7 +9,7 @@ export interface ButtonProps extends CommonProps {
   disabled?: boolean;
   outline?: boolean;
   onClick?: (e: MouseEvent) => void;
-  className?: "string";
+  className?: string;
   type?: "small" | "medium" | "large";
   theme?: Theme;
 }
