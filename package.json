@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "NODE_ENV=production rollup -c && yarn build:types",
-    "build:types": "copyfiles -u 1 src/index.d.ts dist/types && copyfiles -u 1 src/utils/common.d.ts dist/types && copyfiles -u 1 src/components/*/index.d.ts dist/types",
+    "build:types": "copyfiles -u 1 src/index.d.ts dist/types && copyfiles -u 1 src/utils/common.d.ts dist/types && copyfiles -u 1 src/components/*/index.d.ts dist/types && cp dist/types/index.d.ts dist/types/index.cjs.d.ts && cp dist/types/index.d.ts dist/types/index.umd.d.ts",
     "prebuild": "rm -rf dist",
     "lint": "eslint --ext .js,.jsx ./src",
     "lint:fix": "eslint --ext .js,.jsx ./src --fix",

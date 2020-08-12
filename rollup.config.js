@@ -14,7 +14,7 @@ export default {
       sourcemap: true,
     },
     {
-      file: "dist/index.esm.js",
+      file: "dist/index.cjs.js",
       format: "cjs",
       name: "h4i-design",
     },
