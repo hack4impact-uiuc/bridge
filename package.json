@@ -1,6 +1,6 @@
 {
   "name": "@hack4impact-uiuc/bridge",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hack4Impact UIUC's Design System + React Component library",
   "main": "dist/index.js",
   "author": "Timothy Ko <timothy.l.ko@gmail.com>",
@@ -14,7 +14,8 @@
     "design system"
   ],
   "scripts": {
-    "build": "NODE_ENV=production rollup -c",
+    "build": "NODE_ENV=production rollup -c && yarn build:types",
+    "build:types": "copyfiles -u 1 src/index.d.ts dist/types && copyfiles -u 1 src/utils/common.d.ts dist/types && copyfiles -u 1 src/components/*/index.d.ts dist/types && cp dist/types/index.d.ts dist/types/index.cjs.d.ts && cp dist/types/index.d.ts dist/types/index.umd.d.ts",
     "prebuild": "rm -rf dist",
     "lint": "eslint --ext .js,.jsx ./src",
     "lint:fix": "eslint --ext .js,.jsx ./src --fix",
@@ -22,8 +23,9 @@
     "storybook": "start-storybook"
   },
   "files": [
-    "dist/*"
+    "dist"
   ],
+  "types": "dist/types/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
@@ -36,6 +38,7 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.10.7",
     "babel-polyfill": "^6.26.0",
+    "copyfiles": "^2.3.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
@@ -57,9 +60,10 @@
     "rollup-plugin-peer-deps-external": "^2.2.2",
     "rollup-plugin-postcss": "^3.1.1",
     "rollup-pluginutils": "^2.8.2",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.6"
   },
   "dependencies": {
+    "@primer/components": "^19.1.1",
     "@styled-system/prop-types": "^5.1.5",
     "@styled-system/theme-get": "^5.1.2",
     "@types/styled-components": "^5.1.0",
@@ -68,8 +72,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-is": "^16.13.1",
-    "styled-system": "^5.1.5",
-    "styled-components": "^5.1.0"
+    "styled-components": "^5.1.0",
+    "styled-system": "^5.1.5"
   },
   "peerDependencies": {
     "react": "^16.12.0",
