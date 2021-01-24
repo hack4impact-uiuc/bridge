@@ -9,19 +9,22 @@ export default {
   input: "src/index.js",
   output: [
     {
-      file: "dist/index.js",
+      file: "dist/index.esm.js",
       format: "esm",
       sourcemap: true,
+      name: "bridge"
     },
     {
       file: "dist/index.cjs.js",
       format: "cjs",
-      name: "h4i-design",
+      sourcemap: true,
+      name: "bridge"
     },
     {
-      file: "dist/index.umd.js",
+      file: "dist/index.js",
       format: "umd",
-      name: "h4i-design",
+      sourcemap: true,
+      name: "bridge"
     },
   ],
   external: ["styled-components", "react"],
