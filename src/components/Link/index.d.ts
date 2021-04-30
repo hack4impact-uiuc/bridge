@@ -14,7 +14,7 @@ export interface LinkProps
   underline?: boolean;
   as?: ReactType;
   variant?: "primary" | "secondary" | "white";
-  onClick: (e: MouseEvent) => void;
+  onClick?: (e: MouseEvent) => void;
   theme?: Theme;
 }
 

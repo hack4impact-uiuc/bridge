@@ -11,7 +11,10 @@ import {
 export interface BaseProps extends Props<any> {
   as?: ReactType;
   className?: string;
+  style?: React.CSSProperties;
+  children?: React.ReactNode
 }
+
 export interface CommonProps
   extends BaseProps,
     ColorProps,
