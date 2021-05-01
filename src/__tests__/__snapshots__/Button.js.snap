@@ -228,14 +228,17 @@ exports[`Button Colors renders warning colors 1`] = `
 exports[`Button Group renders correctly with 20px margin per child besides last-child 1`] = `
 .c0 {
   display: inline-block;
-  vertical-align: middle;
-}
-
-.c0.c0 > *:not(:last-child) {
-  margin-right: 20px;
 }
 
 .c1 {
+  vertical-align: middle;
+}
+
+.c1.c1 > *:not(:last-child) {
+  margin-right: 20px;
+}
+
+.c2 {
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -258,7 +261,7 @@ exports[`Button Group renders correctly with 20px margin per child besides last-
   color: #FFFFFF;
 }
 
-.c1:hover:not([disabled]) {
+.c2:hover:not([disabled]) {
   background: #0E4E8A;
   border: 2px solid transparent;
   box-shadow: none;
@@ -266,7 +269,7 @@ exports[`Button Group renders correctly with 20px margin per child besides last-
   cursor: pointer;
 }
 
-.c1:disabled {
+.c2:disabled {
   background: #B4D8FA;
   border: 2px solid transparent;
   box-shadow: none;
@@ -274,23 +277,23 @@ exports[`Button Group renders correctly with 20px margin per child besides last-
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="inline-block"
 >
   <button
-    className="c1"
+    className="c2"
     type="medium"
   >
     APPLY
   </button>
   <button
-    className="c1"
+    className="c2"
     type="medium"
   >
     APPLY
   </button>
   <button
-    className="c1"
+    className="c2"
     type="medium"
   >
     APPLY

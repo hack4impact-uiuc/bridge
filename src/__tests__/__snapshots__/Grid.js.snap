@@ -3,11 +3,14 @@
 exports[`Grid respects gridArea 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-area: sidebar;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -15,11 +18,14 @@ exports[`Grid respects gridArea 1`] = `
 exports[`Grid respects gridAutoColumns 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-auto-columns: 1fr;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -27,11 +33,14 @@ exports[`Grid respects gridAutoColumns 1`] = `
 exports[`Grid respects gridAutoFlow 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-auto-flow: row;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -39,11 +48,14 @@ exports[`Grid respects gridAutoFlow 1`] = `
 exports[`Grid respects gridAutoRows 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-auto-rows: 1fr;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -51,11 +63,14 @@ exports[`Grid respects gridAutoRows 1`] = `
 exports[`Grid respects gridColumn 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-column: 1 / 2;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -63,11 +78,14 @@ exports[`Grid respects gridColumn 1`] = `
 exports[`Grid respects gridColumnGap 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-column-gap: 8px;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -75,11 +93,14 @@ exports[`Grid respects gridColumnGap 1`] = `
 exports[`Grid respects gridGap 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-gap: 4px;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -87,11 +108,14 @@ exports[`Grid respects gridGap 1`] = `
 exports[`Grid respects gridRow 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-row: 1 / 2;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -99,11 +123,14 @@ exports[`Grid respects gridRow 1`] = `
 exports[`Grid respects gridRowGap 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-row-gap: 8px;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -111,11 +138,14 @@ exports[`Grid respects gridRowGap 1`] = `
 exports[`Grid respects gridTemplateAreas 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-template-areas: sidebar main;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -123,11 +153,14 @@ exports[`Grid respects gridTemplateAreas 1`] = `
 exports[`Grid respects gridTemplateColumns 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-template-columns: 200px 1fr;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -135,11 +168,14 @@ exports[`Grid respects gridTemplateColumns 1`] = `
 exports[`Grid respects gridTemplateRows 1`] = `
 .c0 {
   display: grid;
+}
+
+.c1 {
   grid-template-rows: 200px 1fr;
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 c1"
   display="grid"
 />
 `;
@@ -156,7 +192,7 @@ exports[`Grid respects responsive display 1`] = `
 }
 
 <div
-  className="Box-ik9o9h-0 c0"
+  className="c0 "
   display={
     Array [
       "grid",
