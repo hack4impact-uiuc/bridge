@@ -14,13 +14,13 @@ const IconBase = styled.svg`
 `;
 
 const Icon = ({
-  viewBox, type, ...props
+  viewBox, type, path, ...props
 }) => (
   <IconBase
-    viewBox={icons[type] ? icons[type].viewBox : '0 0 30 30'}
+    viewBox={viewBox ?? (icons[type]?.viewBox ?? '0 0 30 30')}
     {...props}
   >
-    {icons[type] && icons[type].path}
+    {path ?? icons[type]?.path}
   </IconBase>
 );
 
@@ -38,6 +38,12 @@ Icon.propTypes = {
   ]),
   viewBox: PropTypes.string,
   fill: PropTypes.string,
+  width: PropTypes.number,
+  height: PropTypes.number,
+  viewBox: PropTypes.string,
+  fill: PropTypes.string,
+  path: PropTypes.element,
+  stroke: PropTypes.stroke,
   ...COMMON.propTypes,
 };
 
