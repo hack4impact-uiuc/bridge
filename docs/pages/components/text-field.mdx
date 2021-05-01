@@ -49,6 +49,9 @@ You may disable a `TextField` via the `disabled` prop. You could also add an svg
 </Box>
 ```
 
+### Ref forwarding to input
+Any ref to `<TextField/>` is fowarded to the actually `input` element. Hence you can do things like `focus()`.
+
 ### Common Props
 
 `TextField` includes `COMMON` and `COLOR` common props. Read [Common Props](/components/common-props) for details and API. These common props will override component props such as the color.

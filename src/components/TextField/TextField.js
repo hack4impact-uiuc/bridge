@@ -73,7 +73,8 @@ const TextFieldBase = styled.input`
   }
 `;
 
-const TextField = ({
+// we foward refs to the input field itself
+const TextField = React.forwardRef(({
   'aria-label': ariaLabel,
   as,
   autoComplete,
@@ -88,8 +89,9 @@ const TextField = ({
   theme: propTheme,
   type,
   value,
+  inputRef,
   ...props
-}) => {
+}, ref) => {
   let iconType = null;
   let border = propTheme.textField.default;
   switch (error) {
@@ -136,11 +138,12 @@ const TextField = ({
         theme={propTheme}
         type={type}
         value={value}
+        ref={ref}
       />
       {iconType && <TextFieldSuffixIcon type={iconType} />}
     </TextFieldContainer>
   );
-};
+});
 
 TextField.propTypes = {
   'aria-label': PropTypes.string,
