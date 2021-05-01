@@ -21,5 +21,4 @@ ButtonGroup.propTypes = {
   ...Box.propTypes,
 };
 
-
 export default ButtonGroup;

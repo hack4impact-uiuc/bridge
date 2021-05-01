@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { COMMON } from '../../utils/constants';
 import * as icons from './IconPaths';
 
-
 const IconBase = styled.svg`
   display: inline-block;
   vertical-align: center;
@@ -14,16 +13,15 @@ const IconBase = styled.svg`
 `;
 
 const Icon = ({
-  viewBox, type, path, ...props
+  viewBox, type, children, ...props
 }) => (
   <IconBase
     viewBox={viewBox ?? (icons[type]?.viewBox ?? '0 0 30 30')}
     {...props}
   >
-    {path ?? icons[type]?.path}
+    {children ?? icons[type]?.path}
   </IconBase>
 );
-
 
 Icon.propTypes = {
   type: PropTypes.oneOf([
@@ -40,10 +38,7 @@ Icon.propTypes = {
   fill: PropTypes.string,
   width: PropTypes.number,
   height: PropTypes.number,
-  viewBox: PropTypes.string,
-  fill: PropTypes.string,
-  path: PropTypes.element,
-  stroke: PropTypes.stroke,
+  stroke: PropTypes.string,
   ...COMMON.propTypes,
 };
 

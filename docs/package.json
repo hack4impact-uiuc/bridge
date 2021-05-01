@@ -1,13 +1,13 @@
 {
   "name": "h4i-design-docs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
-    "@hack4impact-uiuc/bridge": "^1.0.0",
+    "@hack4impact-uiuc/bridge": "^1.2.4",
     "@mdx-js/loader": "^1.6.1",
     "@mdx-js/tag": "^0.20.3",
     "@next/mdx": "^9.3.6",

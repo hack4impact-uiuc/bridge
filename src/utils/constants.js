@@ -2,7 +2,6 @@ import * as styledSystem from 'styled-system';
 import systemPropTypes from '@styled-system/prop-types';
 import PropTypes from 'prop-types';
 
-
 const { compose, system } = styledSystem;
 
 // Text Decoration Prop
@@ -11,7 +10,6 @@ export const textDecoration = system({
   cssProperty: 'text-decoration',
 });
 textDecoration.propTypes = PropTypes.string;
-
 
 // common style props to be passed into components
 export const COMMON = compose(styledSystem.space, styledSystem.layout, styledSystem.color);

@@ -6,7 +6,6 @@ import { get } from '../../utils/utils';
 import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 import TableHeadContext from './TableHeadContext';
 
-
 const context = {
   isHead: true,
 };

@@ -250,7 +250,6 @@ const typography = {
 
 };
 
-
 const table = {
   primary: {
     borderBottom: `1px solid ${colors.greyPalette.lighter}`,
@@ -261,7 +260,6 @@ const table = {
     },
   },
 };
-
 
 // styling specific to the Button component
 const buttons = {
@@ -385,7 +383,6 @@ const buttons = {
     },
   },
 };
-
 
 const link = {
   default: (colorPalette) => ({
@@ -546,7 +543,6 @@ const theme = {
   checkbox,
   dropdown,
 };
-
 
 export default theme;
 export { colors };

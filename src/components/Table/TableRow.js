@@ -5,7 +5,6 @@ import theme from '../../theme';
 import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 import TableHeadContext from './TableHeadContext';
 
-
 export const TableRowBase = styled.tr`
   height: ${(props) => (props.isHeadRow ? '56px' : '52px')}
 

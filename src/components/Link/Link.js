@@ -89,5 +89,4 @@ Link.propTypes = {
   ...TYPOGRAPHY.propTypes,
 };
 
-
 export default Link;

@@ -38,7 +38,6 @@ const DropdownItem = styled.li`
   ${TYPOGRAPHY}
 `;
 
-
 DropdownItem.propTypes = {
   theme: PropTypes.object,
   ...COMMON.propTypes,

@@ -4,7 +4,6 @@ import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 import { get } from '../../utils/utils';
 import theme from '../../theme';
 
-
 const DropdownMenu = styled.ul`
   background-clip: padding-box;
   background-color: ${get('colors.white')};
@@ -46,7 +45,6 @@ const DropdownMenu = styled.ul`
   ${COMMON};
   ${TYPOGRAPHY};
 `;
-
 
 DropdownMenu.propTypes = {
   theme: PropTypes.object,

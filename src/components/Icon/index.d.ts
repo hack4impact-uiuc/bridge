@@ -13,7 +13,6 @@ export interface IconProps extends CommonProps, React.SVGProps<SVGSVGElement> {
     | "opacityUploadFile"
     | "uploadFile";
   theme?: Theme;
-  path?: JSX.Element | JSX.Element | React.ReactNode;
 }
 
 interface Icon extends FunctionComponent<IconProps> {}

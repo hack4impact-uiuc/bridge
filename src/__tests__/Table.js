@@ -10,7 +10,6 @@ import { renderJSON } from '../utils/testing';
 import { COLOR, COMMON, TYPOGRAPHY } from '../utils/constants';
 import 'babel-polyfill';
 
-
 const {
   Body, Row, Cell, Head,
 } = Table;

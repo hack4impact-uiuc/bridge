@@ -43,7 +43,6 @@ const warningAlert = {
   ),
 };
 
-
 const fileDragDrop = {
   viewBox: '0 0 38 47',
   path: (

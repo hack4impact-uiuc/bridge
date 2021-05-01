@@ -13,7 +13,6 @@ import 'babel-polyfill'; // axe violations required babel-polyfill
 expect.extend(toHaveNoViolations);
 const noop = () => {};
 
-
 describe('Button', () => {
   it('renders a <button>', () => {
     expect(renderJSON(<Button />).type).toEqual('button');

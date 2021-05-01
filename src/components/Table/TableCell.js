@@ -6,7 +6,6 @@ import { COMMON, TYPOGRAPHY } from '../../utils/constants';
 import { get } from '../../utils/utils';
 import TableHeadContext from './TableHeadContext';
 
-
 const sharedStyle = css`
 
   padding: 0 20px;

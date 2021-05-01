@@ -9,7 +9,6 @@ import TableCell from './TableCell';
 import TableHead, { TableHeadBase } from './TableHead';
 import TableRow, { TableRowBase } from './TableRow';
 
-
 const Table = styled.table`
     background-color: ${get('colors.white')};
     text-align: center;

@@ -10,6 +10,7 @@ module.exports = {
       jsx: true
     },
     sourceType: 'module',
+    ecmaVersion: 2020
   },
   extends: ['airbnb'],
   rules: {
@@ -22,4 +23,9 @@ module.exports = {
     'react/forbid-prop-types': 'off',
     'import/no-extraneous-dependencies': 'off'
   },
+  settings: {
+    react: {
+      version: "999.999.999"
+    }
+  }
 }

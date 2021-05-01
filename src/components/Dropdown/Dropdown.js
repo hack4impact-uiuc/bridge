@@ -12,7 +12,6 @@ import DropdownCaret from './DropdownCaret';
 import DropdownItem from './DropdownItem';
 import DropdownSummary from './DropdownSummary';
 
-
 const Details = styled.details`
   ${get('typography.forms')}
   position: relative;
@@ -109,12 +108,10 @@ const Dropdown = ({
   );
 };
 
-
 Dropdown.Menu = DropdownMenu;
 Dropdown.Item = DropdownItem;
 Dropdown.Summary = DropdownSummary;
 Dropdown.Caret = DropdownCaret;
-
 
 Dropdown.defaultProps = { theme };
 
