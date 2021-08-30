@@ -1,15 +1,15 @@
 import { FunctionComponent, HTMLProps } from "react";
 import { Theme } from "styled-system";
 import { CommonProps, TypographyProps } from "../../utils/common";
-import { BoxProps } from "../Box";
+import { FlexProps } from "../Flex";
 
-interface CardWrapperProps extends BoxProps {
-  theme: Theme;
+interface CardWrapperProps extends FlexProps {
+  theme?: Theme;
 }
 
 // TODO: is there better naming for this?
 interface CardTypographyProps extends CommonProps, TypographyProps {
-  theme: Theme;
+  theme?: Theme;
 }
 
 export interface CardProps extends CardWrapperProps {}
@@ -21,7 +21,7 @@ export interface CardContentProps extends CardWrapperProps {}
 export interface CardFooterProps extends CardWrapperProps {}
 
 export interface CardImageProps extends HTMLProps<HTMLImageElement> {
-  theme: Theme;
+  theme?: Theme;
 }
 
 export interface CardOverlineProps extends CardTypographyProps {}
